@@ -1,0 +1,70 @@
+{
+  "name": "Memphis Light",
+  "basedOn": "memphis",
+  "palette": [
+    {
+      "var": "--white",
+      "value": "#F5F5F0",
+      "label": "White"
+    },
+    {
+      "var": "--cream",
+      "value": "#F0E8D8",
+      "label": "Cream"
+    },
+    {
+      "var": "--black",
+      "value": "#1A1A1A",
+      "label": "Black"
+    },
+    {
+      "var": "--hot-pink",
+      "value": "#FF2D9B",
+      "label": "Hot Pink"
+    },
+    {
+      "var": "--blue",
+      "value": "#0057FF",
+      "label": "Blue"
+    },
+    {
+      "var": "--red",
+      "value": "#FF3B30",
+      "label": "Red"
+    },
+    {
+      "var": "--violet",
+      "value": "#7B2FFF",
+      "label": "Violet"
+    },
+    {
+      "var": "--green",
+      "value": "#00C853",
+      "label": "Green"
+    },
+    {
+      "var": "--orange",
+      "value": "#FF6B00",
+      "label": "Orange"
+    },
+    {
+      "var": "--squiggle-gray",
+      "value": "#C8C0B8",
+      "label": "Squiggle Gray"
+    },
+    {
+      "var": "--ink-gray",
+      "value": "#5C5650",
+      "label": "Ink Gray"
+    }
+  ],
+  "roles": {
+    "bg": "--white",
+    "surface": "--cream",
+    "text": "--black",
+    "muted": "--ink-gray",
+    "accent": "--hot-pink",
+    "accent2": "--blue"
+  },
+  "rolesFrom": "hand"
+}

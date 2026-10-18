@@ -1,0 +1,80 @@
+{
+  "name": "Global Palette Light",
+  "basedOn": "global-palette",
+  "palette": [
+    {
+      "var": "--white",
+      "value": "#f0ead8",
+      "label": "White"
+    },
+    {
+      "var": "--nearwhite",
+      "value": "#f0f0f0",
+      "label": "Near White"
+    },
+    {
+      "var": "--black",
+      "value": "#080808",
+      "label": "Black"
+    },
+    {
+      "var": "--deep",
+      "value": "#111118",
+      "label": "Deep"
+    },
+    {
+      "var": "--rose",
+      "value": "#ff3d6e",
+      "label": "Rose"
+    },
+    {
+      "var": "--blue",
+      "value": "#4678ff",
+      "label": "Blue"
+    },
+    {
+      "var": "--purple",
+      "value": "#c45fff",
+      "label": "Purple"
+    },
+    {
+      "var": "--darkgreen",
+      "value": "#1f7a3e",
+      "label": "Dark Green"
+    },
+    {
+      "var": "--teal",
+      "value": "#1a7a5e",
+      "label": "Teal"
+    },
+    {
+      "var": "--mc-smoke",
+      "value": "#6A5A52",
+      "label": "MC Smoke"
+    },
+    {
+      "var": "--mc-lava-deep",
+      "value": "#CC2200",
+      "label": "MC Lava Deep"
+    },
+    {
+      "var": "--paper-shade",
+      "value": "#E8E0C8",
+      "label": "Paper Shade"
+    },
+    {
+      "var": "--rose-ink",
+      "value": "#D82858",
+      "label": "Rose Ink"
+    }
+  ],
+  "roles": {
+    "bg": "--white",
+    "surface": "--paper-shade",
+    "text": "--black",
+    "muted": "--mc-smoke",
+    "accent": "--rose-ink",
+    "accent2": "--blue"
+  },
+  "rolesFrom": "hand"
+}

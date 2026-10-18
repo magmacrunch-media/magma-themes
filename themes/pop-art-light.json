@@ -1,0 +1,70 @@
+{
+  "name": "Pop Art Light",
+  "basedOn": "pop-art",
+  "palette": [
+    {
+      "var": "--white",
+      "value": "#FFFFFF",
+      "label": "White"
+    },
+    {
+      "var": "--cream",
+      "value": "#F5F0E8",
+      "label": "Cream"
+    },
+    {
+      "var": "--black",
+      "value": "#111111",
+      "label": "Black"
+    },
+    {
+      "var": "--combustion",
+      "value": "#FF3800",
+      "label": "Combustion"
+    },
+    {
+      "var": "--blue",
+      "value": "#0047FF",
+      "label": "Blue"
+    },
+    {
+      "var": "--hotpink",
+      "value": "#FF1F5B",
+      "label": "Hot Pink"
+    },
+    {
+      "var": "--violet",
+      "value": "#7B2FBE",
+      "label": "Violet"
+    },
+    {
+      "var": "--green",
+      "value": "#00B84C",
+      "label": "Green"
+    },
+    {
+      "var": "--magenta",
+      "value": "#CC00AA",
+      "label": "Magenta"
+    },
+    {
+      "var": "--vivid-violet",
+      "value": "#9400D3",
+      "label": "Vivid Violet"
+    },
+    {
+      "var": "--halftone",
+      "value": "#5A5A5A",
+      "label": "Halftone"
+    }
+  ],
+  "roles": {
+    "bg": "--white",
+    "surface": "--cream",
+    "text": "--black",
+    "muted": "--halftone",
+    "accent": "--combustion",
+    "accent2": "--blue"
+  },
+  "rolesFrom": "hand"
+}

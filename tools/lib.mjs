@@ -132,6 +132,10 @@ export function validate(themes) {
       if (vars.has(p.var)) errors.push(`${where}: ${p.var} appears twice`);
       vars.add(p.var);
     }
+    if ('basedOn' in t && !themes.some((o) => o.slug === t.basedOn && o !== t)) {
+      errors.push(`${where}: basedOn names ${t.basedOn}, which is not a theme`);
+    }
+    if (!t.web && t.rolesFrom !== 'hand') errors.push(`${where}: a theme of this repo's own has no import to guess from; its roles must be "hand"`);
     for (const [role, v] of Object.entries(t.roles || {})) {
       if (!ROLES.includes(role)) errors.push(`${where}: unknown role ${role}`);
       if (!vars.has(v)) errors.push(`${where}: role ${role} names ${v}, which is not in the palette`);

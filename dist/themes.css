@@ -65,6 +65,29 @@
   --mt-p-mc-nav-text: #fff0e8;
 }
 
+/* Global Palette Light */
+[data-magma-theme="global-palette-light"] {
+  --mt-bg: #f0ead8;
+  --mt-surface: #e8e0c8;
+  --mt-text: #080808;
+  --mt-muted: #6a5a52;
+  --mt-accent: #d82858;
+  --mt-accent2: #4678ff;
+  --mt-p-white: #f0ead8;
+  --mt-p-nearwhite: #f0f0f0;
+  --mt-p-black: #080808;
+  --mt-p-deep: #111118;
+  --mt-p-rose: #ff3d6e;
+  --mt-p-blue: #4678ff;
+  --mt-p-purple: #c45fff;
+  --mt-p-darkgreen: #1f7a3e;
+  --mt-p-teal: #1a7a5e;
+  --mt-p-mc-smoke: #6a5a52;
+  --mt-p-mc-lava-deep: #cc2200;
+  --mt-p-paper-shade: #e8e0c8;
+  --mt-p-rose-ink: #d82858;
+}
+
 /* Pop Art */
 [data-magma-theme="pop-art"] {
   --mt-bg: #111111;
@@ -97,6 +120,27 @@
   --mt-p-blue: #0047ff;
   --mt-p-teal: #00cca3;
   --mt-p-magenta: #cc00aa;
+}
+
+/* Pop Art Light */
+[data-magma-theme="pop-art-light"] {
+  --mt-bg: #ffffff;
+  --mt-surface: #f5f0e8;
+  --mt-text: #111111;
+  --mt-muted: #5a5a5a;
+  --mt-accent: #ff3800;
+  --mt-accent2: #0047ff;
+  --mt-p-white: #ffffff;
+  --mt-p-cream: #f5f0e8;
+  --mt-p-black: #111111;
+  --mt-p-combustion: #ff3800;
+  --mt-p-blue: #0047ff;
+  --mt-p-hotpink: #ff1f5b;
+  --mt-p-violet: #7b2fbe;
+  --mt-p-green: #00b84c;
+  --mt-p-magenta: #cc00aa;
+  --mt-p-vivid-violet: #9400d3;
+  --mt-p-halftone: #5a5a5a;
 }
 
 /* MTV */
@@ -195,6 +239,27 @@
   --mt-p-squiggle-gray: #c8c0b8;
 }
 
+/* Memphis Light */
+[data-magma-theme="memphis-light"] {
+  --mt-bg: #f5f5f0;
+  --mt-surface: #f0e8d8;
+  --mt-text: #1a1a1a;
+  --mt-muted: #5c5650;
+  --mt-accent: #ff2d9b;
+  --mt-accent2: #0057ff;
+  --mt-p-white: #f5f5f0;
+  --mt-p-cream: #f0e8d8;
+  --mt-p-black: #1a1a1a;
+  --mt-p-hot-pink: #ff2d9b;
+  --mt-p-blue: #0057ff;
+  --mt-p-red: #ff3b30;
+  --mt-p-violet: #7b2fff;
+  --mt-p-green: #00c853;
+  --mt-p-orange: #ff6b00;
+  --mt-p-squiggle-gray: #c8c0b8;
+  --mt-p-ink-gray: #5c5650;
+}
+
 /* City Pop */
 [data-magma-theme="city-pop"] {
   --mt-bg: #0d0d2b;
@@ -220,6 +285,25 @@
   --mt-p-chrome-silver: #c0c8e0;
   --mt-p-rose-gold: #e8a0b0;
   --mt-p-cassette-gold: #e8c86a;
+}
+
+/* City Pop Light */
+[data-magma-theme="city-pop-light"] {
+  --mt-bg: #f0eef8;
+  --mt-surface: #e4e2f2;
+  --mt-text: #0d0d2b;
+  --mt-muted: #5a5a8a;
+  --mt-accent: #d8287a;
+  --mt-accent2: #6b6bff;
+  --mt-p-soft-white: #f0eef8;
+  --mt-p-night-sky: #0d0d2b;
+  --mt-p-deep-navy: #141438;
+  --mt-p-neon-periwinkle: #6b6bff;
+  --mt-p-chrome-silver: #c0c8e0;
+  --mt-p-horizon-pink: #ff4fa0;
+  --mt-p-morning-haze: #e4e2f2;
+  --mt-p-dusk: #5a5a8a;
+  --mt-p-sunset-pink: #d8287a;
 }
 
 /* TV */
@@ -1098,6 +1182,27 @@
   --mt-p-dark-gold: #8a7020;
   --mt-p-red-seal: #8b1a1a;
   --mt-p-black: #1a1a18;
+}
+
+/* American Spirit Light */
+[data-magma-theme="american-spirit-light"] {
+  --mt-bg: #f5ede0;
+  --mt-surface: #eee0c8;
+  --mt-text: #3a2810;
+  --mt-muted: #7a5a2a;
+  --mt-accent: #2e6a88;
+  --mt-accent2: #8b1a1a;
+  --mt-p-linen: #f5ede0;
+  --mt-p-parchment: #eee0c8;
+  --mt-p-off-white: #ede8e0;
+  --mt-p-dark-brown: #3a2810;
+  --mt-p-tobacco: #8a6a3a;
+  --mt-p-deep: #2e6a88;
+  --mt-p-midnight: #1a3d52;
+  --mt-p-red-seal: #8b1a1a;
+  --mt-p-dark-gold: #8a7020;
+  --mt-p-cerulean: #5b9db8;
+  --mt-p-dark-tobacco: #7a5a2a;
 }
 
 /* pay2play */

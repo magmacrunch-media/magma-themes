@@ -38,6 +38,15 @@ The website's theme managers are viewers now. MAGMA//OPS's SAVE & DEPLOY still
 writes the website's copy directly, and the website's CI fails until the same
 edit is made here; nothing carries it across automatically.
 
+## Themes of this repo's own
+
+A theme with no `web` block is not on the website: the `-light` themes are
+the first. `dist/themes.json` leaves them out, so adding or editing one needs
+no website sync. They name their source in `basedOn` (validated), take their
+colours from it plus any deeper shades they need, and must be `"hand"`. The
+tests hold every light theme of this repo's own to contrast against its `bg`;
+a new one has to pass them, not loosen them.
+
 ## Roles are guesses until marked "hand"
 
 `"rolesFrom": "import-heuristic"` on a theme means nobody has checked its

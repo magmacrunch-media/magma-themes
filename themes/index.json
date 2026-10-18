@@ -1,11 +1,15 @@
 {
   "order": [
     "global-palette",
+    "global-palette-light",
     "pop-art",
+    "pop-art-light",
     "mtv",
     "dorfic",
     "memphis",
+    "memphis-light",
     "city-pop",
+    "city-pop-light",
     "tv",
     "contributor-cyan",
     "label-purple",
@@ -49,6 +53,7 @@
     "arcade-puzzles",
     "arcade-server",
     "american-spirit",
+    "american-spirit-light",
     "pay2play"
   ]
 }

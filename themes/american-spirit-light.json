@@ -1,0 +1,70 @@
+{
+  "name": "American Spirit Light",
+  "basedOn": "american-spirit",
+  "palette": [
+    {
+      "var": "--linen",
+      "value": "#F5EDE0",
+      "label": "Linen"
+    },
+    {
+      "var": "--parchment",
+      "value": "#EEE0C8",
+      "label": "Parchment"
+    },
+    {
+      "var": "--off-white",
+      "value": "#EDE8E0",
+      "label": "Off White"
+    },
+    {
+      "var": "--dark-brown",
+      "value": "#3A2810",
+      "label": "Dark Brown"
+    },
+    {
+      "var": "--tobacco",
+      "value": "#8A6A3A",
+      "label": "Tobacco"
+    },
+    {
+      "var": "--deep",
+      "value": "#2E6A88",
+      "label": "Deep"
+    },
+    {
+      "var": "--midnight",
+      "value": "#1A3D52",
+      "label": "Midnight"
+    },
+    {
+      "var": "--red-seal",
+      "value": "#8B1A1A",
+      "label": "Red Seal"
+    },
+    {
+      "var": "--dark-gold",
+      "value": "#8A7020",
+      "label": "Dark Gold"
+    },
+    {
+      "var": "--cerulean",
+      "value": "#5B9DB8",
+      "label": "Cerulean"
+    },
+    {
+      "var": "--dark-tobacco",
+      "value": "#7A5A2A",
+      "label": "Dark Tobacco"
+    }
+  ],
+  "roles": {
+    "bg": "--linen",
+    "surface": "--parchment",
+    "text": "--dark-brown",
+    "muted": "--dark-tobacco",
+    "accent": "--deep",
+    "accent2": "--red-seal"
+  },
+  "rolesFrom": "hand"
+}

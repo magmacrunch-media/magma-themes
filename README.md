@@ -3,9 +3,22 @@
 The colour themes of magmacrunch.com, kept in one place so the games, apps and
 the Wii homebrew can use the same ones the website does.
 
-50 themes, 44 of them with colours: the site's global palette, the visual and
+55 themes, 49 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
-their own themes, and the six arcade pages that only set nav colours.
+their own themes, and the six arcade pages that only set nav colours. Five
+more are this repo's own, not the website's: light versions of the Global
+Palette, Pop Art, Memphis, City Pop and American Spirit.
+
+## Light themes
+
+The website is dark almost everywhere, so only Dorfic was light. The five
+`-light` themes fill that out for apps with a light mode. Each is drawn from
+its `basedOn` theme's palette, with a few deeper shades added where a colour
+was too pale to read on a light background, and the tests hold them to
+contrast: text at least 7:1 on `bg`, `muted` at least 4.5:1, both accents at
+least 3:1. They have no `web` block, so `dist/themes.json`, the website's
+copy, leaves them out. A theme is light when its `bg` is lighter than its
+`text`.
 
 ## Using it
 

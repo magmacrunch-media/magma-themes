@@ -5,7 +5,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import {
-  ROOT, DIST_DIR, loadThemes, validate, isTvSafe, tvSafe, tvSignal,
+  ROOT, DIST_DIR, loadThemes, validate, isTvSafe, tvSafe, tvSignal, contrast, luminance, colourOf,
 } from '../tools/lib.mjs';
 
 const themes = loadThemes();
@@ -54,4 +54,25 @@ test('the ES module loads and matches the sources', async () => {
 
 test('dist/ is current', () => {
   execFileSync(process.execPath, [join(ROOT, 'tools', 'build.mjs'), '--check'], { stdio: 'pipe' });
+});
+
+// The light themes were made here, not imported, so they can be held to a
+// readable standard: WCAG AA for text, 3:1 for the rest.
+test('every light theme has all six roles, readable on its background', () => {
+  const light = themes.filter((t) => t.roles && t.roles.bg && t.roles.text
+    && luminance(colourOf(t, t.roles.bg)) > luminance(colourOf(t, t.roles.text)));
+  assert.ok(light.length >= 6, `only ${light.length} light themes`);
+  for (const t of light.filter((x) => !x.web)) {
+    const c = (r) => contrast(colourOf(t, t.roles.bg), colourOf(t, t.roles[r]));
+    for (const r of ['bg', 'surface', 'text', 'muted', 'accent', 'accent2']) assert.ok(t.roles[r], `${t.slug} has no ${r}`);
+    assert.ok(c('text') >= 7, `${t.slug}: text is ${c('text').toFixed(2)}:1`);
+    assert.ok(c('muted') >= 4.5, `${t.slug}: muted is ${c('muted').toFixed(2)}:1`);
+    for (const r of ['accent', 'accent2']) assert.ok(c(r) >= 3, `${t.slug}: ${r} is ${c(r).toFixed(2)}:1`);
+    assert.ok(c('surface') < 1.5, `${t.slug}: surface should sit close to bg`);
+  }
+});
+
+test("the website's copy leaves out the themes it does not have", () => {
+  const site = JSON.parse(readFileSync(join(DIST_DIR, 'themes.json'), 'utf8'));
+  assert.deepEqual(site.map((t) => t.name), themes.filter((t) => t.web).map((t) => t.name));
 });
