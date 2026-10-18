@@ -128,6 +128,46 @@
   --mt-p-chrome: #e0e0f0;
 }
 
+/* Dorfic */
+[data-magma-theme="dorfic"] {
+  --mt-bg: #f8f8f8;
+  --mt-surface: #f4f4f2;
+  --mt-text: #1a1e28;
+  --mt-muted: #606068;
+  --mt-accent: #f0b800;
+  --mt-accent2: #e87820;
+  --mt-p-white: #f8f8f8;
+  --mt-p-shell: #f0f0ee;
+  --mt-p-warm-white: #e8e6e0;
+  --mt-p-silver-white: #e0e0dc;
+  --mt-p-gray-white: #d0d0cc;
+  --mt-p-label: #a8a8a8;
+  --mt-p-mid-gray: #787878;
+  --mt-p-dark-gray: #484848;
+  --mt-p-type-gray: #383838;
+  --mt-p-grip: #1a1e28;
+  --mt-p-grip-mid: #242838;
+  --mt-p-grip-light: #343848;
+  --mt-p-near-black: #0e1018;
+  --mt-p-black: #080a10;
+  --mt-p-amber: #f0b800;
+  --mt-p-amber-bright: #f8c800;
+  --mt-p-amber-deep: #c89000;
+  --mt-p-amber-glow: #d4a010;
+  --mt-p-orange: #e87820;
+  --mt-p-orange-bright: #f08828;
+  --mt-p-orange-deep: #b85e10;
+  --mt-p-orange-pale: #f0a860;
+  --mt-p-text-primary: #1a1e28;
+  --mt-p-text-dim: #606068;
+  --mt-p-text-label: #909098;
+  --mt-p-surface: #f4f4f2;
+  --mt-p-raised: #eaeae6;
+  --mt-p-border: #d0d0cc;
+  --mt-p-border-dark: #a8a8a4;
+  --mt-p-bg: #f8f8f8;
+}
+
 /* Memphis */
 [data-magma-theme="memphis"] {
   --mt-bg: #1a1a1a;
@@ -180,6 +220,40 @@
   --mt-p-chrome-silver: #c0c8e0;
   --mt-p-rose-gold: #e8a0b0;
   --mt-p-cassette-gold: #e8c86a;
+}
+
+/* TV */
+[data-magma-theme="tv"] {
+  --mt-bg: #0a0a08;
+  --mt-surface: #2a2218;
+  --mt-text: #f0ead8;
+  --mt-muted: #8a7a5a;
+  --mt-accent: #ffb800;
+  --mt-accent2: #b4dca0;
+  --mt-p-amber: #ffb800;
+  --mt-p-amber-dim: #b38200;
+  --mt-p-cabinet: #2a2218;
+  --mt-p-cabinet-light: #3d3225;
+  --mt-p-bezel: #1a1610;
+  --mt-p-screen-off: #0a0a08;
+  --mt-p-phosphor: #b4dca0;
+  --mt-p-static: #c8c8c8;
+  --mt-p-knob: #4a3f30;
+  --mt-p-knob-face: #5c4e3a;
+  --mt-p-grille: #1e1a12;
+  --mt-p-badge-bg: #1c1810;
+  --mt-p-badge-text: #8a7a5a;
+  --mt-p-dd-1: #ff6b6b;
+  --mt-p-dd-2: #ffb800;
+  --mt-p-dd-3: #00f5ff;
+  --mt-p-dd-4: #39ff6e;
+  --mt-p-black: #0a0a12;
+  --mt-p-deep: #111118;
+  --mt-p-white: #f0ead8;
+  --mt-p-dim: #8a7a6a;
+  --mt-p-rose: #ff6b6b;
+  --mt-p-yellow: #ffb800;
+  --mt-p-cyan: #00f5ff;
 }
 
 /* Contributor (Cyan) */
@@ -978,6 +1052,25 @@
   --mt-p-slot-yellow: #ffe03a;
   --mt-p-slot-purple: #c45fff;
   --mt-p-slot-orange: #ff7c1f;
+}
+
+/* SORRY */
+[data-magma-theme="sorry"] {
+  --mt-text: #fff5e1;
+  --mt-accent: #ff2d55;
+  --mt-accent2: #6cd4f5;
+  --mt-p-cherry: #ff2d55;
+  --mt-p-orange: #ff7c1e;
+  --mt-p-lemon: #ffe135;
+  --mt-p-lime: #39d353;
+  --mt-p-ice-blue: #6cd4f5;
+  --mt-p-blueberry: #4059c8;
+  --mt-p-grape: #9b30ff;
+  --mt-p-bubblegum: #ff69b4;
+  --mt-p-cream: #fff5e1;
+  --mt-p-spearmint: #00fa9a;
+  --mt-p-watermelon: #ff4f6d;
+  --mt-p-bluebell: #7b68ee;
 }
 
 /* American Spirit */

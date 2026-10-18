@@ -3,7 +3,7 @@
 The colour themes of magmacrunch.com, kept in one place so the games, apps and
 the Wii homebrew can use the same ones the website does.
 
-47 themes, 41 of them with colours: the site's global palette, the visual and
+50 themes, 44 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
 their own themes, and the six arcade pages that only set nav colours.
 
@@ -65,7 +65,7 @@ form in the C header, pulled toward grey at the same brightness until it is
 within limits. A colour that was already safe is unchanged, so defaulting to
 `_TV` costs nothing.
 
-`dist/tv-report.txt` lists the 41 colours that move. They are the electric
+`dist/tv-report.txt` lists the 51 colours that move. They are the electric
 cyans, yellows and greens. The site's rose, `#ff3d6e`, is fine.
 
 ## Editing

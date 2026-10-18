@@ -1,0 +1,146 @@
+{
+  "name": "TV",
+  "palette": [
+    {
+      "var": "--tv-amber",
+      "value": "#FFB800",
+      "label": "Amber"
+    },
+    {
+      "var": "--tv-amber-dim",
+      "value": "#B38200",
+      "label": "Amber Dim"
+    },
+    {
+      "var": "--tv-cabinet",
+      "value": "#2A2218",
+      "label": "Cabinet"
+    },
+    {
+      "var": "--tv-cabinet-light",
+      "value": "#3D3225",
+      "label": "Cabinet Light"
+    },
+    {
+      "var": "--tv-bezel",
+      "value": "#1A1610",
+      "label": "Bezel"
+    },
+    {
+      "var": "--tv-screen-off",
+      "value": "#0A0A08",
+      "label": "Screen Off"
+    },
+    {
+      "var": "--tv-phosphor",
+      "value": "#B4DCA0",
+      "label": "Phosphor"
+    },
+    {
+      "var": "--tv-static",
+      "value": "#C8C8C8",
+      "label": "Static"
+    },
+    {
+      "var": "--tv-knob",
+      "value": "#4A3F30",
+      "label": "Knob"
+    },
+    {
+      "var": "--tv-knob-face",
+      "value": "#5C4E3A",
+      "label": "Knob Face"
+    },
+    {
+      "var": "--tv-grille",
+      "value": "#1E1A12",
+      "label": "Grille"
+    },
+    {
+      "var": "--tv-badge-bg",
+      "value": "#1C1810",
+      "label": "Badge BG"
+    },
+    {
+      "var": "--tv-badge-text",
+      "value": "#8A7A5A",
+      "label": "Badge Text"
+    },
+    {
+      "var": "--dd-1",
+      "value": "#FF6B6B",
+      "label": "Dropdown 1"
+    },
+    {
+      "var": "--dd-2",
+      "value": "#FFB800",
+      "label": "Dropdown 2"
+    },
+    {
+      "var": "--dd-3",
+      "value": "#00F5FF",
+      "label": "Dropdown 3"
+    },
+    {
+      "var": "--dd-4",
+      "value": "#39FF6E",
+      "label": "Dropdown 4"
+    },
+    {
+      "var": "--black",
+      "value": "#0A0A12",
+      "label": "Black"
+    },
+    {
+      "var": "--deep",
+      "value": "#111118",
+      "label": "Deep"
+    },
+    {
+      "var": "--white",
+      "value": "#F0EAD8",
+      "label": "White"
+    },
+    {
+      "var": "--dim",
+      "value": "#8A7A6A",
+      "label": "Dim"
+    },
+    {
+      "var": "--rose",
+      "value": "#FF6B6B",
+      "label": "Rose"
+    },
+    {
+      "var": "--yellow",
+      "value": "#FFB800",
+      "label": "Yellow"
+    },
+    {
+      "var": "--cyan",
+      "value": "#00F5FF",
+      "label": "Cyan"
+    }
+  ],
+  "roles": {
+    "bg": "--tv-screen-off",
+    "surface": "--tv-cabinet",
+    "text": "--white",
+    "muted": "--tv-badge-text",
+    "accent": "--tv-amber",
+    "accent2": "--tv-phosphor"
+  },
+  "rolesFrom": "hand",
+  "web": {
+    "section": "visual",
+    "bodyClass": "broadcast",
+    "prefix": "tv",
+    "file": "visual/tv/index.html",
+    "nav": {
+      "accent": "#FFB800",
+      "glow": "rgba(255,184,0,0.4)",
+      "brand": "#F0EAD8",
+      "brandGlow": "rgba(240,234,216,0.5)"
+    }
+  }
+}

@@ -133,6 +133,49 @@ export const THEMES = {
       "chrome": "#e0e0f0"
     }
   },
+  "dorfic": {
+    "name": "Dorfic",
+    "roles": {
+      "bg": "#f8f8f8",
+      "surface": "#f4f4f2",
+      "text": "#1a1e28",
+      "muted": "#606068",
+      "accent": "#f0b800",
+      "accent2": "#e87820"
+    },
+    "palette": {
+      "white": "#f8f8f8",
+      "shell": "#f0f0ee",
+      "warm-white": "#e8e6e0",
+      "silver-white": "#e0e0dc",
+      "gray-white": "#d0d0cc",
+      "label": "#a8a8a8",
+      "mid-gray": "#787878",
+      "dark-gray": "#484848",
+      "type-gray": "#383838",
+      "grip": "#1a1e28",
+      "grip-mid": "#242838",
+      "grip-light": "#343848",
+      "near-black": "#0e1018",
+      "black": "#080a10",
+      "amber": "#f0b800",
+      "amber-bright": "#f8c800",
+      "amber-deep": "#c89000",
+      "amber-glow": "#d4a010",
+      "orange": "#e87820",
+      "orange-bright": "#f08828",
+      "orange-deep": "#b85e10",
+      "orange-pale": "#f0a860",
+      "text-primary": "#1a1e28",
+      "text-dim": "#606068",
+      "text-label": "#909098",
+      "surface": "#f4f4f2",
+      "raised": "#eaeae6",
+      "border": "#d0d0cc",
+      "border-dark": "#a8a8a4",
+      "bg": "#f8f8f8"
+    }
+  },
   "memphis": {
     "name": "Memphis",
     "roles": {
@@ -191,6 +234,43 @@ export const THEMES = {
       "chrome-silver": "#c0c8e0",
       "rose-gold": "#e8a0b0",
       "cassette-gold": "#e8c86a"
+    }
+  },
+  "tv": {
+    "name": "TV",
+    "roles": {
+      "bg": "#0a0a08",
+      "surface": "#2a2218",
+      "text": "#f0ead8",
+      "muted": "#8a7a5a",
+      "accent": "#ffb800",
+      "accent2": "#b4dca0"
+    },
+    "palette": {
+      "amber": "#ffb800",
+      "amber-dim": "#b38200",
+      "cabinet": "#2a2218",
+      "cabinet-light": "#3d3225",
+      "bezel": "#1a1610",
+      "screen-off": "#0a0a08",
+      "phosphor": "#b4dca0",
+      "static": "#c8c8c8",
+      "knob": "#4a3f30",
+      "knob-face": "#5c4e3a",
+      "grille": "#1e1a12",
+      "badge-bg": "#1c1810",
+      "badge-text": "#8a7a5a",
+      "dd-1": "#ff6b6b",
+      "dd-2": "#ffb800",
+      "dd-3": "#00f5ff",
+      "dd-4": "#39ff6e",
+      "black": "#0a0a12",
+      "deep": "#111118",
+      "white": "#f0ead8",
+      "dim": "#8a7a6a",
+      "rose": "#ff6b6b",
+      "yellow": "#ffb800",
+      "cyan": "#00f5ff"
     }
   },
   "contributor-cyan": {
@@ -1091,6 +1171,28 @@ export const THEMES = {
       "slot-yellow": "#ffe03a",
       "slot-purple": "#c45fff",
       "slot-orange": "#ff7c1f"
+    }
+  },
+  "sorry": {
+    "name": "SORRY",
+    "roles": {
+      "text": "#fff5e1",
+      "accent": "#ff2d55",
+      "accent2": "#6cd4f5"
+    },
+    "palette": {
+      "cherry": "#ff2d55",
+      "orange": "#ff7c1e",
+      "lemon": "#ffe135",
+      "lime": "#39d353",
+      "ice-blue": "#6cd4f5",
+      "blueberry": "#4059c8",
+      "grape": "#9b30ff",
+      "bubblegum": "#ff69b4",
+      "cream": "#fff5e1",
+      "spearmint": "#00fa9a",
+      "watermelon": "#ff4f6d",
+      "bluebell": "#7b68ee"
     }
   },
   "american-spirit": {

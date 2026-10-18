@@ -1,0 +1,176 @@
+{
+  "name": "Dorfic",
+  "palette": [
+    {
+      "var": "--dorf-white",
+      "value": "#F8F8F8",
+      "label": "White"
+    },
+    {
+      "var": "--dorf-shell",
+      "value": "#F0F0EE",
+      "label": "Shell"
+    },
+    {
+      "var": "--dorf-warm-white",
+      "value": "#E8E6E0",
+      "label": "Warm White"
+    },
+    {
+      "var": "--dorf-silver-white",
+      "value": "#E0E0DC",
+      "label": "Silver White"
+    },
+    {
+      "var": "--dorf-gray-white",
+      "value": "#D0D0CC",
+      "label": "Gray White"
+    },
+    {
+      "var": "--dorf-label",
+      "value": "#A8A8A8",
+      "label": "Label"
+    },
+    {
+      "var": "--dorf-mid-gray",
+      "value": "#787878",
+      "label": "Mid Gray"
+    },
+    {
+      "var": "--dorf-dark-gray",
+      "value": "#484848",
+      "label": "Dark Gray"
+    },
+    {
+      "var": "--dorf-type-gray",
+      "value": "#383838",
+      "label": "Type Gray"
+    },
+    {
+      "var": "--dorf-grip",
+      "value": "#1A1E28",
+      "label": "Grip"
+    },
+    {
+      "var": "--dorf-grip-mid",
+      "value": "#242838",
+      "label": "Grip Mid"
+    },
+    {
+      "var": "--dorf-grip-light",
+      "value": "#343848",
+      "label": "Grip Light"
+    },
+    {
+      "var": "--dorf-near-black",
+      "value": "#0E1018",
+      "label": "Near Black"
+    },
+    {
+      "var": "--dorf-black",
+      "value": "#080A10",
+      "label": "Black"
+    },
+    {
+      "var": "--dorf-amber",
+      "value": "#F0B800",
+      "label": "Amber"
+    },
+    {
+      "var": "--dorf-amber-bright",
+      "value": "#F8C800",
+      "label": "Amber Bright"
+    },
+    {
+      "var": "--dorf-amber-deep",
+      "value": "#C89000",
+      "label": "Amber Deep"
+    },
+    {
+      "var": "--dorf-amber-glow",
+      "value": "#D4A010",
+      "label": "Amber Glow"
+    },
+    {
+      "var": "--dorf-orange",
+      "value": "#E87820",
+      "label": "Orange"
+    },
+    {
+      "var": "--dorf-orange-bright",
+      "value": "#F08828",
+      "label": "Orange Bright"
+    },
+    {
+      "var": "--dorf-orange-deep",
+      "value": "#B85E10",
+      "label": "Orange Deep"
+    },
+    {
+      "var": "--dorf-orange-pale",
+      "value": "#F0A860",
+      "label": "Orange Pale"
+    },
+    {
+      "var": "--dorf-text-primary",
+      "value": "#1A1E28",
+      "label": "Text Primary"
+    },
+    {
+      "var": "--dorf-text-dim",
+      "value": "#606068",
+      "label": "Text Dim"
+    },
+    {
+      "var": "--dorf-text-label",
+      "value": "#909098",
+      "label": "Text Label"
+    },
+    {
+      "var": "--dorf-surface",
+      "value": "#F4F4F2",
+      "label": "Surface"
+    },
+    {
+      "var": "--dorf-raised",
+      "value": "#EAEAE6",
+      "label": "Raised"
+    },
+    {
+      "var": "--dorf-border",
+      "value": "#D0D0CC",
+      "label": "Border"
+    },
+    {
+      "var": "--dorf-border-dark",
+      "value": "#A8A8A4",
+      "label": "Border Dark"
+    },
+    {
+      "var": "--dorf-bg",
+      "value": "#F8F8F8",
+      "label": "Background"
+    }
+  ],
+  "roles": {
+    "bg": "--dorf-bg",
+    "surface": "--dorf-surface",
+    "text": "--dorf-text-primary",
+    "muted": "--dorf-text-dim",
+    "accent": "--dorf-amber",
+    "accent2": "--dorf-orange"
+  },
+  "rolesFrom": "hand",
+  "web": {
+    "section": "music",
+    "bodyClass": "dorfic",
+    "prefix": "dorf",
+    "file": "music/music.css",
+    "nav": {
+      "accent": "#F0B800",
+      "glow": "rgba(240,184,0,0.35)",
+      "brand": "#F0B800",
+      "brandGlow": "rgba(240,184,0,0.5)"
+    }
+  }
+}

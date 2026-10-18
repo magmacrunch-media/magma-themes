@@ -535,6 +535,171 @@
     }
   },
   {
+    "name": "Dorfic",
+    "section": "music",
+    "bodyClass": "dorfic",
+    "prefix": "dorf",
+    "file": "music/music.css",
+    "palette": [
+      {
+        "var": "--dorf-white",
+        "value": "#F8F8F8",
+        "label": "White"
+      },
+      {
+        "var": "--dorf-shell",
+        "value": "#F0F0EE",
+        "label": "Shell"
+      },
+      {
+        "var": "--dorf-warm-white",
+        "value": "#E8E6E0",
+        "label": "Warm White"
+      },
+      {
+        "var": "--dorf-silver-white",
+        "value": "#E0E0DC",
+        "label": "Silver White"
+      },
+      {
+        "var": "--dorf-gray-white",
+        "value": "#D0D0CC",
+        "label": "Gray White"
+      },
+      {
+        "var": "--dorf-label",
+        "value": "#A8A8A8",
+        "label": "Label"
+      },
+      {
+        "var": "--dorf-mid-gray",
+        "value": "#787878",
+        "label": "Mid Gray"
+      },
+      {
+        "var": "--dorf-dark-gray",
+        "value": "#484848",
+        "label": "Dark Gray"
+      },
+      {
+        "var": "--dorf-type-gray",
+        "value": "#383838",
+        "label": "Type Gray"
+      },
+      {
+        "var": "--dorf-grip",
+        "value": "#1A1E28",
+        "label": "Grip"
+      },
+      {
+        "var": "--dorf-grip-mid",
+        "value": "#242838",
+        "label": "Grip Mid"
+      },
+      {
+        "var": "--dorf-grip-light",
+        "value": "#343848",
+        "label": "Grip Light"
+      },
+      {
+        "var": "--dorf-near-black",
+        "value": "#0E1018",
+        "label": "Near Black"
+      },
+      {
+        "var": "--dorf-black",
+        "value": "#080A10",
+        "label": "Black"
+      },
+      {
+        "var": "--dorf-amber",
+        "value": "#F0B800",
+        "label": "Amber"
+      },
+      {
+        "var": "--dorf-amber-bright",
+        "value": "#F8C800",
+        "label": "Amber Bright"
+      },
+      {
+        "var": "--dorf-amber-deep",
+        "value": "#C89000",
+        "label": "Amber Deep"
+      },
+      {
+        "var": "--dorf-amber-glow",
+        "value": "#D4A010",
+        "label": "Amber Glow"
+      },
+      {
+        "var": "--dorf-orange",
+        "value": "#E87820",
+        "label": "Orange"
+      },
+      {
+        "var": "--dorf-orange-bright",
+        "value": "#F08828",
+        "label": "Orange Bright"
+      },
+      {
+        "var": "--dorf-orange-deep",
+        "value": "#B85E10",
+        "label": "Orange Deep"
+      },
+      {
+        "var": "--dorf-orange-pale",
+        "value": "#F0A860",
+        "label": "Orange Pale"
+      },
+      {
+        "var": "--dorf-text-primary",
+        "value": "#1A1E28",
+        "label": "Text Primary"
+      },
+      {
+        "var": "--dorf-text-dim",
+        "value": "#606068",
+        "label": "Text Dim"
+      },
+      {
+        "var": "--dorf-text-label",
+        "value": "#909098",
+        "label": "Text Label"
+      },
+      {
+        "var": "--dorf-surface",
+        "value": "#F4F4F2",
+        "label": "Surface"
+      },
+      {
+        "var": "--dorf-raised",
+        "value": "#EAEAE6",
+        "label": "Raised"
+      },
+      {
+        "var": "--dorf-border",
+        "value": "#D0D0CC",
+        "label": "Border"
+      },
+      {
+        "var": "--dorf-border-dark",
+        "value": "#A8A8A4",
+        "label": "Border Dark"
+      },
+      {
+        "var": "--dorf-bg",
+        "value": "#F8F8F8",
+        "label": "Background"
+      }
+    ],
+    "nav": {
+      "accent": "#F0B800",
+      "glow": "rgba(240,184,0,0.35)",
+      "brand": "#F0B800",
+      "brandGlow": "rgba(240,184,0,0.5)"
+    }
+  },
+  {
     "name": "Memphis",
     "section": "visual",
     "bodyClass": "memphis",
@@ -762,6 +927,141 @@
       "glow": "rgba(255,79,160,0.4)",
       "brand": "#C0C8E0",
       "brandGlow": "rgba(192,200,224,0.7)"
+    }
+  },
+  {
+    "name": "TV",
+    "section": "visual",
+    "bodyClass": "broadcast",
+    "prefix": "tv",
+    "file": "visual/tv/index.html",
+    "palette": [
+      {
+        "var": "--tv-amber",
+        "value": "#FFB800",
+        "label": "Amber"
+      },
+      {
+        "var": "--tv-amber-dim",
+        "value": "#B38200",
+        "label": "Amber Dim"
+      },
+      {
+        "var": "--tv-cabinet",
+        "value": "#2A2218",
+        "label": "Cabinet"
+      },
+      {
+        "var": "--tv-cabinet-light",
+        "value": "#3D3225",
+        "label": "Cabinet Light"
+      },
+      {
+        "var": "--tv-bezel",
+        "value": "#1A1610",
+        "label": "Bezel"
+      },
+      {
+        "var": "--tv-screen-off",
+        "value": "#0A0A08",
+        "label": "Screen Off"
+      },
+      {
+        "var": "--tv-phosphor",
+        "value": "#B4DCA0",
+        "label": "Phosphor"
+      },
+      {
+        "var": "--tv-static",
+        "value": "#C8C8C8",
+        "label": "Static"
+      },
+      {
+        "var": "--tv-knob",
+        "value": "#4A3F30",
+        "label": "Knob"
+      },
+      {
+        "var": "--tv-knob-face",
+        "value": "#5C4E3A",
+        "label": "Knob Face"
+      },
+      {
+        "var": "--tv-grille",
+        "value": "#1E1A12",
+        "label": "Grille"
+      },
+      {
+        "var": "--tv-badge-bg",
+        "value": "#1C1810",
+        "label": "Badge BG"
+      },
+      {
+        "var": "--tv-badge-text",
+        "value": "#8A7A5A",
+        "label": "Badge Text"
+      },
+      {
+        "var": "--dd-1",
+        "value": "#FF6B6B",
+        "label": "Dropdown 1"
+      },
+      {
+        "var": "--dd-2",
+        "value": "#FFB800",
+        "label": "Dropdown 2"
+      },
+      {
+        "var": "--dd-3",
+        "value": "#00F5FF",
+        "label": "Dropdown 3"
+      },
+      {
+        "var": "--dd-4",
+        "value": "#39FF6E",
+        "label": "Dropdown 4"
+      },
+      {
+        "var": "--black",
+        "value": "#0A0A12",
+        "label": "Black"
+      },
+      {
+        "var": "--deep",
+        "value": "#111118",
+        "label": "Deep"
+      },
+      {
+        "var": "--white",
+        "value": "#F0EAD8",
+        "label": "White"
+      },
+      {
+        "var": "--dim",
+        "value": "#8A7A6A",
+        "label": "Dim"
+      },
+      {
+        "var": "--rose",
+        "value": "#FF6B6B",
+        "label": "Rose"
+      },
+      {
+        "var": "--yellow",
+        "value": "#FFB800",
+        "label": "Yellow"
+      },
+      {
+        "var": "--cyan",
+        "value": "#00F5FF",
+        "label": "Cyan"
+      }
+    ],
+    "nav": {
+      "accent": "#FFB800",
+      "glow": "rgba(255,184,0,0.4)",
+      "brand": "#F0EAD8",
+      "brandGlow": "rgba(240,234,216,0.5)"
     }
   },
   {
@@ -3835,6 +4135,81 @@
       "glow": "rgba(255,224,58,0.4)",
       "brand": "#ffe03a",
       "brandGlow": "rgba(255,224,58,0.7)"
+    }
+  },
+  {
+    "name": "SORRY",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": "sorry",
+    "file": "arcade/SORRY/js/ui.js",
+    "palette": [
+      {
+        "var": "--sorry-cherry",
+        "value": "#ff2d55",
+        "label": "Cherry"
+      },
+      {
+        "var": "--sorry-orange",
+        "value": "#ff7c1e",
+        "label": "Orange"
+      },
+      {
+        "var": "--sorry-lemon",
+        "value": "#ffe135",
+        "label": "Lemon"
+      },
+      {
+        "var": "--sorry-lime",
+        "value": "#39d353",
+        "label": "Lime"
+      },
+      {
+        "var": "--sorry-ice-blue",
+        "value": "#6cd4f5",
+        "label": "Ice Blue"
+      },
+      {
+        "var": "--sorry-blueberry",
+        "value": "#4059c8",
+        "label": "Blueberry"
+      },
+      {
+        "var": "--sorry-grape",
+        "value": "#9b30ff",
+        "label": "Grape"
+      },
+      {
+        "var": "--sorry-bubblegum",
+        "value": "#ff69b4",
+        "label": "Bubblegum"
+      },
+      {
+        "var": "--sorry-cream",
+        "value": "#fff5e1",
+        "label": "Cream"
+      },
+      {
+        "var": "--sorry-spearmint",
+        "value": "#00fa9a",
+        "label": "Spearmint"
+      },
+      {
+        "var": "--sorry-watermelon",
+        "value": "#ff4f6d",
+        "label": "Watermelon"
+      },
+      {
+        "var": "--sorry-bluebell",
+        "value": "#7b68ee",
+        "label": "Bluebell"
+      }
+    ],
+    "nav": {
+      "accent": "#FF8C00",
+      "glow": "rgba(255,140,0,0.6)",
+      "brand": "#FF8C00",
+      "brandGlow": "rgba(255,200,80,0.95)"
     }
   },
   {

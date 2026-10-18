@@ -1,0 +1,84 @@
+{
+  "name": "SORRY",
+  "note": "The twelve pawn colours from arcade/SORRY/js/ui.js PALETTE, which the server's PALETTE must match. They are JS data, not CSS custom properties, so the var names here exist only in this repo.",
+  "palette": [
+    {
+      "var": "--sorry-cherry",
+      "value": "#ff2d55",
+      "label": "Cherry"
+    },
+    {
+      "var": "--sorry-orange",
+      "value": "#ff7c1e",
+      "label": "Orange"
+    },
+    {
+      "var": "--sorry-lemon",
+      "value": "#ffe135",
+      "label": "Lemon"
+    },
+    {
+      "var": "--sorry-lime",
+      "value": "#39d353",
+      "label": "Lime"
+    },
+    {
+      "var": "--sorry-ice-blue",
+      "value": "#6cd4f5",
+      "label": "Ice Blue"
+    },
+    {
+      "var": "--sorry-blueberry",
+      "value": "#4059c8",
+      "label": "Blueberry"
+    },
+    {
+      "var": "--sorry-grape",
+      "value": "#9b30ff",
+      "label": "Grape"
+    },
+    {
+      "var": "--sorry-bubblegum",
+      "value": "#ff69b4",
+      "label": "Bubblegum"
+    },
+    {
+      "var": "--sorry-cream",
+      "value": "#fff5e1",
+      "label": "Cream"
+    },
+    {
+      "var": "--sorry-spearmint",
+      "value": "#00fa9a",
+      "label": "Spearmint"
+    },
+    {
+      "var": "--sorry-watermelon",
+      "value": "#ff4f6d",
+      "label": "Watermelon"
+    },
+    {
+      "var": "--sorry-bluebell",
+      "value": "#7b68ee",
+      "label": "Bluebell"
+    }
+  ],
+  "roles": {
+    "accent": "--sorry-cherry",
+    "accent2": "--sorry-ice-blue",
+    "text": "--sorry-cream"
+  },
+  "rolesFrom": "hand",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": "sorry",
+    "file": "arcade/SORRY/js/ui.js",
+    "nav": {
+      "accent": "#FF8C00",
+      "glow": "rgba(255,140,0,0.6)",
+      "brand": "#FF8C00",
+      "brandGlow": "rgba(255,200,80,0.95)"
+    }
+  }
+}
