@@ -116,9 +116,9 @@
     "bg": "--asp-bg",
     "text": "--asp-cream",
     "surface": "--asp-surface",
-    "accent": "--asp-brick"
+    "accent": "--asp-brick-light"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-artist",
     "bodyClass": "asp-page",
