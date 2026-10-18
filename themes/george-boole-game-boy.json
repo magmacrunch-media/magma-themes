@@ -1,5 +1,6 @@
 {
   "name": "George Boole: Game Boy",
+  "note": "Text and accent are one colour on purpose: the Game Boy had four shades of green, and this palette is those four, with nothing else to offer an accent.",
   "palette": [
     {
       "var": "bg",
@@ -28,7 +29,7 @@
     "surface": "bg-light",
     "accent": "accent"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "arcade",
     "bodyClass": null,

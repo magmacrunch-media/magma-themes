@@ -24,11 +24,11 @@
   ],
   "roles": {
     "bg": "bg",
-    "text": "accent",
+    "text": "silver",
     "surface": "bg-light",
     "accent": "accent"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "arcade",
     "bodyClass": null,

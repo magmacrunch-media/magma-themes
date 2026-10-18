@@ -55,11 +55,11 @@
   "roles": {
     "bg": "--ctb-void",
     "text": "--ctb-pale",
-    "surface": "--ctb-deep",
+    "surface": "--ctb-darkest",
     "muted": "--ctb-muted",
     "accent": "--ctb-mid-dark"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "section-template",
     "bodyClass": "ctb-page",

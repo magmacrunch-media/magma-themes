@@ -126,10 +126,10 @@
     "bg": "--thld-bg",
     "text": "--thld-text",
     "surface": "--thld-deep",
-    "muted": "--thld-muted",
+    "muted": "--thld-warm-brown",
     "accent": "--thld-accent"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-artist",
     "bodyClass": "thld-page",

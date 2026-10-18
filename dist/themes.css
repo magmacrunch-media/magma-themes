@@ -259,7 +259,7 @@
 /* Contributor (Cyan) */
 [data-magma-theme="contributor-cyan"] {
   --mt-bg: #001a1f;
-  --mt-surface: #0489a3;
+  --mt-surface: #012a33;
   --mt-text: #d0f4f8;
   --mt-muted: #5fc4d4;
   --mt-accent: #03738a;
@@ -281,7 +281,7 @@
   --mt-surface: #6a1bb0;
   --mt-text: #e0aaff;
   --mt-muted: #b185db;
-  --mt-accent: #5a189a;
+  --mt-accent: #9d4edd;
   --mt-p-void: #10002b;
   --mt-p-darkest: #240046;
   --mt-p-dark: #3c096c;
@@ -327,7 +327,7 @@
 /* FLDC */
 [data-magma-theme="fldc"] {
   --mt-bg: #10160e;
-  --mt-surface: #c8c4b0;
+  --mt-surface: #2a3830;
   --mt-text: #f0f8f0;
   --mt-accent: #d06020;
   --mt-p-black: #080808;
@@ -611,7 +611,7 @@
   --mt-bg: #0e0905;
   --mt-surface: #1a1209;
   --mt-text: #d4b896;
-  --mt-muted: #8a6040;
+  --mt-muted: #9a7a50;
   --mt-accent: #c94b1a;
   --mt-p-deep: #1a1209;
   --mt-p-dark: #2e1e0f;
@@ -644,8 +644,8 @@
   --mt-bg: #080a06;
   --mt-surface: #1e2818;
   --mt-text: #f0ece0;
-  --mt-muted: #3a3228;
-  --mt-accent: #3a5830;
+  --mt-muted: #a0b0a8;
+  --mt-accent: #789060;
   --mt-p-deep: #141a10;
   --mt-p-surface: #1e2818;
   --mt-p-muted: #3a3228;
@@ -675,8 +675,8 @@
   --mt-bg: #484e58;
   --mt-surface: #2e3540;
   --mt-text: #e8ddd0;
-  --mt-muted: #8a9aaa;
-  --mt-accent: #7a9080;
+  --mt-muted: #c0ccd8;
+  --mt-accent: #b0c8b8;
   --mt-p-bg: #484e58;
   --mt-p-surface: #2e3540;
   --mt-p-raised: #2e3038;
@@ -707,7 +707,7 @@
 /* Melrose House */
 [data-magma-theme="melrose-house"] {
   --mt-bg: #0c0d0f;
-  --mt-surface: #786858;
+  --mt-surface: #2a2c30;
   --mt-text: #c8d4e0;
   --mt-muted: #9080a0;
   --mt-accent: #6878a0;
@@ -736,7 +736,7 @@
   --mt-bg: #0c0f0d;
   --mt-surface: #3a4a38;
   --mt-text: #d4d8c8;
-  --mt-muted: #6a7868;
+  --mt-muted: #8a9878;
   --mt-accent: #c07848;
   --mt-p-deep: #1e2420;
   --mt-p-dark: #283028;
@@ -759,7 +759,7 @@
 /* College Green Apt. */
 [data-magma-theme="college-green-apt"] {
   --mt-bg: #0e0c0a;
-  --mt-surface: #a09080;
+  --mt-surface: #382e28;
   --mt-text: #f8f4e8;
   --mt-muted: #a09080;
   --mt-accent: #c07838;
@@ -790,7 +790,6 @@
   --mt-bg: #0c0a12;
   --mt-surface: #4a2830;
   --mt-text: #f080a0;
-  --mt-muted: #7848a0;
   --mt-accent: #d04878;
   --mt-p-deep: #283828;
   --mt-p-dark: #382848;
@@ -813,7 +812,7 @@
 /* Green Street Apt. */
 [data-magma-theme="green-street-apt"] {
   --mt-bg: #0e0c0a;
-  --mt-surface: #786858;
+  --mt-surface: #382e28;
   --mt-text: #e8e0cc;
   --mt-muted: #a09080;
   --mt-accent: #c07838;
@@ -865,7 +864,7 @@
   --mt-bg: #0e0d09;
   --mt-surface: #2e2c20;
   --mt-text: #e8d890;
-  --mt-muted: #787060;
+  --mt-muted: #a8a870;
   --mt-accent: #b87828;
   --mt-p-brand: #6a5018;
   --mt-p-amber: #b87828;
@@ -959,7 +958,7 @@
   --mt-bg: #001a33;
   --mt-surface: #003366;
   --mt-text: #ffd700;
-  --mt-accent: #ffd700;
+  --mt-accent: #4169e1;
   --mt-p-bg: #001a33;
   --mt-p-bg-light: #003366;
   --mt-p-accent: #ffd700;
@@ -971,7 +970,7 @@
   --mt-bg: #1a0800;
   --mt-surface: #331000;
   --mt-text: #ffa500;
-  --mt-accent: #ffa500;
+  --mt-accent: #cc2200;
   --mt-p-bg: #1a0800;
   --mt-p-bg-light: #331000;
   --mt-p-accent: #ffa500;
@@ -995,7 +994,7 @@
 [data-magma-theme="george-boole-ps1"] {
   --mt-bg: #1a1a1a;
   --mt-surface: #2d2d2d;
-  --mt-text: #ffd700;
+  --mt-text: #c0c0c0;
   --mt-accent: #ffd700;
   --mt-p-bg: #1a1a1a;
   --mt-p-bg-light: #2d2d2d;

@@ -135,10 +135,10 @@
   "roles": {
     "bg": "--fldc-bg",
     "text": "--fldc-bg-screen-pale",
-    "surface": "--fldc-bg-light",
+    "surface": "--fldc-bg-surface",
     "accent": "--fldc-arc-orange"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-artist",
     "bodyClass": "fldc-page",

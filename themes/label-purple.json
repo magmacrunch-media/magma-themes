@@ -57,9 +57,9 @@
     "text": "--lbl-pale",
     "surface": "--lbl-deep",
     "muted": "--lbl-muted",
-    "accent": "--lbl-mid-dark"
+    "accent": "--lbl-violet"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "section-template",
     "bodyClass": "lbl-page",

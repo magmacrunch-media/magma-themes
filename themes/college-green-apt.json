@@ -105,11 +105,11 @@
   "roles": {
     "bg": "--cg-bg",
     "text": "--cg-white",
-    "surface": "--cg-surface",
+    "surface": "--cg-deep",
     "muted": "--cg-muted",
     "accent": "--cg-cta"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-place",
     "bodyClass": "cg-page",

@@ -131,10 +131,10 @@
     "bg": "--jm-bg",
     "text": "--jm-cream",
     "surface": "--jm-surface",
-    "muted": "--jm-muted",
-    "accent": "--jm-sage"
+    "muted": "--jm-light-cool",
+    "accent": "--jm-pale-sage"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-artist",
     "bodyClass": "jm-page",

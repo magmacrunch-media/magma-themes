@@ -26,9 +26,9 @@
     "bg": "bg",
     "text": "accent",
     "surface": "bg-light",
-    "accent": "accent"
+    "accent": "blue"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "arcade",
     "bodyClass": null,
