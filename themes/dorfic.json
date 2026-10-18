@@ -157,8 +157,8 @@
     "surface": "--dorf-surface",
     "text": "--dorf-text-primary",
     "muted": "--dorf-text-dim",
-    "accent": "--dorf-amber",
-    "accent2": "--dorf-orange"
+    "accent": "--dorf-orange-deep",
+    "accent2": "--dorf-amber-deep"
   },
   "rolesFrom": "hand",
   "web": {

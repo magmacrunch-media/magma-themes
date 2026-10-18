@@ -190,8 +190,8 @@ export const THEMES = {
       "surface": "#f4f4f2",
       "text": "#1a1e28",
       "muted": "#606068",
-      "accent": "#f0b800",
-      "accent2": "#e87820"
+      "accent": "#b85e10",
+      "accent2": "#c89000"
     },
     "palette": {
       "white": "#f8f8f8",
