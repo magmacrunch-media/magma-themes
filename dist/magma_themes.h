@@ -800,8 +800,8 @@
 #define MT_WOAH_SURFACE_TV 0x3a3028ffu
 #define MT_WOAH_TEXT 0xf8e0d0ffu
 #define MT_WOAH_TEXT_TV 0xf8e0d0ffu
-#define MT_WOAH_ACCENT 0xfadce8ffu
-#define MT_WOAH_ACCENT_TV 0xfadce8ffu
+#define MT_WOAH_ACCENT 0xff9ec4ffu
+#define MT_WOAH_ACCENT_TV 0xff9ec4ffu
 #define MT_WOAH_P_BG 0x0e0c10ffu
 #define MT_WOAH_P_BG_TV 0x0e0c10ffu
 #define MT_WOAH_P_SURFACE 0x3a3028ffu

@@ -489,7 +489,7 @@ export const THEMES = {
       "bg": "#0e0c10",
       "surface": "#3a3028",
       "text": "#f8e0d0",
-      "accent": "#fadce8"
+      "accent": "#ff9ec4"
     },
     "palette": {
       "bg": "#0e0c10",
