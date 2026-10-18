@@ -78,8 +78,9 @@ node tools/build.mjs --check    # what CI runs: fails if dist/ is stale
 node --test tests/themes.test.mjs
 ```
 
-`dist/themes.json` reproduces the website's `arcade/admin/themes.json`
-byte for byte, which is how the site will take its themes from here.
+The website takes its themes from here: its `arcade/admin/themes.json` is a
+copy of `dist/themes.json`, synced by its `npm run sync:themes` and checked
+against this repo's `main` in its CI.
 
 ## Licence
 

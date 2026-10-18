@@ -27,12 +27,16 @@ a safe colour never moves.
 existing `themes/` without `--force`, because a second import would overwrite
 edits made here. Do not use it as a sync.
 
-**The website has not been rewired yet.** As of creation it still owns its
-own `arcade/admin/themes.json` and the theme manager writes to that. Until the
-site takes `dist/themes.json` from here, the two can drift: an edit in the
-theme manager does not reach this repo, and an edit here does not reach the
-site. `dist/themes.json` round-trips the site's file exactly, so
-`cmp dist/themes.json <website>/arcade/admin/themes.json` is the drift check.
+**The website takes `dist/themes.json` from here.** Its
+`arcade/admin/themes.json` is a copy, written by the website's
+`npm run sync:themes` (`scripts/sync-magma-themes.mjs`), and its CI checks
+this repo out at `main` and fails when the copy differs. So a theme change is
+two commits in two repos: edit and build here, push, then sync and commit
+there. Push this repo first, or the website's check grades the old `dist/`.
+
+The website's theme managers are viewers now. MAGMA//OPS's SAVE & DEPLOY still
+writes the website's copy directly, and the website's CI fails until the same
+edit is made here; nothing carries it across automatically.
 
 ## Roles are guesses until marked "hand"
 
