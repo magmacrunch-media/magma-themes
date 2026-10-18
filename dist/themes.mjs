@@ -64,6 +64,32 @@ export const THEMES = {
       "mc-nav-text": "#fff0e8"
     }
   },
+  "global-palette-light": {
+    "name": "Global Palette Light",
+    "roles": {
+      "bg": "#f0ead8",
+      "surface": "#e8e0c8",
+      "text": "#080808",
+      "muted": "#6a5a52",
+      "accent": "#d82858",
+      "accent2": "#4678ff"
+    },
+    "palette": {
+      "white": "#f0ead8",
+      "nearwhite": "#f0f0f0",
+      "black": "#080808",
+      "deep": "#111118",
+      "rose": "#ff3d6e",
+      "blue": "#4678ff",
+      "purple": "#c45fff",
+      "darkgreen": "#1f7a3e",
+      "teal": "#1a7a5e",
+      "mc-smoke": "#6a5a52",
+      "mc-lava-deep": "#cc2200",
+      "paper-shade": "#e8e0c8",
+      "rose-ink": "#d82858"
+    }
+  },
   "pop-art": {
     "name": "Pop Art",
     "roles": {
@@ -99,6 +125,30 @@ export const THEMES = {
       "blue": "#0047ff",
       "teal": "#00cca3",
       "magenta": "#cc00aa"
+    }
+  },
+  "pop-art-light": {
+    "name": "Pop Art Light",
+    "roles": {
+      "bg": "#ffffff",
+      "surface": "#f5f0e8",
+      "text": "#111111",
+      "muted": "#5a5a5a",
+      "accent": "#ff3800",
+      "accent2": "#0047ff"
+    },
+    "palette": {
+      "white": "#ffffff",
+      "cream": "#f5f0e8",
+      "black": "#111111",
+      "combustion": "#ff3800",
+      "blue": "#0047ff",
+      "hotpink": "#ff1f5b",
+      "violet": "#7b2fbe",
+      "green": "#00b84c",
+      "magenta": "#cc00aa",
+      "vivid-violet": "#9400d3",
+      "halftone": "#5a5a5a"
     }
   },
   "mtv": {
@@ -206,6 +256,30 @@ export const THEMES = {
       "squiggle-gray": "#c8c0b8"
     }
   },
+  "memphis-light": {
+    "name": "Memphis Light",
+    "roles": {
+      "bg": "#f5f5f0",
+      "surface": "#f0e8d8",
+      "text": "#1a1a1a",
+      "muted": "#5c5650",
+      "accent": "#ff2d9b",
+      "accent2": "#0057ff"
+    },
+    "palette": {
+      "white": "#f5f5f0",
+      "cream": "#f0e8d8",
+      "black": "#1a1a1a",
+      "hot-pink": "#ff2d9b",
+      "blue": "#0057ff",
+      "red": "#ff3b30",
+      "violet": "#7b2fff",
+      "green": "#00c853",
+      "orange": "#ff6b00",
+      "squiggle-gray": "#c8c0b8",
+      "ink-gray": "#5c5650"
+    }
+  },
   "city-pop": {
     "name": "City Pop",
     "roles": {
@@ -234,6 +308,28 @@ export const THEMES = {
       "chrome-silver": "#c0c8e0",
       "rose-gold": "#e8a0b0",
       "cassette-gold": "#e8c86a"
+    }
+  },
+  "city-pop-light": {
+    "name": "City Pop Light",
+    "roles": {
+      "bg": "#f0eef8",
+      "surface": "#e4e2f2",
+      "text": "#0d0d2b",
+      "muted": "#5a5a8a",
+      "accent": "#d8287a",
+      "accent2": "#6b6bff"
+    },
+    "palette": {
+      "soft-white": "#f0eef8",
+      "night-sky": "#0d0d2b",
+      "deep-navy": "#141438",
+      "neon-periwinkle": "#6b6bff",
+      "chrome-silver": "#c0c8e0",
+      "horizon-pink": "#ff4fa0",
+      "morning-haze": "#e4e2f2",
+      "dusk": "#5a5a8a",
+      "sunset-pink": "#d8287a"
     }
   },
   "tv": {
@@ -1223,6 +1319,30 @@ export const THEMES = {
       "dark-gold": "#8a7020",
       "red-seal": "#8b1a1a",
       "black": "#1a1a18"
+    }
+  },
+  "american-spirit-light": {
+    "name": "American Spirit Light",
+    "roles": {
+      "bg": "#f5ede0",
+      "surface": "#eee0c8",
+      "text": "#3a2810",
+      "muted": "#7a5a2a",
+      "accent": "#2e6a88",
+      "accent2": "#8b1a1a"
+    },
+    "palette": {
+      "linen": "#f5ede0",
+      "parchment": "#eee0c8",
+      "off-white": "#ede8e0",
+      "dark-brown": "#3a2810",
+      "tobacco": "#8a6a3a",
+      "deep": "#2e6a88",
+      "midnight": "#1a3d52",
+      "red-seal": "#8b1a1a",
+      "dark-gold": "#8a7020",
+      "cerulean": "#5b9db8",
+      "dark-tobacco": "#7a5a2a"
     }
   },
   "pay2play": {
