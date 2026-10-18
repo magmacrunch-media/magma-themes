@@ -630,7 +630,7 @@ export const THEMES = {
       "bg": "#100b08",
       "surface": "#2e1e18",
       "text": "#f0e0c8",
-      "accent": "#a84828"
+      "accent": "#c87858"
     },
     "palette": {
       "surface": "#2e1e18",
@@ -765,7 +765,7 @@ export const THEMES = {
       "surface": "#1a1209",
       "text": "#d4b896",
       "muted": "#9a7a50",
-      "accent": "#c94b1a"
+      "accent": "#e07a2f"
     },
     "palette": {
       "deep": "#1a1209",

@@ -127,7 +127,7 @@
     "text": "--thld-text",
     "surface": "--thld-deep",
     "muted": "--thld-warm-brown",
-    "accent": "--thld-accent"
+    "accent": "--thld-amber"
   },
   "rolesFrom": "hand",
   "web": {
