@@ -277,7 +277,7 @@ export const THEMES = {
     "name": "Contributor (Cyan)",
     "roles": {
       "bg": "#001a1f",
-      "surface": "#0489a3",
+      "surface": "#012a33",
       "text": "#d0f4f8",
       "muted": "#5fc4d4",
       "accent": "#03738a"
@@ -302,7 +302,7 @@ export const THEMES = {
       "surface": "#6a1bb0",
       "text": "#e0aaff",
       "muted": "#b185db",
-      "accent": "#5a189a"
+      "accent": "#9d4edd"
     },
     "palette": {
       "void": "#10002b",
@@ -354,7 +354,7 @@ export const THEMES = {
     "name": "FLDC",
     "roles": {
       "bg": "#10160e",
-      "surface": "#c8c4b0",
+      "surface": "#2a3830",
       "text": "#f0f8f0",
       "accent": "#d06020"
     },
@@ -668,7 +668,7 @@ export const THEMES = {
       "bg": "#0e0905",
       "surface": "#1a1209",
       "text": "#d4b896",
-      "muted": "#8a6040",
+      "muted": "#9a7a50",
       "accent": "#c94b1a"
     },
     "palette": {
@@ -704,8 +704,8 @@ export const THEMES = {
       "bg": "#080a06",
       "surface": "#1e2818",
       "text": "#f0ece0",
-      "muted": "#3a3228",
-      "accent": "#3a5830"
+      "muted": "#a0b0a8",
+      "accent": "#789060"
     },
     "palette": {
       "deep": "#141a10",
@@ -738,8 +738,8 @@ export const THEMES = {
       "bg": "#484e58",
       "surface": "#2e3540",
       "text": "#e8ddd0",
-      "muted": "#8a9aaa",
-      "accent": "#7a9080"
+      "muted": "#c0ccd8",
+      "accent": "#b0c8b8"
     },
     "palette": {
       "bg": "#484e58",
@@ -773,7 +773,7 @@ export const THEMES = {
     "name": "Melrose House",
     "roles": {
       "bg": "#0c0d0f",
-      "surface": "#786858",
+      "surface": "#2a2c30",
       "text": "#c8d4e0",
       "muted": "#9080a0",
       "accent": "#6878a0"
@@ -805,7 +805,7 @@ export const THEMES = {
       "bg": "#0c0f0d",
       "surface": "#3a4a38",
       "text": "#d4d8c8",
-      "muted": "#6a7868",
+      "muted": "#8a9878",
       "accent": "#c07848"
     },
     "palette": {
@@ -831,7 +831,7 @@ export const THEMES = {
     "name": "College Green Apt.",
     "roles": {
       "bg": "#0e0c0a",
-      "surface": "#a09080",
+      "surface": "#382e28",
       "text": "#f8f4e8",
       "muted": "#a09080",
       "accent": "#c07838"
@@ -865,7 +865,6 @@ export const THEMES = {
       "bg": "#0c0a12",
       "surface": "#4a2830",
       "text": "#f080a0",
-      "muted": "#7848a0",
       "accent": "#d04878"
     },
     "palette": {
@@ -891,7 +890,7 @@ export const THEMES = {
     "name": "Green Street Apt.",
     "roles": {
       "bg": "#0e0c0a",
-      "surface": "#786858",
+      "surface": "#382e28",
       "text": "#e8e0cc",
       "muted": "#a09080",
       "accent": "#c07838"
@@ -949,7 +948,7 @@ export const THEMES = {
       "bg": "#0e0d09",
       "surface": "#2e2c20",
       "text": "#e8d890",
-      "muted": "#787060",
+      "muted": "#a8a870",
       "accent": "#b87828"
     },
     "palette": {
@@ -1058,7 +1057,7 @@ export const THEMES = {
       "bg": "#001a33",
       "surface": "#003366",
       "text": "#ffd700",
-      "accent": "#ffd700"
+      "accent": "#4169e1"
     },
     "palette": {
       "bg": "#001a33",
@@ -1073,7 +1072,7 @@ export const THEMES = {
       "bg": "#1a0800",
       "surface": "#331000",
       "text": "#ffa500",
-      "accent": "#ffa500"
+      "accent": "#cc2200"
     },
     "palette": {
       "bg": "#1a0800",
@@ -1103,7 +1102,7 @@ export const THEMES = {
     "roles": {
       "bg": "#1a1a1a",
       "surface": "#2d2d2d",
-      "text": "#ffd700",
+      "text": "#c0c0c0",
       "accent": "#ffd700"
     },
     "palette": {

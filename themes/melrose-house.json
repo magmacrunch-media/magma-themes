@@ -95,11 +95,11 @@
   "roles": {
     "bg": "--mh-bg",
     "text": "--mh-cream",
-    "surface": "--mh-surface",
+    "surface": "--mh-dark",
     "muted": "--mh-muted",
     "accent": "--mh-brand"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-place",
     "bodyClass": "mh-page",

@@ -116,10 +116,10 @@
     "bg": "--dh-bg",
     "text": "--dh-white",
     "surface": "--dh-surface",
-    "muted": "--dh-muted",
-    "accent": "--dh-brand"
+    "muted": "--dh-mist",
+    "accent": "--dh-leaf"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-artist",
     "bodyClass": "dh-page",

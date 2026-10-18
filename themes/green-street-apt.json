@@ -85,11 +85,11 @@
   "roles": {
     "bg": "--gs-bg",
     "text": "--gs-cream",
-    "surface": "--gs-surface",
+    "surface": "--gs-deep",
     "muted": "--gs-muted",
     "accent": "--gs-accent"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-place",
     "bodyClass": "gs-page",

@@ -86,10 +86,9 @@
     "bg": "--mg-near-black",
     "text": "--mg-cream",
     "surface": "--mg-surface",
-    "muted": "--mg-muted",
     "accent": "--mg-accent"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-place",
     "bodyClass": "mg-page",

@@ -1,5 +1,6 @@
 {
   "name": "George Boole: Matrix",
+  "note": "Text and accent are one colour on purpose: a single phosphor green on black is the look, and the palette has nothing else to offer an accent.",
   "palette": [
     {
       "var": "bg",
@@ -23,7 +24,7 @@
     "surface": "bg-light",
     "accent": "accent"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "arcade",
     "bodyClass": null,

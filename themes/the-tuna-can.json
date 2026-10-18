@@ -106,10 +106,10 @@
     "bg": "--tc-bg",
     "text": "--tc-cream",
     "surface": "--tc-deep",
-    "muted": "--tc-muted",
+    "muted": "--tc-khaki",
     "accent": "--tc-amber"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-place",
     "bodyClass": "tc-page",

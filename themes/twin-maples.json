@@ -86,10 +86,10 @@
     "bg": "--tm-bg",
     "text": "--tm-cream",
     "surface": "--tm-surface",
-    "muted": "--tm-muted",
+    "muted": "--tm-leaf",
     "accent": "--tm-accent"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-place",
     "bodyClass": "tm-page",
