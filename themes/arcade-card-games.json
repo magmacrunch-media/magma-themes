@@ -1,0 +1,18 @@
+{
+  "name": "Arcade: Card Games",
+  "palette": [],
+  "roles": {},
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/card-games/index.html",
+    "nav": {
+      "accent": "#39ff6e",
+      "glow": "rgba(57,255,110,0.4)",
+      "brand": "#39ff6e",
+      "brandGlow": "rgba(57,255,110,0.7)"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "George Boole: Arcade",
+  "palette": [
+    {
+      "var": "bg",
+      "value": "#1a0800",
+      "label": "BG"
+    },
+    {
+      "var": "bg-light",
+      "value": "#331000",
+      "label": "BG Light"
+    },
+    {
+      "var": "accent",
+      "value": "#ffa500",
+      "label": "Accent"
+    },
+    {
+      "var": "red",
+      "value": "#cc2200",
+      "label": "Red"
+    }
+  ],
+  "roles": {
+    "bg": "bg",
+    "text": "accent",
+    "surface": "bg-light",
+    "accent": "accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "arcade",
+    "nav": {
+      "accent": "#ffa500",
+      "glow": "rgba(255,165,0,0.4)",
+      "brand": "#ffa500",
+      "brandGlow": "rgba(255,165,0,0.7)"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+name: ci
+
+# Public repo, so ubuntu-latest is free and an org runner would never be
+# offered to it anyway (allows_public_repositories = false).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: dist/ matches themes/
+        run: node tools/build.mjs --check
+
+      - name: Tests
+        run: node --test tests/themes.test.mjs
+
+      # The header is the one output a browser never sees, so compile it.
+      # -Werror because a warning in a header lands in every game that
+      # includes it.
+      - name: C header compiles
+        run: |
+          printf '#include "magma_themes.h"\nunsigned int x = MT_GLOBAL_PALETTE_BG_TV;\nint main(void){return (int)(x & 0);}\n' > /tmp/t.c
+          gcc -std=c99 -Wall -Wextra -Werror -Idist /tmp/t.c -o /tmp/t

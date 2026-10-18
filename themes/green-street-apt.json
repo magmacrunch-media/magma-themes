@@ -1,0 +1,105 @@
+{
+  "name": "Green Street Apt.",
+  "palette": [
+    {
+      "var": "--gs-deep",
+      "value": "#382e28",
+      "label": "Deep"
+    },
+    {
+      "var": "--gs-dark",
+      "value": "#504438",
+      "label": "Dark"
+    },
+    {
+      "var": "--gs-surface",
+      "value": "#786858",
+      "label": "Surface"
+    },
+    {
+      "var": "--gs-muted",
+      "value": "#a09080",
+      "label": "Muted"
+    },
+    {
+      "var": "--gs-light",
+      "value": "#c8bea8",
+      "label": "Light"
+    },
+    {
+      "var": "--gs-cream",
+      "value": "#e8e0cc",
+      "label": "Cream"
+    },
+    {
+      "var": "--gs-heading",
+      "value": "#f8f4e8",
+      "label": "Heading"
+    },
+    {
+      "var": "--gs-body",
+      "value": "#c8a878",
+      "label": "Body"
+    },
+    {
+      "var": "--gs-brand",
+      "value": "#7888a8",
+      "label": "Brand"
+    },
+    {
+      "var": "--gs-accent",
+      "value": "#c07838",
+      "label": "Accent"
+    },
+    {
+      "var": "--gs-green",
+      "value": "#607850",
+      "label": "Green"
+    },
+    {
+      "var": "--gs-leaf",
+      "value": "#485840",
+      "label": "Leaf"
+    },
+    {
+      "var": "--gs-warm",
+      "value": "#e8c8a0",
+      "label": "Warm"
+    },
+    {
+      "var": "--gs-rose",
+      "value": "#704858",
+      "label": "Rose"
+    },
+    {
+      "var": "--gs-sage",
+      "value": "#8878a8",
+      "label": "Sage"
+    },
+    {
+      "var": "--gs-bg",
+      "value": "#0e0c0a",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--gs-bg",
+    "text": "--gs-cream",
+    "surface": "--gs-surface",
+    "muted": "--gs-muted",
+    "accent": "--gs-accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-place",
+    "bodyClass": "gs-page",
+    "prefix": "gs",
+    "file": "archive/by-place/green-street-apt/gs-shared.css",
+    "nav": {
+      "accent": "#7888a8",
+      "glow": "rgba(120,136,168,0.4)",
+      "brand": "#a0b0c8",
+      "brandGlow": "rgba(160,176,200,0.7)"
+    }
+  }
+}

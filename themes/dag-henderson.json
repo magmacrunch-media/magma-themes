@@ -1,0 +1,135 @@
+{
+  "name": "Dag Henderson",
+  "palette": [
+    {
+      "var": "--dh-deep",
+      "value": "#141a10",
+      "label": "Deep"
+    },
+    {
+      "var": "--dh-surface",
+      "value": "#1e2818",
+      "label": "Surface"
+    },
+    {
+      "var": "--dh-muted",
+      "value": "#3a3228",
+      "label": "Muted"
+    },
+    {
+      "var": "--dh-body",
+      "value": "#5a5048",
+      "label": "Body"
+    },
+    {
+      "var": "--dh-slate",
+      "value": "#607880",
+      "label": "Slate"
+    },
+    {
+      "var": "--dh-brand",
+      "value": "#3a5830",
+      "label": "Brand"
+    },
+    {
+      "var": "--dh-leaf",
+      "value": "#789060",
+      "label": "Leaf"
+    },
+    {
+      "var": "--dh-purple",
+      "value": "#7848a8",
+      "label": "Purple"
+    },
+    {
+      "var": "--dh-rust",
+      "value": "#c86010",
+      "label": "Rust"
+    },
+    {
+      "var": "--dh-amber",
+      "value": "#f0c060",
+      "label": "Amber"
+    },
+    {
+      "var": "--dh-violet-deep",
+      "value": "#3a1860",
+      "label": "Violet Deep"
+    },
+    {
+      "var": "--dh-violet-mid",
+      "value": "#7848a8",
+      "label": "Violet Mid"
+    },
+    {
+      "var": "--dh-violet-light",
+      "value": "#a880d0",
+      "label": "Violet Light"
+    },
+    {
+      "var": "--dh-sage",
+      "value": "#a8b890",
+      "label": "Sage"
+    },
+    {
+      "var": "--dh-steel",
+      "value": "#607880",
+      "label": "Steel"
+    },
+    {
+      "var": "--dh-mist",
+      "value": "#a0b0a8",
+      "label": "Mist"
+    },
+    {
+      "var": "--dh-rust-dark",
+      "value": "#7a3010",
+      "label": "Rust Dark"
+    },
+    {
+      "var": "--dh-amber-glow",
+      "value": "#e8900a",
+      "label": "Amber Glow"
+    },
+    {
+      "var": "--dh-gold",
+      "value": "#f8d888",
+      "label": "Gold"
+    },
+    {
+      "var": "--dh-tan",
+      "value": "#807060",
+      "label": "Tan"
+    },
+    {
+      "var": "--dh-white",
+      "value": "#f0ece0",
+      "label": "White"
+    },
+    {
+      "var": "--dh-bg",
+      "value": "#080a06",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--dh-bg",
+    "text": "--dh-white",
+    "surface": "--dh-surface",
+    "muted": "--dh-muted",
+    "accent": "--dh-brand"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "dh-page",
+    "prefix": "dh",
+    "file": "archive/by-artist/dag-henderson/dh-shared.css",
+    "nav": {
+      "accent": "#3a5830",
+      "glow": "rgba(58,88,48,0.4)",
+      "brand": "#f0c060",
+      "brandGlow": "rgba(240,192,96,0.7)"
+    }
+  }
+}

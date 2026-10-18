@@ -1,0 +1,150 @@
+{
+  "name": "Jon McCoy",
+  "palette": [
+    {
+      "var": "--jm-bg",
+      "value": "#484e58",
+      "label": "BG"
+    },
+    {
+      "var": "--jm-surface",
+      "value": "#2e3540",
+      "label": "Surface"
+    },
+    {
+      "var": "--jm-raised",
+      "value": "#2e3038",
+      "label": "Raised"
+    },
+    {
+      "var": "--jm-body",
+      "value": "#7080a0",
+      "label": "Body"
+    },
+    {
+      "var": "--jm-muted",
+      "value": "#8a9aaa",
+      "label": "Muted"
+    },
+    {
+      "var": "--jm-heading",
+      "value": "#b8c4cc",
+      "label": "Heading"
+    },
+    {
+      "var": "--jm-taupe",
+      "value": "#a89880",
+      "label": "Taupe"
+    },
+    {
+      "var": "--jm-sand",
+      "value": "#c8b8a0",
+      "label": "Sand"
+    },
+    {
+      "var": "--jm-cream",
+      "value": "#e8ddd0",
+      "label": "Cream"
+    },
+    {
+      "var": "--jm-sage",
+      "value": "#7a9080",
+      "label": "Sage"
+    },
+    {
+      "var": "--jm-rose",
+      "value": "#b89898",
+      "label": "Rose"
+    },
+    {
+      "var": "--jm-ice",
+      "value": "#d0d8e0",
+      "label": "Ice"
+    },
+    {
+      "var": "--jm-deep-cool",
+      "value": "#383e48",
+      "label": "Deep Cool"
+    },
+    {
+      "var": "--jm-mid-cool",
+      "value": "#6070a0",
+      "label": "Mid Cool"
+    },
+    {
+      "var": "--jm-light-cool",
+      "value": "#c0ccd8",
+      "label": "Light Cool"
+    },
+    {
+      "var": "--jm-deep-warm",
+      "value": "#786050",
+      "label": "Deep Warm"
+    },
+    {
+      "var": "--jm-pale-warm",
+      "value": "#f0e8d8",
+      "label": "Pale Warm"
+    },
+    {
+      "var": "--jm-deep-sage",
+      "value": "#587868",
+      "label": "Deep Sage"
+    },
+    {
+      "var": "--jm-muted-rose",
+      "value": "#c8a8a8",
+      "label": "Muted Rose"
+    },
+    {
+      "var": "--jm-blue-grey",
+      "value": "#6a7088",
+      "label": "Blue Grey"
+    },
+    {
+      "var": "--jm-near-white",
+      "value": "#f5f0ec",
+      "label": "Near White"
+    },
+    {
+      "var": "--jm-periwinkle",
+      "value": "#9090b8",
+      "label": "Periwinkle"
+    },
+    {
+      "var": "--jm-pale-sage",
+      "value": "#b0c8b8",
+      "label": "Pale Sage"
+    },
+    {
+      "var": "--jm-dusty-plum",
+      "value": "#786878",
+      "label": "Dusty Plum"
+    },
+    {
+      "var": "--jm-near-black",
+      "value": "#0e1014",
+      "label": "Near Black"
+    }
+  ],
+  "roles": {
+    "bg": "--jm-bg",
+    "text": "--jm-cream",
+    "surface": "--jm-surface",
+    "muted": "--jm-muted",
+    "accent": "--jm-sage"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "jm-page",
+    "prefix": "jm",
+    "file": "archive/by-artist/jon-mccoy/jm-shared.css",
+    "nav": {
+      "accent": "#7a9080",
+      "glow": "rgba(122,144,128,0.4)",
+      "brand": "#b89898",
+      "brandGlow": "rgba(184,152,152,0.7)"
+    }
+  }
+}

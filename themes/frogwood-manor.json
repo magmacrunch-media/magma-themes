@@ -1,0 +1,120 @@
+{
+  "name": "Frogwood Manor",
+  "palette": [
+    {
+      "var": "--fm-deep",
+      "value": "#382820",
+      "label": "Deep"
+    },
+    {
+      "var": "--fm-dark",
+      "value": "#301828",
+      "label": "Dark"
+    },
+    {
+      "var": "--fm-surface",
+      "value": "#2a2a50",
+      "label": "Surface"
+    },
+    {
+      "var": "--fm-muted",
+      "value": "#9888a0",
+      "label": "Muted"
+    },
+    {
+      "var": "--fm-light",
+      "value": "#f8d888",
+      "label": "Light"
+    },
+    {
+      "var": "--fm-cream",
+      "value": "#f8e8d8",
+      "label": "Cream"
+    },
+    {
+      "var": "--fm-cobalt",
+      "value": "#4080f0",
+      "label": "Cobalt"
+    },
+    {
+      "var": "--fm-brand",
+      "value": "#a85a18",
+      "label": "Brand"
+    },
+    {
+      "var": "--fm-amber",
+      "value": "#e8a040",
+      "label": "Amber"
+    },
+    {
+      "var": "--fm-sky",
+      "value": "#6080e8",
+      "label": "Sky"
+    },
+    {
+      "var": "--fm-violet",
+      "value": "#a030c8",
+      "label": "Violet"
+    },
+    {
+      "var": "--fm-sage",
+      "value": "#6a9878",
+      "label": "Sage"
+    },
+    {
+      "var": "--fm-pink",
+      "value": "#f040a0",
+      "label": "Pink"
+    },
+    {
+      "var": "--fm-pink-light",
+      "value": "#e860c0",
+      "label": "Pink Light"
+    },
+    {
+      "var": "--fm-rose",
+      "value": "#c02070",
+      "label": "Rose"
+    },
+    {
+      "var": "--fm-lilac",
+      "value": "#c8a0d8",
+      "label": "Lilac"
+    },
+    {
+      "var": "--fm-plum",
+      "value": "#281838",
+      "label": "Plum"
+    },
+    {
+      "var": "--fm-peach",
+      "value": "#f0b060",
+      "label": "Peach"
+    },
+    {
+      "var": "--fm-bg",
+      "value": "#0c0810",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--fm-bg",
+    "text": "--fm-cream",
+    "surface": "--fm-surface",
+    "muted": "--fm-muted",
+    "accent": "--fm-brand"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-place",
+    "bodyClass": "fm-page",
+    "prefix": "fm",
+    "file": "archive/by-place/frogwood-manor/fm-shared.css",
+    "nav": {
+      "accent": "#a85a18",
+      "glow": "rgba(168,90,24,0.4)",
+      "brand": "#d08838",
+      "brandGlow": "rgba(208,136,56,0.7)"
+    }
+  }
+}

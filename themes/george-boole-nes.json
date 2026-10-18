@@ -1,0 +1,50 @@
+{
+  "name": "George Boole: NES",
+  "palette": [
+    {
+      "var": "bg",
+      "value": "#2a2a4a",
+      "label": "BG"
+    },
+    {
+      "var": "bg-light",
+      "value": "#3a3a6a",
+      "label": "BG Light"
+    },
+    {
+      "var": "accent",
+      "value": "#ff6347",
+      "label": "Accent"
+    },
+    {
+      "var": "gold",
+      "value": "#ffd700",
+      "label": "Gold"
+    },
+    {
+      "var": "blue",
+      "value": "#4169e1",
+      "label": "Blue"
+    }
+  ],
+  "roles": {
+    "bg": "bg",
+    "text": "gold",
+    "surface": "bg-light",
+    "accent": "accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "nes",
+    "nav": {
+      "accent": "#ff6347",
+      "glow": "rgba(255,99,71,0.4)",
+      "brand": "#ffd700",
+      "brandGlow": "rgba(255,215,0,0.7)"
+    }
+  }
+}

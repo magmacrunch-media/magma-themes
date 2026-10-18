@@ -1,0 +1,74 @@
+{
+  "name": "DDT LLC",
+  "palette": [
+    {
+      "var": "--ddt-deep",
+      "value": "#5a3a20",
+      "label": "Deep"
+    },
+    {
+      "var": "--ddt-mid",
+      "value": "#8a5a2a",
+      "label": "Mid"
+    },
+    {
+      "var": "--ddt-amber",
+      "value": "#b87840",
+      "label": "Amber"
+    },
+    {
+      "var": "--ddt-tan",
+      "value": "#c89858",
+      "label": "Tan"
+    },
+    {
+      "var": "--ddt-heading",
+      "value": "#e8d098",
+      "label": "Heading"
+    },
+    {
+      "var": "--ddt-cta",
+      "value": "#c04030",
+      "label": "CTA"
+    },
+    {
+      "var": "--ddt-gold",
+      "value": "#d4a820",
+      "label": "Gold"
+    },
+    {
+      "var": "--ddt-nature",
+      "value": "#607858",
+      "label": "Nature"
+    },
+    {
+      "var": "--ddt-offwhite",
+      "value": "#faf4e8",
+      "label": "Offwhite"
+    },
+    {
+      "var": "--ddt-bg",
+      "value": "#0a0a14",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--ddt-bg",
+    "text": "--ddt-offwhite",
+    "surface": "--ddt-deep",
+    "accent": "--ddt-amber"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "ddt-page",
+    "prefix": "ddt",
+    "file": "archive/by-artist/ddt-llc/ddt-shared.css",
+    "nav": {
+      "accent": "#b87840",
+      "glow": "rgba(184,120,64,0.4)",
+      "brand": "#d8a060",
+      "brandGlow": "rgba(216,160,96,0.7)"
+    }
+  }
+}

@@ -1,0 +1,4159 @@
+[
+  {
+    "name": "Global Palette",
+    "section": "global",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "style.css",
+    "palette": [
+      {
+        "var": "--black",
+        "value": "#080808",
+        "label": "Black"
+      },
+      {
+        "var": "--deep",
+        "value": "#111118",
+        "label": "Deep"
+      },
+      {
+        "var": "--rose",
+        "value": "#ff3d6e",
+        "label": "Rose"
+      },
+      {
+        "var": "--bubblegum",
+        "value": "#FF8584",
+        "label": "Bubblegum"
+      },
+      {
+        "var": "--yellow",
+        "value": "#ffe03a",
+        "label": "Yellow"
+      },
+      {
+        "var": "--cyan",
+        "value": "#00f5ff",
+        "label": "Cyan"
+      },
+      {
+        "var": "--green",
+        "value": "#39ff6e",
+        "label": "Green"
+      },
+      {
+        "var": "--orange",
+        "value": "#ff7c1f",
+        "label": "Orange"
+      },
+      {
+        "var": "--purple",
+        "value": "#c45fff",
+        "label": "Purple"
+      },
+      {
+        "var": "--white",
+        "value": "#f0ead8",
+        "label": "White"
+      },
+      {
+        "var": "--dim",
+        "value": "#8a7a8a",
+        "label": "Dim"
+      },
+      {
+        "var": "--slate",
+        "value": "#8899aa",
+        "label": "Slate"
+      },
+      {
+        "var": "--blue",
+        "value": "#4678ff",
+        "label": "Blue"
+      },
+      {
+        "var": "--magenta",
+        "value": "#ff2d78",
+        "label": "Magenta"
+      },
+      {
+        "var": "--darkgreen",
+        "value": "#1f7a3e",
+        "label": "Dark Green"
+      },
+      {
+        "var": "--teal",
+        "value": "#1a7a5e",
+        "label": "Teal"
+      },
+      {
+        "var": "--burntorange",
+        "value": "#ff6b35",
+        "label": "Burnt Orange"
+      },
+      {
+        "var": "--violet",
+        "value": "#b24bff",
+        "label": "Violet"
+      },
+      {
+        "var": "--mintteal",
+        "value": "#00e5b3",
+        "label": "Mint Teal"
+      },
+      {
+        "var": "--softpink",
+        "value": "#ff9eb5",
+        "label": "Soft Pink"
+      },
+      {
+        "var": "--nearwhite",
+        "value": "#f0f0f0",
+        "label": "Near White"
+      },
+      {
+        "var": "--mc-mount",
+        "value": "#1A0505",
+        "label": "MC Mount"
+      },
+      {
+        "var": "--mc-mount-dark",
+        "value": "#110206",
+        "label": "MC Mount Dark"
+      },
+      {
+        "var": "--mc-mount-mid",
+        "value": "#2D0A0A",
+        "label": "MC Mount Mid"
+      },
+      {
+        "var": "--mc-ash",
+        "value": "#3D3028",
+        "label": "MC Ash"
+      },
+      {
+        "var": "--mc-smoke",
+        "value": "#6A5A52",
+        "label": "MC Smoke"
+      },
+      {
+        "var": "--mc-haze",
+        "value": "#9A8878",
+        "label": "MC Haze"
+      },
+      {
+        "var": "--mc-lava-bright",
+        "value": "#FFE03A",
+        "label": "MC Lava Bright"
+      },
+      {
+        "var": "--mc-lava-amber",
+        "value": "#FFAD1F",
+        "label": "MC Lava Amber"
+      },
+      {
+        "var": "--mc-lava-orange",
+        "value": "#FF6A00",
+        "label": "MC Lava Orange"
+      },
+      {
+        "var": "--mc-lava-deep",
+        "value": "#CC2200",
+        "label": "MC Lava Deep"
+      },
+      {
+        "var": "--mc-ember",
+        "value": "#FF3D00",
+        "label": "MC Ember"
+      },
+      {
+        "var": "--mc-crater",
+        "value": "#FF3D6E",
+        "label": "MC Crater"
+      },
+      {
+        "var": "--mc-sky-deep",
+        "value": "#0A0518",
+        "label": "MC Sky Deep"
+      },
+      {
+        "var": "--mc-sky-mid",
+        "value": "#1A0A2E",
+        "label": "MC Sky Mid"
+      },
+      {
+        "var": "--mc-gas-glow",
+        "value": "#2A1A0A",
+        "label": "MC Gas Glow"
+      },
+      {
+        "var": "--mc-cereal-rose",
+        "value": "#FF3D6E",
+        "label": "MC Cereal Rose"
+      },
+      {
+        "var": "--mc-cereal-cyan",
+        "value": "#00F5FF",
+        "label": "MC Cereal Cyan"
+      },
+      {
+        "var": "--mc-cereal-purple",
+        "value": "#C45FFF",
+        "label": "MC Cereal Purple"
+      },
+      {
+        "var": "--mc-cereal-green",
+        "value": "#39FF14",
+        "label": "MC Cereal Green"
+      },
+      {
+        "var": "--mc-cereal-white",
+        "value": "#FFFFFF",
+        "label": "MC Cereal White"
+      },
+      {
+        "var": "--mc-text-primary",
+        "value": "#FFF0E8",
+        "label": "MC Text Primary"
+      },
+      {
+        "var": "--mc-text-dim",
+        "value": "#C8A898",
+        "label": "MC Text Dim"
+      },
+      {
+        "var": "--mc-border",
+        "value": "#3D2018",
+        "label": "MC Border"
+      },
+      {
+        "var": "--mc-surface",
+        "value": "#1A0D08",
+        "label": "MC Surface"
+      },
+      {
+        "var": "--mc-nav-accent-a",
+        "value": "#00F5FF",
+        "label": "MC Nav Accent A"
+      },
+      {
+        "var": "--mc-nav-accent-b",
+        "value": "#C45FFF",
+        "label": "MC Nav Accent B"
+      },
+      {
+        "var": "--mc-nav-active",
+        "value": "#FF6A00",
+        "label": "MC Nav Active"
+      },
+      {
+        "var": "--mc-nav-text",
+        "value": "#FFF0E8",
+        "label": "MC Nav Text"
+      }
+    ],
+    "nav": {
+      "accent": "#00F5FF",
+      "glow": "rgba(0,245,255,0.4)",
+      "brand": "#C45FFF",
+      "brandGlow": "rgba(196,95,255,0.7)"
+    }
+  },
+  {
+    "name": "Pop Art",
+    "section": "visual",
+    "bodyClass": "pop-art",
+    "prefix": "pop",
+    "file": "visual/index.html",
+    "palette": [
+      {
+        "var": "--pop-hotpink",
+        "value": "#FF1F5B",
+        "label": "Hot Pink"
+      },
+      {
+        "var": "--pop-tangerine",
+        "value": "#FF6B00",
+        "label": "Tangerine"
+      },
+      {
+        "var": "--pop-yellow",
+        "value": "#FFE600",
+        "label": "Yellow"
+      },
+      {
+        "var": "--pop-cyan",
+        "value": "#00C2FF",
+        "label": "Cyan"
+      },
+      {
+        "var": "--pop-violet",
+        "value": "#7B2FBE",
+        "label": "Violet"
+      },
+      {
+        "var": "--pop-green",
+        "value": "#00B84C",
+        "label": "Green"
+      },
+      {
+        "var": "--pop-coral",
+        "value": "#FF3D6B",
+        "label": "Coral"
+      },
+      {
+        "var": "--pop-lipstick",
+        "value": "#FF2D55",
+        "label": "Lipstick"
+      },
+      {
+        "var": "--pop-skyblue",
+        "value": "#00D4FF",
+        "label": "Sky Blue"
+      },
+      {
+        "var": "--pop-orange",
+        "value": "#FF9500",
+        "label": "Orange"
+      },
+      {
+        "var": "--pop-black",
+        "value": "#111111",
+        "label": "Black"
+      },
+      {
+        "var": "--pop-cream",
+        "value": "#F5F0E8",
+        "label": "Cream"
+      },
+      {
+        "var": "--pop-blaze",
+        "value": "#FF4500",
+        "label": "Blaze"
+      },
+      {
+        "var": "--pop-rose-red",
+        "value": "#FF007F",
+        "label": "Rose Red"
+      },
+      {
+        "var": "--pop-deep-sky",
+        "value": "#00BFFF",
+        "label": "Deep Sky"
+      },
+      {
+        "var": "--pop-neon-green",
+        "value": "#39FF14",
+        "label": "Neon Green"
+      },
+      {
+        "var": "--pop-deep-pink",
+        "value": "#FF1493",
+        "label": "Deep Pink"
+      },
+      {
+        "var": "--pop-mango",
+        "value": "#F5A623",
+        "label": "Mango"
+      },
+      {
+        "var": "--pop-lime",
+        "value": "#AAFF00",
+        "label": "Lime"
+      },
+      {
+        "var": "--pop-vivid-violet",
+        "value": "#9400D3",
+        "label": "Vivid Violet"
+      },
+      {
+        "var": "--pop-silk-orange",
+        "value": "#FF6600",
+        "label": "Silk Orange"
+      },
+      {
+        "var": "--pop-spring-green",
+        "value": "#00FF7F",
+        "label": "Spring Green"
+      },
+      {
+        "var": "--pop-combustion",
+        "value": "#FF3800",
+        "label": "Combustion"
+      },
+      {
+        "var": "--pop-white",
+        "value": "#FFFFFF",
+        "label": "White"
+      },
+      {
+        "var": "--pop-blue",
+        "value": "#0047FF",
+        "label": "Blue"
+      },
+      {
+        "var": "--pop-teal",
+        "value": "#00CCA3",
+        "label": "Teal"
+      },
+      {
+        "var": "--pop-magenta",
+        "value": "#CC00AA",
+        "label": "Magenta"
+      }
+    ],
+    "nav": {
+      "accent": "#FF3800",
+      "glow": "rgba(255,56,0,0.4)",
+      "brand": "#39FF14",
+      "brandGlow": "rgba(57,255,20,0.7)"
+    }
+  },
+  {
+    "name": "MTV",
+    "section": "music",
+    "bodyClass": "mtv",
+    "prefix": "mtv",
+    "file": "music/music-videos.html",
+    "palette": [
+      {
+        "var": "--mtv-black",
+        "value": "#0A0A0F",
+        "label": "Black"
+      },
+      {
+        "var": "--mtv-deep-purple",
+        "value": "#1A0533",
+        "label": "Deep Purple"
+      },
+      {
+        "var": "--mtv-midnight",
+        "value": "#0D1F3C",
+        "label": "Midnight"
+      },
+      {
+        "var": "--mtv-oxide-red",
+        "value": "#3D0000",
+        "label": "Oxide Red"
+      },
+      {
+        "var": "--mtv-static",
+        "value": "#4A4A4A",
+        "label": "Static"
+      },
+      {
+        "var": "--mtv-beige",
+        "value": "#C8C0B8",
+        "label": "Beige"
+      },
+      {
+        "var": "--mtv-magenta",
+        "value": "#FF00CC",
+        "label": "Magenta"
+      },
+      {
+        "var": "--mtv-teal",
+        "value": "#00FFEE",
+        "label": "Teal"
+      },
+      {
+        "var": "--mtv-phosphor",
+        "value": "#AAFF00",
+        "label": "Phosphor"
+      },
+      {
+        "var": "--mtv-pink",
+        "value": "#FF6EC7",
+        "label": "Pink"
+      },
+      {
+        "var": "--mtv-violet",
+        "value": "#7B68EE",
+        "label": "Violet"
+      },
+      {
+        "var": "--mtv-gold",
+        "value": "#FFD700",
+        "label": "Gold"
+      },
+      {
+        "var": "--mtv-white",
+        "value": "#F0EEFF",
+        "label": "White"
+      },
+      {
+        "var": "--mtv-signal-red",
+        "value": "#FF1A1A",
+        "label": "Signal Red"
+      },
+      {
+        "var": "--mtv-crt-blue",
+        "value": "#1A1AFF",
+        "label": "CRT Blue"
+      },
+      {
+        "var": "--mtv-broadcast-orange",
+        "value": "#FF6600",
+        "label": "Broadcast Orange"
+      },
+      {
+        "var": "--mtv-laser-yellow",
+        "value": "#FFFF00",
+        "label": "Laser Yellow"
+      },
+      {
+        "var": "--mtv-ice-blue",
+        "value": "#AACCFF",
+        "label": "Ice Blue"
+      },
+      {
+        "var": "--mtv-vhs-purple",
+        "value": "#CC00FF",
+        "label": "VHS Purple"
+      },
+      {
+        "var": "--mtv-scanline",
+        "value": "#1A1A2E",
+        "label": "Scanline"
+      },
+      {
+        "var": "--mtv-warm-gray",
+        "value": "#888890",
+        "label": "Warm Gray"
+      },
+      {
+        "var": "--mtv-chrome",
+        "value": "#E0E0F0",
+        "label": "Chrome"
+      }
+    ],
+    "nav": {
+      "accent": "#FF00CC",
+      "glow": "rgba(255,0,204,0.4)",
+      "brand": "#FFD700",
+      "brandGlow": "transparent"
+    }
+  },
+  {
+    "name": "Memphis",
+    "section": "visual",
+    "bodyClass": "memphis",
+    "prefix": "mem",
+    "file": "visual/collage.html",
+    "palette": [
+      {
+        "var": "--mem-black",
+        "value": "#1A1A1A",
+        "label": "Black"
+      },
+      {
+        "var": "--mem-white",
+        "value": "#F5F5F0",
+        "label": "White"
+      },
+      {
+        "var": "--mem-cream",
+        "value": "#F0E8D8",
+        "label": "Cream"
+      },
+      {
+        "var": "--mem-red",
+        "value": "#FF3B30",
+        "label": "Red"
+      },
+      {
+        "var": "--mem-yellow",
+        "value": "#FFD600",
+        "label": "Yellow"
+      },
+      {
+        "var": "--mem-blue",
+        "value": "#0057FF",
+        "label": "Blue"
+      },
+      {
+        "var": "--mem-green",
+        "value": "#00C853",
+        "label": "Green"
+      },
+      {
+        "var": "--mem-hot-pink",
+        "value": "#FF2D9B",
+        "label": "Hot Pink"
+      },
+      {
+        "var": "--mem-orange",
+        "value": "#FF6B00",
+        "label": "Orange"
+      },
+      {
+        "var": "--mem-cyan",
+        "value": "#00D4FF",
+        "label": "Cyan"
+      },
+      {
+        "var": "--mem-violet",
+        "value": "#7B2FFF",
+        "label": "Violet"
+      },
+      {
+        "var": "--mem-coral",
+        "value": "#FF5A5A",
+        "label": "Coral"
+      },
+      {
+        "var": "--mem-mint",
+        "value": "#A8FFD8",
+        "label": "Mint"
+      },
+      {
+        "var": "--mem-sky",
+        "value": "#A8D8FF",
+        "label": "Sky"
+      },
+      {
+        "var": "--mem-blush",
+        "value": "#FFB8D8",
+        "label": "Blush"
+      },
+      {
+        "var": "--mem-lemon",
+        "value": "#FFF176",
+        "label": "Lemon"
+      },
+      {
+        "var": "--mem-lilac",
+        "value": "#D8B8FF",
+        "label": "Lilac"
+      },
+      {
+        "var": "--mem-peach",
+        "value": "#FFD0A8",
+        "label": "Peach"
+      },
+      {
+        "var": "--mem-aqua",
+        "value": "#B8FFF0",
+        "label": "Aqua"
+      },
+      {
+        "var": "--mem-squiggle-gray",
+        "value": "#C8C0B8",
+        "label": "Squiggle Gray"
+      }
+    ],
+    "nav": {
+      "accent": "#FF2D9B",
+      "glow": "rgba(255,45,155,0.4)",
+      "brand": "#F0E8D8",
+      "brandGlow": "rgba(240,232,216,0.7)"
+    }
+  },
+  {
+    "name": "City Pop",
+    "section": "visual",
+    "bodyClass": "city-pop",
+    "prefix": "cp",
+    "file": "visual/photography/index.html",
+    "palette": [
+      {
+        "var": "--cp-night-sky",
+        "value": "#0D0D2B",
+        "label": "Night Sky"
+      },
+      {
+        "var": "--cp-deep-navy",
+        "value": "#141438",
+        "label": "Deep Navy"
+      },
+      {
+        "var": "--cp-twilight",
+        "value": "#1E1E4A",
+        "label": "Twilight"
+      },
+      {
+        "var": "--cp-smoked-glass",
+        "value": "#2A2A5A",
+        "label": "Smoked Glass"
+      },
+      {
+        "var": "--cp-soft-white",
+        "value": "#F0EEF8",
+        "label": "Soft White"
+      },
+      {
+        "var": "--cp-sakura-pink",
+        "value": "#FF8FB0",
+        "label": "Sakura Pink"
+      },
+      {
+        "var": "--cp-coral-sunrise",
+        "value": "#FF6E6E",
+        "label": "Coral Sunrise"
+      },
+      {
+        "var": "--cp-peach-glow",
+        "value": "#FFB48A",
+        "label": "Peach Glow"
+      },
+      {
+        "var": "--cp-butter-neon",
+        "value": "#FFE97A",
+        "label": "Butter Neon"
+      },
+      {
+        "var": "--cp-mint-flash",
+        "value": "#7AFFD4",
+        "label": "Mint Flash"
+      },
+      {
+        "var": "--cp-aqua-haze",
+        "value": "#5EEEF0",
+        "label": "Aqua Haze"
+      },
+      {
+        "var": "--cp-periwinkle",
+        "value": "#A0A8FF",
+        "label": "Periwinkle"
+      },
+      {
+        "var": "--cp-lavender-mist",
+        "value": "#C8AEFF",
+        "label": "Lavender Mist"
+      },
+      {
+        "var": "--cp-blush-lilac",
+        "value": "#E8B0FF",
+        "label": "Blush Lilac"
+      },
+      {
+        "var": "--cp-horizon-pink",
+        "value": "#FF4FA0",
+        "label": "Horizon Pink"
+      },
+      {
+        "var": "--cp-electric-teal",
+        "value": "#00E5CC",
+        "label": "Electric Teal"
+      },
+      {
+        "var": "--cp-neon-periwinkle",
+        "value": "#6B6BFF",
+        "label": "Neon Periwinkle"
+      },
+      {
+        "var": "--cp-chrome-silver",
+        "value": "#C0C8E0",
+        "label": "Chrome Silver"
+      },
+      {
+        "var": "--cp-rose-gold",
+        "value": "#E8A0B0",
+        "label": "Rose Gold"
+      },
+      {
+        "var": "--cp-cassette-gold",
+        "value": "#E8C86A",
+        "label": "Cassette Gold"
+      }
+    ],
+    "nav": {
+      "accent": "#FF4FA0",
+      "glow": "rgba(255,79,160,0.4)",
+      "brand": "#C0C8E0",
+      "brandGlow": "rgba(192,200,224,0.7)"
+    }
+  },
+  {
+    "name": "Contributor (Cyan)",
+    "section": "section-template",
+    "bodyClass": "ctb-page",
+    "prefix": "ctb",
+    "file": "templates/contributor-theme.css",
+    "palette": [
+      {
+        "var": "--ctb-void",
+        "value": "#001a1f",
+        "label": "Void"
+      },
+      {
+        "var": "--ctb-darkest",
+        "value": "#012a33",
+        "label": "Darkest"
+      },
+      {
+        "var": "--ctb-dark",
+        "value": "#024959",
+        "label": "Dark"
+      },
+      {
+        "var": "--ctb-mid-dark",
+        "value": "#03738a",
+        "label": "Mid Dark"
+      },
+      {
+        "var": "--ctb-deep",
+        "value": "#0489a3",
+        "label": "Deep"
+      },
+      {
+        "var": "--ctb-bright",
+        "value": "#05a8c2",
+        "label": "Bright"
+      },
+      {
+        "var": "--ctb-muted",
+        "value": "#5fc4d4",
+        "label": "Muted"
+      },
+      {
+        "var": "--ctb-cyan",
+        "value": "#7fd8e8",
+        "label": "Cyan"
+      },
+      {
+        "var": "--ctb-light",
+        "value": "#a8e8f0",
+        "label": "Light"
+      },
+      {
+        "var": "--ctb-pale",
+        "value": "#d0f4f8",
+        "label": "Pale"
+      }
+    ],
+    "nav": {
+      "accent": "#03738a",
+      "glow": "rgba(3,115,138,0.4)",
+      "brand": "#7fd8e8",
+      "brandGlow": "rgba(127,216,232,0.7)"
+    }
+  },
+  {
+    "name": "Label (Purple)",
+    "section": "section-template",
+    "bodyClass": "lbl-page",
+    "prefix": "lbl",
+    "file": "templates/label-theme.css",
+    "palette": [
+      {
+        "var": "--lbl-void",
+        "value": "#10002b",
+        "label": "Void"
+      },
+      {
+        "var": "--lbl-darkest",
+        "value": "#240046",
+        "label": "Darkest"
+      },
+      {
+        "var": "--lbl-dark",
+        "value": "#3c096c",
+        "label": "Dark"
+      },
+      {
+        "var": "--lbl-mid-dark",
+        "value": "#5a189a",
+        "label": "Mid Dark"
+      },
+      {
+        "var": "--lbl-deep",
+        "value": "#6a1bb0",
+        "label": "Deep"
+      },
+      {
+        "var": "--lbl-bright",
+        "value": "#782cbf",
+        "label": "Bright"
+      },
+      {
+        "var": "--lbl-muted",
+        "value": "#b185db",
+        "label": "Muted"
+      },
+      {
+        "var": "--lbl-violet",
+        "value": "#9d4edd",
+        "label": "Violet"
+      },
+      {
+        "var": "--lbl-light",
+        "value": "#c77dff",
+        "label": "Light"
+      },
+      {
+        "var": "--lbl-pale",
+        "value": "#e0aaff",
+        "label": "Pale"
+      }
+    ],
+    "nav": {
+      "accent": "#5a189a",
+      "glow": "rgba(90,24,154,0.4)",
+      "brand": "#9d4edd",
+      "brandGlow": "rgba(157,78,221,0.7)"
+    }
+  },
+  {
+    "name": "SVFP",
+    "section": "archive-artist",
+    "bodyClass": "svfp-page",
+    "prefix": "svfp",
+    "file": "archive/by-artist/svfp/svfp-shared.css",
+    "palette": [
+      {
+        "var": "--svfp-brand",
+        "value": "#a020c8",
+        "label": "Brand"
+      },
+      {
+        "var": "--svfp-accent",
+        "value": "#d946ef",
+        "label": "Accent"
+      },
+      {
+        "var": "--svfp-cta",
+        "value": "#e03070",
+        "label": "CTA"
+      },
+      {
+        "var": "--svfp-heading",
+        "value": "#c8b8e8",
+        "label": "Heading"
+      },
+      {
+        "var": "--svfp-body",
+        "value": "#f5d0ff",
+        "label": "Body"
+      },
+      {
+        "var": "--svfp-surface",
+        "value": "#1e2235",
+        "label": "Surface"
+      },
+      {
+        "var": "--svfp-raised",
+        "value": "#2e1a50",
+        "label": "Raised"
+      },
+      {
+        "var": "--svfp-dark",
+        "value": "#3a2060",
+        "label": "Dark"
+      },
+      {
+        "var": "--svfp-plum",
+        "value": "#281830",
+        "label": "Plum"
+      },
+      {
+        "var": "--svfp-mid",
+        "value": "#6020b0",
+        "label": "Mid"
+      },
+      {
+        "var": "--svfp-bright",
+        "value": "#9858d8",
+        "label": "Bright"
+      },
+      {
+        "var": "--svfp-bridge",
+        "value": "#c8a0d8",
+        "label": "Bridge"
+      },
+      {
+        "var": "--svfp-rose",
+        "value": "#e060a0",
+        "label": "Rose"
+      },
+      {
+        "var": "--svfp-cool-dark",
+        "value": "#2850a0",
+        "label": "Cool Dark"
+      },
+      {
+        "var": "--svfp-sky",
+        "value": "#60a0e0",
+        "label": "Sky"
+      },
+      {
+        "var": "--svfp-teal",
+        "value": "#1a6060",
+        "label": "Teal"
+      },
+      {
+        "var": "--svfp-ice",
+        "value": "#a8c8f0",
+        "label": "Ice"
+      },
+      {
+        "var": "--svfp-warm",
+        "value": "#e87040",
+        "label": "Warm"
+      },
+      {
+        "var": "--svfp-glow",
+        "value": "#f0b890",
+        "label": "Glow"
+      },
+      {
+        "var": "--svfp-white",
+        "value": "#f8b0ff",
+        "label": "White"
+      },
+      {
+        "var": "--svfp-offwhite",
+        "value": "#f5f0ff",
+        "label": "Offwhite"
+      },
+      {
+        "var": "--svfp-bg",
+        "value": "#0a0a14",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#d946ef",
+      "glow": "rgba(217,70,239,0.4)",
+      "brand": "#f5d0ff",
+      "brandGlow": "rgba(245,208,255,0.7)"
+    }
+  },
+  {
+    "name": "FLDC",
+    "section": "archive-artist",
+    "bodyClass": "fldc-page",
+    "prefix": "fldc",
+    "file": "archive/by-artist/fruity-loops-debauchery-collective/fldc-shared.css",
+    "palette": [
+      {
+        "var": "--fldc-black",
+        "value": "#080808",
+        "label": "Black"
+      },
+      {
+        "var": "--fldc-bg-surface",
+        "value": "#2a3830",
+        "label": "BG Surface"
+      },
+      {
+        "var": "--fldc-bg-raised",
+        "value": "#304838",
+        "label": "BG Raised"
+      },
+      {
+        "var": "--fldc-bg-mid",
+        "value": "#485840",
+        "label": "BG Mid"
+      },
+      {
+        "var": "--fldc-bg-neutral",
+        "value": "#8a9088",
+        "label": "BG Neutral"
+      },
+      {
+        "var": "--fldc-bg-light",
+        "value": "#c8c4b0",
+        "label": "BG Light"
+      },
+      {
+        "var": "--fldc-bg-wall",
+        "value": "#e8eee8",
+        "label": "BG Wall"
+      },
+      {
+        "var": "--fldc-bg-screen-dark",
+        "value": "#3060b0",
+        "label": "Screen Dark"
+      },
+      {
+        "var": "--fldc-bg-screen-mid",
+        "value": "#5898d8",
+        "label": "Screen Mid"
+      },
+      {
+        "var": "--fldc-bg-screen-light",
+        "value": "#e8eee8",
+        "label": "Screen Light"
+      },
+      {
+        "var": "--fldc-bg-screen-pale",
+        "value": "#f0f8f0",
+        "label": "Screen Pale"
+      },
+      {
+        "var": "--fldc-arc-yellow",
+        "value": "#d8d040",
+        "label": "Arc Yellow"
+      },
+      {
+        "var": "--fldc-arc-gold",
+        "value": "#c89820",
+        "label": "Arc Gold"
+      },
+      {
+        "var": "--fldc-arc-orange",
+        "value": "#d06020",
+        "label": "Arc Orange"
+      },
+      {
+        "var": "--fldc-arc-red",
+        "value": "#a82820",
+        "label": "Arc Red"
+      },
+      {
+        "var": "--fldc-arc-red-light",
+        "value": "#e05030",
+        "label": "Arc Red Light"
+      },
+      {
+        "var": "--fldc-arc-green",
+        "value": "#48a840",
+        "label": "Arc Green"
+      },
+      {
+        "var": "--fldc-arc-teal",
+        "value": "#308878",
+        "label": "Arc Teal"
+      },
+      {
+        "var": "--fldc-arc-blue",
+        "value": "#3060b0",
+        "label": "Arc Blue"
+      },
+      {
+        "var": "--fldc-arc-blue-light",
+        "value": "#5898d8",
+        "label": "Arc Blue Light"
+      },
+      {
+        "var": "--fldc-arc-purple",
+        "value": "#7848a8",
+        "label": "Arc Purple"
+      },
+      {
+        "var": "--fldc-arc-white",
+        "value": "#f0f8f0",
+        "label": "Arc White"
+      },
+      {
+        "var": "--fldc-arc-dark",
+        "value": "#602818",
+        "label": "Arc Dark"
+      },
+      {
+        "var": "--fldc-cool",
+        "value": "#60a8a0",
+        "label": "Cool"
+      },
+      {
+        "var": "--fldc-pop",
+        "value": "#d05888",
+        "label": "Pop"
+      },
+      {
+        "var": "--fldc-bg",
+        "value": "#10160e",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#d06020",
+      "glow": "rgba(208,96,32,0.4)",
+      "brand": "#d8d040",
+      "brandGlow": "rgba(216,208,64,0.7)"
+    }
+  },
+  {
+    "name": "Woah",
+    "section": "archive-artist",
+    "bodyClass": "woah-page",
+    "prefix": "woah",
+    "file": "archive/by-artist/woah/woah-shared.css",
+    "palette": [
+      {
+        "var": "--woah-bg",
+        "value": "#0e0c10",
+        "label": "BG"
+      },
+      {
+        "var": "--woah-surface",
+        "value": "#3a3028",
+        "label": "Surface"
+      },
+      {
+        "var": "--woah-dusk",
+        "value": "#584840",
+        "label": "Dusk"
+      },
+      {
+        "var": "--woah-sandy",
+        "value": "#907060",
+        "label": "Sandy"
+      },
+      {
+        "var": "--woah-ocean",
+        "value": "#788090",
+        "label": "Ocean"
+      },
+      {
+        "var": "--woah-blush",
+        "value": "#f0c8b8",
+        "label": "Blush"
+      },
+      {
+        "var": "--woah-sunset",
+        "value": "#e8a0a0",
+        "label": "Sunset"
+      },
+      {
+        "var": "--woah-rose-sky",
+        "value": "#c87888",
+        "label": "Rose Sky"
+      },
+      {
+        "var": "--woah-lavender",
+        "value": "#b8c0d8",
+        "label": "Lavender"
+      },
+      {
+        "var": "--woah-coastal",
+        "value": "#7888b0",
+        "label": "Coastal"
+      },
+      {
+        "var": "--woah-deep-ocean",
+        "value": "#485878",
+        "label": "Deep Ocean"
+      },
+      {
+        "var": "--woah-sage-dark",
+        "value": "#3a5830",
+        "label": "Sage Dark"
+      },
+      {
+        "var": "--woah-sage-mid",
+        "value": "#5a7848",
+        "label": "Sage Mid"
+      },
+      {
+        "var": "--woah-sage-pale",
+        "value": "#90b878",
+        "label": "Sage Pale"
+      },
+      {
+        "var": "--woah-rust",
+        "value": "#784030",
+        "label": "Rust"
+      },
+      {
+        "var": "--woah-terra",
+        "value": "#a86048",
+        "label": "Terra"
+      },
+      {
+        "var": "--woah-peach",
+        "value": "#d4a880",
+        "label": "Peach"
+      },
+      {
+        "var": "--woah-pink-sky",
+        "value": "#f8e0d0",
+        "label": "Pink Sky"
+      },
+      {
+        "var": "--woah-gold",
+        "value": "#f0c890",
+        "label": "Gold"
+      },
+      {
+        "var": "--woah-mauve",
+        "value": "#9080a0",
+        "label": "Mauve"
+      },
+      {
+        "var": "--woah-light-pink",
+        "value": "#fadce8",
+        "label": "Light Pink"
+      },
+      {
+        "var": "--woah-pop-pink",
+        "value": "#ff9ec4",
+        "label": "Pop Pink"
+      }
+    ],
+    "nav": {
+      "accent": "#fadce8",
+      "glow": "rgba(250,220,232,0.4)",
+      "brand": "#ff9ec4",
+      "brandGlow": "rgba(255,158,196,0.7)"
+    }
+  },
+  {
+    "name": "DDT LLC",
+    "section": "archive-artist",
+    "bodyClass": "ddt-page",
+    "prefix": "ddt",
+    "file": "archive/by-artist/ddt-llc/ddt-shared.css",
+    "palette": [
+      {
+        "var": "--ddt-deep",
+        "value": "#5a3a20",
+        "label": "Deep"
+      },
+      {
+        "var": "--ddt-mid",
+        "value": "#8a5a2a",
+        "label": "Mid"
+      },
+      {
+        "var": "--ddt-amber",
+        "value": "#b87840",
+        "label": "Amber"
+      },
+      {
+        "var": "--ddt-tan",
+        "value": "#c89858",
+        "label": "Tan"
+      },
+      {
+        "var": "--ddt-heading",
+        "value": "#e8d098",
+        "label": "Heading"
+      },
+      {
+        "var": "--ddt-cta",
+        "value": "#c04030",
+        "label": "CTA"
+      },
+      {
+        "var": "--ddt-gold",
+        "value": "#d4a820",
+        "label": "Gold"
+      },
+      {
+        "var": "--ddt-nature",
+        "value": "#607858",
+        "label": "Nature"
+      },
+      {
+        "var": "--ddt-offwhite",
+        "value": "#faf4e8",
+        "label": "Offwhite"
+      },
+      {
+        "var": "--ddt-bg",
+        "value": "#0a0a14",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#b87840",
+      "glow": "rgba(184,120,64,0.4)",
+      "brand": "#d8a060",
+      "brandGlow": "rgba(216,160,96,0.7)"
+    }
+  },
+  {
+    "name": "Dino Spumoni",
+    "section": "archive-artist",
+    "bodyClass": "ds-page",
+    "prefix": "ds",
+    "file": "archive/by-artist/dino-spumoni/ds-shared.css",
+    "palette": [
+      {
+        "var": "--ds-deep",
+        "value": "#141820",
+        "label": "Deep"
+      },
+      {
+        "var": "--ds-surface",
+        "value": "#1e2a38",
+        "label": "Surface"
+      },
+      {
+        "var": "--ds-mid",
+        "value": "#3a5878",
+        "label": "Mid"
+      },
+      {
+        "var": "--ds-sky",
+        "value": "#6888a8",
+        "label": "Sky"
+      },
+      {
+        "var": "--ds-brand",
+        "value": "#4060a0",
+        "label": "Brand"
+      },
+      {
+        "var": "--ds-brick",
+        "value": "#8a3820",
+        "label": "Brick"
+      },
+      {
+        "var": "--ds-cta",
+        "value": "#d4782a",
+        "label": "CTA"
+      },
+      {
+        "var": "--ds-heading",
+        "value": "#f0d080",
+        "label": "Heading"
+      },
+      {
+        "var": "--ds-rose",
+        "value": "#d06880",
+        "label": "Rose"
+      },
+      {
+        "var": "--ds-teal",
+        "value": "#2a7868",
+        "label": "Teal"
+      },
+      {
+        "var": "--ds-deep-teal",
+        "value": "#1a5048",
+        "label": "Deep Teal"
+      },
+      {
+        "var": "--ds-bright-teal",
+        "value": "#40a888",
+        "label": "Bright Teal"
+      },
+      {
+        "var": "--ds-deep-rose",
+        "value": "#a04860",
+        "label": "Deep Rose"
+      },
+      {
+        "var": "--ds-light-rose",
+        "value": "#e8a0b0",
+        "label": "Light Rose"
+      },
+      {
+        "var": "--ds-mid-blue",
+        "value": "#5878b0",
+        "label": "Mid Blue"
+      },
+      {
+        "var": "--ds-light-warm",
+        "value": "#f8c8a0",
+        "label": "Light Warm"
+      },
+      {
+        "var": "--ds-dark-warm",
+        "value": "#5a2810",
+        "label": "Dark Warm"
+      },
+      {
+        "var": "--ds-cool-neutral",
+        "value": "#6878a0",
+        "label": "Cool Neutral"
+      },
+      {
+        "var": "--ds-warm-neutral",
+        "value": "#c8a878",
+        "label": "Warm Neutral"
+      },
+      {
+        "var": "--ds-offwhite",
+        "value": "#f4ede0",
+        "label": "Offwhite"
+      },
+      {
+        "var": "--ds-bg",
+        "value": "#080a0e",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#d4782a",
+      "glow": "rgba(212,120,42,0.4)",
+      "brand": "#e8a060",
+      "brandGlow": "rgba(232,160,96,0.7)"
+    }
+  },
+  {
+    "name": "Four B's",
+    "section": "archive-artist",
+    "bodyClass": "fb-page",
+    "prefix": "4b",
+    "file": "archive/by-artist/four-bs/4b-shared.css",
+    "palette": [
+      {
+        "var": "--4b-deep",
+        "value": "#1a1408",
+        "label": "Deep"
+      },
+      {
+        "var": "--4b-mid",
+        "value": "#8a7a58",
+        "label": "Mid"
+      },
+      {
+        "var": "--4b-heading",
+        "value": "#e8ddb0",
+        "label": "Heading"
+      },
+      {
+        "var": "--4b-brand",
+        "value": "#2a6830",
+        "label": "Brand"
+      },
+      {
+        "var": "--4b-leaf",
+        "value": "#52b044",
+        "label": "Leaf"
+      },
+      {
+        "var": "--4b-chart",
+        "value": "#a8d848",
+        "label": "Chart"
+      },
+      {
+        "var": "--4b-rust",
+        "value": "#c84810",
+        "label": "Rust"
+      },
+      {
+        "var": "--4b-amber",
+        "value": "#f0a830",
+        "label": "Amber"
+      },
+      {
+        "var": "--4b-blue",
+        "value": "#1e60b0",
+        "label": "Blue"
+      },
+      {
+        "var": "--4b-sky",
+        "value": "#5890c8",
+        "label": "Sky"
+      },
+      {
+        "var": "--4b-offwhite",
+        "value": "#f5f2e8",
+        "label": "Offwhite"
+      },
+      {
+        "var": "--4b-bg",
+        "value": "#0c0a04",
+        "label": "BG"
+      },
+      {
+        "var": "--4b-dust",
+        "value": "#7a6040",
+        "label": "Dust"
+      },
+      {
+        "var": "--4b-ember",
+        "value": "#e85838",
+        "label": "Ember"
+      }
+    ],
+    "nav": {
+      "accent": "#52b044",
+      "glow": "rgba(82,176,68,0.4)",
+      "brand": "#f0a830",
+      "brandGlow": "rgba(240,168,48,0.7)"
+    }
+  },
+  {
+    "name": "Juanito Thompson",
+    "section": "archive-artist",
+    "bodyClass": "jt-page",
+    "prefix": "jt",
+    "file": "archive/by-artist/juanito-thompson/juanito-thompson-shared.css",
+    "palette": [
+      {
+        "var": "--jt-bg",
+        "value": "#0a0a0c",
+        "label": "BG"
+      },
+      {
+        "var": "--jt-surface",
+        "value": "#1c1e22",
+        "label": "Surface"
+      },
+      {
+        "var": "--jt-raised",
+        "value": "#2e3038",
+        "label": "Raised"
+      },
+      {
+        "var": "--jt-mid",
+        "value": "#383c44",
+        "label": "Mid"
+      },
+      {
+        "var": "--jt-borders",
+        "value": "#4a5060",
+        "label": "Borders"
+      },
+      {
+        "var": "--jt-steel",
+        "value": "#606878",
+        "label": "Steel"
+      },
+      {
+        "var": "--jt-deep",
+        "value": "#7a3010",
+        "label": "Deep"
+      },
+      {
+        "var": "--jt-dark-rust",
+        "value": "#5a2008",
+        "label": "Dark Rust"
+      },
+      {
+        "var": "--jt-brick",
+        "value": "#a84830",
+        "label": "Brick"
+      },
+      {
+        "var": "--jt-cta",
+        "value": "#c85a18",
+        "label": "CTA"
+      },
+      {
+        "var": "--jt-amber",
+        "value": "#e8900a",
+        "label": "Amber"
+      },
+      {
+        "var": "--jt-pale-warm",
+        "value": "#f0b878",
+        "label": "Pale Warm"
+      },
+      {
+        "var": "--jt-gold",
+        "value": "#f5c842",
+        "label": "Gold"
+      },
+      {
+        "var": "--jt-body",
+        "value": "#f0b878",
+        "label": "Body"
+      },
+      {
+        "var": "--jt-teal",
+        "value": "#1a7a5e",
+        "label": "Teal"
+      },
+      {
+        "var": "--jt-teal-bright",
+        "value": "#2a9070",
+        "label": "Teal Bright"
+      },
+      {
+        "var": "--jt-taupe",
+        "value": "#8a7060",
+        "label": "Taupe"
+      },
+      {
+        "var": "--jt-offwhite",
+        "value": "#f8f0e4",
+        "label": "Offwhite"
+      },
+      {
+        "var": "--jt-green",
+        "value": "#39ff84",
+        "label": "Green"
+      }
+    ],
+    "nav": {
+      "accent": "#c85a18",
+      "glow": "rgba(200,90,24,0.4)",
+      "brand": "#e88848",
+      "brandGlow": "rgba(232,136,72,0.7)"
+    }
+  },
+  {
+    "name": "Audio Sound Paper",
+    "section": "archive-artist",
+    "bodyClass": "asp-page",
+    "prefix": "asp",
+    "file": "archive/by-artist/audio-sound-paper-et-al/asp-shared.css",
+    "palette": [
+      {
+        "var": "--asp-surface",
+        "value": "#2e1e18",
+        "label": "Surface"
+      },
+      {
+        "var": "--asp-raised",
+        "value": "#3e2e20",
+        "label": "Raised"
+      },
+      {
+        "var": "--asp-dark",
+        "value": "#584030",
+        "label": "Dark"
+      },
+      {
+        "var": "--asp-mid",
+        "value": "#806050",
+        "label": "Mid"
+      },
+      {
+        "var": "--asp-light",
+        "value": "#b09070",
+        "label": "Light"
+      },
+      {
+        "var": "--asp-cream",
+        "value": "#f0e0c8",
+        "label": "Cream"
+      },
+      {
+        "var": "--asp-terracotta",
+        "value": "#783020",
+        "label": "Terracotta"
+      },
+      {
+        "var": "--asp-brick",
+        "value": "#a84828",
+        "label": "Brick"
+      },
+      {
+        "var": "--asp-brick-light",
+        "value": "#c87858",
+        "label": "Brick Light"
+      },
+      {
+        "var": "--asp-amber-shadow",
+        "value": "#906020",
+        "label": "Amber Shadow"
+      },
+      {
+        "var": "--asp-amber",
+        "value": "#c89030",
+        "label": "Amber"
+      },
+      {
+        "var": "--asp-amber-glow",
+        "value": "#f0d070",
+        "label": "Amber Glow"
+      },
+      {
+        "var": "--asp-skin",
+        "value": "#d08050",
+        "label": "Skin"
+      },
+      {
+        "var": "--asp-red",
+        "value": "#c03020",
+        "label": "Red"
+      },
+      {
+        "var": "--asp-red-light",
+        "value": "#e05030",
+        "label": "Red Light"
+      },
+      {
+        "var": "--asp-night",
+        "value": "#181420",
+        "label": "Night"
+      },
+      {
+        "var": "--asp-shadow",
+        "value": "#282438",
+        "label": "Shadow"
+      },
+      {
+        "var": "--asp-night-blue",
+        "value": "#485878",
+        "label": "Night Blue"
+      },
+      {
+        "var": "--asp-ivy-dark",
+        "value": "#2a3820",
+        "label": "Ivy Dark"
+      },
+      {
+        "var": "--asp-ivy-light",
+        "value": "#607848",
+        "label": "Ivy Light"
+      },
+      {
+        "var": "--asp-highlight",
+        "value": "#f8e0a0",
+        "label": "Highlight"
+      },
+      {
+        "var": "--asp-bg",
+        "value": "#100b08",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#a84828",
+      "glow": "rgba(168,72,40,0.4)",
+      "brand": "#c89030",
+      "brandGlow": "rgba(200,144,48,0.7)"
+    }
+  },
+  {
+    "name": "Vinny Bobarino",
+    "section": "archive-artist",
+    "bodyClass": "vb-page",
+    "prefix": "vb",
+    "file": "archive/by-artist/vinny-bobarino/vb-shared.css",
+    "palette": [
+      {
+        "var": "--vb-bg",
+        "value": "#1e2235",
+        "label": "BG"
+      },
+      {
+        "var": "--vb-surface",
+        "value": "#2a1a10",
+        "label": "Surface"
+      },
+      {
+        "var": "--vb-raised",
+        "value": "#2a1a10",
+        "label": "Raised"
+      },
+      {
+        "var": "--vb-mid",
+        "value": "#4a3828",
+        "label": "Mid"
+      },
+      {
+        "var": "--vb-borders",
+        "value": "#3a2a1e",
+        "label": "Borders"
+      },
+      {
+        "var": "--vb-deep",
+        "value": "#c03820",
+        "label": "Deep"
+      },
+      {
+        "var": "--vb-accent",
+        "value": "#e86020",
+        "label": "Accent"
+      },
+      {
+        "var": "--vb-amber",
+        "value": "#f5a030",
+        "label": "Amber"
+      },
+      {
+        "var": "--vb-heading",
+        "value": "#c8a840",
+        "label": "Heading"
+      },
+      {
+        "var": "--vb-body",
+        "value": "#f0ead8",
+        "label": "Body"
+      },
+      {
+        "var": "--vb-nature",
+        "value": "#5a8a6a",
+        "label": "Nature"
+      },
+      {
+        "var": "--vb-nature-glow",
+        "value": "#6a9a7a",
+        "label": "Nature Glow"
+      },
+      {
+        "var": "--vb-sky",
+        "value": "#6aaad8",
+        "label": "Sky"
+      },
+      {
+        "var": "--vb-bulb",
+        "value": "#f7e060",
+        "label": "Bulb"
+      },
+      {
+        "var": "--vb-forest",
+        "value": "#3a6050",
+        "label": "Forest"
+      },
+      {
+        "var": "--vb-winter-sky",
+        "value": "#b8d8e8",
+        "label": "Winter Sky"
+      },
+      {
+        "var": "--vb-peach",
+        "value": "#f0c8a0",
+        "label": "Peach"
+      },
+      {
+        "var": "--vb-dusk",
+        "value": "#3a2e48",
+        "label": "Dusk"
+      },
+      {
+        "var": "--vb-party",
+        "value": "#e84838",
+        "label": "Party"
+      },
+      {
+        "var": "--vb-near-black",
+        "value": "#0d0e16",
+        "label": "Near Black"
+      }
+    ],
+    "nav": {
+      "accent": "#e86020",
+      "glow": "rgba(232,96,32,0.4)",
+      "brand": "#f0a050",
+      "brandGlow": "rgba(240,160,80,0.7)"
+    }
+  },
+  {
+    "name": "Bottle Boys Collective",
+    "section": "archive-artist",
+    "bodyClass": "bbc-page",
+    "prefix": "bbc",
+    "file": "archive/by-artist/bottle-boys-collective/bbc-shared.css",
+    "palette": [
+      {
+        "var": "--bbc-surface",
+        "value": "#2a3028",
+        "label": "Surface"
+      },
+      {
+        "var": "--bbc-raised",
+        "value": "#384038",
+        "label": "Raised"
+      },
+      {
+        "var": "--bbc-dark",
+        "value": "#506050",
+        "label": "Dark"
+      },
+      {
+        "var": "--bbc-mid",
+        "value": "#887870",
+        "label": "Mid"
+      },
+      {
+        "var": "--bbc-light",
+        "value": "#c0b0a0",
+        "label": "Light"
+      },
+      {
+        "var": "--bbc-sky-dark",
+        "value": "#5888b0",
+        "label": "Sky Dark"
+      },
+      {
+        "var": "--bbc-sky",
+        "value": "#78a8c8",
+        "label": "Sky"
+      },
+      {
+        "var": "--bbc-sky-light",
+        "value": "#a8c8e0",
+        "label": "Sky Light"
+      },
+      {
+        "var": "--bbc-sky-pale",
+        "value": "#d0e4f0",
+        "label": "Sky Pale"
+      },
+      {
+        "var": "--bbc-skin-warm",
+        "value": "#e0a880",
+        "label": "Skin Warm"
+      },
+      {
+        "var": "--bbc-skin-light",
+        "value": "#f0d0b8",
+        "label": "Skin Light"
+      },
+      {
+        "var": "--bbc-highlight",
+        "value": "#f8f0e8",
+        "label": "Highlight"
+      },
+      {
+        "var": "--bbc-warm-dark",
+        "value": "#905030",
+        "label": "Warm Dark"
+      },
+      {
+        "var": "--bbc-warm",
+        "value": "#c07848",
+        "label": "Warm"
+      },
+      {
+        "var": "--bbc-warm-light",
+        "value": "#e8b870",
+        "label": "Warm Light"
+      },
+      {
+        "var": "--bbc-green-dark",
+        "value": "#304828",
+        "label": "Green Dark"
+      },
+      {
+        "var": "--bbc-green",
+        "value": "#507840",
+        "label": "Green"
+      },
+      {
+        "var": "--bbc-green-light",
+        "value": "#80a858",
+        "label": "Green Light"
+      },
+      {
+        "var": "--bbc-bridge-cool",
+        "value": "#6898a0",
+        "label": "Bridge Cool"
+      },
+      {
+        "var": "--bbc-bridge-warm",
+        "value": "#d09888",
+        "label": "Bridge Warm"
+      },
+      {
+        "var": "--bbc-cream",
+        "value": "#f0e8d8",
+        "label": "Cream"
+      },
+      {
+        "var": "--bbc-sea-mist",
+        "value": "#c8e0d8",
+        "label": "Sea Mist"
+      },
+      {
+        "var": "--bbc-warm-grey",
+        "value": "#7a6858",
+        "label": "Warm Grey"
+      },
+      {
+        "var": "--bbc-mauve",
+        "value": "#a07888",
+        "label": "Mauve"
+      },
+      {
+        "var": "--bbc-sage",
+        "value": "#3a5840",
+        "label": "Sage"
+      },
+      {
+        "var": "--bbc-apricot",
+        "value": "#f0c0a0",
+        "label": "Apricot"
+      },
+      {
+        "var": "--bbc-bg",
+        "value": "#070906",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#f0c0a0",
+      "glow": "rgba(240,192,160,0.4)",
+      "brand": "#78a8c8",
+      "brandGlow": "rgba(120,168,200,0.7)"
+    }
+  },
+  {
+    "name": "C.P. Rutledge",
+    "section": "archive-artist",
+    "bodyClass": "cpr-page",
+    "prefix": "cpr",
+    "file": "archive/by-artist/c-p-rutledge/cpr-shared.css",
+    "palette": [
+      {
+        "var": "--cpr-deep",
+        "value": "#5020a0",
+        "label": "Deep"
+      },
+      {
+        "var": "--cpr-surface",
+        "value": "#1a1840",
+        "label": "Surface"
+      },
+      {
+        "var": "--cpr-raised",
+        "value": "#2a2060",
+        "label": "Raised"
+      },
+      {
+        "var": "--cpr-red",
+        "value": "#f05a5a",
+        "label": "Red"
+      },
+      {
+        "var": "--cpr-yellow",
+        "value": "#f5c020",
+        "label": "Yellow"
+      },
+      {
+        "var": "--cpr-green",
+        "value": "#4ab86a",
+        "label": "Green"
+      },
+      {
+        "var": "--cpr-blue",
+        "value": "#68c8f0",
+        "label": "Blue"
+      },
+      {
+        "var": "--cpr-purple",
+        "value": "#9030b0",
+        "label": "Purple"
+      },
+      {
+        "var": "--cpr-teal",
+        "value": "#20b8a0",
+        "label": "Teal"
+      },
+      {
+        "var": "--cpr-orange",
+        "value": "#f09848",
+        "label": "Orange"
+      },
+      {
+        "var": "--cpr-cream",
+        "value": "#f5e8c0",
+        "label": "Cream"
+      },
+      {
+        "var": "--cpr-dark-red",
+        "value": "#a02020",
+        "label": "Dark Red"
+      },
+      {
+        "var": "--cpr-dark-yellow",
+        "value": "#c89010",
+        "label": "Dark Yellow"
+      },
+      {
+        "var": "--cpr-dark-green",
+        "value": "#2a8040",
+        "label": "Dark Green"
+      },
+      {
+        "var": "--cpr-dark-blue",
+        "value": "#2888c0",
+        "label": "Dark Blue"
+      },
+      {
+        "var": "--cpr-light-purple",
+        "value": "#c080e0",
+        "label": "Light Purple"
+      },
+      {
+        "var": "--cpr-light-green",
+        "value": "#90d8a8",
+        "label": "Light Green"
+      },
+      {
+        "var": "--cpr-warm-bridge",
+        "value": "#f07850",
+        "label": "Warm Bridge"
+      },
+      {
+        "var": "--cpr-bg",
+        "value": "#070612",
+        "label": "BG"
+      },
+      {
+        "var": "--cpr-heading",
+        "value": "#f5e8c0",
+        "label": "Heading"
+      },
+      {
+        "var": "--cpr-gold",
+        "value": "#f5c020",
+        "label": "Gold"
+      }
+    ],
+    "nav": {
+      "accent": "#f05a5a",
+      "glow": "rgba(240,90,90,0.4)",
+      "brand": "#f08080",
+      "brandGlow": "rgba(240,128,128,0.7)"
+    }
+  },
+  {
+    "name": "THLD",
+    "section": "archive-artist",
+    "bodyClass": "thld-page",
+    "prefix": "thld",
+    "file": "archive/by-artist/thld/thld-shared.css",
+    "palette": [
+      {
+        "var": "--thld-deep",
+        "value": "#1a1209",
+        "label": "Deep"
+      },
+      {
+        "var": "--thld-dark",
+        "value": "#2e1e0f",
+        "label": "Dark"
+      },
+      {
+        "var": "--thld-mid",
+        "value": "#4a2c10",
+        "label": "Mid"
+      },
+      {
+        "var": "--thld-mahogany",
+        "value": "#7a3a18",
+        "label": "Mahogany"
+      },
+      {
+        "var": "--thld-forest",
+        "value": "#3a3018",
+        "label": "Forest"
+      },
+      {
+        "var": "--thld-accent",
+        "value": "#c94b1a",
+        "label": "Accent"
+      },
+      {
+        "var": "--thld-cta",
+        "value": "#c8381a",
+        "label": "CTA"
+      },
+      {
+        "var": "--thld-ember",
+        "value": "#a02818",
+        "label": "Ember"
+      },
+      {
+        "var": "--thld-brick",
+        "value": "#8a2018",
+        "label": "Brick"
+      },
+      {
+        "var": "--thld-amber",
+        "value": "#e07a2f",
+        "label": "Amber"
+      },
+      {
+        "var": "--thld-apricot",
+        "value": "#f0a050",
+        "label": "Apricot"
+      },
+      {
+        "var": "--thld-honey",
+        "value": "#b07030",
+        "label": "Honey"
+      },
+      {
+        "var": "--thld-warm-brown",
+        "value": "#9a7a50",
+        "label": "Warm Brown"
+      },
+      {
+        "var": "--thld-muted",
+        "value": "#8a6040",
+        "label": "Muted"
+      },
+      {
+        "var": "--thld-teal",
+        "value": "#4a7068",
+        "label": "Teal"
+      },
+      {
+        "var": "--thld-olive",
+        "value": "#5a7840",
+        "label": "Olive"
+      },
+      {
+        "var": "--thld-olive-alt",
+        "value": "#6a8850",
+        "label": "Olive Alt"
+      },
+      {
+        "var": "--thld-purple",
+        "value": "#6a5878",
+        "label": "Purple"
+      },
+      {
+        "var": "--thld-text",
+        "value": "#d4b896",
+        "label": "Text"
+      },
+      {
+        "var": "--thld-highlight",
+        "value": "#f0c060",
+        "label": "Highlight"
+      },
+      {
+        "var": "--thld-cream",
+        "value": "#f8e4c0",
+        "label": "Cream"
+      },
+      {
+        "var": "--thld-pale-gold",
+        "value": "#f5d8a0",
+        "label": "Pale Gold"
+      },
+      {
+        "var": "--thld-offwhite",
+        "value": "#fdf5e8",
+        "label": "Offwhite"
+      },
+      {
+        "var": "--thld-bg",
+        "value": "#0e0905",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#c94b1a",
+      "glow": "rgba(201,75,26,0.4)",
+      "brand": "#f0c060",
+      "brandGlow": "rgba(240,192,96,0.7)"
+    }
+  },
+  {
+    "name": "Dag Henderson",
+    "section": "archive-artist",
+    "bodyClass": "dh-page",
+    "prefix": "dh",
+    "file": "archive/by-artist/dag-henderson/dh-shared.css",
+    "palette": [
+      {
+        "var": "--dh-deep",
+        "value": "#141a10",
+        "label": "Deep"
+      },
+      {
+        "var": "--dh-surface",
+        "value": "#1e2818",
+        "label": "Surface"
+      },
+      {
+        "var": "--dh-muted",
+        "value": "#3a3228",
+        "label": "Muted"
+      },
+      {
+        "var": "--dh-body",
+        "value": "#5a5048",
+        "label": "Body"
+      },
+      {
+        "var": "--dh-slate",
+        "value": "#607880",
+        "label": "Slate"
+      },
+      {
+        "var": "--dh-brand",
+        "value": "#3a5830",
+        "label": "Brand"
+      },
+      {
+        "var": "--dh-leaf",
+        "value": "#789060",
+        "label": "Leaf"
+      },
+      {
+        "var": "--dh-purple",
+        "value": "#7848a8",
+        "label": "Purple"
+      },
+      {
+        "var": "--dh-rust",
+        "value": "#c86010",
+        "label": "Rust"
+      },
+      {
+        "var": "--dh-amber",
+        "value": "#f0c060",
+        "label": "Amber"
+      },
+      {
+        "var": "--dh-violet-deep",
+        "value": "#3a1860",
+        "label": "Violet Deep"
+      },
+      {
+        "var": "--dh-violet-mid",
+        "value": "#7848a8",
+        "label": "Violet Mid"
+      },
+      {
+        "var": "--dh-violet-light",
+        "value": "#a880d0",
+        "label": "Violet Light"
+      },
+      {
+        "var": "--dh-sage",
+        "value": "#a8b890",
+        "label": "Sage"
+      },
+      {
+        "var": "--dh-steel",
+        "value": "#607880",
+        "label": "Steel"
+      },
+      {
+        "var": "--dh-mist",
+        "value": "#a0b0a8",
+        "label": "Mist"
+      },
+      {
+        "var": "--dh-rust-dark",
+        "value": "#7a3010",
+        "label": "Rust Dark"
+      },
+      {
+        "var": "--dh-amber-glow",
+        "value": "#e8900a",
+        "label": "Amber Glow"
+      },
+      {
+        "var": "--dh-gold",
+        "value": "#f8d888",
+        "label": "Gold"
+      },
+      {
+        "var": "--dh-tan",
+        "value": "#807060",
+        "label": "Tan"
+      },
+      {
+        "var": "--dh-white",
+        "value": "#f0ece0",
+        "label": "White"
+      },
+      {
+        "var": "--dh-bg",
+        "value": "#080a06",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#3a5830",
+      "glow": "rgba(58,88,48,0.4)",
+      "brand": "#f0c060",
+      "brandGlow": "rgba(240,192,96,0.7)"
+    }
+  },
+  {
+    "name": "Jon McCoy",
+    "section": "archive-artist",
+    "bodyClass": "jm-page",
+    "prefix": "jm",
+    "file": "archive/by-artist/jon-mccoy/jm-shared.css",
+    "palette": [
+      {
+        "var": "--jm-bg",
+        "value": "#484e58",
+        "label": "BG"
+      },
+      {
+        "var": "--jm-surface",
+        "value": "#2e3540",
+        "label": "Surface"
+      },
+      {
+        "var": "--jm-raised",
+        "value": "#2e3038",
+        "label": "Raised"
+      },
+      {
+        "var": "--jm-body",
+        "value": "#7080a0",
+        "label": "Body"
+      },
+      {
+        "var": "--jm-muted",
+        "value": "#8a9aaa",
+        "label": "Muted"
+      },
+      {
+        "var": "--jm-heading",
+        "value": "#b8c4cc",
+        "label": "Heading"
+      },
+      {
+        "var": "--jm-taupe",
+        "value": "#a89880",
+        "label": "Taupe"
+      },
+      {
+        "var": "--jm-sand",
+        "value": "#c8b8a0",
+        "label": "Sand"
+      },
+      {
+        "var": "--jm-cream",
+        "value": "#e8ddd0",
+        "label": "Cream"
+      },
+      {
+        "var": "--jm-sage",
+        "value": "#7a9080",
+        "label": "Sage"
+      },
+      {
+        "var": "--jm-rose",
+        "value": "#b89898",
+        "label": "Rose"
+      },
+      {
+        "var": "--jm-ice",
+        "value": "#d0d8e0",
+        "label": "Ice"
+      },
+      {
+        "var": "--jm-deep-cool",
+        "value": "#383e48",
+        "label": "Deep Cool"
+      },
+      {
+        "var": "--jm-mid-cool",
+        "value": "#6070a0",
+        "label": "Mid Cool"
+      },
+      {
+        "var": "--jm-light-cool",
+        "value": "#c0ccd8",
+        "label": "Light Cool"
+      },
+      {
+        "var": "--jm-deep-warm",
+        "value": "#786050",
+        "label": "Deep Warm"
+      },
+      {
+        "var": "--jm-pale-warm",
+        "value": "#f0e8d8",
+        "label": "Pale Warm"
+      },
+      {
+        "var": "--jm-deep-sage",
+        "value": "#587868",
+        "label": "Deep Sage"
+      },
+      {
+        "var": "--jm-muted-rose",
+        "value": "#c8a8a8",
+        "label": "Muted Rose"
+      },
+      {
+        "var": "--jm-blue-grey",
+        "value": "#6a7088",
+        "label": "Blue Grey"
+      },
+      {
+        "var": "--jm-near-white",
+        "value": "#f5f0ec",
+        "label": "Near White"
+      },
+      {
+        "var": "--jm-periwinkle",
+        "value": "#9090b8",
+        "label": "Periwinkle"
+      },
+      {
+        "var": "--jm-pale-sage",
+        "value": "#b0c8b8",
+        "label": "Pale Sage"
+      },
+      {
+        "var": "--jm-dusty-plum",
+        "value": "#786878",
+        "label": "Dusty Plum"
+      },
+      {
+        "var": "--jm-near-black",
+        "value": "#0e1014",
+        "label": "Near Black"
+      }
+    ],
+    "nav": {
+      "accent": "#7a9080",
+      "glow": "rgba(122,144,128,0.4)",
+      "brand": "#b89898",
+      "brandGlow": "rgba(184,152,152,0.7)"
+    }
+  },
+  {
+    "name": "Melrose House",
+    "section": "archive-place",
+    "bodyClass": "mh-page",
+    "prefix": "mh",
+    "file": "archive/by-place/melrose-house/mh-shared.css",
+    "palette": [
+      {
+        "var": "--mh-deep",
+        "value": "#6a6e78",
+        "label": "Deep"
+      },
+      {
+        "var": "--mh-surface",
+        "value": "#786858",
+        "label": "Surface"
+      },
+      {
+        "var": "--mh-bread",
+        "value": "#3e4048",
+        "label": "Bread"
+      },
+      {
+        "var": "--mh-muted",
+        "value": "#9080a0",
+        "label": "Muted"
+      },
+      {
+        "var": "--mh-light",
+        "value": "#a0b0c8",
+        "label": "Light"
+      },
+      {
+        "var": "--mh-cream",
+        "value": "#c8d4e0",
+        "label": "Cream"
+      },
+      {
+        "var": "--mh-coral",
+        "value": "#c87878",
+        "label": "Coral"
+      },
+      {
+        "var": "--mh-peach",
+        "value": "#e8a090",
+        "label": "Peach"
+      },
+      {
+        "var": "--mh-pale",
+        "value": "#f0c8c0",
+        "label": "Pale"
+      },
+      {
+        "var": "--mh-gold",
+        "value": "#d4a060",
+        "label": "Gold"
+      },
+      {
+        "var": "--mh-brand",
+        "value": "#6878a0",
+        "label": "Brand"
+      },
+      {
+        "var": "--mh-sage",
+        "value": "#7ab8a0",
+        "label": "Sage"
+      },
+      {
+        "var": "--mh-lavender",
+        "value": "#c8a8d0",
+        "label": "Lavender"
+      },
+      {
+        "var": "--mh-sage2",
+        "value": "#a8c0a0",
+        "label": "Sage 2"
+      },
+      {
+        "var": "--mh-amber",
+        "value": "#e8b870",
+        "label": "Amber"
+      },
+      {
+        "var": "--mh-slate",
+        "value": "#5a6890",
+        "label": "Slate"
+      },
+      {
+        "var": "--mh-dark",
+        "value": "#2a2c30",
+        "label": "Dark"
+      },
+      {
+        "var": "--mh-bg",
+        "value": "#0c0d0f",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#6878a0",
+      "glow": "rgba(104,120,160,0.4)",
+      "brand": "#d4a060",
+      "brandGlow": "rgba(212,160,96,0.7)"
+    }
+  },
+  {
+    "name": "Twin Maples",
+    "section": "archive-place",
+    "bodyClass": "tm-page",
+    "prefix": "tm",
+    "file": "archive/by-place/twin-maples/tm-shared.css",
+    "palette": [
+      {
+        "var": "--tm-deep",
+        "value": "#1e2420",
+        "label": "Deep"
+      },
+      {
+        "var": "--tm-dark",
+        "value": "#283028",
+        "label": "Dark"
+      },
+      {
+        "var": "--tm-surface",
+        "value": "#3a4a38",
+        "label": "Surface"
+      },
+      {
+        "var": "--tm-muted",
+        "value": "#6a7868",
+        "label": "Muted"
+      },
+      {
+        "var": "--tm-light",
+        "value": "#98a888",
+        "label": "Light"
+      },
+      {
+        "var": "--tm-cream",
+        "value": "#d4d8c8",
+        "label": "Cream"
+      },
+      {
+        "var": "--tm-heading",
+        "value": "#d4b898",
+        "label": "Heading"
+      },
+      {
+        "var": "--tm-body",
+        "value": "#b8b098",
+        "label": "Body"
+      },
+      {
+        "var": "--tm-brand",
+        "value": "#4a6858",
+        "label": "Brand"
+      },
+      {
+        "var": "--tm-accent",
+        "value": "#c07848",
+        "label": "Accent"
+      },
+      {
+        "var": "--tm-warm",
+        "value": "#d4b870",
+        "label": "Warm"
+      },
+      {
+        "var": "--tm-sage",
+        "value": "#7ab0c0",
+        "label": "Sage"
+      },
+      {
+        "var": "--tm-wheat",
+        "value": "#d4b898",
+        "label": "Wheat"
+      },
+      {
+        "var": "--tm-leaf",
+        "value": "#8a9878",
+        "label": "Leaf"
+      },
+      {
+        "var": "--tm-bright",
+        "value": "#e8c870",
+        "label": "Bright"
+      },
+      {
+        "var": "--tm-bg",
+        "value": "#0c0f0d",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#4a6858",
+      "glow": "rgba(74,104,88,0.4)",
+      "brand": "#d4b870",
+      "brandGlow": "rgba(212,184,112,0.7)"
+    }
+  },
+  {
+    "name": "College Green Apt.",
+    "section": "archive-place",
+    "bodyClass": "cg-page",
+    "prefix": "cg",
+    "file": "archive/by-place/college-green-apt/cg-shared.css",
+    "palette": [
+      {
+        "var": "--cg-deep",
+        "value": "#382e28",
+        "label": "Deep"
+      },
+      {
+        "var": "--cg-dark",
+        "value": "#504438",
+        "label": "Dark"
+      },
+      {
+        "var": "--cg-surface",
+        "value": "#a09080",
+        "label": "Surface"
+      },
+      {
+        "var": "--cg-muted",
+        "value": "#a09080",
+        "label": "Muted"
+      },
+      {
+        "var": "--cg-light",
+        "value": "#c8bea8",
+        "label": "Light"
+      },
+      {
+        "var": "--cg-cream",
+        "value": "#e8e0cc",
+        "label": "Cream"
+      },
+      {
+        "var": "--cg-white",
+        "value": "#f8f4e8",
+        "label": "White"
+      },
+      {
+        "var": "--cg-green",
+        "value": "#607850",
+        "label": "Green"
+      },
+      {
+        "var": "--cg-cta",
+        "value": "#c07838",
+        "label": "CTA"
+      },
+      {
+        "var": "--cg-heading",
+        "value": "#8878a8",
+        "label": "Heading"
+      },
+      {
+        "var": "--cg-nature",
+        "value": "#607850",
+        "label": "Nature"
+      },
+      {
+        "var": "--cg-warm",
+        "value": "#c07838",
+        "label": "Warm"
+      },
+      {
+        "var": "--cg-cool",
+        "value": "#8878a8",
+        "label": "Cool"
+      },
+      {
+        "var": "--cg-sage",
+        "value": "#b8a0c8",
+        "label": "Sage"
+      },
+      {
+        "var": "--cg-deep2",
+        "value": "#4a6838",
+        "label": "Deep 2"
+      },
+      {
+        "var": "--cg-gold",
+        "value": "#e8a858",
+        "label": "Gold"
+      },
+      {
+        "var": "--cg-lavender",
+        "value": "#b8a0c8",
+        "label": "Lavender"
+      },
+      {
+        "var": "--cg-taupe",
+        "value": "#6a5840",
+        "label": "Taupe"
+      },
+      {
+        "var": "--cg-bluegrey",
+        "value": "#384858",
+        "label": "Bluegrey"
+      },
+      {
+        "var": "--cg-bg",
+        "value": "#0e0c0a",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#c07838",
+      "glow": "rgba(192,120,56,0.4)",
+      "brand": "#d8a068",
+      "brandGlow": "rgba(216,160,104,0.7)"
+    }
+  },
+  {
+    "name": "Marvin Gardens G12",
+    "section": "archive-place",
+    "bodyClass": "mg-page",
+    "prefix": "mg",
+    "file": "archive/by-place/marvin-gardens-g12/mg-shared.css",
+    "palette": [
+      {
+        "var": "--mg-deep",
+        "value": "#283828",
+        "label": "Deep"
+      },
+      {
+        "var": "--mg-dark",
+        "value": "#382848",
+        "label": "Dark"
+      },
+      {
+        "var": "--mg-surface",
+        "value": "#4a2830",
+        "label": "Surface"
+      },
+      {
+        "var": "--mg-muted",
+        "value": "#7848a0",
+        "label": "Muted"
+      },
+      {
+        "var": "--mg-light",
+        "value": "#d880c0",
+        "label": "Light"
+      },
+      {
+        "var": "--mg-cream",
+        "value": "#f080a0",
+        "label": "Cream"
+      },
+      {
+        "var": "--mg-brand",
+        "value": "#a02858",
+        "label": "Brand"
+      },
+      {
+        "var": "--mg-accent",
+        "value": "#d04878",
+        "label": "Accent"
+      },
+      {
+        "var": "--mg-cta",
+        "value": "#c87830",
+        "label": "CTA"
+      },
+      {
+        "var": "--mg-heading",
+        "value": "#e8c060",
+        "label": "Heading"
+      },
+      {
+        "var": "--mg-body",
+        "value": "#c8a868",
+        "label": "Body"
+      },
+      {
+        "var": "--mg-green",
+        "value": "#388040",
+        "label": "Green"
+      },
+      {
+        "var": "--mg-leaf",
+        "value": "#60b858",
+        "label": "Leaf"
+      },
+      {
+        "var": "--mg-sage",
+        "value": "#60a8c0",
+        "label": "Sage"
+      },
+      {
+        "var": "--mg-offwhite",
+        "value": "#f8f0f8",
+        "label": "Offwhite"
+      },
+      {
+        "var": "--mg-near-black",
+        "value": "#0c0a12",
+        "label": "Near Black"
+      }
+    ],
+    "nav": {
+      "accent": "#a02858",
+      "glow": "rgba(160,40,88,0.4)",
+      "brand": "#d04878",
+      "brandGlow": "rgba(208,72,120,0.7)"
+    }
+  },
+  {
+    "name": "Green Street Apt.",
+    "section": "archive-place",
+    "bodyClass": "gs-page",
+    "prefix": "gs",
+    "file": "archive/by-place/green-street-apt/gs-shared.css",
+    "palette": [
+      {
+        "var": "--gs-deep",
+        "value": "#382e28",
+        "label": "Deep"
+      },
+      {
+        "var": "--gs-dark",
+        "value": "#504438",
+        "label": "Dark"
+      },
+      {
+        "var": "--gs-surface",
+        "value": "#786858",
+        "label": "Surface"
+      },
+      {
+        "var": "--gs-muted",
+        "value": "#a09080",
+        "label": "Muted"
+      },
+      {
+        "var": "--gs-light",
+        "value": "#c8bea8",
+        "label": "Light"
+      },
+      {
+        "var": "--gs-cream",
+        "value": "#e8e0cc",
+        "label": "Cream"
+      },
+      {
+        "var": "--gs-heading",
+        "value": "#f8f4e8",
+        "label": "Heading"
+      },
+      {
+        "var": "--gs-body",
+        "value": "#c8a878",
+        "label": "Body"
+      },
+      {
+        "var": "--gs-brand",
+        "value": "#7888a8",
+        "label": "Brand"
+      },
+      {
+        "var": "--gs-accent",
+        "value": "#c07838",
+        "label": "Accent"
+      },
+      {
+        "var": "--gs-green",
+        "value": "#607850",
+        "label": "Green"
+      },
+      {
+        "var": "--gs-leaf",
+        "value": "#485840",
+        "label": "Leaf"
+      },
+      {
+        "var": "--gs-warm",
+        "value": "#e8c8a0",
+        "label": "Warm"
+      },
+      {
+        "var": "--gs-rose",
+        "value": "#704858",
+        "label": "Rose"
+      },
+      {
+        "var": "--gs-sage",
+        "value": "#8878a8",
+        "label": "Sage"
+      },
+      {
+        "var": "--gs-bg",
+        "value": "#0e0c0a",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#7888a8",
+      "glow": "rgba(120,136,168,0.4)",
+      "brand": "#a0b0c8",
+      "brandGlow": "rgba(160,176,200,0.7)"
+    }
+  },
+  {
+    "name": "Irvin House",
+    "section": "archive-place",
+    "bodyClass": "ih-page",
+    "prefix": "ih",
+    "file": "archive/by-place/irvin-house/ih-shared.css",
+    "palette": [
+      {
+        "var": "--ih-deep",
+        "value": "#4a5058",
+        "label": "Deep"
+      },
+      {
+        "var": "--ih-dark",
+        "value": "#6a7278",
+        "label": "Dark"
+      },
+      {
+        "var": "--ih-muted",
+        "value": "#9098a0",
+        "label": "Muted"
+      },
+      {
+        "var": "--ih-light",
+        "value": "#b8c8d8",
+        "label": "Light"
+      },
+      {
+        "var": "--ih-cream",
+        "value": "#dce8f0",
+        "label": "Cream"
+      },
+      {
+        "var": "--ih-brand",
+        "value": "#7090b8",
+        "label": "Brand"
+      },
+      {
+        "var": "--ih-accent",
+        "value": "#80b8c8",
+        "label": "Accent"
+      },
+      {
+        "var": "--ih-green",
+        "value": "#608850",
+        "label": "Green"
+      },
+      {
+        "var": "--ih-cta",
+        "value": "#a86848",
+        "label": "CTA"
+      },
+      {
+        "var": "--ih-heading",
+        "value": "#c8b890",
+        "label": "Heading"
+      },
+      {
+        "var": "--ih-body",
+        "value": "#907060",
+        "label": "Body"
+      },
+      {
+        "var": "--ih-leaf",
+        "value": "#4a7858",
+        "label": "Leaf"
+      },
+      {
+        "var": "--ih-warm",
+        "value": "#d4906a",
+        "label": "Warm"
+      },
+      {
+        "var": "--ih-sage",
+        "value": "#8888b0",
+        "label": "Sage"
+      },
+      {
+        "var": "--ih-wheat",
+        "value": "#b8d0b0",
+        "label": "Wheat"
+      },
+      {
+        "var": "--ih-bg",
+        "value": "#0c0e10",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#7090b8",
+      "glow": "rgba(112,144,184,0.4)",
+      "brand": "#80b8c8",
+      "brandGlow": "rgba(128,184,200,0.7)"
+    }
+  },
+  {
+    "name": "The Tuna Can",
+    "section": "archive-place",
+    "bodyClass": "tc-page",
+    "prefix": "tc",
+    "file": "archive/by-place/the-tuna-can/tc-shared.css",
+    "palette": [
+      {
+        "var": "--tc-brand",
+        "value": "#6a5018",
+        "label": "Brand"
+      },
+      {
+        "var": "--tc-amber",
+        "value": "#b87828",
+        "label": "Amber"
+      },
+      {
+        "var": "--tc-bright",
+        "value": "#e8c870",
+        "label": "Bright"
+      },
+      {
+        "var": "--tc-heading",
+        "value": "#e8d890",
+        "label": "Heading"
+      },
+      {
+        "var": "--tc-body",
+        "value": "#c8c0a0",
+        "label": "Body"
+      },
+      {
+        "var": "--tc-deep",
+        "value": "#2e2c20",
+        "label": "Deep"
+      },
+      {
+        "var": "--tc-dark",
+        "value": "#1e1c14",
+        "label": "Dark"
+      },
+      {
+        "var": "--tc-mid",
+        "value": "#3a3828",
+        "label": "Mid"
+      },
+      {
+        "var": "--tc-muted",
+        "value": "#787060",
+        "label": "Muted"
+      },
+      {
+        "var": "--tc-cream",
+        "value": "#e8d890",
+        "label": "Cream"
+      },
+      {
+        "var": "--tc-gold",
+        "value": "#c8a040",
+        "label": "Gold"
+      },
+      {
+        "var": "--tc-red",
+        "value": "#a83840",
+        "label": "Red"
+      },
+      {
+        "var": "--tc-green",
+        "value": "#507840",
+        "label": "Green"
+      },
+      {
+        "var": "--tc-olive",
+        "value": "#3d4a30",
+        "label": "Olive"
+      },
+      {
+        "var": "--tc-terra",
+        "value": "#8a4a30",
+        "label": "Terra"
+      },
+      {
+        "var": "--tc-wheat",
+        "value": "#d4b880",
+        "label": "Wheat"
+      },
+      {
+        "var": "--tc-copper",
+        "value": "#c0784a",
+        "label": "Copper"
+      },
+      {
+        "var": "--tc-khaki",
+        "value": "#a8a870",
+        "label": "Khaki"
+      },
+      {
+        "var": "--tc-offwhite",
+        "value": "#f5f0e0",
+        "label": "Offwhite"
+      },
+      {
+        "var": "--tc-bg",
+        "value": "#0e0d09",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#b87828",
+      "glow": "rgba(184,120,40,0.4)",
+      "brand": "#d0a050",
+      "brandGlow": "rgba(208,160,80,0.7)"
+    }
+  },
+  {
+    "name": "Frogwood Manor",
+    "section": "archive-place",
+    "bodyClass": "fm-page",
+    "prefix": "fm",
+    "file": "archive/by-place/frogwood-manor/fm-shared.css",
+    "palette": [
+      {
+        "var": "--fm-deep",
+        "value": "#382820",
+        "label": "Deep"
+      },
+      {
+        "var": "--fm-dark",
+        "value": "#301828",
+        "label": "Dark"
+      },
+      {
+        "var": "--fm-surface",
+        "value": "#2a2a50",
+        "label": "Surface"
+      },
+      {
+        "var": "--fm-muted",
+        "value": "#9888a0",
+        "label": "Muted"
+      },
+      {
+        "var": "--fm-light",
+        "value": "#f8d888",
+        "label": "Light"
+      },
+      {
+        "var": "--fm-cream",
+        "value": "#f8e8d8",
+        "label": "Cream"
+      },
+      {
+        "var": "--fm-cobalt",
+        "value": "#4080f0",
+        "label": "Cobalt"
+      },
+      {
+        "var": "--fm-brand",
+        "value": "#a85a18",
+        "label": "Brand"
+      },
+      {
+        "var": "--fm-amber",
+        "value": "#e8a040",
+        "label": "Amber"
+      },
+      {
+        "var": "--fm-sky",
+        "value": "#6080e8",
+        "label": "Sky"
+      },
+      {
+        "var": "--fm-violet",
+        "value": "#a030c8",
+        "label": "Violet"
+      },
+      {
+        "var": "--fm-sage",
+        "value": "#6a9878",
+        "label": "Sage"
+      },
+      {
+        "var": "--fm-pink",
+        "value": "#f040a0",
+        "label": "Pink"
+      },
+      {
+        "var": "--fm-pink-light",
+        "value": "#e860c0",
+        "label": "Pink Light"
+      },
+      {
+        "var": "--fm-rose",
+        "value": "#c02070",
+        "label": "Rose"
+      },
+      {
+        "var": "--fm-lilac",
+        "value": "#c8a0d8",
+        "label": "Lilac"
+      },
+      {
+        "var": "--fm-plum",
+        "value": "#281838",
+        "label": "Plum"
+      },
+      {
+        "var": "--fm-peach",
+        "value": "#f0b060",
+        "label": "Peach"
+      },
+      {
+        "var": "--fm-bg",
+        "value": "#0c0810",
+        "label": "BG"
+      }
+    ],
+    "nav": {
+      "accent": "#a85a18",
+      "glow": "rgba(168,90,24,0.4)",
+      "brand": "#d08838",
+      "brandGlow": "rgba(208,136,56,0.7)"
+    }
+  },
+  {
+    "name": "George Boole: Game Boy",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "gameboy",
+    "palette": [
+      {
+        "var": "bg",
+        "value": "#0f380f",
+        "label": "BG Dark"
+      },
+      {
+        "var": "bg-light",
+        "value": "#306230",
+        "label": "BG Light"
+      },
+      {
+        "var": "accent",
+        "value": "#9bbc0f",
+        "label": "Accent"
+      },
+      {
+        "var": "text",
+        "value": "#9bbc0f",
+        "label": "Text"
+      }
+    ],
+    "nav": {
+      "accent": "#9bbc0f",
+      "glow": "rgba(155,188,15,0.4)",
+      "brand": "#9bbc0f",
+      "brandGlow": "rgba(155,188,15,0.7)"
+    }
+  },
+  {
+    "name": "George Boole: NES",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "nes",
+    "palette": [
+      {
+        "var": "bg",
+        "value": "#2a2a4a",
+        "label": "BG"
+      },
+      {
+        "var": "bg-light",
+        "value": "#3a3a6a",
+        "label": "BG Light"
+      },
+      {
+        "var": "accent",
+        "value": "#ff6347",
+        "label": "Accent"
+      },
+      {
+        "var": "gold",
+        "value": "#ffd700",
+        "label": "Gold"
+      },
+      {
+        "var": "blue",
+        "value": "#4169e1",
+        "label": "Blue"
+      }
+    ],
+    "nav": {
+      "accent": "#ff6347",
+      "glow": "rgba(255,99,71,0.4)",
+      "brand": "#ffd700",
+      "brandGlow": "rgba(255,215,0,0.7)"
+    }
+  },
+  {
+    "name": "George Boole: SNES",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "snes",
+    "palette": [
+      {
+        "var": "bg",
+        "value": "#0f0f1e",
+        "label": "BG"
+      },
+      {
+        "var": "bg-light",
+        "value": "#1a1a3e",
+        "label": "BG Light"
+      },
+      {
+        "var": "accent",
+        "value": "#8a2be2",
+        "label": "Accent"
+      },
+      {
+        "var": "text",
+        "value": "#e0e0ff",
+        "label": "Text"
+      }
+    ],
+    "nav": {
+      "accent": "#8a2be2",
+      "glow": "rgba(138,43,226,0.4)",
+      "brand": "#8a2be2",
+      "brandGlow": "rgba(138,43,226,0.7)"
+    }
+  },
+  {
+    "name": "George Boole: Genesis",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "genesis",
+    "palette": [
+      {
+        "var": "bg",
+        "value": "#001a33",
+        "label": "BG"
+      },
+      {
+        "var": "bg-light",
+        "value": "#003366",
+        "label": "BG Light"
+      },
+      {
+        "var": "accent",
+        "value": "#ffd700",
+        "label": "Accent"
+      },
+      {
+        "var": "blue",
+        "value": "#4169e1",
+        "label": "Blue"
+      }
+    ],
+    "nav": {
+      "accent": "#ffd700",
+      "glow": "rgba(255,215,0,0.4)",
+      "brand": "#ffd700",
+      "brandGlow": "rgba(255,215,0,0.7)"
+    }
+  },
+  {
+    "name": "George Boole: Arcade",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "arcade",
+    "palette": [
+      {
+        "var": "bg",
+        "value": "#1a0800",
+        "label": "BG"
+      },
+      {
+        "var": "bg-light",
+        "value": "#331000",
+        "label": "BG Light"
+      },
+      {
+        "var": "accent",
+        "value": "#ffa500",
+        "label": "Accent"
+      },
+      {
+        "var": "red",
+        "value": "#cc2200",
+        "label": "Red"
+      }
+    ],
+    "nav": {
+      "accent": "#ffa500",
+      "glow": "rgba(255,165,0,0.4)",
+      "brand": "#ffa500",
+      "brandGlow": "rgba(255,165,0,0.7)"
+    }
+  },
+  {
+    "name": "George Boole: Neo Geo",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "neogeo",
+    "palette": [
+      {
+        "var": "bg",
+        "value": "#1a0020",
+        "label": "BG"
+      },
+      {
+        "var": "bg-light",
+        "value": "#2a0040",
+        "label": "BG Light"
+      },
+      {
+        "var": "accent",
+        "value": "#ff1493",
+        "label": "Accent"
+      },
+      {
+        "var": "purple",
+        "value": "#9400d3",
+        "label": "Purple"
+      },
+      {
+        "var": "cyan",
+        "value": "#00ffff",
+        "label": "Cyan"
+      }
+    ],
+    "nav": {
+      "accent": "#ff1493",
+      "glow": "rgba(255,20,147,0.4)",
+      "brand": "#00ffff",
+      "brandGlow": "rgba(0,255,255,0.7)"
+    }
+  },
+  {
+    "name": "George Boole: PS1",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "ps1",
+    "palette": [
+      {
+        "var": "bg",
+        "value": "#1a1a1a",
+        "label": "BG"
+      },
+      {
+        "var": "bg-light",
+        "value": "#2d2d2d",
+        "label": "BG Light"
+      },
+      {
+        "var": "accent",
+        "value": "#ffd700",
+        "label": "Accent"
+      },
+      {
+        "var": "silver",
+        "value": "#c0c0c0",
+        "label": "Silver"
+      }
+    ],
+    "nav": {
+      "accent": "#ffd700",
+      "glow": "rgba(255,215,0,0.4)",
+      "brand": "#c0c0c0",
+      "brandGlow": "rgba(192,192,192,0.7)"
+    }
+  },
+  {
+    "name": "George Boole: Matrix",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "matrix",
+    "palette": [
+      {
+        "var": "bg",
+        "value": "#000000",
+        "label": "BG"
+      },
+      {
+        "var": "bg-light",
+        "value": "#001a00",
+        "label": "BG Light"
+      },
+      {
+        "var": "accent",
+        "value": "#00ff00",
+        "label": "Accent"
+      }
+    ],
+    "nav": {
+      "accent": "#00ff00",
+      "glow": "rgba(0,255,0,0.4)",
+      "brand": "#00ff00",
+      "brandGlow": "rgba(0,255,0,0.7)"
+    }
+  },
+  {
+    "name": "Parchisi",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": "pc",
+    "file": "arcade/parchisi/css/base.css",
+    "palette": [
+      {
+        "var": "--pc-bg",
+        "value": "#1a0a0a",
+        "label": "BG"
+      },
+      {
+        "var": "--pc-bg-light",
+        "value": "#2a1210",
+        "label": "BG Light"
+      },
+      {
+        "var": "--pc-text",
+        "value": "#f0ead8",
+        "label": "Text"
+      },
+      {
+        "var": "--pc-text-dim",
+        "value": "#a88a7f",
+        "label": "Text Dim"
+      },
+      {
+        "var": "--pc-border",
+        "value": "#5c3a2d",
+        "label": "Border"
+      },
+      {
+        "var": "--pc-accent",
+        "value": "#F1BF00",
+        "label": "Accent"
+      },
+      {
+        "var": "--slot-red",
+        "value": "#AA151B",
+        "label": "Slot Red"
+      },
+      {
+        "var": "--slot-blue",
+        "value": "#4059c8",
+        "label": "Slot Blue"
+      },
+      {
+        "var": "--slot-green",
+        "value": "#39d353",
+        "label": "Slot Green"
+      },
+      {
+        "var": "--slot-yellow",
+        "value": "#F1BF00",
+        "label": "Slot Yellow"
+      }
+    ],
+    "nav": {
+      "accent": "#F1BF00",
+      "glow": "rgba(241,191,0,0.4)",
+      "brand": "#F1BF00",
+      "brandGlow": "rgba(241,191,0,0.7)"
+    }
+  },
+  {
+    "name": "Aggravation",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": "ag",
+    "file": "arcade/aggravation/css/base.css",
+    "palette": [
+      {
+        "var": "--ag-bg",
+        "value": "#0a0612",
+        "label": "BG"
+      },
+      {
+        "var": "--ag-bg-light",
+        "value": "#150b29",
+        "label": "BG Light"
+      },
+      {
+        "var": "--ag-text",
+        "value": "#f0ead8",
+        "label": "Text"
+      },
+      {
+        "var": "--ag-text-dim",
+        "value": "#8a7fa8",
+        "label": "Text Dim"
+      },
+      {
+        "var": "--ag-border",
+        "value": "#3a2d5c",
+        "label": "Border"
+      },
+      {
+        "var": "--ag-accent",
+        "value": "#ffe03a",
+        "label": "Accent"
+      },
+      {
+        "var": "--slot-red",
+        "value": "#ff3d6e",
+        "label": "Slot Red"
+      },
+      {
+        "var": "--slot-blue",
+        "value": "#00f5ff",
+        "label": "Slot Blue"
+      },
+      {
+        "var": "--slot-green",
+        "value": "#39ff6e",
+        "label": "Slot Green"
+      },
+      {
+        "var": "--slot-yellow",
+        "value": "#ffe03a",
+        "label": "Slot Yellow"
+      },
+      {
+        "var": "--slot-purple",
+        "value": "#c45fff",
+        "label": "Slot Purple"
+      },
+      {
+        "var": "--slot-orange",
+        "value": "#ff7c1f",
+        "label": "Slot Orange"
+      }
+    ],
+    "nav": {
+      "accent": "#ffe03a",
+      "glow": "rgba(255,224,58,0.4)",
+      "brand": "#ffe03a",
+      "brandGlow": "rgba(255,224,58,0.7)"
+    }
+  },
+  {
+    "name": "Arcade Index",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/index.html",
+    "palette": [],
+    "nav": {
+      "accent": "#ff2e9c",
+      "glow": "rgba(255,46,156,0.4)",
+      "brand": "#ff2e9c",
+      "brandGlow": "rgba(255,46,156,0.7)"
+    }
+  },
+  {
+    "name": "Arcade: Action",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/action/index.html",
+    "palette": [],
+    "nav": {
+      "accent": "#ff2e9c",
+      "glow": "rgba(255,46,156,0.4)",
+      "brand": "#ff2e9c",
+      "brandGlow": "rgba(255,46,156,0.7)"
+    }
+  },
+  {
+    "name": "Arcade: Card Games",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/card-games/index.html",
+    "palette": [],
+    "nav": {
+      "accent": "#39ff6e",
+      "glow": "rgba(57,255,110,0.4)",
+      "brand": "#39ff6e",
+      "brandGlow": "rgba(57,255,110,0.7)"
+    }
+  },
+  {
+    "name": "Arcade: Board Games",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/board-games/index.html",
+    "palette": [],
+    "nav": {
+      "accent": "#00f5ff",
+      "glow": "rgba(0,245,255,0.4)",
+      "brand": "#00f5ff",
+      "brandGlow": "rgba(0,245,255,0.7)"
+    }
+  },
+  {
+    "name": "Arcade: Puzzles",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/puzzles/index.html",
+    "palette": [],
+    "nav": {
+      "accent": "#ffe03a",
+      "glow": "rgba(255,224,58,0.4)",
+      "brand": "#ffe03a",
+      "brandGlow": "rgba(255,224,58,0.7)"
+    }
+  },
+  {
+    "name": "Arcade: Server",
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/server.html",
+    "palette": [],
+    "nav": {
+      "accent": "#ff2e9c",
+      "glow": "rgba(255,46,156,0.4)",
+      "brand": "#ff2e9c",
+      "brandGlow": "rgba(255,46,156,0.7)"
+    }
+  },
+  {
+    "name": "American Spirit",
+    "section": "music",
+    "bodyClass": null,
+    "prefix": "as",
+    "file": "music/physical-media/floppy-disk/iou-american-spirits/index.html",
+    "palette": [
+      {
+        "var": "--as-cerulean",
+        "value": "#5B9DB8",
+        "label": "Cerulean"
+      },
+      {
+        "var": "--as-sky",
+        "value": "#7BBDD4",
+        "label": "Sky"
+      },
+      {
+        "var": "--as-pale-sky",
+        "value": "#A8CDD8",
+        "label": "Pale Sky"
+      },
+      {
+        "var": "--as-mist",
+        "value": "#D0E8F0",
+        "label": "Mist"
+      },
+      {
+        "var": "--as-deep",
+        "value": "#2E6A88",
+        "label": "Deep"
+      },
+      {
+        "var": "--as-midnight",
+        "value": "#1A3D52",
+        "label": "Midnight"
+      },
+      {
+        "var": "--as-kraft",
+        "value": "#C8A87A",
+        "label": "Kraft"
+      },
+      {
+        "var": "--as-tan",
+        "value": "#DEC098",
+        "label": "Tan"
+      },
+      {
+        "var": "--as-parchment",
+        "value": "#EEE0C8",
+        "label": "Parchment"
+      },
+      {
+        "var": "--as-linen",
+        "value": "#F5EDE0",
+        "label": "Linen"
+      },
+      {
+        "var": "--as-tobacco",
+        "value": "#8A6A3A",
+        "label": "Tobacco"
+      },
+      {
+        "var": "--as-dark-brown",
+        "value": "#3A2810",
+        "label": "Dark Brown"
+      },
+      {
+        "var": "--as-white",
+        "value": "#F8F4EE",
+        "label": "White"
+      },
+      {
+        "var": "--as-off-white",
+        "value": "#EDE8E0",
+        "label": "Off White"
+      },
+      {
+        "var": "--as-silver",
+        "value": "#C0C8CC",
+        "label": "Silver"
+      },
+      {
+        "var": "--as-slate",
+        "value": "#6A7A80",
+        "label": "Slate"
+      },
+      {
+        "var": "--as-gold",
+        "value": "#C8A830",
+        "label": "Gold"
+      },
+      {
+        "var": "--as-dark-gold",
+        "value": "#8A7020",
+        "label": "Dark Gold"
+      },
+      {
+        "var": "--as-red-seal",
+        "value": "#8B1A1A",
+        "label": "Red Seal"
+      },
+      {
+        "var": "--as-black",
+        "value": "#1A1A18",
+        "label": "Black"
+      }
+    ],
+    "nav": {
+      "accent": "#5B9DB8",
+      "glow": "rgba(91,157,184,0.4)",
+      "brand": "#F5EDE0",
+      "brandGlow": "rgba(245,237,224,0.7)"
+    }
+  },
+  {
+    "name": "pay2play",
+    "section": "music",
+    "bodyClass": null,
+    "prefix": "p2p",
+    "file": "music/physical-media/floppy-disk/pay2play-2025/index.html",
+    "palette": [
+      {
+        "var": "--p2p-uv",
+        "value": "#2A0A4A",
+        "label": "UV"
+      },
+      {
+        "var": "--p2p-deep-plum",
+        "value": "#1A0530",
+        "label": "Deep Plum"
+      },
+      {
+        "var": "--p2p-violet",
+        "value": "#4A1A7A",
+        "label": "Violet"
+      },
+      {
+        "var": "--p2p-mid-purple",
+        "value": "#6A3AAA",
+        "label": "Mid Purple"
+      },
+      {
+        "var": "--p2p-light-purple",
+        "value": "#9A6ACC",
+        "label": "Light Purple"
+      },
+      {
+        "var": "--p2p-lavender",
+        "value": "#C0A0E8",
+        "label": "Lavender"
+      },
+      {
+        "var": "--p2p-magenta-dark",
+        "value": "#6A0A4A",
+        "label": "Magenta Dark"
+      },
+      {
+        "var": "--p2p-magenta",
+        "value": "#AA1A6A",
+        "label": "Magenta"
+      },
+      {
+        "var": "--p2p-hot",
+        "value": "#CC2A88",
+        "label": "Hot"
+      },
+      {
+        "var": "--p2p-pink-glow",
+        "value": "#E870C0",
+        "label": "Pink Glow"
+      },
+      {
+        "var": "--p2p-maroon",
+        "value": "#3A0A18",
+        "label": "Maroon"
+      },
+      {
+        "var": "--p2p-plum-red",
+        "value": "#5A1A28",
+        "label": "Plum Red"
+      },
+      {
+        "var": "--p2p-dusty-rose",
+        "value": "#8A4A5A",
+        "label": "Dusty Rose"
+      },
+      {
+        "var": "--p2p-coin-dark",
+        "value": "#2A2038",
+        "label": "Coin Dark"
+      },
+      {
+        "var": "--p2p-coin-mid",
+        "value": "#4A3A5A",
+        "label": "Coin Mid"
+      },
+      {
+        "var": "--p2p-coin-shine",
+        "value": "#8A7A9A",
+        "label": "Coin Shine"
+      },
+      {
+        "var": "--p2p-white-glow",
+        "value": "#EEE0FF",
+        "label": "White Glow"
+      },
+      {
+        "var": "--p2p-ghost-white",
+        "value": "#F5F0FF",
+        "label": "Ghost White"
+      },
+      {
+        "var": "--p2p-uv-white",
+        "value": "#FFFFFF",
+        "label": "UV White"
+      },
+      {
+        "var": "--p2p-black",
+        "value": "#080510",
+        "label": "Black"
+      },
+      {
+        "var": "--p2p-near-black",
+        "value": "#100820",
+        "label": "Near Black"
+      }
+    ],
+    "nav": {
+      "accent": "#CC2A88",
+      "glow": "rgba(204,42,136,0.4)",
+      "brand": "#F5F0FF",
+      "brandGlow": "rgba(245,240,255,0.7)"
+    }
+  }
+]

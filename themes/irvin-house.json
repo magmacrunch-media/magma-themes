@@ -1,0 +1,105 @@
+{
+  "name": "Irvin House",
+  "palette": [
+    {
+      "var": "--ih-deep",
+      "value": "#4a5058",
+      "label": "Deep"
+    },
+    {
+      "var": "--ih-dark",
+      "value": "#6a7278",
+      "label": "Dark"
+    },
+    {
+      "var": "--ih-muted",
+      "value": "#9098a0",
+      "label": "Muted"
+    },
+    {
+      "var": "--ih-light",
+      "value": "#b8c8d8",
+      "label": "Light"
+    },
+    {
+      "var": "--ih-cream",
+      "value": "#dce8f0",
+      "label": "Cream"
+    },
+    {
+      "var": "--ih-brand",
+      "value": "#7090b8",
+      "label": "Brand"
+    },
+    {
+      "var": "--ih-accent",
+      "value": "#80b8c8",
+      "label": "Accent"
+    },
+    {
+      "var": "--ih-green",
+      "value": "#608850",
+      "label": "Green"
+    },
+    {
+      "var": "--ih-cta",
+      "value": "#a86848",
+      "label": "CTA"
+    },
+    {
+      "var": "--ih-heading",
+      "value": "#c8b890",
+      "label": "Heading"
+    },
+    {
+      "var": "--ih-body",
+      "value": "#907060",
+      "label": "Body"
+    },
+    {
+      "var": "--ih-leaf",
+      "value": "#4a7858",
+      "label": "Leaf"
+    },
+    {
+      "var": "--ih-warm",
+      "value": "#d4906a",
+      "label": "Warm"
+    },
+    {
+      "var": "--ih-sage",
+      "value": "#8888b0",
+      "label": "Sage"
+    },
+    {
+      "var": "--ih-wheat",
+      "value": "#b8d0b0",
+      "label": "Wheat"
+    },
+    {
+      "var": "--ih-bg",
+      "value": "#0c0e10",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--ih-bg",
+    "text": "--ih-cream",
+    "surface": "--ih-deep",
+    "muted": "--ih-muted",
+    "accent": "--ih-accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-place",
+    "bodyClass": "ih-page",
+    "prefix": "ih",
+    "file": "archive/by-place/irvin-house/ih-shared.css",
+    "nav": {
+      "accent": "#7090b8",
+      "glow": "rgba(112,144,184,0.4)",
+      "brand": "#80b8c8",
+      "brandGlow": "rgba(128,184,200,0.7)"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Parchisi",
+  "palette": [
+    {
+      "var": "--pc-bg",
+      "value": "#1a0a0a",
+      "label": "BG"
+    },
+    {
+      "var": "--pc-bg-light",
+      "value": "#2a1210",
+      "label": "BG Light"
+    },
+    {
+      "var": "--pc-text",
+      "value": "#f0ead8",
+      "label": "Text"
+    },
+    {
+      "var": "--pc-text-dim",
+      "value": "#a88a7f",
+      "label": "Text Dim"
+    },
+    {
+      "var": "--pc-border",
+      "value": "#5c3a2d",
+      "label": "Border"
+    },
+    {
+      "var": "--pc-accent",
+      "value": "#F1BF00",
+      "label": "Accent"
+    },
+    {
+      "var": "--slot-red",
+      "value": "#AA151B",
+      "label": "Slot Red"
+    },
+    {
+      "var": "--slot-blue",
+      "value": "#4059c8",
+      "label": "Slot Blue"
+    },
+    {
+      "var": "--slot-green",
+      "value": "#39d353",
+      "label": "Slot Green"
+    },
+    {
+      "var": "--slot-yellow",
+      "value": "#F1BF00",
+      "label": "Slot Yellow"
+    }
+  ],
+  "roles": {
+    "bg": "--pc-bg",
+    "text": "--pc-text",
+    "surface": "--pc-bg-light",
+    "muted": "--pc-text-dim",
+    "accent": "--pc-accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": "pc",
+    "file": "arcade/parchisi/css/base.css",
+    "nav": {
+      "accent": "#F1BF00",
+      "glow": "rgba(241,191,0,0.4)",
+      "brand": "#F1BF00",
+      "brandGlow": "rgba(241,191,0,0.7)"
+    }
+  }
+}

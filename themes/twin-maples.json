@@ -1,0 +1,105 @@
+{
+  "name": "Twin Maples",
+  "palette": [
+    {
+      "var": "--tm-deep",
+      "value": "#1e2420",
+      "label": "Deep"
+    },
+    {
+      "var": "--tm-dark",
+      "value": "#283028",
+      "label": "Dark"
+    },
+    {
+      "var": "--tm-surface",
+      "value": "#3a4a38",
+      "label": "Surface"
+    },
+    {
+      "var": "--tm-muted",
+      "value": "#6a7868",
+      "label": "Muted"
+    },
+    {
+      "var": "--tm-light",
+      "value": "#98a888",
+      "label": "Light"
+    },
+    {
+      "var": "--tm-cream",
+      "value": "#d4d8c8",
+      "label": "Cream"
+    },
+    {
+      "var": "--tm-heading",
+      "value": "#d4b898",
+      "label": "Heading"
+    },
+    {
+      "var": "--tm-body",
+      "value": "#b8b098",
+      "label": "Body"
+    },
+    {
+      "var": "--tm-brand",
+      "value": "#4a6858",
+      "label": "Brand"
+    },
+    {
+      "var": "--tm-accent",
+      "value": "#c07848",
+      "label": "Accent"
+    },
+    {
+      "var": "--tm-warm",
+      "value": "#d4b870",
+      "label": "Warm"
+    },
+    {
+      "var": "--tm-sage",
+      "value": "#7ab0c0",
+      "label": "Sage"
+    },
+    {
+      "var": "--tm-wheat",
+      "value": "#d4b898",
+      "label": "Wheat"
+    },
+    {
+      "var": "--tm-leaf",
+      "value": "#8a9878",
+      "label": "Leaf"
+    },
+    {
+      "var": "--tm-bright",
+      "value": "#e8c870",
+      "label": "Bright"
+    },
+    {
+      "var": "--tm-bg",
+      "value": "#0c0f0d",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--tm-bg",
+    "text": "--tm-cream",
+    "surface": "--tm-surface",
+    "muted": "--tm-muted",
+    "accent": "--tm-accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-place",
+    "bodyClass": "tm-page",
+    "prefix": "tm",
+    "file": "archive/by-place/twin-maples/tm-shared.css",
+    "nav": {
+      "accent": "#4a6858",
+      "glow": "rgba(74,104,88,0.4)",
+      "brand": "#d4b870",
+      "brandGlow": "rgba(212,184,112,0.7)"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Juanito Thompson",
+  "palette": [
+    {
+      "var": "--jt-bg",
+      "value": "#0a0a0c",
+      "label": "BG"
+    },
+    {
+      "var": "--jt-surface",
+      "value": "#1c1e22",
+      "label": "Surface"
+    },
+    {
+      "var": "--jt-raised",
+      "value": "#2e3038",
+      "label": "Raised"
+    },
+    {
+      "var": "--jt-mid",
+      "value": "#383c44",
+      "label": "Mid"
+    },
+    {
+      "var": "--jt-borders",
+      "value": "#4a5060",
+      "label": "Borders"
+    },
+    {
+      "var": "--jt-steel",
+      "value": "#606878",
+      "label": "Steel"
+    },
+    {
+      "var": "--jt-deep",
+      "value": "#7a3010",
+      "label": "Deep"
+    },
+    {
+      "var": "--jt-dark-rust",
+      "value": "#5a2008",
+      "label": "Dark Rust"
+    },
+    {
+      "var": "--jt-brick",
+      "value": "#a84830",
+      "label": "Brick"
+    },
+    {
+      "var": "--jt-cta",
+      "value": "#c85a18",
+      "label": "CTA"
+    },
+    {
+      "var": "--jt-amber",
+      "value": "#e8900a",
+      "label": "Amber"
+    },
+    {
+      "var": "--jt-pale-warm",
+      "value": "#f0b878",
+      "label": "Pale Warm"
+    },
+    {
+      "var": "--jt-gold",
+      "value": "#f5c842",
+      "label": "Gold"
+    },
+    {
+      "var": "--jt-body",
+      "value": "#f0b878",
+      "label": "Body"
+    },
+    {
+      "var": "--jt-teal",
+      "value": "#1a7a5e",
+      "label": "Teal"
+    },
+    {
+      "var": "--jt-teal-bright",
+      "value": "#2a9070",
+      "label": "Teal Bright"
+    },
+    {
+      "var": "--jt-taupe",
+      "value": "#8a7060",
+      "label": "Taupe"
+    },
+    {
+      "var": "--jt-offwhite",
+      "value": "#f8f0e4",
+      "label": "Offwhite"
+    },
+    {
+      "var": "--jt-green",
+      "value": "#39ff84",
+      "label": "Green"
+    }
+  ],
+  "roles": {
+    "bg": "--jt-bg",
+    "text": "--jt-offwhite",
+    "surface": "--jt-surface",
+    "accent": "--jt-cta"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "jt-page",
+    "prefix": "jt",
+    "file": "archive/by-artist/juanito-thompson/juanito-thompson-shared.css",
+    "nav": {
+      "accent": "#c85a18",
+      "glow": "rgba(200,90,24,0.4)",
+      "brand": "#e88848",
+      "brandGlow": "rgba(232,136,72,0.7)"
+    }
+  }
+}

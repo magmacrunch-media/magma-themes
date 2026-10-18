@@ -1,0 +1,133 @@
+{
+  "name": "MTV",
+  "palette": [
+    {
+      "var": "--mtv-black",
+      "value": "#0A0A0F",
+      "label": "Black"
+    },
+    {
+      "var": "--mtv-deep-purple",
+      "value": "#1A0533",
+      "label": "Deep Purple"
+    },
+    {
+      "var": "--mtv-midnight",
+      "value": "#0D1F3C",
+      "label": "Midnight"
+    },
+    {
+      "var": "--mtv-oxide-red",
+      "value": "#3D0000",
+      "label": "Oxide Red"
+    },
+    {
+      "var": "--mtv-static",
+      "value": "#4A4A4A",
+      "label": "Static"
+    },
+    {
+      "var": "--mtv-beige",
+      "value": "#C8C0B8",
+      "label": "Beige"
+    },
+    {
+      "var": "--mtv-magenta",
+      "value": "#FF00CC",
+      "label": "Magenta"
+    },
+    {
+      "var": "--mtv-teal",
+      "value": "#00FFEE",
+      "label": "Teal"
+    },
+    {
+      "var": "--mtv-phosphor",
+      "value": "#AAFF00",
+      "label": "Phosphor"
+    },
+    {
+      "var": "--mtv-pink",
+      "value": "#FF6EC7",
+      "label": "Pink"
+    },
+    {
+      "var": "--mtv-violet",
+      "value": "#7B68EE",
+      "label": "Violet"
+    },
+    {
+      "var": "--mtv-gold",
+      "value": "#FFD700",
+      "label": "Gold"
+    },
+    {
+      "var": "--mtv-white",
+      "value": "#F0EEFF",
+      "label": "White"
+    },
+    {
+      "var": "--mtv-signal-red",
+      "value": "#FF1A1A",
+      "label": "Signal Red"
+    },
+    {
+      "var": "--mtv-crt-blue",
+      "value": "#1A1AFF",
+      "label": "CRT Blue"
+    },
+    {
+      "var": "--mtv-broadcast-orange",
+      "value": "#FF6600",
+      "label": "Broadcast Orange"
+    },
+    {
+      "var": "--mtv-laser-yellow",
+      "value": "#FFFF00",
+      "label": "Laser Yellow"
+    },
+    {
+      "var": "--mtv-ice-blue",
+      "value": "#AACCFF",
+      "label": "Ice Blue"
+    },
+    {
+      "var": "--mtv-vhs-purple",
+      "value": "#CC00FF",
+      "label": "VHS Purple"
+    },
+    {
+      "var": "--mtv-scanline",
+      "value": "#1A1A2E",
+      "label": "Scanline"
+    },
+    {
+      "var": "--mtv-warm-gray",
+      "value": "#888890",
+      "label": "Warm Gray"
+    },
+    {
+      "var": "--mtv-chrome",
+      "value": "#E0E0F0",
+      "label": "Chrome"
+    }
+  ],
+  "roles": {
+    "bg": "--mtv-black",
+    "text": "--mtv-white",
+    "accent": "--mtv-magenta"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "music",
+    "bodyClass": "mtv",
+    "prefix": "mtv",
+    "file": "music/music-videos.html",
+    "nav": {
+      "accent": "#FF00CC",
+      "glow": "rgba(255,0,204,0.4)",
+      "brand": "#FFD700",
+      "brandGlow": "transparent"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Arcade Index",
+  "palette": [],
+  "roles": {},
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/index.html",
+    "nav": {
+      "accent": "#ff2e9c",
+      "glow": "rgba(255,46,156,0.4)",
+      "brand": "#ff2e9c",
+      "brandGlow": "rgba(255,46,156,0.7)"
+    }
+  }
+}

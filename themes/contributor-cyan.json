@@ -1,0 +1,75 @@
+{
+  "name": "Contributor (Cyan)",
+  "palette": [
+    {
+      "var": "--ctb-void",
+      "value": "#001a1f",
+      "label": "Void"
+    },
+    {
+      "var": "--ctb-darkest",
+      "value": "#012a33",
+      "label": "Darkest"
+    },
+    {
+      "var": "--ctb-dark",
+      "value": "#024959",
+      "label": "Dark"
+    },
+    {
+      "var": "--ctb-mid-dark",
+      "value": "#03738a",
+      "label": "Mid Dark"
+    },
+    {
+      "var": "--ctb-deep",
+      "value": "#0489a3",
+      "label": "Deep"
+    },
+    {
+      "var": "--ctb-bright",
+      "value": "#05a8c2",
+      "label": "Bright"
+    },
+    {
+      "var": "--ctb-muted",
+      "value": "#5fc4d4",
+      "label": "Muted"
+    },
+    {
+      "var": "--ctb-cyan",
+      "value": "#7fd8e8",
+      "label": "Cyan"
+    },
+    {
+      "var": "--ctb-light",
+      "value": "#a8e8f0",
+      "label": "Light"
+    },
+    {
+      "var": "--ctb-pale",
+      "value": "#d0f4f8",
+      "label": "Pale"
+    }
+  ],
+  "roles": {
+    "bg": "--ctb-void",
+    "text": "--ctb-pale",
+    "surface": "--ctb-deep",
+    "muted": "--ctb-muted",
+    "accent": "--ctb-mid-dark"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "section-template",
+    "bodyClass": "ctb-page",
+    "prefix": "ctb",
+    "file": "templates/contributor-theme.css",
+    "nav": {
+      "accent": "#03738a",
+      "glow": "rgba(3,115,138,0.4)",
+      "brand": "#7fd8e8",
+      "brandGlow": "rgba(127,216,232,0.7)"
+    }
+  }
+}

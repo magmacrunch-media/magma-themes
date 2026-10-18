@@ -1,0 +1,134 @@
+{
+  "name": "Audio Sound Paper",
+  "palette": [
+    {
+      "var": "--asp-surface",
+      "value": "#2e1e18",
+      "label": "Surface"
+    },
+    {
+      "var": "--asp-raised",
+      "value": "#3e2e20",
+      "label": "Raised"
+    },
+    {
+      "var": "--asp-dark",
+      "value": "#584030",
+      "label": "Dark"
+    },
+    {
+      "var": "--asp-mid",
+      "value": "#806050",
+      "label": "Mid"
+    },
+    {
+      "var": "--asp-light",
+      "value": "#b09070",
+      "label": "Light"
+    },
+    {
+      "var": "--asp-cream",
+      "value": "#f0e0c8",
+      "label": "Cream"
+    },
+    {
+      "var": "--asp-terracotta",
+      "value": "#783020",
+      "label": "Terracotta"
+    },
+    {
+      "var": "--asp-brick",
+      "value": "#a84828",
+      "label": "Brick"
+    },
+    {
+      "var": "--asp-brick-light",
+      "value": "#c87858",
+      "label": "Brick Light"
+    },
+    {
+      "var": "--asp-amber-shadow",
+      "value": "#906020",
+      "label": "Amber Shadow"
+    },
+    {
+      "var": "--asp-amber",
+      "value": "#c89030",
+      "label": "Amber"
+    },
+    {
+      "var": "--asp-amber-glow",
+      "value": "#f0d070",
+      "label": "Amber Glow"
+    },
+    {
+      "var": "--asp-skin",
+      "value": "#d08050",
+      "label": "Skin"
+    },
+    {
+      "var": "--asp-red",
+      "value": "#c03020",
+      "label": "Red"
+    },
+    {
+      "var": "--asp-red-light",
+      "value": "#e05030",
+      "label": "Red Light"
+    },
+    {
+      "var": "--asp-night",
+      "value": "#181420",
+      "label": "Night"
+    },
+    {
+      "var": "--asp-shadow",
+      "value": "#282438",
+      "label": "Shadow"
+    },
+    {
+      "var": "--asp-night-blue",
+      "value": "#485878",
+      "label": "Night Blue"
+    },
+    {
+      "var": "--asp-ivy-dark",
+      "value": "#2a3820",
+      "label": "Ivy Dark"
+    },
+    {
+      "var": "--asp-ivy-light",
+      "value": "#607848",
+      "label": "Ivy Light"
+    },
+    {
+      "var": "--asp-highlight",
+      "value": "#f8e0a0",
+      "label": "Highlight"
+    },
+    {
+      "var": "--asp-bg",
+      "value": "#100b08",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--asp-bg",
+    "text": "--asp-cream",
+    "surface": "--asp-surface",
+    "accent": "--asp-brick"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "asp-page",
+    "prefix": "asp",
+    "file": "archive/by-artist/audio-sound-paper-et-al/asp-shared.css",
+    "nav": {
+      "accent": "#a84828",
+      "glow": "rgba(168,72,40,0.4)",
+      "brand": "#c89030",
+      "brandGlow": "rgba(200,144,48,0.7)"
+    }
+  }
+}

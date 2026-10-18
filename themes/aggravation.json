@@ -1,0 +1,85 @@
+{
+  "name": "Aggravation",
+  "palette": [
+    {
+      "var": "--ag-bg",
+      "value": "#0a0612",
+      "label": "BG"
+    },
+    {
+      "var": "--ag-bg-light",
+      "value": "#150b29",
+      "label": "BG Light"
+    },
+    {
+      "var": "--ag-text",
+      "value": "#f0ead8",
+      "label": "Text"
+    },
+    {
+      "var": "--ag-text-dim",
+      "value": "#8a7fa8",
+      "label": "Text Dim"
+    },
+    {
+      "var": "--ag-border",
+      "value": "#3a2d5c",
+      "label": "Border"
+    },
+    {
+      "var": "--ag-accent",
+      "value": "#ffe03a",
+      "label": "Accent"
+    },
+    {
+      "var": "--slot-red",
+      "value": "#ff3d6e",
+      "label": "Slot Red"
+    },
+    {
+      "var": "--slot-blue",
+      "value": "#00f5ff",
+      "label": "Slot Blue"
+    },
+    {
+      "var": "--slot-green",
+      "value": "#39ff6e",
+      "label": "Slot Green"
+    },
+    {
+      "var": "--slot-yellow",
+      "value": "#ffe03a",
+      "label": "Slot Yellow"
+    },
+    {
+      "var": "--slot-purple",
+      "value": "#c45fff",
+      "label": "Slot Purple"
+    },
+    {
+      "var": "--slot-orange",
+      "value": "#ff7c1f",
+      "label": "Slot Orange"
+    }
+  ],
+  "roles": {
+    "bg": "--ag-bg",
+    "text": "--ag-text",
+    "surface": "--ag-bg-light",
+    "muted": "--ag-text-dim",
+    "accent": "--ag-accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": "ag",
+    "file": "arcade/aggravation/css/base.css",
+    "nav": {
+      "accent": "#ffe03a",
+      "glow": "rgba(255,224,58,0.4)",
+      "brand": "#ffe03a",
+      "brandGlow": "rgba(255,224,58,0.7)"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "name": "SVFP",
+  "palette": [
+    {
+      "var": "--svfp-brand",
+      "value": "#a020c8",
+      "label": "Brand"
+    },
+    {
+      "var": "--svfp-accent",
+      "value": "#d946ef",
+      "label": "Accent"
+    },
+    {
+      "var": "--svfp-cta",
+      "value": "#e03070",
+      "label": "CTA"
+    },
+    {
+      "var": "--svfp-heading",
+      "value": "#c8b8e8",
+      "label": "Heading"
+    },
+    {
+      "var": "--svfp-body",
+      "value": "#f5d0ff",
+      "label": "Body"
+    },
+    {
+      "var": "--svfp-surface",
+      "value": "#1e2235",
+      "label": "Surface"
+    },
+    {
+      "var": "--svfp-raised",
+      "value": "#2e1a50",
+      "label": "Raised"
+    },
+    {
+      "var": "--svfp-dark",
+      "value": "#3a2060",
+      "label": "Dark"
+    },
+    {
+      "var": "--svfp-plum",
+      "value": "#281830",
+      "label": "Plum"
+    },
+    {
+      "var": "--svfp-mid",
+      "value": "#6020b0",
+      "label": "Mid"
+    },
+    {
+      "var": "--svfp-bright",
+      "value": "#9858d8",
+      "label": "Bright"
+    },
+    {
+      "var": "--svfp-bridge",
+      "value": "#c8a0d8",
+      "label": "Bridge"
+    },
+    {
+      "var": "--svfp-rose",
+      "value": "#e060a0",
+      "label": "Rose"
+    },
+    {
+      "var": "--svfp-cool-dark",
+      "value": "#2850a0",
+      "label": "Cool Dark"
+    },
+    {
+      "var": "--svfp-sky",
+      "value": "#60a0e0",
+      "label": "Sky"
+    },
+    {
+      "var": "--svfp-teal",
+      "value": "#1a6060",
+      "label": "Teal"
+    },
+    {
+      "var": "--svfp-ice",
+      "value": "#a8c8f0",
+      "label": "Ice"
+    },
+    {
+      "var": "--svfp-warm",
+      "value": "#e87040",
+      "label": "Warm"
+    },
+    {
+      "var": "--svfp-glow",
+      "value": "#f0b890",
+      "label": "Glow"
+    },
+    {
+      "var": "--svfp-white",
+      "value": "#f8b0ff",
+      "label": "White"
+    },
+    {
+      "var": "--svfp-offwhite",
+      "value": "#f5f0ff",
+      "label": "Offwhite"
+    },
+    {
+      "var": "--svfp-bg",
+      "value": "#0a0a14",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--svfp-bg",
+    "text": "--svfp-white",
+    "surface": "--svfp-surface",
+    "accent": "--svfp-accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "svfp-page",
+    "prefix": "svfp",
+    "file": "archive/by-artist/svfp/svfp-shared.css",
+    "nav": {
+      "accent": "#d946ef",
+      "glow": "rgba(217,70,239,0.4)",
+      "brand": "#f5d0ff",
+      "brandGlow": "rgba(245,208,255,0.7)"
+    }
+  }
+}

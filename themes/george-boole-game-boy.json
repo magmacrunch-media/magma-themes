@@ -1,0 +1,45 @@
+{
+  "name": "George Boole: Game Boy",
+  "palette": [
+    {
+      "var": "bg",
+      "value": "#0f380f",
+      "label": "BG Dark"
+    },
+    {
+      "var": "bg-light",
+      "value": "#306230",
+      "label": "BG Light"
+    },
+    {
+      "var": "accent",
+      "value": "#9bbc0f",
+      "label": "Accent"
+    },
+    {
+      "var": "text",
+      "value": "#9bbc0f",
+      "label": "Text"
+    }
+  ],
+  "roles": {
+    "bg": "bg",
+    "text": "text",
+    "surface": "bg-light",
+    "accent": "accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "gameboy",
+    "nav": {
+      "accent": "#9bbc0f",
+      "glow": "rgba(155,188,15,0.4)",
+      "brand": "#9bbc0f",
+      "brandGlow": "rgba(155,188,15,0.7)"
+    }
+  }
+}

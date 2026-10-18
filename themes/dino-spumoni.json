@@ -1,0 +1,129 @@
+{
+  "name": "Dino Spumoni",
+  "palette": [
+    {
+      "var": "--ds-deep",
+      "value": "#141820",
+      "label": "Deep"
+    },
+    {
+      "var": "--ds-surface",
+      "value": "#1e2a38",
+      "label": "Surface"
+    },
+    {
+      "var": "--ds-mid",
+      "value": "#3a5878",
+      "label": "Mid"
+    },
+    {
+      "var": "--ds-sky",
+      "value": "#6888a8",
+      "label": "Sky"
+    },
+    {
+      "var": "--ds-brand",
+      "value": "#4060a0",
+      "label": "Brand"
+    },
+    {
+      "var": "--ds-brick",
+      "value": "#8a3820",
+      "label": "Brick"
+    },
+    {
+      "var": "--ds-cta",
+      "value": "#d4782a",
+      "label": "CTA"
+    },
+    {
+      "var": "--ds-heading",
+      "value": "#f0d080",
+      "label": "Heading"
+    },
+    {
+      "var": "--ds-rose",
+      "value": "#d06880",
+      "label": "Rose"
+    },
+    {
+      "var": "--ds-teal",
+      "value": "#2a7868",
+      "label": "Teal"
+    },
+    {
+      "var": "--ds-deep-teal",
+      "value": "#1a5048",
+      "label": "Deep Teal"
+    },
+    {
+      "var": "--ds-bright-teal",
+      "value": "#40a888",
+      "label": "Bright Teal"
+    },
+    {
+      "var": "--ds-deep-rose",
+      "value": "#a04860",
+      "label": "Deep Rose"
+    },
+    {
+      "var": "--ds-light-rose",
+      "value": "#e8a0b0",
+      "label": "Light Rose"
+    },
+    {
+      "var": "--ds-mid-blue",
+      "value": "#5878b0",
+      "label": "Mid Blue"
+    },
+    {
+      "var": "--ds-light-warm",
+      "value": "#f8c8a0",
+      "label": "Light Warm"
+    },
+    {
+      "var": "--ds-dark-warm",
+      "value": "#5a2810",
+      "label": "Dark Warm"
+    },
+    {
+      "var": "--ds-cool-neutral",
+      "value": "#6878a0",
+      "label": "Cool Neutral"
+    },
+    {
+      "var": "--ds-warm-neutral",
+      "value": "#c8a878",
+      "label": "Warm Neutral"
+    },
+    {
+      "var": "--ds-offwhite",
+      "value": "#f4ede0",
+      "label": "Offwhite"
+    },
+    {
+      "var": "--ds-bg",
+      "value": "#080a0e",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--ds-bg",
+    "text": "--ds-offwhite",
+    "surface": "--ds-surface",
+    "accent": "--ds-cta"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "ds-page",
+    "prefix": "ds",
+    "file": "archive/by-artist/dino-spumoni/ds-shared.css",
+    "nav": {
+      "accent": "#d4782a",
+      "glow": "rgba(212,120,42,0.4)",
+      "brand": "#e8a060",
+      "brandGlow": "rgba(232,160,96,0.7)"
+    }
+  }
+}

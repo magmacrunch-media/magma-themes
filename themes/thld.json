@@ -1,0 +1,145 @@
+{
+  "name": "THLD",
+  "palette": [
+    {
+      "var": "--thld-deep",
+      "value": "#1a1209",
+      "label": "Deep"
+    },
+    {
+      "var": "--thld-dark",
+      "value": "#2e1e0f",
+      "label": "Dark"
+    },
+    {
+      "var": "--thld-mid",
+      "value": "#4a2c10",
+      "label": "Mid"
+    },
+    {
+      "var": "--thld-mahogany",
+      "value": "#7a3a18",
+      "label": "Mahogany"
+    },
+    {
+      "var": "--thld-forest",
+      "value": "#3a3018",
+      "label": "Forest"
+    },
+    {
+      "var": "--thld-accent",
+      "value": "#c94b1a",
+      "label": "Accent"
+    },
+    {
+      "var": "--thld-cta",
+      "value": "#c8381a",
+      "label": "CTA"
+    },
+    {
+      "var": "--thld-ember",
+      "value": "#a02818",
+      "label": "Ember"
+    },
+    {
+      "var": "--thld-brick",
+      "value": "#8a2018",
+      "label": "Brick"
+    },
+    {
+      "var": "--thld-amber",
+      "value": "#e07a2f",
+      "label": "Amber"
+    },
+    {
+      "var": "--thld-apricot",
+      "value": "#f0a050",
+      "label": "Apricot"
+    },
+    {
+      "var": "--thld-honey",
+      "value": "#b07030",
+      "label": "Honey"
+    },
+    {
+      "var": "--thld-warm-brown",
+      "value": "#9a7a50",
+      "label": "Warm Brown"
+    },
+    {
+      "var": "--thld-muted",
+      "value": "#8a6040",
+      "label": "Muted"
+    },
+    {
+      "var": "--thld-teal",
+      "value": "#4a7068",
+      "label": "Teal"
+    },
+    {
+      "var": "--thld-olive",
+      "value": "#5a7840",
+      "label": "Olive"
+    },
+    {
+      "var": "--thld-olive-alt",
+      "value": "#6a8850",
+      "label": "Olive Alt"
+    },
+    {
+      "var": "--thld-purple",
+      "value": "#6a5878",
+      "label": "Purple"
+    },
+    {
+      "var": "--thld-text",
+      "value": "#d4b896",
+      "label": "Text"
+    },
+    {
+      "var": "--thld-highlight",
+      "value": "#f0c060",
+      "label": "Highlight"
+    },
+    {
+      "var": "--thld-cream",
+      "value": "#f8e4c0",
+      "label": "Cream"
+    },
+    {
+      "var": "--thld-pale-gold",
+      "value": "#f5d8a0",
+      "label": "Pale Gold"
+    },
+    {
+      "var": "--thld-offwhite",
+      "value": "#fdf5e8",
+      "label": "Offwhite"
+    },
+    {
+      "var": "--thld-bg",
+      "value": "#0e0905",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--thld-bg",
+    "text": "--thld-text",
+    "surface": "--thld-deep",
+    "muted": "--thld-muted",
+    "accent": "--thld-accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "thld-page",
+    "prefix": "thld",
+    "file": "archive/by-artist/thld/thld-shared.css",
+    "nav": {
+      "accent": "#c94b1a",
+      "glow": "rgba(201,75,26,0.4)",
+      "brand": "#f0c060",
+      "brandGlow": "rgba(240,192,96,0.7)"
+    }
+  }
+}

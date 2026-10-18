@@ -1,0 +1,154 @@
+{
+  "name": "FLDC",
+  "palette": [
+    {
+      "var": "--fldc-black",
+      "value": "#080808",
+      "label": "Black"
+    },
+    {
+      "var": "--fldc-bg-surface",
+      "value": "#2a3830",
+      "label": "BG Surface"
+    },
+    {
+      "var": "--fldc-bg-raised",
+      "value": "#304838",
+      "label": "BG Raised"
+    },
+    {
+      "var": "--fldc-bg-mid",
+      "value": "#485840",
+      "label": "BG Mid"
+    },
+    {
+      "var": "--fldc-bg-neutral",
+      "value": "#8a9088",
+      "label": "BG Neutral"
+    },
+    {
+      "var": "--fldc-bg-light",
+      "value": "#c8c4b0",
+      "label": "BG Light"
+    },
+    {
+      "var": "--fldc-bg-wall",
+      "value": "#e8eee8",
+      "label": "BG Wall"
+    },
+    {
+      "var": "--fldc-bg-screen-dark",
+      "value": "#3060b0",
+      "label": "Screen Dark"
+    },
+    {
+      "var": "--fldc-bg-screen-mid",
+      "value": "#5898d8",
+      "label": "Screen Mid"
+    },
+    {
+      "var": "--fldc-bg-screen-light",
+      "value": "#e8eee8",
+      "label": "Screen Light"
+    },
+    {
+      "var": "--fldc-bg-screen-pale",
+      "value": "#f0f8f0",
+      "label": "Screen Pale"
+    },
+    {
+      "var": "--fldc-arc-yellow",
+      "value": "#d8d040",
+      "label": "Arc Yellow"
+    },
+    {
+      "var": "--fldc-arc-gold",
+      "value": "#c89820",
+      "label": "Arc Gold"
+    },
+    {
+      "var": "--fldc-arc-orange",
+      "value": "#d06020",
+      "label": "Arc Orange"
+    },
+    {
+      "var": "--fldc-arc-red",
+      "value": "#a82820",
+      "label": "Arc Red"
+    },
+    {
+      "var": "--fldc-arc-red-light",
+      "value": "#e05030",
+      "label": "Arc Red Light"
+    },
+    {
+      "var": "--fldc-arc-green",
+      "value": "#48a840",
+      "label": "Arc Green"
+    },
+    {
+      "var": "--fldc-arc-teal",
+      "value": "#308878",
+      "label": "Arc Teal"
+    },
+    {
+      "var": "--fldc-arc-blue",
+      "value": "#3060b0",
+      "label": "Arc Blue"
+    },
+    {
+      "var": "--fldc-arc-blue-light",
+      "value": "#5898d8",
+      "label": "Arc Blue Light"
+    },
+    {
+      "var": "--fldc-arc-purple",
+      "value": "#7848a8",
+      "label": "Arc Purple"
+    },
+    {
+      "var": "--fldc-arc-white",
+      "value": "#f0f8f0",
+      "label": "Arc White"
+    },
+    {
+      "var": "--fldc-arc-dark",
+      "value": "#602818",
+      "label": "Arc Dark"
+    },
+    {
+      "var": "--fldc-cool",
+      "value": "#60a8a0",
+      "label": "Cool"
+    },
+    {
+      "var": "--fldc-pop",
+      "value": "#d05888",
+      "label": "Pop"
+    },
+    {
+      "var": "--fldc-bg",
+      "value": "#10160e",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--fldc-bg",
+    "text": "--fldc-bg-screen-pale",
+    "surface": "--fldc-bg-light",
+    "accent": "--fldc-arc-orange"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "fldc-page",
+    "prefix": "fldc",
+    "file": "archive/by-artist/fruity-loops-debauchery-collective/fldc-shared.css",
+    "nav": {
+      "accent": "#d06020",
+      "glow": "rgba(208,96,32,0.4)",
+      "brand": "#d8d040",
+      "brandGlow": "rgba(216,208,64,0.7)"
+    }
+  }
+}

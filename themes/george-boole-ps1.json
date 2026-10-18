@@ -1,0 +1,45 @@
+{
+  "name": "George Boole: PS1",
+  "palette": [
+    {
+      "var": "bg",
+      "value": "#1a1a1a",
+      "label": "BG"
+    },
+    {
+      "var": "bg-light",
+      "value": "#2d2d2d",
+      "label": "BG Light"
+    },
+    {
+      "var": "accent",
+      "value": "#ffd700",
+      "label": "Accent"
+    },
+    {
+      "var": "silver",
+      "value": "#c0c0c0",
+      "label": "Silver"
+    }
+  ],
+  "roles": {
+    "bg": "bg",
+    "text": "accent",
+    "surface": "bg-light",
+    "accent": "accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "ps1",
+    "nav": {
+      "accent": "#ffd700",
+      "glow": "rgba(255,215,0,0.4)",
+      "brand": "#c0c0c0",
+      "brandGlow": "rgba(192,192,192,0.7)"
+    }
+  }
+}

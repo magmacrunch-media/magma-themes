@@ -1,0 +1,45 @@
+{
+  "name": "George Boole: Genesis",
+  "palette": [
+    {
+      "var": "bg",
+      "value": "#001a33",
+      "label": "BG"
+    },
+    {
+      "var": "bg-light",
+      "value": "#003366",
+      "label": "BG Light"
+    },
+    {
+      "var": "accent",
+      "value": "#ffd700",
+      "label": "Accent"
+    },
+    {
+      "var": "blue",
+      "value": "#4169e1",
+      "label": "Blue"
+    }
+  ],
+  "roles": {
+    "bg": "bg",
+    "text": "accent",
+    "surface": "bg-light",
+    "accent": "accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "genesis",
+    "nav": {
+      "accent": "#ffd700",
+      "glow": "rgba(255,215,0,0.4)",
+      "brand": "#ffd700",
+      "brandGlow": "rgba(255,215,0,0.7)"
+    }
+  }
+}

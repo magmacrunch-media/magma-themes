@@ -1,0 +1,45 @@
+{
+  "name": "George Boole: SNES",
+  "palette": [
+    {
+      "var": "bg",
+      "value": "#0f0f1e",
+      "label": "BG"
+    },
+    {
+      "var": "bg-light",
+      "value": "#1a1a3e",
+      "label": "BG Light"
+    },
+    {
+      "var": "accent",
+      "value": "#8a2be2",
+      "label": "Accent"
+    },
+    {
+      "var": "text",
+      "value": "#e0e0ff",
+      "label": "Text"
+    }
+  ],
+  "roles": {
+    "bg": "bg",
+    "text": "text",
+    "surface": "bg-light",
+    "accent": "accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "snes",
+    "nav": {
+      "accent": "#8a2be2",
+      "glow": "rgba(138,43,226,0.4)",
+      "brand": "#8a2be2",
+      "brandGlow": "rgba(138,43,226,0.7)"
+    }
+  }
+}

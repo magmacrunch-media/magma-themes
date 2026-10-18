@@ -1,0 +1,16 @@
+# Calls the house conventions check, which lives in magmacrunch-media/.github.
+#
+# This repo is PUBLIC, so it passes no runs-on: the Default runner group has
+# allows_public_repositories = false, and a public repo pointed at an org
+# runner queues forever rather than failing.
+
+name: conventions
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  conventions:
+    uses: magmacrunch-media/.github/.github/workflows/conventions-check.yml@main

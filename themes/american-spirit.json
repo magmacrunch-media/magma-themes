@@ -1,0 +1,124 @@
+{
+  "name": "American Spirit",
+  "palette": [
+    {
+      "var": "--as-cerulean",
+      "value": "#5B9DB8",
+      "label": "Cerulean"
+    },
+    {
+      "var": "--as-sky",
+      "value": "#7BBDD4",
+      "label": "Sky"
+    },
+    {
+      "var": "--as-pale-sky",
+      "value": "#A8CDD8",
+      "label": "Pale Sky"
+    },
+    {
+      "var": "--as-mist",
+      "value": "#D0E8F0",
+      "label": "Mist"
+    },
+    {
+      "var": "--as-deep",
+      "value": "#2E6A88",
+      "label": "Deep"
+    },
+    {
+      "var": "--as-midnight",
+      "value": "#1A3D52",
+      "label": "Midnight"
+    },
+    {
+      "var": "--as-kraft",
+      "value": "#C8A87A",
+      "label": "Kraft"
+    },
+    {
+      "var": "--as-tan",
+      "value": "#DEC098",
+      "label": "Tan"
+    },
+    {
+      "var": "--as-parchment",
+      "value": "#EEE0C8",
+      "label": "Parchment"
+    },
+    {
+      "var": "--as-linen",
+      "value": "#F5EDE0",
+      "label": "Linen"
+    },
+    {
+      "var": "--as-tobacco",
+      "value": "#8A6A3A",
+      "label": "Tobacco"
+    },
+    {
+      "var": "--as-dark-brown",
+      "value": "#3A2810",
+      "label": "Dark Brown"
+    },
+    {
+      "var": "--as-white",
+      "value": "#F8F4EE",
+      "label": "White"
+    },
+    {
+      "var": "--as-off-white",
+      "value": "#EDE8E0",
+      "label": "Off White"
+    },
+    {
+      "var": "--as-silver",
+      "value": "#C0C8CC",
+      "label": "Silver"
+    },
+    {
+      "var": "--as-slate",
+      "value": "#6A7A80",
+      "label": "Slate"
+    },
+    {
+      "var": "--as-gold",
+      "value": "#C8A830",
+      "label": "Gold"
+    },
+    {
+      "var": "--as-dark-gold",
+      "value": "#8A7020",
+      "label": "Dark Gold"
+    },
+    {
+      "var": "--as-red-seal",
+      "value": "#8B1A1A",
+      "label": "Red Seal"
+    },
+    {
+      "var": "--as-black",
+      "value": "#1A1A18",
+      "label": "Black"
+    }
+  ],
+  "roles": {
+    "bg": "--as-black",
+    "text": "--as-white",
+    "surface": "--as-deep",
+    "accent": "--as-cerulean"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "music",
+    "bodyClass": null,
+    "prefix": "as",
+    "file": "music/physical-media/floppy-disk/iou-american-spirits/index.html",
+    "nav": {
+      "accent": "#5B9DB8",
+      "glow": "rgba(91,157,184,0.4)",
+      "brand": "#F5EDE0",
+      "brandGlow": "rgba(245,237,224,0.7)"
+    }
+  }
+}

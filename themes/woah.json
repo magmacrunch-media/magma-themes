@@ -1,0 +1,134 @@
+{
+  "name": "Woah",
+  "palette": [
+    {
+      "var": "--woah-bg",
+      "value": "#0e0c10",
+      "label": "BG"
+    },
+    {
+      "var": "--woah-surface",
+      "value": "#3a3028",
+      "label": "Surface"
+    },
+    {
+      "var": "--woah-dusk",
+      "value": "#584840",
+      "label": "Dusk"
+    },
+    {
+      "var": "--woah-sandy",
+      "value": "#907060",
+      "label": "Sandy"
+    },
+    {
+      "var": "--woah-ocean",
+      "value": "#788090",
+      "label": "Ocean"
+    },
+    {
+      "var": "--woah-blush",
+      "value": "#f0c8b8",
+      "label": "Blush"
+    },
+    {
+      "var": "--woah-sunset",
+      "value": "#e8a0a0",
+      "label": "Sunset"
+    },
+    {
+      "var": "--woah-rose-sky",
+      "value": "#c87888",
+      "label": "Rose Sky"
+    },
+    {
+      "var": "--woah-lavender",
+      "value": "#b8c0d8",
+      "label": "Lavender"
+    },
+    {
+      "var": "--woah-coastal",
+      "value": "#7888b0",
+      "label": "Coastal"
+    },
+    {
+      "var": "--woah-deep-ocean",
+      "value": "#485878",
+      "label": "Deep Ocean"
+    },
+    {
+      "var": "--woah-sage-dark",
+      "value": "#3a5830",
+      "label": "Sage Dark"
+    },
+    {
+      "var": "--woah-sage-mid",
+      "value": "#5a7848",
+      "label": "Sage Mid"
+    },
+    {
+      "var": "--woah-sage-pale",
+      "value": "#90b878",
+      "label": "Sage Pale"
+    },
+    {
+      "var": "--woah-rust",
+      "value": "#784030",
+      "label": "Rust"
+    },
+    {
+      "var": "--woah-terra",
+      "value": "#a86048",
+      "label": "Terra"
+    },
+    {
+      "var": "--woah-peach",
+      "value": "#d4a880",
+      "label": "Peach"
+    },
+    {
+      "var": "--woah-pink-sky",
+      "value": "#f8e0d0",
+      "label": "Pink Sky"
+    },
+    {
+      "var": "--woah-gold",
+      "value": "#f0c890",
+      "label": "Gold"
+    },
+    {
+      "var": "--woah-mauve",
+      "value": "#9080a0",
+      "label": "Mauve"
+    },
+    {
+      "var": "--woah-light-pink",
+      "value": "#fadce8",
+      "label": "Light Pink"
+    },
+    {
+      "var": "--woah-pop-pink",
+      "value": "#ff9ec4",
+      "label": "Pop Pink"
+    }
+  ],
+  "roles": {
+    "bg": "--woah-bg",
+    "text": "--woah-pink-sky",
+    "surface": "--woah-surface",
+    "accent": "--woah-light-pink"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "woah-page",
+    "prefix": "woah",
+    "file": "archive/by-artist/woah/woah-shared.css",
+    "nav": {
+      "accent": "#fadce8",
+      "glow": "rgba(250,220,232,0.4)",
+      "brand": "#ff9ec4",
+      "brandGlow": "rgba(255,158,196,0.7)"
+    }
+  }
+}

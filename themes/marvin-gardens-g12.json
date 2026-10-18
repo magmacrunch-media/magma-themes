@@ -1,0 +1,105 @@
+{
+  "name": "Marvin Gardens G12",
+  "palette": [
+    {
+      "var": "--mg-deep",
+      "value": "#283828",
+      "label": "Deep"
+    },
+    {
+      "var": "--mg-dark",
+      "value": "#382848",
+      "label": "Dark"
+    },
+    {
+      "var": "--mg-surface",
+      "value": "#4a2830",
+      "label": "Surface"
+    },
+    {
+      "var": "--mg-muted",
+      "value": "#7848a0",
+      "label": "Muted"
+    },
+    {
+      "var": "--mg-light",
+      "value": "#d880c0",
+      "label": "Light"
+    },
+    {
+      "var": "--mg-cream",
+      "value": "#f080a0",
+      "label": "Cream"
+    },
+    {
+      "var": "--mg-brand",
+      "value": "#a02858",
+      "label": "Brand"
+    },
+    {
+      "var": "--mg-accent",
+      "value": "#d04878",
+      "label": "Accent"
+    },
+    {
+      "var": "--mg-cta",
+      "value": "#c87830",
+      "label": "CTA"
+    },
+    {
+      "var": "--mg-heading",
+      "value": "#e8c060",
+      "label": "Heading"
+    },
+    {
+      "var": "--mg-body",
+      "value": "#c8a868",
+      "label": "Body"
+    },
+    {
+      "var": "--mg-green",
+      "value": "#388040",
+      "label": "Green"
+    },
+    {
+      "var": "--mg-leaf",
+      "value": "#60b858",
+      "label": "Leaf"
+    },
+    {
+      "var": "--mg-sage",
+      "value": "#60a8c0",
+      "label": "Sage"
+    },
+    {
+      "var": "--mg-offwhite",
+      "value": "#f8f0f8",
+      "label": "Offwhite"
+    },
+    {
+      "var": "--mg-near-black",
+      "value": "#0c0a12",
+      "label": "Near Black"
+    }
+  ],
+  "roles": {
+    "bg": "--mg-near-black",
+    "text": "--mg-cream",
+    "surface": "--mg-surface",
+    "muted": "--mg-muted",
+    "accent": "--mg-accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-place",
+    "bodyClass": "mg-page",
+    "prefix": "mg",
+    "file": "archive/by-place/marvin-gardens-g12/mg-shared.css",
+    "nav": {
+      "accent": "#a02858",
+      "glow": "rgba(160,40,88,0.4)",
+      "brand": "#d04878",
+      "brandGlow": "rgba(208,72,120,0.7)"
+    }
+  }
+}

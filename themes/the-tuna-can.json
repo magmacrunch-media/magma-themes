@@ -1,0 +1,125 @@
+{
+  "name": "The Tuna Can",
+  "palette": [
+    {
+      "var": "--tc-brand",
+      "value": "#6a5018",
+      "label": "Brand"
+    },
+    {
+      "var": "--tc-amber",
+      "value": "#b87828",
+      "label": "Amber"
+    },
+    {
+      "var": "--tc-bright",
+      "value": "#e8c870",
+      "label": "Bright"
+    },
+    {
+      "var": "--tc-heading",
+      "value": "#e8d890",
+      "label": "Heading"
+    },
+    {
+      "var": "--tc-body",
+      "value": "#c8c0a0",
+      "label": "Body"
+    },
+    {
+      "var": "--tc-deep",
+      "value": "#2e2c20",
+      "label": "Deep"
+    },
+    {
+      "var": "--tc-dark",
+      "value": "#1e1c14",
+      "label": "Dark"
+    },
+    {
+      "var": "--tc-mid",
+      "value": "#3a3828",
+      "label": "Mid"
+    },
+    {
+      "var": "--tc-muted",
+      "value": "#787060",
+      "label": "Muted"
+    },
+    {
+      "var": "--tc-cream",
+      "value": "#e8d890",
+      "label": "Cream"
+    },
+    {
+      "var": "--tc-gold",
+      "value": "#c8a040",
+      "label": "Gold"
+    },
+    {
+      "var": "--tc-red",
+      "value": "#a83840",
+      "label": "Red"
+    },
+    {
+      "var": "--tc-green",
+      "value": "#507840",
+      "label": "Green"
+    },
+    {
+      "var": "--tc-olive",
+      "value": "#3d4a30",
+      "label": "Olive"
+    },
+    {
+      "var": "--tc-terra",
+      "value": "#8a4a30",
+      "label": "Terra"
+    },
+    {
+      "var": "--tc-wheat",
+      "value": "#d4b880",
+      "label": "Wheat"
+    },
+    {
+      "var": "--tc-copper",
+      "value": "#c0784a",
+      "label": "Copper"
+    },
+    {
+      "var": "--tc-khaki",
+      "value": "#a8a870",
+      "label": "Khaki"
+    },
+    {
+      "var": "--tc-offwhite",
+      "value": "#f5f0e0",
+      "label": "Offwhite"
+    },
+    {
+      "var": "--tc-bg",
+      "value": "#0e0d09",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--tc-bg",
+    "text": "--tc-cream",
+    "surface": "--tc-deep",
+    "muted": "--tc-muted",
+    "accent": "--tc-amber"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-place",
+    "bodyClass": "tc-page",
+    "prefix": "tc",
+    "file": "archive/by-place/the-tuna-can/tc-shared.css",
+    "nav": {
+      "accent": "#b87828",
+      "glow": "rgba(184,120,40,0.4)",
+      "brand": "#d0a050",
+      "brandGlow": "rgba(208,160,80,0.7)"
+    }
+  }
+}

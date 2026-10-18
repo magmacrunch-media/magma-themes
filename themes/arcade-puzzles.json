@@ -1,0 +1,18 @@
+{
+  "name": "Arcade: Puzzles",
+  "palette": [],
+  "roles": {},
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/puzzles/index.html",
+    "nav": {
+      "accent": "#ffe03a",
+      "glow": "rgba(255,224,58,0.4)",
+      "brand": "#ffe03a",
+      "brandGlow": "rgba(255,224,58,0.7)"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "George Boole: Matrix",
+  "palette": [
+    {
+      "var": "bg",
+      "value": "#000000",
+      "label": "BG"
+    },
+    {
+      "var": "bg-light",
+      "value": "#001a00",
+      "label": "BG Light"
+    },
+    {
+      "var": "accent",
+      "value": "#00ff00",
+      "label": "Accent"
+    }
+  ],
+  "roles": {
+    "bg": "bg",
+    "text": "accent",
+    "surface": "bg-light",
+    "accent": "accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "matrix",
+    "nav": {
+      "accent": "#00ff00",
+      "glow": "rgba(0,255,0,0.4)",
+      "brand": "#00ff00",
+      "brandGlow": "rgba(0,255,0,0.7)"
+    }
+  }
+}

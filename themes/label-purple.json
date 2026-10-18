@@ -1,0 +1,75 @@
+{
+  "name": "Label (Purple)",
+  "palette": [
+    {
+      "var": "--lbl-void",
+      "value": "#10002b",
+      "label": "Void"
+    },
+    {
+      "var": "--lbl-darkest",
+      "value": "#240046",
+      "label": "Darkest"
+    },
+    {
+      "var": "--lbl-dark",
+      "value": "#3c096c",
+      "label": "Dark"
+    },
+    {
+      "var": "--lbl-mid-dark",
+      "value": "#5a189a",
+      "label": "Mid Dark"
+    },
+    {
+      "var": "--lbl-deep",
+      "value": "#6a1bb0",
+      "label": "Deep"
+    },
+    {
+      "var": "--lbl-bright",
+      "value": "#782cbf",
+      "label": "Bright"
+    },
+    {
+      "var": "--lbl-muted",
+      "value": "#b185db",
+      "label": "Muted"
+    },
+    {
+      "var": "--lbl-violet",
+      "value": "#9d4edd",
+      "label": "Violet"
+    },
+    {
+      "var": "--lbl-light",
+      "value": "#c77dff",
+      "label": "Light"
+    },
+    {
+      "var": "--lbl-pale",
+      "value": "#e0aaff",
+      "label": "Pale"
+    }
+  ],
+  "roles": {
+    "bg": "--lbl-void",
+    "text": "--lbl-pale",
+    "surface": "--lbl-deep",
+    "muted": "--lbl-muted",
+    "accent": "--lbl-mid-dark"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "section-template",
+    "bodyClass": "lbl-page",
+    "prefix": "lbl",
+    "file": "templates/label-theme.css",
+    "nav": {
+      "accent": "#5a189a",
+      "glow": "rgba(90,24,154,0.4)",
+      "brand": "#9d4edd",
+      "brandGlow": "rgba(157,78,221,0.7)"
+    }
+  }
+}

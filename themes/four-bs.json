@@ -1,0 +1,94 @@
+{
+  "name": "Four B's",
+  "palette": [
+    {
+      "var": "--4b-deep",
+      "value": "#1a1408",
+      "label": "Deep"
+    },
+    {
+      "var": "--4b-mid",
+      "value": "#8a7a58",
+      "label": "Mid"
+    },
+    {
+      "var": "--4b-heading",
+      "value": "#e8ddb0",
+      "label": "Heading"
+    },
+    {
+      "var": "--4b-brand",
+      "value": "#2a6830",
+      "label": "Brand"
+    },
+    {
+      "var": "--4b-leaf",
+      "value": "#52b044",
+      "label": "Leaf"
+    },
+    {
+      "var": "--4b-chart",
+      "value": "#a8d848",
+      "label": "Chart"
+    },
+    {
+      "var": "--4b-rust",
+      "value": "#c84810",
+      "label": "Rust"
+    },
+    {
+      "var": "--4b-amber",
+      "value": "#f0a830",
+      "label": "Amber"
+    },
+    {
+      "var": "--4b-blue",
+      "value": "#1e60b0",
+      "label": "Blue"
+    },
+    {
+      "var": "--4b-sky",
+      "value": "#5890c8",
+      "label": "Sky"
+    },
+    {
+      "var": "--4b-offwhite",
+      "value": "#f5f2e8",
+      "label": "Offwhite"
+    },
+    {
+      "var": "--4b-bg",
+      "value": "#0c0a04",
+      "label": "BG"
+    },
+    {
+      "var": "--4b-dust",
+      "value": "#7a6040",
+      "label": "Dust"
+    },
+    {
+      "var": "--4b-ember",
+      "value": "#e85838",
+      "label": "Ember"
+    }
+  ],
+  "roles": {
+    "bg": "--4b-bg",
+    "text": "--4b-offwhite",
+    "surface": "--4b-deep",
+    "accent": "--4b-leaf"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "fb-page",
+    "prefix": "4b",
+    "file": "archive/by-artist/four-bs/4b-shared.css",
+    "nav": {
+      "accent": "#52b044",
+      "glow": "rgba(82,176,68,0.4)",
+      "brand": "#f0a830",
+      "brandGlow": "rgba(240,168,48,0.7)"
+    }
+  }
+}

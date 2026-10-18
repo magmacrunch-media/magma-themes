@@ -1,0 +1,129 @@
+{
+  "name": "C.P. Rutledge",
+  "palette": [
+    {
+      "var": "--cpr-deep",
+      "value": "#5020a0",
+      "label": "Deep"
+    },
+    {
+      "var": "--cpr-surface",
+      "value": "#1a1840",
+      "label": "Surface"
+    },
+    {
+      "var": "--cpr-raised",
+      "value": "#2a2060",
+      "label": "Raised"
+    },
+    {
+      "var": "--cpr-red",
+      "value": "#f05a5a",
+      "label": "Red"
+    },
+    {
+      "var": "--cpr-yellow",
+      "value": "#f5c020",
+      "label": "Yellow"
+    },
+    {
+      "var": "--cpr-green",
+      "value": "#4ab86a",
+      "label": "Green"
+    },
+    {
+      "var": "--cpr-blue",
+      "value": "#68c8f0",
+      "label": "Blue"
+    },
+    {
+      "var": "--cpr-purple",
+      "value": "#9030b0",
+      "label": "Purple"
+    },
+    {
+      "var": "--cpr-teal",
+      "value": "#20b8a0",
+      "label": "Teal"
+    },
+    {
+      "var": "--cpr-orange",
+      "value": "#f09848",
+      "label": "Orange"
+    },
+    {
+      "var": "--cpr-cream",
+      "value": "#f5e8c0",
+      "label": "Cream"
+    },
+    {
+      "var": "--cpr-dark-red",
+      "value": "#a02020",
+      "label": "Dark Red"
+    },
+    {
+      "var": "--cpr-dark-yellow",
+      "value": "#c89010",
+      "label": "Dark Yellow"
+    },
+    {
+      "var": "--cpr-dark-green",
+      "value": "#2a8040",
+      "label": "Dark Green"
+    },
+    {
+      "var": "--cpr-dark-blue",
+      "value": "#2888c0",
+      "label": "Dark Blue"
+    },
+    {
+      "var": "--cpr-light-purple",
+      "value": "#c080e0",
+      "label": "Light Purple"
+    },
+    {
+      "var": "--cpr-light-green",
+      "value": "#90d8a8",
+      "label": "Light Green"
+    },
+    {
+      "var": "--cpr-warm-bridge",
+      "value": "#f07850",
+      "label": "Warm Bridge"
+    },
+    {
+      "var": "--cpr-bg",
+      "value": "#070612",
+      "label": "BG"
+    },
+    {
+      "var": "--cpr-heading",
+      "value": "#f5e8c0",
+      "label": "Heading"
+    },
+    {
+      "var": "--cpr-gold",
+      "value": "#f5c020",
+      "label": "Gold"
+    }
+  ],
+  "roles": {
+    "bg": "--cpr-bg",
+    "text": "--cpr-cream",
+    "surface": "--cpr-surface",
+    "accent": "--cpr-red"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "cpr-page",
+    "prefix": "cpr",
+    "file": "archive/by-artist/c-p-rutledge/cpr-shared.css",
+    "nav": {
+      "accent": "#f05a5a",
+      "glow": "rgba(240,90,90,0.4)",
+      "brand": "#f08080",
+      "brandGlow": "rgba(240,128,128,0.7)"
+    }
+  }
+}

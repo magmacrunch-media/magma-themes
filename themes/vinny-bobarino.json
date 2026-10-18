@@ -1,0 +1,124 @@
+{
+  "name": "Vinny Bobarino",
+  "palette": [
+    {
+      "var": "--vb-bg",
+      "value": "#1e2235",
+      "label": "BG"
+    },
+    {
+      "var": "--vb-surface",
+      "value": "#2a1a10",
+      "label": "Surface"
+    },
+    {
+      "var": "--vb-raised",
+      "value": "#2a1a10",
+      "label": "Raised"
+    },
+    {
+      "var": "--vb-mid",
+      "value": "#4a3828",
+      "label": "Mid"
+    },
+    {
+      "var": "--vb-borders",
+      "value": "#3a2a1e",
+      "label": "Borders"
+    },
+    {
+      "var": "--vb-deep",
+      "value": "#c03820",
+      "label": "Deep"
+    },
+    {
+      "var": "--vb-accent",
+      "value": "#e86020",
+      "label": "Accent"
+    },
+    {
+      "var": "--vb-amber",
+      "value": "#f5a030",
+      "label": "Amber"
+    },
+    {
+      "var": "--vb-heading",
+      "value": "#c8a840",
+      "label": "Heading"
+    },
+    {
+      "var": "--vb-body",
+      "value": "#f0ead8",
+      "label": "Body"
+    },
+    {
+      "var": "--vb-nature",
+      "value": "#5a8a6a",
+      "label": "Nature"
+    },
+    {
+      "var": "--vb-nature-glow",
+      "value": "#6a9a7a",
+      "label": "Nature Glow"
+    },
+    {
+      "var": "--vb-sky",
+      "value": "#6aaad8",
+      "label": "Sky"
+    },
+    {
+      "var": "--vb-bulb",
+      "value": "#f7e060",
+      "label": "Bulb"
+    },
+    {
+      "var": "--vb-forest",
+      "value": "#3a6050",
+      "label": "Forest"
+    },
+    {
+      "var": "--vb-winter-sky",
+      "value": "#b8d8e8",
+      "label": "Winter Sky"
+    },
+    {
+      "var": "--vb-peach",
+      "value": "#f0c8a0",
+      "label": "Peach"
+    },
+    {
+      "var": "--vb-dusk",
+      "value": "#3a2e48",
+      "label": "Dusk"
+    },
+    {
+      "var": "--vb-party",
+      "value": "#e84838",
+      "label": "Party"
+    },
+    {
+      "var": "--vb-near-black",
+      "value": "#0d0e16",
+      "label": "Near Black"
+    }
+  ],
+  "roles": {
+    "bg": "--vb-bg",
+    "text": "--vb-body",
+    "surface": "--vb-surface",
+    "accent": "--vb-accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "vb-page",
+    "prefix": "vb",
+    "file": "archive/by-artist/vinny-bobarino/vb-shared.css",
+    "nav": {
+      "accent": "#e86020",
+      "glow": "rgba(232,96,32,0.4)",
+      "brand": "#f0a050",
+      "brandGlow": "rgba(240,160,80,0.7)"
+    }
+  }
+}

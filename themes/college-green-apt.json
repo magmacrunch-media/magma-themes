@@ -1,0 +1,125 @@
+{
+  "name": "College Green Apt.",
+  "palette": [
+    {
+      "var": "--cg-deep",
+      "value": "#382e28",
+      "label": "Deep"
+    },
+    {
+      "var": "--cg-dark",
+      "value": "#504438",
+      "label": "Dark"
+    },
+    {
+      "var": "--cg-surface",
+      "value": "#a09080",
+      "label": "Surface"
+    },
+    {
+      "var": "--cg-muted",
+      "value": "#a09080",
+      "label": "Muted"
+    },
+    {
+      "var": "--cg-light",
+      "value": "#c8bea8",
+      "label": "Light"
+    },
+    {
+      "var": "--cg-cream",
+      "value": "#e8e0cc",
+      "label": "Cream"
+    },
+    {
+      "var": "--cg-white",
+      "value": "#f8f4e8",
+      "label": "White"
+    },
+    {
+      "var": "--cg-green",
+      "value": "#607850",
+      "label": "Green"
+    },
+    {
+      "var": "--cg-cta",
+      "value": "#c07838",
+      "label": "CTA"
+    },
+    {
+      "var": "--cg-heading",
+      "value": "#8878a8",
+      "label": "Heading"
+    },
+    {
+      "var": "--cg-nature",
+      "value": "#607850",
+      "label": "Nature"
+    },
+    {
+      "var": "--cg-warm",
+      "value": "#c07838",
+      "label": "Warm"
+    },
+    {
+      "var": "--cg-cool",
+      "value": "#8878a8",
+      "label": "Cool"
+    },
+    {
+      "var": "--cg-sage",
+      "value": "#b8a0c8",
+      "label": "Sage"
+    },
+    {
+      "var": "--cg-deep2",
+      "value": "#4a6838",
+      "label": "Deep 2"
+    },
+    {
+      "var": "--cg-gold",
+      "value": "#e8a858",
+      "label": "Gold"
+    },
+    {
+      "var": "--cg-lavender",
+      "value": "#b8a0c8",
+      "label": "Lavender"
+    },
+    {
+      "var": "--cg-taupe",
+      "value": "#6a5840",
+      "label": "Taupe"
+    },
+    {
+      "var": "--cg-bluegrey",
+      "value": "#384858",
+      "label": "Bluegrey"
+    },
+    {
+      "var": "--cg-bg",
+      "value": "#0e0c0a",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--cg-bg",
+    "text": "--cg-white",
+    "surface": "--cg-surface",
+    "muted": "--cg-muted",
+    "accent": "--cg-cta"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-place",
+    "bodyClass": "cg-page",
+    "prefix": "cg",
+    "file": "archive/by-place/college-green-apt/cg-shared.css",
+    "nav": {
+      "accent": "#c07838",
+      "glow": "rgba(192,120,56,0.4)",
+      "brand": "#d8a068",
+      "brandGlow": "rgba(216,160,104,0.7)"
+    }
+  }
+}

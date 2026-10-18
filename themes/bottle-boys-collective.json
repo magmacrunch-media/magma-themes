@@ -1,0 +1,159 @@
+{
+  "name": "Bottle Boys Collective",
+  "palette": [
+    {
+      "var": "--bbc-surface",
+      "value": "#2a3028",
+      "label": "Surface"
+    },
+    {
+      "var": "--bbc-raised",
+      "value": "#384038",
+      "label": "Raised"
+    },
+    {
+      "var": "--bbc-dark",
+      "value": "#506050",
+      "label": "Dark"
+    },
+    {
+      "var": "--bbc-mid",
+      "value": "#887870",
+      "label": "Mid"
+    },
+    {
+      "var": "--bbc-light",
+      "value": "#c0b0a0",
+      "label": "Light"
+    },
+    {
+      "var": "--bbc-sky-dark",
+      "value": "#5888b0",
+      "label": "Sky Dark"
+    },
+    {
+      "var": "--bbc-sky",
+      "value": "#78a8c8",
+      "label": "Sky"
+    },
+    {
+      "var": "--bbc-sky-light",
+      "value": "#a8c8e0",
+      "label": "Sky Light"
+    },
+    {
+      "var": "--bbc-sky-pale",
+      "value": "#d0e4f0",
+      "label": "Sky Pale"
+    },
+    {
+      "var": "--bbc-skin-warm",
+      "value": "#e0a880",
+      "label": "Skin Warm"
+    },
+    {
+      "var": "--bbc-skin-light",
+      "value": "#f0d0b8",
+      "label": "Skin Light"
+    },
+    {
+      "var": "--bbc-highlight",
+      "value": "#f8f0e8",
+      "label": "Highlight"
+    },
+    {
+      "var": "--bbc-warm-dark",
+      "value": "#905030",
+      "label": "Warm Dark"
+    },
+    {
+      "var": "--bbc-warm",
+      "value": "#c07848",
+      "label": "Warm"
+    },
+    {
+      "var": "--bbc-warm-light",
+      "value": "#e8b870",
+      "label": "Warm Light"
+    },
+    {
+      "var": "--bbc-green-dark",
+      "value": "#304828",
+      "label": "Green Dark"
+    },
+    {
+      "var": "--bbc-green",
+      "value": "#507840",
+      "label": "Green"
+    },
+    {
+      "var": "--bbc-green-light",
+      "value": "#80a858",
+      "label": "Green Light"
+    },
+    {
+      "var": "--bbc-bridge-cool",
+      "value": "#6898a0",
+      "label": "Bridge Cool"
+    },
+    {
+      "var": "--bbc-bridge-warm",
+      "value": "#d09888",
+      "label": "Bridge Warm"
+    },
+    {
+      "var": "--bbc-cream",
+      "value": "#f0e8d8",
+      "label": "Cream"
+    },
+    {
+      "var": "--bbc-sea-mist",
+      "value": "#c8e0d8",
+      "label": "Sea Mist"
+    },
+    {
+      "var": "--bbc-warm-grey",
+      "value": "#7a6858",
+      "label": "Warm Grey"
+    },
+    {
+      "var": "--bbc-mauve",
+      "value": "#a07888",
+      "label": "Mauve"
+    },
+    {
+      "var": "--bbc-sage",
+      "value": "#3a5840",
+      "label": "Sage"
+    },
+    {
+      "var": "--bbc-apricot",
+      "value": "#f0c0a0",
+      "label": "Apricot"
+    },
+    {
+      "var": "--bbc-bg",
+      "value": "#070906",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--bbc-bg",
+    "text": "--bbc-cream",
+    "surface": "--bbc-surface",
+    "accent": "--bbc-apricot"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-artist",
+    "bodyClass": "bbc-page",
+    "prefix": "bbc",
+    "file": "archive/by-artist/bottle-boys-collective/bbc-shared.css",
+    "nav": {
+      "accent": "#f0c0a0",
+      "glow": "rgba(240,192,160,0.4)",
+      "brand": "#78a8c8",
+      "brandGlow": "rgba(120,168,200,0.7)"
+    }
+  }
+}

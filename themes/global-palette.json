@@ -1,0 +1,270 @@
+{
+  "name": "Global Palette",
+  "palette": [
+    {
+      "var": "--black",
+      "value": "#080808",
+      "label": "Black"
+    },
+    {
+      "var": "--deep",
+      "value": "#111118",
+      "label": "Deep"
+    },
+    {
+      "var": "--rose",
+      "value": "#ff3d6e",
+      "label": "Rose"
+    },
+    {
+      "var": "--bubblegum",
+      "value": "#FF8584",
+      "label": "Bubblegum"
+    },
+    {
+      "var": "--yellow",
+      "value": "#ffe03a",
+      "label": "Yellow"
+    },
+    {
+      "var": "--cyan",
+      "value": "#00f5ff",
+      "label": "Cyan"
+    },
+    {
+      "var": "--green",
+      "value": "#39ff6e",
+      "label": "Green"
+    },
+    {
+      "var": "--orange",
+      "value": "#ff7c1f",
+      "label": "Orange"
+    },
+    {
+      "var": "--purple",
+      "value": "#c45fff",
+      "label": "Purple"
+    },
+    {
+      "var": "--white",
+      "value": "#f0ead8",
+      "label": "White"
+    },
+    {
+      "var": "--dim",
+      "value": "#8a7a8a",
+      "label": "Dim"
+    },
+    {
+      "var": "--slate",
+      "value": "#8899aa",
+      "label": "Slate"
+    },
+    {
+      "var": "--blue",
+      "value": "#4678ff",
+      "label": "Blue"
+    },
+    {
+      "var": "--magenta",
+      "value": "#ff2d78",
+      "label": "Magenta"
+    },
+    {
+      "var": "--darkgreen",
+      "value": "#1f7a3e",
+      "label": "Dark Green"
+    },
+    {
+      "var": "--teal",
+      "value": "#1a7a5e",
+      "label": "Teal"
+    },
+    {
+      "var": "--burntorange",
+      "value": "#ff6b35",
+      "label": "Burnt Orange"
+    },
+    {
+      "var": "--violet",
+      "value": "#b24bff",
+      "label": "Violet"
+    },
+    {
+      "var": "--mintteal",
+      "value": "#00e5b3",
+      "label": "Mint Teal"
+    },
+    {
+      "var": "--softpink",
+      "value": "#ff9eb5",
+      "label": "Soft Pink"
+    },
+    {
+      "var": "--nearwhite",
+      "value": "#f0f0f0",
+      "label": "Near White"
+    },
+    {
+      "var": "--mc-mount",
+      "value": "#1A0505",
+      "label": "MC Mount"
+    },
+    {
+      "var": "--mc-mount-dark",
+      "value": "#110206",
+      "label": "MC Mount Dark"
+    },
+    {
+      "var": "--mc-mount-mid",
+      "value": "#2D0A0A",
+      "label": "MC Mount Mid"
+    },
+    {
+      "var": "--mc-ash",
+      "value": "#3D3028",
+      "label": "MC Ash"
+    },
+    {
+      "var": "--mc-smoke",
+      "value": "#6A5A52",
+      "label": "MC Smoke"
+    },
+    {
+      "var": "--mc-haze",
+      "value": "#9A8878",
+      "label": "MC Haze"
+    },
+    {
+      "var": "--mc-lava-bright",
+      "value": "#FFE03A",
+      "label": "MC Lava Bright"
+    },
+    {
+      "var": "--mc-lava-amber",
+      "value": "#FFAD1F",
+      "label": "MC Lava Amber"
+    },
+    {
+      "var": "--mc-lava-orange",
+      "value": "#FF6A00",
+      "label": "MC Lava Orange"
+    },
+    {
+      "var": "--mc-lava-deep",
+      "value": "#CC2200",
+      "label": "MC Lava Deep"
+    },
+    {
+      "var": "--mc-ember",
+      "value": "#FF3D00",
+      "label": "MC Ember"
+    },
+    {
+      "var": "--mc-crater",
+      "value": "#FF3D6E",
+      "label": "MC Crater"
+    },
+    {
+      "var": "--mc-sky-deep",
+      "value": "#0A0518",
+      "label": "MC Sky Deep"
+    },
+    {
+      "var": "--mc-sky-mid",
+      "value": "#1A0A2E",
+      "label": "MC Sky Mid"
+    },
+    {
+      "var": "--mc-gas-glow",
+      "value": "#2A1A0A",
+      "label": "MC Gas Glow"
+    },
+    {
+      "var": "--mc-cereal-rose",
+      "value": "#FF3D6E",
+      "label": "MC Cereal Rose"
+    },
+    {
+      "var": "--mc-cereal-cyan",
+      "value": "#00F5FF",
+      "label": "MC Cereal Cyan"
+    },
+    {
+      "var": "--mc-cereal-purple",
+      "value": "#C45FFF",
+      "label": "MC Cereal Purple"
+    },
+    {
+      "var": "--mc-cereal-green",
+      "value": "#39FF14",
+      "label": "MC Cereal Green"
+    },
+    {
+      "var": "--mc-cereal-white",
+      "value": "#FFFFFF",
+      "label": "MC Cereal White"
+    },
+    {
+      "var": "--mc-text-primary",
+      "value": "#FFF0E8",
+      "label": "MC Text Primary"
+    },
+    {
+      "var": "--mc-text-dim",
+      "value": "#C8A898",
+      "label": "MC Text Dim"
+    },
+    {
+      "var": "--mc-border",
+      "value": "#3D2018",
+      "label": "MC Border"
+    },
+    {
+      "var": "--mc-surface",
+      "value": "#1A0D08",
+      "label": "MC Surface"
+    },
+    {
+      "var": "--mc-nav-accent-a",
+      "value": "#00F5FF",
+      "label": "MC Nav Accent A"
+    },
+    {
+      "var": "--mc-nav-accent-b",
+      "value": "#C45FFF",
+      "label": "MC Nav Accent B"
+    },
+    {
+      "var": "--mc-nav-active",
+      "value": "#FF6A00",
+      "label": "MC Nav Active"
+    },
+    {
+      "var": "--mc-nav-text",
+      "value": "#FFF0E8",
+      "label": "MC Nav Text"
+    }
+  ],
+  "roles": {
+    "bg": "--black",
+    "text": "--white",
+    "surface": "--deep",
+    "muted": "--dim",
+    "accent": "--cyan"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "global",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "style.css",
+    "nav": {
+      "accent": "#00F5FF",
+      "glow": "rgba(0,245,255,0.4)",
+      "brand": "#C45FFF",
+      "brandGlow": "rgba(196,95,255,0.7)"
+    }
+  }
+}

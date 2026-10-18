@@ -1,0 +1,123 @@
+{
+  "name": "Memphis",
+  "palette": [
+    {
+      "var": "--mem-black",
+      "value": "#1A1A1A",
+      "label": "Black"
+    },
+    {
+      "var": "--mem-white",
+      "value": "#F5F5F0",
+      "label": "White"
+    },
+    {
+      "var": "--mem-cream",
+      "value": "#F0E8D8",
+      "label": "Cream"
+    },
+    {
+      "var": "--mem-red",
+      "value": "#FF3B30",
+      "label": "Red"
+    },
+    {
+      "var": "--mem-yellow",
+      "value": "#FFD600",
+      "label": "Yellow"
+    },
+    {
+      "var": "--mem-blue",
+      "value": "#0057FF",
+      "label": "Blue"
+    },
+    {
+      "var": "--mem-green",
+      "value": "#00C853",
+      "label": "Green"
+    },
+    {
+      "var": "--mem-hot-pink",
+      "value": "#FF2D9B",
+      "label": "Hot Pink"
+    },
+    {
+      "var": "--mem-orange",
+      "value": "#FF6B00",
+      "label": "Orange"
+    },
+    {
+      "var": "--mem-cyan",
+      "value": "#00D4FF",
+      "label": "Cyan"
+    },
+    {
+      "var": "--mem-violet",
+      "value": "#7B2FFF",
+      "label": "Violet"
+    },
+    {
+      "var": "--mem-coral",
+      "value": "#FF5A5A",
+      "label": "Coral"
+    },
+    {
+      "var": "--mem-mint",
+      "value": "#A8FFD8",
+      "label": "Mint"
+    },
+    {
+      "var": "--mem-sky",
+      "value": "#A8D8FF",
+      "label": "Sky"
+    },
+    {
+      "var": "--mem-blush",
+      "value": "#FFB8D8",
+      "label": "Blush"
+    },
+    {
+      "var": "--mem-lemon",
+      "value": "#FFF176",
+      "label": "Lemon"
+    },
+    {
+      "var": "--mem-lilac",
+      "value": "#D8B8FF",
+      "label": "Lilac"
+    },
+    {
+      "var": "--mem-peach",
+      "value": "#FFD0A8",
+      "label": "Peach"
+    },
+    {
+      "var": "--mem-aqua",
+      "value": "#B8FFF0",
+      "label": "Aqua"
+    },
+    {
+      "var": "--mem-squiggle-gray",
+      "value": "#C8C0B8",
+      "label": "Squiggle Gray"
+    }
+  ],
+  "roles": {
+    "bg": "--mem-black",
+    "text": "--mem-white",
+    "accent": "--mem-hot-pink"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "visual",
+    "bodyClass": "memphis",
+    "prefix": "mem",
+    "file": "visual/collage.html",
+    "nav": {
+      "accent": "#FF2D9B",
+      "glow": "rgba(255,45,155,0.4)",
+      "brand": "#F0E8D8",
+      "brandGlow": "rgba(240,232,216,0.7)"
+    }
+  }
+}

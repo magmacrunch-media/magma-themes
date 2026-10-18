@@ -1,0 +1,21 @@
+# What is committed here is LF. `core.autocrlf` is true on the dev box and does
+# NOT normalise these repos on the way in, so state it rather than trusting the
+# heuristic: a pure-CRLF source file has been measured staging as a
+# 236-insertion whole-file rewrite over a five-line change, which buries the
+# real edit. See the root CLAUDE.md, "Write LF into the magmacrunch repos".
+#
+# Deliberately NO blanket `eol=lf`. `apps/magmacrunch` and `apps/media-player`
+# both argue against pinning checkout, on the grounds that what is committed is
+# LF whatever a clone does on disk, and this follows them. `text=auto` is the
+# half that matters.
+#
+# Later rules win, so the general case is first and the exceptions follow.
+* text=auto
+
+# These break outright rather than merely looking untidy: a trailing CR on a
+# shebang gives "bad interpreter", and a workflow's `run:` block is handed to a
+# Linux shell verbatim. Pinned even where the repo has none yet, because the
+# first one added should not have to remember this file exists.
+*.sh   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf

@@ -1,0 +1,128 @@
+{
+  "name": "pay2play",
+  "palette": [
+    {
+      "var": "--p2p-uv",
+      "value": "#2A0A4A",
+      "label": "UV"
+    },
+    {
+      "var": "--p2p-deep-plum",
+      "value": "#1A0530",
+      "label": "Deep Plum"
+    },
+    {
+      "var": "--p2p-violet",
+      "value": "#4A1A7A",
+      "label": "Violet"
+    },
+    {
+      "var": "--p2p-mid-purple",
+      "value": "#6A3AAA",
+      "label": "Mid Purple"
+    },
+    {
+      "var": "--p2p-light-purple",
+      "value": "#9A6ACC",
+      "label": "Light Purple"
+    },
+    {
+      "var": "--p2p-lavender",
+      "value": "#C0A0E8",
+      "label": "Lavender"
+    },
+    {
+      "var": "--p2p-magenta-dark",
+      "value": "#6A0A4A",
+      "label": "Magenta Dark"
+    },
+    {
+      "var": "--p2p-magenta",
+      "value": "#AA1A6A",
+      "label": "Magenta"
+    },
+    {
+      "var": "--p2p-hot",
+      "value": "#CC2A88",
+      "label": "Hot"
+    },
+    {
+      "var": "--p2p-pink-glow",
+      "value": "#E870C0",
+      "label": "Pink Glow"
+    },
+    {
+      "var": "--p2p-maroon",
+      "value": "#3A0A18",
+      "label": "Maroon"
+    },
+    {
+      "var": "--p2p-plum-red",
+      "value": "#5A1A28",
+      "label": "Plum Red"
+    },
+    {
+      "var": "--p2p-dusty-rose",
+      "value": "#8A4A5A",
+      "label": "Dusty Rose"
+    },
+    {
+      "var": "--p2p-coin-dark",
+      "value": "#2A2038",
+      "label": "Coin Dark"
+    },
+    {
+      "var": "--p2p-coin-mid",
+      "value": "#4A3A5A",
+      "label": "Coin Mid"
+    },
+    {
+      "var": "--p2p-coin-shine",
+      "value": "#8A7A9A",
+      "label": "Coin Shine"
+    },
+    {
+      "var": "--p2p-white-glow",
+      "value": "#EEE0FF",
+      "label": "White Glow"
+    },
+    {
+      "var": "--p2p-ghost-white",
+      "value": "#F5F0FF",
+      "label": "Ghost White"
+    },
+    {
+      "var": "--p2p-uv-white",
+      "value": "#FFFFFF",
+      "label": "UV White"
+    },
+    {
+      "var": "--p2p-black",
+      "value": "#080510",
+      "label": "Black"
+    },
+    {
+      "var": "--p2p-near-black",
+      "value": "#100820",
+      "label": "Near Black"
+    }
+  ],
+  "roles": {
+    "bg": "--p2p-black",
+    "text": "--p2p-uv-white",
+    "accent": "--p2p-hot"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "music",
+    "bodyClass": null,
+    "prefix": "p2p",
+    "file": "music/physical-media/floppy-disk/pay2play-2025/index.html",
+    "nav": {
+      "accent": "#CC2A88",
+      "glow": "rgba(204,42,136,0.4)",
+      "brand": "#F5F0FF",
+      "brandGlow": "rgba(245,240,255,0.7)"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "name": "City Pop",
+  "palette": [
+    {
+      "var": "--cp-night-sky",
+      "value": "#0D0D2B",
+      "label": "Night Sky"
+    },
+    {
+      "var": "--cp-deep-navy",
+      "value": "#141438",
+      "label": "Deep Navy"
+    },
+    {
+      "var": "--cp-twilight",
+      "value": "#1E1E4A",
+      "label": "Twilight"
+    },
+    {
+      "var": "--cp-smoked-glass",
+      "value": "#2A2A5A",
+      "label": "Smoked Glass"
+    },
+    {
+      "var": "--cp-soft-white",
+      "value": "#F0EEF8",
+      "label": "Soft White"
+    },
+    {
+      "var": "--cp-sakura-pink",
+      "value": "#FF8FB0",
+      "label": "Sakura Pink"
+    },
+    {
+      "var": "--cp-coral-sunrise",
+      "value": "#FF6E6E",
+      "label": "Coral Sunrise"
+    },
+    {
+      "var": "--cp-peach-glow",
+      "value": "#FFB48A",
+      "label": "Peach Glow"
+    },
+    {
+      "var": "--cp-butter-neon",
+      "value": "#FFE97A",
+      "label": "Butter Neon"
+    },
+    {
+      "var": "--cp-mint-flash",
+      "value": "#7AFFD4",
+      "label": "Mint Flash"
+    },
+    {
+      "var": "--cp-aqua-haze",
+      "value": "#5EEEF0",
+      "label": "Aqua Haze"
+    },
+    {
+      "var": "--cp-periwinkle",
+      "value": "#A0A8FF",
+      "label": "Periwinkle"
+    },
+    {
+      "var": "--cp-lavender-mist",
+      "value": "#C8AEFF",
+      "label": "Lavender Mist"
+    },
+    {
+      "var": "--cp-blush-lilac",
+      "value": "#E8B0FF",
+      "label": "Blush Lilac"
+    },
+    {
+      "var": "--cp-horizon-pink",
+      "value": "#FF4FA0",
+      "label": "Horizon Pink"
+    },
+    {
+      "var": "--cp-electric-teal",
+      "value": "#00E5CC",
+      "label": "Electric Teal"
+    },
+    {
+      "var": "--cp-neon-periwinkle",
+      "value": "#6B6BFF",
+      "label": "Neon Periwinkle"
+    },
+    {
+      "var": "--cp-chrome-silver",
+      "value": "#C0C8E0",
+      "label": "Chrome Silver"
+    },
+    {
+      "var": "--cp-rose-gold",
+      "value": "#E8A0B0",
+      "label": "Rose Gold"
+    },
+    {
+      "var": "--cp-cassette-gold",
+      "value": "#E8C86A",
+      "label": "Cassette Gold"
+    }
+  ],
+  "roles": {
+    "bg": "--cp-night-sky",
+    "text": "--cp-soft-white",
+    "accent": "--cp-horizon-pink"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "visual",
+    "bodyClass": "city-pop",
+    "prefix": "cp",
+    "file": "visual/photography/index.html",
+    "nav": {
+      "accent": "#FF4FA0",
+      "glow": "rgba(255,79,160,0.4)",
+      "brand": "#C0C8E0",
+      "brandGlow": "rgba(192,200,224,0.7)"
+    }
+  }
+}

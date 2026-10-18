@@ -1,0 +1,50 @@
+{
+  "name": "George Boole: Neo Geo",
+  "palette": [
+    {
+      "var": "bg",
+      "value": "#1a0020",
+      "label": "BG"
+    },
+    {
+      "var": "bg-light",
+      "value": "#2a0040",
+      "label": "BG Light"
+    },
+    {
+      "var": "accent",
+      "value": "#ff1493",
+      "label": "Accent"
+    },
+    {
+      "var": "purple",
+      "value": "#9400d3",
+      "label": "Purple"
+    },
+    {
+      "var": "cyan",
+      "value": "#00ffff",
+      "label": "Cyan"
+    }
+  ],
+  "roles": {
+    "bg": "bg",
+    "text": "cyan",
+    "surface": "bg-light",
+    "accent": "accent"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "arcade",
+    "bodyClass": null,
+    "prefix": null,
+    "file": "arcade/george-boole/css/themes.css",
+    "dataTheme": "neogeo",
+    "nav": {
+      "accent": "#ff1493",
+      "glow": "rgba(255,20,147,0.4)",
+      "brand": "#00ffff",
+      "brandGlow": "rgba(0,255,255,0.7)"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Melrose House",
+  "palette": [
+    {
+      "var": "--mh-deep",
+      "value": "#6a6e78",
+      "label": "Deep"
+    },
+    {
+      "var": "--mh-surface",
+      "value": "#786858",
+      "label": "Surface"
+    },
+    {
+      "var": "--mh-bread",
+      "value": "#3e4048",
+      "label": "Bread"
+    },
+    {
+      "var": "--mh-muted",
+      "value": "#9080a0",
+      "label": "Muted"
+    },
+    {
+      "var": "--mh-light",
+      "value": "#a0b0c8",
+      "label": "Light"
+    },
+    {
+      "var": "--mh-cream",
+      "value": "#c8d4e0",
+      "label": "Cream"
+    },
+    {
+      "var": "--mh-coral",
+      "value": "#c87878",
+      "label": "Coral"
+    },
+    {
+      "var": "--mh-peach",
+      "value": "#e8a090",
+      "label": "Peach"
+    },
+    {
+      "var": "--mh-pale",
+      "value": "#f0c8c0",
+      "label": "Pale"
+    },
+    {
+      "var": "--mh-gold",
+      "value": "#d4a060",
+      "label": "Gold"
+    },
+    {
+      "var": "--mh-brand",
+      "value": "#6878a0",
+      "label": "Brand"
+    },
+    {
+      "var": "--mh-sage",
+      "value": "#7ab8a0",
+      "label": "Sage"
+    },
+    {
+      "var": "--mh-lavender",
+      "value": "#c8a8d0",
+      "label": "Lavender"
+    },
+    {
+      "var": "--mh-sage2",
+      "value": "#a8c0a0",
+      "label": "Sage 2"
+    },
+    {
+      "var": "--mh-amber",
+      "value": "#e8b870",
+      "label": "Amber"
+    },
+    {
+      "var": "--mh-slate",
+      "value": "#5a6890",
+      "label": "Slate"
+    },
+    {
+      "var": "--mh-dark",
+      "value": "#2a2c30",
+      "label": "Dark"
+    },
+    {
+      "var": "--mh-bg",
+      "value": "#0c0d0f",
+      "label": "BG"
+    }
+  ],
+  "roles": {
+    "bg": "--mh-bg",
+    "text": "--mh-cream",
+    "surface": "--mh-surface",
+    "muted": "--mh-muted",
+    "accent": "--mh-brand"
+  },
+  "rolesFrom": "import-heuristic",
+  "web": {
+    "section": "archive-place",
+    "bodyClass": "mh-page",
+    "prefix": "mh",
+    "file": "archive/by-place/melrose-house/mh-shared.css",
+    "nav": {
+      "accent": "#6878a0",
+      "glow": "rgba(104,120,160,0.4)",
+      "brand": "#d4a060",
+      "brandGlow": "rgba(212,160,96,0.7)"
+    }
+  }
+}
