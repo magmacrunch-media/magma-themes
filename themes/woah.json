@@ -116,9 +116,9 @@
     "bg": "--woah-bg",
     "text": "--woah-pink-sky",
     "surface": "--woah-surface",
-    "accent": "--woah-light-pink"
+    "accent": "--woah-pop-pink"
   },
-  "rolesFrom": "import-heuristic",
+  "rolesFrom": "hand",
   "web": {
     "section": "archive-artist",
     "bodyClass": "woah-page",
