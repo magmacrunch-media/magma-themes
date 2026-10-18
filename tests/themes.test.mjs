@@ -56,13 +56,28 @@ test('dist/ is current', () => {
   execFileSync(process.execPath, [join(ROOT, 'tools', 'build.mjs'), '--check'], { stdio: 'pipe' });
 });
 
-// The light themes were made here, not imported, so they can be held to a
-// readable standard: WCAG AA for text, 3:1 for the rest.
-test('every light theme has all six roles, readable on its background', () => {
+// Every light theme's text, muted and accent must read on its bg: a light
+// page is where an accent made for a dark one disappears (Dorfic's amber
+// was 1.7:1). Text 7:1, muted WCAG AA, accent 3:1.
+test('every light theme reads on its background', () => {
   const light = themes.filter((t) => t.roles && t.roles.bg && t.roles.text
     && luminance(colourOf(t, t.roles.bg)) > luminance(colourOf(t, t.roles.text)));
   assert.ok(light.length >= 6, `only ${light.length} light themes`);
-  for (const t of light.filter((x) => !x.web)) {
+  for (const t of light) {
+    const c = (r) => contrast(colourOf(t, t.roles.bg), colourOf(t, t.roles[r]));
+    assert.ok(c('text') >= 7, `${t.slug}: text is ${c('text').toFixed(2)}:1`);
+    assert.ok(c('muted') >= 4.5, `${t.slug}: muted is ${c('muted').toFixed(2)}:1`);
+    assert.ok(c('accent') >= 3, `${t.slug}: accent is ${c('accent').toFixed(2)}:1`);
+  }
+});
+
+// The light themes made here, not imported, are held to more: all six roles,
+// and accent2 too.
+test("every light theme of this repo's own has all six roles, readable on its background", () => {
+  const light = themes.filter((t) => !t.web && t.roles && t.roles.bg && t.roles.text
+    && luminance(colourOf(t, t.roles.bg)) > luminance(colourOf(t, t.roles.text)));
+  assert.ok(light.length >= 5, `only ${light.length} light themes of this repo's own`);
+  for (const t of light) {
     const c = (r) => contrast(colourOf(t, t.roles.bg), colourOf(t, t.roles[r]));
     for (const r of ['bg', 'surface', 'text', 'muted', 'accent', 'accent2']) assert.ok(t.roles[r], `${t.slug} has no ${r}`);
     assert.ok(c('text') >= 7, `${t.slug}: text is ${c('text').toFixed(2)}:1`);
