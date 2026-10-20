@@ -1608,6 +1608,110 @@ export const THEMES = {
       "cc-orange": "#ff7c1f",
       "cc-purple": "#c45fff"
     }
+  },
+  "fifteen-puzzle": {
+    "name": "15 Puzzle",
+    "roles": {
+      "bg": "#0a0612",
+      "surface": "#1a0a2a",
+      "text": "#f0ead8",
+      "muted": "#8a7fa8",
+      "accent": "#00f5ff",
+      "accent2": "#ffe03a"
+    },
+    "palette": {
+      "fp-bg": "#0a0612",
+      "fp-deep": "#0d0820",
+      "fp-panel": "#1a0a2a",
+      "fp-dim": "#8a7fa8",
+      "fp-text": "#f0ead8",
+      "fp-cyan": "#00f5ff",
+      "fp-gold": "#ffe03a",
+      "fp-green": "#39ff6e",
+      "fp-tile-blue": "#0a3a6a",
+      "fp-tile-teal": "#007a6a",
+      "fp-tile-olive": "#6a6a00",
+      "fp-tile-orange": "#c43a00",
+      "fp-tile-violet": "#6a0080"
+    }
+  },
+  "threes": {
+    "name": "Threes",
+    "roles": {
+      "bg": "#0a0612",
+      "surface": "#1a0a2a",
+      "text": "#f0ead8",
+      "muted": "#8a7fa8",
+      "accent": "#00f5ff",
+      "accent2": "#ffe03a"
+    },
+    "palette": {
+      "tr-bg": "#0a0612",
+      "tr-deep": "#0d0820",
+      "tr-panel": "#1a0a2a",
+      "tr-dim": "#8a7fa8",
+      "tr-text": "#f0ead8",
+      "tr-cyan": "#00f5ff",
+      "tr-gold": "#ffe03a",
+      "tr-green": "#39ff6e",
+      "tr-one": "#1a1a2e",
+      "tr-one-edge": "#5ba3f5",
+      "tr-two": "#0a2a5a",
+      "tr-three": "#005a6a",
+      "tr-six": "#006a4a",
+      "tr-twelve": "#4a6a00",
+      "tr-twenty-four": "#7a4a00",
+      "tr-pink": "#ff3d6e"
+    }
+  },
+  "klotski": {
+    "name": "Klotski",
+    "roles": {
+      "bg": "#0a0612",
+      "surface": "#1a0a2a",
+      "text": "#f0ead8",
+      "muted": "#8a7fa8",
+      "accent": "#ff2d4a",
+      "accent2": "#ffd700"
+    },
+    "palette": {
+      "kl-bg": "#0a0612",
+      "kl-deep": "#0d0820",
+      "kl-panel": "#1a0a2a",
+      "kl-dim": "#8a7fa8",
+      "kl-text": "#f0ead8",
+      "kl-red": "#ff2d4a",
+      "kl-gold": "#ffd700",
+      "kl-orange": "#ff8c00",
+      "kl-jade": "#00cc88",
+      "kl-jade-dark": "#009966",
+      "kl-jade-edge": "#00ffaa",
+      "kl-cyan": "#00f5ff"
+    }
+  },
+  "two-to-the-n": {
+    "name": "2^N",
+    "roles": {
+      "bg": "#150008",
+      "surface": "#1a0040",
+      "text": "#ffffff",
+      "muted": "#f07ad0",
+      "accent": "#14b8ff",
+      "accent2": "#ffd54a"
+    },
+    "palette": {
+      "tn-wine": "#1a0018",
+      "tn-ember": "#2a0a08",
+      "tn-night": "#0f0020",
+      "tn-bg": "#150008",
+      "tn-plum": "#3a0040",
+      "tn-indigo": "#1a0040",
+      "tn-soft-pink": "#f07ad0",
+      "tn-white": "#ffffff",
+      "tn-blue": "#14b8ff",
+      "tn-gold": "#ffd54a",
+      "tn-pink": "#f23c8f"
+    }
   }
 };
 

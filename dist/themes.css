@@ -1438,3 +1438,95 @@
   --mt-p-cc-orange: #ff7c1f;
   --mt-p-cc-purple: #c45fff;
 }
+
+/* 15 Puzzle */
+[data-magma-theme="fifteen-puzzle"] {
+  --mt-bg: #0a0612;
+  --mt-surface: #1a0a2a;
+  --mt-text: #f0ead8;
+  --mt-muted: #8a7fa8;
+  --mt-accent: #00f5ff;
+  --mt-accent2: #ffe03a;
+  --mt-p-fp-bg: #0a0612;
+  --mt-p-fp-deep: #0d0820;
+  --mt-p-fp-panel: #1a0a2a;
+  --mt-p-fp-dim: #8a7fa8;
+  --mt-p-fp-text: #f0ead8;
+  --mt-p-fp-cyan: #00f5ff;
+  --mt-p-fp-gold: #ffe03a;
+  --mt-p-fp-green: #39ff6e;
+  --mt-p-fp-tile-blue: #0a3a6a;
+  --mt-p-fp-tile-teal: #007a6a;
+  --mt-p-fp-tile-olive: #6a6a00;
+  --mt-p-fp-tile-orange: #c43a00;
+  --mt-p-fp-tile-violet: #6a0080;
+}
+
+/* Threes */
+[data-magma-theme="threes"] {
+  --mt-bg: #0a0612;
+  --mt-surface: #1a0a2a;
+  --mt-text: #f0ead8;
+  --mt-muted: #8a7fa8;
+  --mt-accent: #00f5ff;
+  --mt-accent2: #ffe03a;
+  --mt-p-tr-bg: #0a0612;
+  --mt-p-tr-deep: #0d0820;
+  --mt-p-tr-panel: #1a0a2a;
+  --mt-p-tr-dim: #8a7fa8;
+  --mt-p-tr-text: #f0ead8;
+  --mt-p-tr-cyan: #00f5ff;
+  --mt-p-tr-gold: #ffe03a;
+  --mt-p-tr-green: #39ff6e;
+  --mt-p-tr-one: #1a1a2e;
+  --mt-p-tr-one-edge: #5ba3f5;
+  --mt-p-tr-two: #0a2a5a;
+  --mt-p-tr-three: #005a6a;
+  --mt-p-tr-six: #006a4a;
+  --mt-p-tr-twelve: #4a6a00;
+  --mt-p-tr-twenty-four: #7a4a00;
+  --mt-p-tr-pink: #ff3d6e;
+}
+
+/* Klotski */
+[data-magma-theme="klotski"] {
+  --mt-bg: #0a0612;
+  --mt-surface: #1a0a2a;
+  --mt-text: #f0ead8;
+  --mt-muted: #8a7fa8;
+  --mt-accent: #ff2d4a;
+  --mt-accent2: #ffd700;
+  --mt-p-kl-bg: #0a0612;
+  --mt-p-kl-deep: #0d0820;
+  --mt-p-kl-panel: #1a0a2a;
+  --mt-p-kl-dim: #8a7fa8;
+  --mt-p-kl-text: #f0ead8;
+  --mt-p-kl-red: #ff2d4a;
+  --mt-p-kl-gold: #ffd700;
+  --mt-p-kl-orange: #ff8c00;
+  --mt-p-kl-jade: #00cc88;
+  --mt-p-kl-jade-dark: #009966;
+  --mt-p-kl-jade-edge: #00ffaa;
+  --mt-p-kl-cyan: #00f5ff;
+}
+
+/* 2^N */
+[data-magma-theme="two-to-the-n"] {
+  --mt-bg: #150008;
+  --mt-surface: #1a0040;
+  --mt-text: #ffffff;
+  --mt-muted: #f07ad0;
+  --mt-accent: #14b8ff;
+  --mt-accent2: #ffd54a;
+  --mt-p-tn-wine: #1a0018;
+  --mt-p-tn-ember: #2a0a08;
+  --mt-p-tn-night: #0f0020;
+  --mt-p-tn-bg: #150008;
+  --mt-p-tn-plum: #3a0040;
+  --mt-p-tn-indigo: #1a0040;
+  --mt-p-tn-soft-pink: #f07ad0;
+  --mt-p-tn-white: #ffffff;
+  --mt-p-tn-blue: #14b8ff;
+  --mt-p-tn-gold: #ffd54a;
+  --mt-p-tn-pink: #f23c8f;
+}

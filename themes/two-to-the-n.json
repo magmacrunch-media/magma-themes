@@ -1,0 +1,70 @@
+{
+  "name": "2^N",
+  "note": "From arcade/2^N/css: the wine-dark gradient of its page, plum panels, and its blue, gold and pink. Muted is its soft pink, which the game uses for small print.",
+  "palette": [
+    {
+      "var": "--tn-wine",
+      "value": "#1a0018",
+      "label": "Wine"
+    },
+    {
+      "var": "--tn-ember",
+      "value": "#2a0a08",
+      "label": "Ember"
+    },
+    {
+      "var": "--tn-night",
+      "value": "#0f0020",
+      "label": "Night"
+    },
+    {
+      "var": "--tn-bg",
+      "value": "#150008",
+      "label": "Bg"
+    },
+    {
+      "var": "--tn-plum",
+      "value": "#3a0040",
+      "label": "Plum"
+    },
+    {
+      "var": "--tn-indigo",
+      "value": "#1a0040",
+      "label": "Indigo"
+    },
+    {
+      "var": "--tn-soft-pink",
+      "value": "#f07ad0",
+      "label": "Soft Pink"
+    },
+    {
+      "var": "--tn-white",
+      "value": "#ffffff",
+      "label": "White"
+    },
+    {
+      "var": "--tn-blue",
+      "value": "#14b8ff",
+      "label": "Blue"
+    },
+    {
+      "var": "--tn-gold",
+      "value": "#ffd54a",
+      "label": "Gold"
+    },
+    {
+      "var": "--tn-pink",
+      "value": "#f23c8f",
+      "label": "Pink"
+    }
+  ],
+  "roles": {
+    "bg": "--tn-bg",
+    "surface": "--tn-indigo",
+    "text": "--tn-white",
+    "muted": "--tn-soft-pink",
+    "accent": "--tn-blue",
+    "accent2": "--tn-gold"
+  },
+  "rolesFrom": "hand"
+}

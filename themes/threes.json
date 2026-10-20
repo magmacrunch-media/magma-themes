@@ -1,0 +1,95 @@
+{
+  "name": "Threes",
+  "note": "From arcade/threes/css/game.css: cyan chrome, and the tile colours for 1, 2, 3, 6, 12, 24 and 48.",
+  "palette": [
+    {
+      "var": "--tr-bg",
+      "value": "#0a0612",
+      "label": "Bg"
+    },
+    {
+      "var": "--tr-deep",
+      "value": "#0d0820",
+      "label": "Deep"
+    },
+    {
+      "var": "--tr-panel",
+      "value": "#1a0a2a",
+      "label": "Panel"
+    },
+    {
+      "var": "--tr-dim",
+      "value": "#8a7fa8",
+      "label": "Dim"
+    },
+    {
+      "var": "--tr-text",
+      "value": "#f0ead8",
+      "label": "Text"
+    },
+    {
+      "var": "--tr-cyan",
+      "value": "#00f5ff",
+      "label": "Cyan"
+    },
+    {
+      "var": "--tr-gold",
+      "value": "#ffe03a",
+      "label": "Gold"
+    },
+    {
+      "var": "--tr-green",
+      "value": "#39ff6e",
+      "label": "Green"
+    },
+    {
+      "var": "--tr-one",
+      "value": "#1a1a2e",
+      "label": "One"
+    },
+    {
+      "var": "--tr-one-edge",
+      "value": "#5ba3f5",
+      "label": "One Edge"
+    },
+    {
+      "var": "--tr-two",
+      "value": "#0a2a5a",
+      "label": "Two"
+    },
+    {
+      "var": "--tr-three",
+      "value": "#005a6a",
+      "label": "Three"
+    },
+    {
+      "var": "--tr-six",
+      "value": "#006a4a",
+      "label": "Six"
+    },
+    {
+      "var": "--tr-twelve",
+      "value": "#4a6a00",
+      "label": "Twelve"
+    },
+    {
+      "var": "--tr-twenty-four",
+      "value": "#7a4a00",
+      "label": "Twenty-four"
+    },
+    {
+      "var": "--tr-pink",
+      "value": "#ff3d6e",
+      "label": "Forty-eight"
+    }
+  ],
+  "roles": {
+    "bg": "--tr-bg",
+    "surface": "--tr-panel",
+    "text": "--tr-text",
+    "muted": "--tr-dim",
+    "accent": "--tr-cyan",
+    "accent2": "--tr-gold"
+  },
+  "rolesFrom": "hand"
+}

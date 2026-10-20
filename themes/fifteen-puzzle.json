@@ -1,0 +1,80 @@
+{
+  "name": "15 Puzzle",
+  "note": "From arcade/fifteen-puzzle/css/game.css: cyan chrome on the arcade's violet-black, and a few stops of the tile spectrum, which runs blue to green to orange to magenta as the numbers rise.",
+  "palette": [
+    {
+      "var": "--fp-bg",
+      "value": "#0a0612",
+      "label": "Bg"
+    },
+    {
+      "var": "--fp-deep",
+      "value": "#0d0820",
+      "label": "Deep"
+    },
+    {
+      "var": "--fp-panel",
+      "value": "#1a0a2a",
+      "label": "Panel"
+    },
+    {
+      "var": "--fp-dim",
+      "value": "#8a7fa8",
+      "label": "Dim"
+    },
+    {
+      "var": "--fp-text",
+      "value": "#f0ead8",
+      "label": "Text"
+    },
+    {
+      "var": "--fp-cyan",
+      "value": "#00f5ff",
+      "label": "Cyan"
+    },
+    {
+      "var": "--fp-gold",
+      "value": "#ffe03a",
+      "label": "Gold"
+    },
+    {
+      "var": "--fp-green",
+      "value": "#39ff6e",
+      "label": "Green"
+    },
+    {
+      "var": "--fp-tile-blue",
+      "value": "#0a3a6a",
+      "label": "Tile 2"
+    },
+    {
+      "var": "--fp-tile-teal",
+      "value": "#007a6a",
+      "label": "Tile 5"
+    },
+    {
+      "var": "--fp-tile-olive",
+      "value": "#6a6a00",
+      "label": "Tile 9"
+    },
+    {
+      "var": "--fp-tile-orange",
+      "value": "#c43a00",
+      "label": "Tile 12"
+    },
+    {
+      "var": "--fp-tile-violet",
+      "value": "#6a0080",
+      "label": "Tile 15"
+    }
+  ],
+  "roles": {
+    "bg": "--fp-bg",
+    "surface": "--fp-panel",
+    "text": "--fp-text",
+    "muted": "--fp-dim",
+    "accent": "--fp-cyan",
+    "accent2": "--fp-gold"
+  },
+  "rolesFrom": "hand"
+}

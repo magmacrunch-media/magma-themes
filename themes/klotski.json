@@ -1,0 +1,75 @@
+{
+  "name": "Klotski",
+  "note": "From arcade/klotski/css/game.css: vermilion chrome, Cao Cao's gold-to-orange block and the jade-green generals.",
+  "palette": [
+    {
+      "var": "--kl-bg",
+      "value": "#0a0612",
+      "label": "Bg"
+    },
+    {
+      "var": "--kl-deep",
+      "value": "#0d0820",
+      "label": "Deep"
+    },
+    {
+      "var": "--kl-panel",
+      "value": "#1a0a2a",
+      "label": "Panel"
+    },
+    {
+      "var": "--kl-dim",
+      "value": "#8a7fa8",
+      "label": "Dim"
+    },
+    {
+      "var": "--kl-text",
+      "value": "#f0ead8",
+      "label": "Text"
+    },
+    {
+      "var": "--kl-red",
+      "value": "#ff2d4a",
+      "label": "Vermilion"
+    },
+    {
+      "var": "--kl-gold",
+      "value": "#ffd700",
+      "label": "Gold"
+    },
+    {
+      "var": "--kl-orange",
+      "value": "#ff8c00",
+      "label": "Cao Cao Orange"
+    },
+    {
+      "var": "--kl-jade",
+      "value": "#00cc88",
+      "label": "Jade"
+    },
+    {
+      "var": "--kl-jade-dark",
+      "value": "#009966",
+      "label": "Jade Dark"
+    },
+    {
+      "var": "--kl-jade-edge",
+      "value": "#00ffaa",
+      "label": "Jade Edge"
+    },
+    {
+      "var": "--kl-cyan",
+      "value": "#00f5ff",
+      "label": "Soldier Cyan"
+    }
+  ],
+  "roles": {
+    "bg": "--kl-bg",
+    "surface": "--kl-panel",
+    "text": "--kl-text",
+    "muted": "--kl-dim",
+    "accent": "--kl-red",
+    "accent2": "--kl-gold"
+  },
+  "rolesFrom": "hand"
+}

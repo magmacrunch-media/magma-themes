@@ -63,6 +63,10 @@
     "chess",
     "checkers",
     "backgammon",
-    "chinese-checkers"
+    "chinese-checkers",
+    "fifteen-puzzle",
+    "threes",
+    "klotski",
+    "two-to-the-n"
   ]
 }
