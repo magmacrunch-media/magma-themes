@@ -1,0 +1,75 @@
+{
+  "name": "Scandinavian Stud",
+  "note": "From arcade/scandinavian-stud/css/base.css: Sökö's midnight blue table with a cyan glow. Muted is its slate lifted to read as small print on the page; the game itself only uses slate on borders and faint labels.",
+  "palette": [
+    {
+      "var": "--ss-darker",
+      "value": "#060e1a",
+      "label": "Darker"
+    },
+    {
+      "var": "--ss-dark",
+      "value": "#0a1628",
+      "label": "Dark"
+    },
+    {
+      "var": "--ss-mid",
+      "value": "#1a2a44",
+      "label": "Mid"
+    },
+    {
+      "var": "--ss-slate",
+      "value": "#4a6a7a",
+      "label": "Slate"
+    },
+    {
+      "var": "--ss-muted",
+      "value": "#7f97a3",
+      "label": "Muted"
+    },
+    {
+      "var": "--ss-white",
+      "value": "#f0ead8",
+      "label": "White"
+    },
+    {
+      "var": "--ss-cyan",
+      "value": "#00f5ff",
+      "label": "Cyan"
+    },
+    {
+      "var": "--ss-cyan-dim",
+      "value": "#007a80",
+      "label": "Cyan Dim"
+    },
+    {
+      "var": "--ss-green",
+      "value": "#39ff6e",
+      "label": "Green"
+    },
+    {
+      "var": "--ss-red",
+      "value": "#ff3d6e",
+      "label": "Red"
+    },
+    {
+      "var": "--ss-gold",
+      "value": "#ffe03a",
+      "label": "Gold"
+    },
+    {
+      "var": "--ss-orange",
+      "value": "#ff7c1f",
+      "label": "Orange"
+    }
+  ],
+  "roles": {
+    "bg": "--ss-dark",
+    "surface": "--ss-mid",
+    "text": "--ss-white",
+    "muted": "--ss-muted",
+    "accent": "--ss-cyan",
+    "accent2": "--ss-gold"
+  },
+  "rolesFrom": "hand"
+}

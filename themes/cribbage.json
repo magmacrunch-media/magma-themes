@@ -1,0 +1,95 @@
+{
+  "name": "Cribbage",
+  "note": "From arcade/cribbage/css/base.css: warm wood, green felt and a gold accent. Dust is its cream at the 60% opacity its start screen uses for small print.",
+  "palette": [
+    {
+      "var": "--cr-bg-dark",
+      "value": "#1a0f0a",
+      "label": "Bg Dark"
+    },
+    {
+      "var": "--cr-bg-mid",
+      "value": "#2d1f15",
+      "label": "Bg Mid"
+    },
+    {
+      "var": "--cr-bg-light",
+      "value": "#3d2a1c",
+      "label": "Bg Light"
+    },
+    {
+      "var": "--cr-board",
+      "value": "#4a3728",
+      "label": "Board"
+    },
+    {
+      "var": "--cr-wood",
+      "value": "#8b5a2b",
+      "label": "Wood"
+    },
+    {
+      "var": "--cr-wood-light",
+      "value": "#a0522d",
+      "label": "Wood Light"
+    },
+    {
+      "var": "--cr-felt",
+      "value": "#1e4d2b",
+      "label": "Felt"
+    },
+    {
+      "var": "--cr-felt-light",
+      "value": "#2d6b3f",
+      "label": "Felt Light"
+    },
+    {
+      "var": "--cr-dust",
+      "value": "#a39e81",
+      "label": "Dust"
+    },
+    {
+      "var": "--cr-white",
+      "value": "#f5f5dc",
+      "label": "White"
+    },
+    {
+      "var": "--cr-cream",
+      "value": "#fffdd0",
+      "label": "Cream"
+    },
+    {
+      "var": "--cr-gold",
+      "value": "#ffd700",
+      "label": "Gold"
+    },
+    {
+      "var": "--cr-gold-dim",
+      "value": "#b8960f",
+      "label": "Gold Dim"
+    },
+    {
+      "var": "--cr-red",
+      "value": "#dc143c",
+      "label": "Red"
+    },
+    {
+      "var": "--cr-player-peg",
+      "value": "#00f5ff",
+      "label": "Player Peg"
+    },
+    {
+      "var": "--cr-ai-peg",
+      "value": "#ff3d6e",
+      "label": "AI Peg"
+    }
+  ],
+  "roles": {
+    "bg": "--cr-bg-dark",
+    "surface": "--cr-bg-mid",
+    "text": "--cr-white",
+    "muted": "--cr-dust",
+    "accent": "--cr-gold",
+    "accent2": "--cr-player-peg"
+  },
+  "rolesFrom": "hand"
+}

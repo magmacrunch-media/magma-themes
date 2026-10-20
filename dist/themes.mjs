@@ -1456,6 +1456,60 @@ export const THEMES = {
       "ft-card-back": "#1e4d2b",
       "ft-red": "#cc0000"
     }
+  },
+  "cribbage": {
+    "name": "Cribbage",
+    "roles": {
+      "bg": "#1a0f0a",
+      "surface": "#2d1f15",
+      "text": "#f5f5dc",
+      "muted": "#a39e81",
+      "accent": "#ffd700",
+      "accent2": "#00f5ff"
+    },
+    "palette": {
+      "cr-bg-dark": "#1a0f0a",
+      "cr-bg-mid": "#2d1f15",
+      "cr-bg-light": "#3d2a1c",
+      "cr-board": "#4a3728",
+      "cr-wood": "#8b5a2b",
+      "cr-wood-light": "#a0522d",
+      "cr-felt": "#1e4d2b",
+      "cr-felt-light": "#2d6b3f",
+      "cr-dust": "#a39e81",
+      "cr-white": "#f5f5dc",
+      "cr-cream": "#fffdd0",
+      "cr-gold": "#ffd700",
+      "cr-gold-dim": "#b8960f",
+      "cr-red": "#dc143c",
+      "cr-player-peg": "#00f5ff",
+      "cr-ai-peg": "#ff3d6e"
+    }
+  },
+  "scandinavian-stud": {
+    "name": "Scandinavian Stud",
+    "roles": {
+      "bg": "#0a1628",
+      "surface": "#1a2a44",
+      "text": "#f0ead8",
+      "muted": "#7f97a3",
+      "accent": "#00f5ff",
+      "accent2": "#ffe03a"
+    },
+    "palette": {
+      "ss-darker": "#060e1a",
+      "ss-dark": "#0a1628",
+      "ss-mid": "#1a2a44",
+      "ss-slate": "#4a6a7a",
+      "ss-muted": "#7f97a3",
+      "ss-white": "#f0ead8",
+      "ss-cyan": "#00f5ff",
+      "ss-cyan-dim": "#007a80",
+      "ss-green": "#39ff6e",
+      "ss-red": "#ff3d6e",
+      "ss-gold": "#ffe03a",
+      "ss-orange": "#ff7c1f"
+    }
   }
 };
 

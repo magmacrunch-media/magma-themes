@@ -1304,3 +1304,51 @@
   --mt-p-ft-card-back: #1e4d2b;
   --mt-p-ft-red: #cc0000;
 }
+
+/* Cribbage */
+[data-magma-theme="cribbage"] {
+  --mt-bg: #1a0f0a;
+  --mt-surface: #2d1f15;
+  --mt-text: #f5f5dc;
+  --mt-muted: #a39e81;
+  --mt-accent: #ffd700;
+  --mt-accent2: #00f5ff;
+  --mt-p-cr-bg-dark: #1a0f0a;
+  --mt-p-cr-bg-mid: #2d1f15;
+  --mt-p-cr-bg-light: #3d2a1c;
+  --mt-p-cr-board: #4a3728;
+  --mt-p-cr-wood: #8b5a2b;
+  --mt-p-cr-wood-light: #a0522d;
+  --mt-p-cr-felt: #1e4d2b;
+  --mt-p-cr-felt-light: #2d6b3f;
+  --mt-p-cr-dust: #a39e81;
+  --mt-p-cr-white: #f5f5dc;
+  --mt-p-cr-cream: #fffdd0;
+  --mt-p-cr-gold: #ffd700;
+  --mt-p-cr-gold-dim: #b8960f;
+  --mt-p-cr-red: #dc143c;
+  --mt-p-cr-player-peg: #00f5ff;
+  --mt-p-cr-ai-peg: #ff3d6e;
+}
+
+/* Scandinavian Stud */
+[data-magma-theme="scandinavian-stud"] {
+  --mt-bg: #0a1628;
+  --mt-surface: #1a2a44;
+  --mt-text: #f0ead8;
+  --mt-muted: #7f97a3;
+  --mt-accent: #00f5ff;
+  --mt-accent2: #ffe03a;
+  --mt-p-ss-darker: #060e1a;
+  --mt-p-ss-dark: #0a1628;
+  --mt-p-ss-mid: #1a2a44;
+  --mt-p-ss-slate: #4a6a7a;
+  --mt-p-ss-muted: #7f97a3;
+  --mt-p-ss-white: #f0ead8;
+  --mt-p-ss-cyan: #00f5ff;
+  --mt-p-ss-cyan-dim: #007a80;
+  --mt-p-ss-green: #39ff6e;
+  --mt-p-ss-red: #ff3d6e;
+  --mt-p-ss-gold: #ffe03a;
+  --mt-p-ss-orange: #ff7c1f;
+}
