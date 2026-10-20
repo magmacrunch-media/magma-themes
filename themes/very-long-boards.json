@@ -1,0 +1,65 @@
+{
+  "name": "Very Long Boards",
+  "note": "From arcade/very-long-boards/css: violet-black with a hot pink frame, gold scores, purple and the balance bar's green. Panel is its violet-black lifted a step, since the game draws its panels as that colour at partial opacity over the scene.",
+  "palette": [
+    {
+      "var": "--vlb-bg",
+      "value": "#0a0612",
+      "label": "Bg"
+    },
+    {
+      "var": "--vlb-panel",
+      "value": "#1a0f24",
+      "label": "Panel"
+    },
+    {
+      "var": "--vlb-grey",
+      "value": "#888888",
+      "label": "Grey"
+    },
+    {
+      "var": "--vlb-white",
+      "value": "#ffffff",
+      "label": "White"
+    },
+    {
+      "var": "--vlb-pink",
+      "value": "#ff2e9c",
+      "label": "Pink"
+    },
+    {
+      "var": "--vlb-gold",
+      "value": "#ffe03a",
+      "label": "Gold"
+    },
+    {
+      "var": "--vlb-purple",
+      "value": "#b537f2",
+      "label": "Purple"
+    },
+    {
+      "var": "--vlb-green",
+      "value": "#39ff6e",
+      "label": "Balance Green"
+    },
+    {
+      "var": "--vlb-red",
+      "value": "#ff2e5a",
+      "label": "Red"
+    },
+    {
+      "var": "--vlb-orange",
+      "value": "#ff6b35",
+      "label": "Orange"
+    }
+  ],
+  "roles": {
+    "bg": "--vlb-bg",
+    "surface": "--vlb-panel",
+    "text": "--vlb-white",
+    "muted": "--vlb-grey",
+    "accent": "--vlb-pink",
+    "accent2": "--vlb-gold"
+  },
+  "rolesFrom": "hand"
+}

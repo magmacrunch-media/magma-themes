@@ -1793,6 +1793,120 @@ export const THEMES = {
       "mmc-dough": "#f2d8a7",
       "mmc-choc": "#4b2e1e"
     }
+  },
+  "cave-diving": {
+    "name": "Cave Diving",
+    "roles": {
+      "bg": "#030b10",
+      "surface": "#071820",
+      "text": "#dcefee",
+      "muted": "#5d7a80",
+      "accent": "#3fe0d0",
+      "accent2": "#fff3c4"
+    },
+    "palette": {
+      "cvd-deep": "#030b10",
+      "cvd-water": "#071820",
+      "cvd-rock": "#241f2e",
+      "cvd-hud-dim": "#5d7a80",
+      "cvd-hud-text": "#dcefee",
+      "cvd-teal": "#3fe0d0",
+      "cvd-teal-pale": "#b8fff5",
+      "cvd-air": "#5fe8a4",
+      "cvd-lamp": "#fff3c4",
+      "cvd-danger": "#ff5f6d"
+    }
+  },
+  "grocery-harrison": {
+    "name": "Grocery Harrison",
+    "roles": {
+      "bg": "#0b1211",
+      "surface": "#2b3533",
+      "text": "#fff6dc",
+      "muted": "#c9a227",
+      "accent": "#ffd84a",
+      "accent2": "#a8e6ff"
+    },
+    "palette": {
+      "gh-night": "#0b1211",
+      "gh-shelf": "#23413c",
+      "gh-edge": "#2b3533",
+      "gh-ink": "#1a1400",
+      "gh-gold-dim": "#c9a227",
+      "gh-gold": "#ffd84a",
+      "gh-butter": "#ffe680",
+      "gh-rust": "#7a2b1d",
+      "gh-freezer": "#a8e6ff",
+      "gh-cream": "#fff6dc"
+    }
+  },
+  "jovian-humanitarian-conflict": {
+    "name": "The Jovian Humanitarian Conflict",
+    "roles": {
+      "bg": "#05060f",
+      "surface": "#0d1230",
+      "text": "#e8eeff",
+      "muted": "#6b7699",
+      "accent": "#ffc247",
+      "accent2": "#5ff0ff"
+    },
+    "palette": {
+      "jhc-void": "#05060f",
+      "jhc-haze": "#0d1230",
+      "jhc-hud-dim": "#6b7699",
+      "jhc-hud-text": "#e8eeff",
+      "jhc-aid": "#ffc247",
+      "jhc-aid-pale": "#fff2cf",
+      "jhc-hostile": "#ff2fa8",
+      "jhc-glass": "#5ff0ff"
+    }
+  },
+  "roderick-tron": {
+    "name": "Roderick Tron",
+    "roles": {
+      "bg": "#080808",
+      "surface": "#1a1028",
+      "text": "#f0ead8",
+      "muted": "#c8a24a",
+      "accent": "#00f5ff",
+      "accent2": "#ffe03a"
+    },
+    "palette": {
+      "rt-bg": "#080808",
+      "rt-deep": "#0a0a12",
+      "rt-plum": "#1a1028",
+      "rt-wine": "#3a1830",
+      "rt-dim": "#4a6a7a",
+      "rt-brass": "#c8a24a",
+      "rt-white": "#f0ead8",
+      "rt-cyan": "#00f5ff",
+      "rt-red": "#ff3d6e",
+      "rt-gold": "#ffe03a",
+      "rt-orange": "#ff7c1f"
+    }
+  },
+  "very-long-boards": {
+    "name": "Very Long Boards",
+    "roles": {
+      "bg": "#0a0612",
+      "surface": "#1a0f24",
+      "text": "#ffffff",
+      "muted": "#888888",
+      "accent": "#ff2e9c",
+      "accent2": "#ffe03a"
+    },
+    "palette": {
+      "vlb-bg": "#0a0612",
+      "vlb-panel": "#1a0f24",
+      "vlb-grey": "#888888",
+      "vlb-white": "#ffffff",
+      "vlb-pink": "#ff2e9c",
+      "vlb-gold": "#ffe03a",
+      "vlb-purple": "#b537f2",
+      "vlb-green": "#39ff6e",
+      "vlb-red": "#ff2e5a",
+      "vlb-orange": "#ff6b35"
+    }
   }
 };
 

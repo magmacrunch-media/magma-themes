@@ -1602,3 +1602,102 @@
   --mt-p-mmc-dough: #f2d8a7;
   --mt-p-mmc-choc: #4b2e1e;
 }
+
+/* Cave Diving */
+[data-magma-theme="cave-diving"] {
+  --mt-bg: #030b10;
+  --mt-surface: #071820;
+  --mt-text: #dcefee;
+  --mt-muted: #5d7a80;
+  --mt-accent: #3fe0d0;
+  --mt-accent2: #fff3c4;
+  --mt-p-cvd-deep: #030b10;
+  --mt-p-cvd-water: #071820;
+  --mt-p-cvd-rock: #241f2e;
+  --mt-p-cvd-hud-dim: #5d7a80;
+  --mt-p-cvd-hud-text: #dcefee;
+  --mt-p-cvd-teal: #3fe0d0;
+  --mt-p-cvd-teal-pale: #b8fff5;
+  --mt-p-cvd-air: #5fe8a4;
+  --mt-p-cvd-lamp: #fff3c4;
+  --mt-p-cvd-danger: #ff5f6d;
+}
+
+/* Grocery Harrison */
+[data-magma-theme="grocery-harrison"] {
+  --mt-bg: #0b1211;
+  --mt-surface: #2b3533;
+  --mt-text: #fff6dc;
+  --mt-muted: #c9a227;
+  --mt-accent: #ffd84a;
+  --mt-accent2: #a8e6ff;
+  --mt-p-gh-night: #0b1211;
+  --mt-p-gh-shelf: #23413c;
+  --mt-p-gh-edge: #2b3533;
+  --mt-p-gh-ink: #1a1400;
+  --mt-p-gh-gold-dim: #c9a227;
+  --mt-p-gh-gold: #ffd84a;
+  --mt-p-gh-butter: #ffe680;
+  --mt-p-gh-rust: #7a2b1d;
+  --mt-p-gh-freezer: #a8e6ff;
+  --mt-p-gh-cream: #fff6dc;
+}
+
+/* The Jovian Humanitarian Conflict */
+[data-magma-theme="jovian-humanitarian-conflict"] {
+  --mt-bg: #05060f;
+  --mt-surface: #0d1230;
+  --mt-text: #e8eeff;
+  --mt-muted: #6b7699;
+  --mt-accent: #ffc247;
+  --mt-accent2: #5ff0ff;
+  --mt-p-jhc-void: #05060f;
+  --mt-p-jhc-haze: #0d1230;
+  --mt-p-jhc-hud-dim: #6b7699;
+  --mt-p-jhc-hud-text: #e8eeff;
+  --mt-p-jhc-aid: #ffc247;
+  --mt-p-jhc-aid-pale: #fff2cf;
+  --mt-p-jhc-hostile: #ff2fa8;
+  --mt-p-jhc-glass: #5ff0ff;
+}
+
+/* Roderick Tron */
+[data-magma-theme="roderick-tron"] {
+  --mt-bg: #080808;
+  --mt-surface: #1a1028;
+  --mt-text: #f0ead8;
+  --mt-muted: #c8a24a;
+  --mt-accent: #00f5ff;
+  --mt-accent2: #ffe03a;
+  --mt-p-rt-bg: #080808;
+  --mt-p-rt-deep: #0a0a12;
+  --mt-p-rt-plum: #1a1028;
+  --mt-p-rt-wine: #3a1830;
+  --mt-p-rt-dim: #4a6a7a;
+  --mt-p-rt-brass: #c8a24a;
+  --mt-p-rt-white: #f0ead8;
+  --mt-p-rt-cyan: #00f5ff;
+  --mt-p-rt-red: #ff3d6e;
+  --mt-p-rt-gold: #ffe03a;
+  --mt-p-rt-orange: #ff7c1f;
+}
+
+/* Very Long Boards */
+[data-magma-theme="very-long-boards"] {
+  --mt-bg: #0a0612;
+  --mt-surface: #1a0f24;
+  --mt-text: #ffffff;
+  --mt-muted: #888888;
+  --mt-accent: #ff2e9c;
+  --mt-accent2: #ffe03a;
+  --mt-p-vlb-bg: #0a0612;
+  --mt-p-vlb-panel: #1a0f24;
+  --mt-p-vlb-grey: #888888;
+  --mt-p-vlb-white: #ffffff;
+  --mt-p-vlb-pink: #ff2e9c;
+  --mt-p-vlb-gold: #ffe03a;
+  --mt-p-vlb-purple: #b537f2;
+  --mt-p-vlb-green: #39ff6e;
+  --mt-p-vlb-red: #ff2e5a;
+  --mt-p-vlb-orange: #ff6b35;
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Cave Diving",
+  "note": "From arcade/cave-diving/css/base.css: black water, a teal glow, the lamp's pale yellow, the air gauge's green and the danger red.",
+  "palette": [
+    {
+      "var": "--cvd-deep",
+      "value": "#030b10",
+      "label": "Deep"
+    },
+    {
+      "var": "--cvd-water",
+      "value": "#071820",
+      "label": "Water"
+    },
+    {
+      "var": "--cvd-rock",
+      "value": "#241f2e",
+      "label": "Rock"
+    },
+    {
+      "var": "--cvd-hud-dim",
+      "value": "#5d7a80",
+      "label": "HUD Dim"
+    },
+    {
+      "var": "--cvd-hud-text",
+      "value": "#dcefee",
+      "label": "HUD Text"
+    },
+    {
+      "var": "--cvd-teal",
+      "value": "#3fe0d0",
+      "label": "Teal"
+    },
+    {
+      "var": "--cvd-teal-pale",
+      "value": "#b8fff5",
+      "label": "Teal Pale"
+    },
+    {
+      "var": "--cvd-air",
+      "value": "#5fe8a4",
+      "label": "Air"
+    },
+    {
+      "var": "--cvd-lamp",
+      "value": "#fff3c4",
+      "label": "Lamp"
+    },
+    {
+      "var": "--cvd-danger",
+      "value": "#ff5f6d",
+      "label": "Danger"
+    }
+  ],
+  "roles": {
+    "bg": "--cvd-deep",
+    "surface": "--cvd-water",
+    "text": "--cvd-hud-text",
+    "muted": "--cvd-hud-dim",
+    "accent": "--cvd-teal",
+    "accent2": "--cvd-lamp"
+  },
+  "rolesFrom": "hand"
+}

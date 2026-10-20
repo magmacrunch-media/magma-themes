@@ -1,0 +1,65 @@
+{
+  "name": "Grocery Harrison",
+  "note": "From arcade/grocery-harrison/css: the night-shift store's dark green, the price-tag gold with its rust shadow, the freezer blue and receipt cream.",
+  "palette": [
+    {
+      "var": "--gh-night",
+      "value": "#0b1211",
+      "label": "Night"
+    },
+    {
+      "var": "--gh-shelf",
+      "value": "#23413c",
+      "label": "Shelf Green"
+    },
+    {
+      "var": "--gh-edge",
+      "value": "#2b3533",
+      "label": "Edge"
+    },
+    {
+      "var": "--gh-ink",
+      "value": "#1a1400",
+      "label": "Ink"
+    },
+    {
+      "var": "--gh-gold-dim",
+      "value": "#c9a227",
+      "label": "Gold Dim"
+    },
+    {
+      "var": "--gh-gold",
+      "value": "#ffd84a",
+      "label": "Price Tag"
+    },
+    {
+      "var": "--gh-butter",
+      "value": "#ffe680",
+      "label": "Butter"
+    },
+    {
+      "var": "--gh-rust",
+      "value": "#7a2b1d",
+      "label": "Rust"
+    },
+    {
+      "var": "--gh-freezer",
+      "value": "#a8e6ff",
+      "label": "Freezer"
+    },
+    {
+      "var": "--gh-cream",
+      "value": "#fff6dc",
+      "label": "Receipt"
+    }
+  ],
+  "roles": {
+    "bg": "--gh-night",
+    "surface": "--gh-edge",
+    "text": "--gh-cream",
+    "muted": "--gh-gold-dim",
+    "accent": "--gh-gold",
+    "accent2": "--gh-freezer"
+  },
+  "rolesFrom": "hand"
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Roderick Tron",
+  "note": "From arcade/roderick-tron/css: night over 1810s rooftops, plum to wine from the start screen's glow, its cyan title, gold and brass. Muted is its brass, since its own dim is too dark to read as text.",
+  "palette": [
+    {
+      "var": "--rt-bg",
+      "value": "#080808",
+      "label": "Bg"
+    },
+    {
+      "var": "--rt-deep",
+      "value": "#0a0a12",
+      "label": "Deep"
+    },
+    {
+      "var": "--rt-plum",
+      "value": "#1a1028",
+      "label": "Plum"
+    },
+    {
+      "var": "--rt-wine",
+      "value": "#3a1830",
+      "label": "Wine"
+    },
+    {
+      "var": "--rt-dim",
+      "value": "#4a6a7a",
+      "label": "Dim"
+    },
+    {
+      "var": "--rt-brass",
+      "value": "#c8a24a",
+      "label": "Brass"
+    },
+    {
+      "var": "--rt-white",
+      "value": "#f0ead8",
+      "label": "White"
+    },
+    {
+      "var": "--rt-cyan",
+      "value": "#00f5ff",
+      "label": "Cyan"
+    },
+    {
+      "var": "--rt-red",
+      "value": "#ff3d6e",
+      "label": "Red"
+    },
+    {
+      "var": "--rt-gold",
+      "value": "#ffe03a",
+      "label": "Gold"
+    },
+    {
+      "var": "--rt-orange",
+      "value": "#ff7c1f",
+      "label": "Orange"
+    }
+  ],
+  "roles": {
+    "bg": "--rt-bg",
+    "surface": "--rt-plum",
+    "text": "--rt-white",
+    "muted": "--rt-brass",
+    "accent": "--rt-cyan",
+    "accent2": "--rt-gold"
+  },
+  "rolesFrom": "hand"
+}

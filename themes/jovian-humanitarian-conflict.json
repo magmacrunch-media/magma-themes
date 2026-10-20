@@ -1,0 +1,55 @@
+{
+  "name": "The Jovian Humanitarian Conflict",
+  "note": "From arcade/jovian-humanitarian-conflict/css: the void over Jupiter, aid-convoy gold, the hostiles' magenta and the cockpit glass cyan.",
+  "palette": [
+    {
+      "var": "--jhc-void",
+      "value": "#05060f",
+      "label": "Void"
+    },
+    {
+      "var": "--jhc-haze",
+      "value": "#0d1230",
+      "label": "Void Haze"
+    },
+    {
+      "var": "--jhc-hud-dim",
+      "value": "#6b7699",
+      "label": "HUD Dim"
+    },
+    {
+      "var": "--jhc-hud-text",
+      "value": "#e8eeff",
+      "label": "HUD Text"
+    },
+    {
+      "var": "--jhc-aid",
+      "value": "#ffc247",
+      "label": "Aid"
+    },
+    {
+      "var": "--jhc-aid-pale",
+      "value": "#fff2cf",
+      "label": "Aid Pale"
+    },
+    {
+      "var": "--jhc-hostile",
+      "value": "#ff2fa8",
+      "label": "Hostile"
+    },
+    {
+      "var": "--jhc-glass",
+      "value": "#5ff0ff",
+      "label": "Glass"
+    }
+  ],
+  "roles": {
+    "bg": "--jhc-void",
+    "surface": "--jhc-haze",
+    "text": "--jhc-hud-text",
+    "muted": "--jhc-hud-dim",
+    "accent": "--jhc-aid",
+    "accent2": "--jhc-glass"
+  },
+  "rolesFrom": "hand"
+}
