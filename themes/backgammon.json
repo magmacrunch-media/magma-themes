@@ -1,0 +1,70 @@
+{
+  "name": "Backgammon",
+  "note": "From arcade/backgammon/css/base.css, its Neon Edition: cyan and magenta points and checkers, yellow dice and the orange doubling cube. The game's own prefix is bg-, renamed here so it cannot be read as a background.",
+  "palette": [
+    {
+      "var": "--bgm-bg",
+      "value": "#0a0612",
+      "label": "Bg"
+    },
+    {
+      "var": "--bgm-board",
+      "value": "#0d0820",
+      "label": "Board"
+    },
+    {
+      "var": "--bgm-bar",
+      "value": "#1a0a2a",
+      "label": "Bar"
+    },
+    {
+      "var": "--bgm-off",
+      "value": "#0a0a1a",
+      "label": "Off"
+    },
+    {
+      "var": "--bgm-text-dim",
+      "value": "#8a7fa8",
+      "label": "Text Dim"
+    },
+    {
+      "var": "--bgm-text",
+      "value": "#f0ead8",
+      "label": "Text"
+    },
+    {
+      "var": "--bgm-player",
+      "value": "#00f5ff",
+      "label": "Player"
+    },
+    {
+      "var": "--bgm-ai",
+      "value": "#ff2d78",
+      "label": "AI"
+    },
+    {
+      "var": "--bgm-gold",
+      "value": "#ffe03a",
+      "label": "Dice"
+    },
+    {
+      "var": "--bgm-doubling",
+      "value": "#ff7c1f",
+      "label": "Doubling Cube"
+    },
+    {
+      "var": "--bgm-highlight",
+      "value": "#39ff6e",
+      "label": "Highlight"
+    }
+  ],
+  "roles": {
+    "bg": "--bgm-bg",
+    "surface": "--bgm-bar",
+    "text": "--bgm-text",
+    "muted": "--bgm-text-dim",
+    "accent": "--bgm-player",
+    "accent2": "--bgm-gold"
+  },
+  "rolesFrom": "hand"
+}

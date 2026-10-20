@@ -1,0 +1,75 @@
+{
+  "name": "Checkers",
+  "note": "From arcade/checkers/css/base.css, its Neon Edition: cyan pieces for you, magenta for the computer, kings a shade deeper.",
+  "palette": [
+    {
+      "var": "--ck-bg",
+      "value": "#0a0612",
+      "label": "Bg"
+    },
+    {
+      "var": "--ck-board-dark",
+      "value": "#1a0a2a",
+      "label": "Board Dark"
+    },
+    {
+      "var": "--ck-board-light",
+      "value": "#2a1a3a",
+      "label": "Board Light"
+    },
+    {
+      "var": "--ck-text-dim",
+      "value": "#8a7fa8",
+      "label": "Text Dim"
+    },
+    {
+      "var": "--ck-text",
+      "value": "#f0ead8",
+      "label": "Text"
+    },
+    {
+      "var": "--ck-player",
+      "value": "#00f5ff",
+      "label": "Player"
+    },
+    {
+      "var": "--ck-player-king",
+      "value": "#00d4ff",
+      "label": "Player King"
+    },
+    {
+      "var": "--ck-ai",
+      "value": "#ff2d78",
+      "label": "AI"
+    },
+    {
+      "var": "--ck-ai-king",
+      "value": "#ff1a6d",
+      "label": "AI King"
+    },
+    {
+      "var": "--ck-highlight",
+      "value": "#39ff6e",
+      "label": "Highlight"
+    },
+    {
+      "var": "--ck-gold",
+      "value": "#ffe03a",
+      "label": "Jump"
+    },
+    {
+      "var": "--ck-selected",
+      "value": "#ffffff",
+      "label": "Selected"
+    }
+  ],
+  "roles": {
+    "bg": "--ck-bg",
+    "surface": "--ck-board-dark",
+    "text": "--ck-text",
+    "muted": "--ck-text-dim",
+    "accent": "--ck-player",
+    "accent2": "--ck-gold"
+  },
+  "rolesFrom": "hand"
+}

@@ -1352,3 +1352,89 @@
   --mt-p-ss-gold: #ffe03a;
   --mt-p-ss-orange: #ff7c1f;
 }
+
+/* Chess */
+[data-magma-theme="chess"] {
+  --mt-bg: #0a0612;
+  --mt-surface: #1a0a2a;
+  --mt-text: #f0ead8;
+  --mt-muted: #8a7fa8;
+  --mt-accent: #00f5ff;
+  --mt-accent2: #ffe03a;
+  --mt-p-ch-bg: #0a0612;
+  --mt-p-ch-board-dark: #1a0a2a;
+  --mt-p-ch-board-light: #2a1a3a;
+  --mt-p-ch-text-dim: #8a7fa8;
+  --mt-p-ch-text: #f0ead8;
+  --mt-p-ch-player: #00f5ff;
+  --mt-p-ch-ai: #ff2d78;
+  --mt-p-ch-highlight: #39ff6e;
+  --mt-p-ch-gold: #ffe03a;
+  --mt-p-ch-check: #ff3d3d;
+  --mt-p-ch-selected: #ffffff;
+}
+
+/* Checkers */
+[data-magma-theme="checkers"] {
+  --mt-bg: #0a0612;
+  --mt-surface: #1a0a2a;
+  --mt-text: #f0ead8;
+  --mt-muted: #8a7fa8;
+  --mt-accent: #00f5ff;
+  --mt-accent2: #ffe03a;
+  --mt-p-ck-bg: #0a0612;
+  --mt-p-ck-board-dark: #1a0a2a;
+  --mt-p-ck-board-light: #2a1a3a;
+  --mt-p-ck-text-dim: #8a7fa8;
+  --mt-p-ck-text: #f0ead8;
+  --mt-p-ck-player: #00f5ff;
+  --mt-p-ck-player-king: #00d4ff;
+  --mt-p-ck-ai: #ff2d78;
+  --mt-p-ck-ai-king: #ff1a6d;
+  --mt-p-ck-highlight: #39ff6e;
+  --mt-p-ck-gold: #ffe03a;
+  --mt-p-ck-selected: #ffffff;
+}
+
+/* Backgammon */
+[data-magma-theme="backgammon"] {
+  --mt-bg: #0a0612;
+  --mt-surface: #1a0a2a;
+  --mt-text: #f0ead8;
+  --mt-muted: #8a7fa8;
+  --mt-accent: #00f5ff;
+  --mt-accent2: #ffe03a;
+  --mt-p-bgm-bg: #0a0612;
+  --mt-p-bgm-board: #0d0820;
+  --mt-p-bgm-bar: #1a0a2a;
+  --mt-p-bgm-off: #0a0a1a;
+  --mt-p-bgm-text-dim: #8a7fa8;
+  --mt-p-bgm-text: #f0ead8;
+  --mt-p-bgm-player: #00f5ff;
+  --mt-p-bgm-ai: #ff2d78;
+  --mt-p-bgm-gold: #ffe03a;
+  --mt-p-bgm-doubling: #ff7c1f;
+  --mt-p-bgm-highlight: #39ff6e;
+}
+
+/* Chinese Checkers */
+[data-magma-theme="chinese-checkers"] {
+  --mt-bg: #0a0612;
+  --mt-surface: #150b29;
+  --mt-text: #f0ead8;
+  --mt-muted: #8a7fa8;
+  --mt-accent: #00f5ff;
+  --mt-accent2: #ffe03a;
+  --mt-p-cc-bg: #0a0612;
+  --mt-p-cc-board: #150b29;
+  --mt-p-cc-cell: #2a1a3a;
+  --mt-p-cc-cell-border: #3a2d5c;
+  --mt-p-cc-text-dim: #8a7fa8;
+  --mt-p-cc-text: #f0ead8;
+  --mt-p-cc-player: #00f5ff;
+  --mt-p-cc-magenta: #ff2d78;
+  --mt-p-cc-green: #39ff6e;
+  --mt-p-cc-gold: #ffe03a;
+  --mt-p-cc-orange: #ff7c1f;
+  --mt-p-cc-purple: #c45fff;
+}

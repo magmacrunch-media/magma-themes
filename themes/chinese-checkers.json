@@ -1,0 +1,75 @@
+{
+  "name": "Chinese Checkers",
+  "note": "From arcade/chinese-checkers/css/base.css and the six PLAYER_COLORS in js/config.js, its Neon Edition.",
+  "palette": [
+    {
+      "var": "--cc-bg",
+      "value": "#0a0612",
+      "label": "Bg"
+    },
+    {
+      "var": "--cc-board",
+      "value": "#150b29",
+      "label": "Board"
+    },
+    {
+      "var": "--cc-cell",
+      "value": "#2a1a3a",
+      "label": "Cell"
+    },
+    {
+      "var": "--cc-cell-border",
+      "value": "#3a2d5c",
+      "label": "Cell Border"
+    },
+    {
+      "var": "--cc-text-dim",
+      "value": "#8a7fa8",
+      "label": "Text Dim"
+    },
+    {
+      "var": "--cc-text",
+      "value": "#f0ead8",
+      "label": "Text"
+    },
+    {
+      "var": "--cc-player",
+      "value": "#00f5ff",
+      "label": "Cyan"
+    },
+    {
+      "var": "--cc-magenta",
+      "value": "#ff2d78",
+      "label": "Magenta"
+    },
+    {
+      "var": "--cc-green",
+      "value": "#39ff6e",
+      "label": "Green"
+    },
+    {
+      "var": "--cc-gold",
+      "value": "#ffe03a",
+      "label": "Yellow"
+    },
+    {
+      "var": "--cc-orange",
+      "value": "#ff7c1f",
+      "label": "Orange"
+    },
+    {
+      "var": "--cc-purple",
+      "value": "#c45fff",
+      "label": "Purple"
+    }
+  ],
+  "roles": {
+    "bg": "--cc-bg",
+    "surface": "--cc-board",
+    "text": "--cc-text",
+    "muted": "--cc-text-dim",
+    "accent": "--cc-player",
+    "accent2": "--cc-gold"
+  },
+  "rolesFrom": "hand"
+}

@@ -1510,6 +1510,104 @@ export const THEMES = {
       "ss-gold": "#ffe03a",
       "ss-orange": "#ff7c1f"
     }
+  },
+  "chess": {
+    "name": "Chess",
+    "roles": {
+      "bg": "#0a0612",
+      "surface": "#1a0a2a",
+      "text": "#f0ead8",
+      "muted": "#8a7fa8",
+      "accent": "#00f5ff",
+      "accent2": "#ffe03a"
+    },
+    "palette": {
+      "ch-bg": "#0a0612",
+      "ch-board-dark": "#1a0a2a",
+      "ch-board-light": "#2a1a3a",
+      "ch-text-dim": "#8a7fa8",
+      "ch-text": "#f0ead8",
+      "ch-player": "#00f5ff",
+      "ch-ai": "#ff2d78",
+      "ch-highlight": "#39ff6e",
+      "ch-gold": "#ffe03a",
+      "ch-check": "#ff3d3d",
+      "ch-selected": "#ffffff"
+    }
+  },
+  "checkers": {
+    "name": "Checkers",
+    "roles": {
+      "bg": "#0a0612",
+      "surface": "#1a0a2a",
+      "text": "#f0ead8",
+      "muted": "#8a7fa8",
+      "accent": "#00f5ff",
+      "accent2": "#ffe03a"
+    },
+    "palette": {
+      "ck-bg": "#0a0612",
+      "ck-board-dark": "#1a0a2a",
+      "ck-board-light": "#2a1a3a",
+      "ck-text-dim": "#8a7fa8",
+      "ck-text": "#f0ead8",
+      "ck-player": "#00f5ff",
+      "ck-player-king": "#00d4ff",
+      "ck-ai": "#ff2d78",
+      "ck-ai-king": "#ff1a6d",
+      "ck-highlight": "#39ff6e",
+      "ck-gold": "#ffe03a",
+      "ck-selected": "#ffffff"
+    }
+  },
+  "backgammon": {
+    "name": "Backgammon",
+    "roles": {
+      "bg": "#0a0612",
+      "surface": "#1a0a2a",
+      "text": "#f0ead8",
+      "muted": "#8a7fa8",
+      "accent": "#00f5ff",
+      "accent2": "#ffe03a"
+    },
+    "palette": {
+      "bgm-bg": "#0a0612",
+      "bgm-board": "#0d0820",
+      "bgm-bar": "#1a0a2a",
+      "bgm-off": "#0a0a1a",
+      "bgm-text-dim": "#8a7fa8",
+      "bgm-text": "#f0ead8",
+      "bgm-player": "#00f5ff",
+      "bgm-ai": "#ff2d78",
+      "bgm-gold": "#ffe03a",
+      "bgm-doubling": "#ff7c1f",
+      "bgm-highlight": "#39ff6e"
+    }
+  },
+  "chinese-checkers": {
+    "name": "Chinese Checkers",
+    "roles": {
+      "bg": "#0a0612",
+      "surface": "#150b29",
+      "text": "#f0ead8",
+      "muted": "#8a7fa8",
+      "accent": "#00f5ff",
+      "accent2": "#ffe03a"
+    },
+    "palette": {
+      "cc-bg": "#0a0612",
+      "cc-board": "#150b29",
+      "cc-cell": "#2a1a3a",
+      "cc-cell-border": "#3a2d5c",
+      "cc-text-dim": "#8a7fa8",
+      "cc-text": "#f0ead8",
+      "cc-player": "#00f5ff",
+      "cc-magenta": "#ff2d78",
+      "cc-green": "#39ff6e",
+      "cc-gold": "#ffe03a",
+      "cc-orange": "#ff7c1f",
+      "cc-purple": "#c45fff"
+    }
   }
 };
 
