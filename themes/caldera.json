@@ -1,0 +1,84 @@
+{
+  "name": "Caldera",
+  "palette": [
+    {
+      "var": "--cd-deep",
+      "value": "#0b0605",
+      "label": "Deep"
+    },
+    {
+      "var": "--cd-char",
+      "value": "#1a100c",
+      "label": "Char"
+    },
+    {
+      "var": "--cd-rock",
+      "value": "#2b2421",
+      "label": "Rock"
+    },
+    {
+      "var": "--cd-rock-hi",
+      "value": "#3d322c",
+      "label": "Rock Hi"
+    },
+    {
+      "var": "--cd-vent",
+      "value": "#3a0e04",
+      "label": "Vent"
+    },
+    {
+      "var": "--cd-crust",
+      "value": "#5a0a00",
+      "label": "Crust"
+    },
+    {
+      "var": "--cd-ash",
+      "value": "#8a5a3a",
+      "label": "Ash"
+    },
+    {
+      "var": "--cd-dust",
+      "value": "#b39880",
+      "label": "Dust"
+    },
+    {
+      "var": "--cd-lava",
+      "value": "#ff5a1f",
+      "label": "Lava"
+    },
+    {
+      "var": "--cd-flame",
+      "value": "#ff6a1f",
+      "label": "Flame"
+    },
+    {
+      "var": "--cd-glow",
+      "value": "#ff8a3a",
+      "label": "Glow"
+    },
+    {
+      "var": "--cd-sand",
+      "value": "#ffd9a0",
+      "label": "Sand"
+    },
+    {
+      "var": "--cd-spark",
+      "value": "#fff0a0",
+      "label": "Spark"
+    },
+    {
+      "var": "--cd-cream",
+      "value": "#fff3d0",
+      "label": "Cream"
+    }
+  ],
+  "roles": {
+    "bg": "--cd-deep",
+    "surface": "--cd-char",
+    "text": "--cd-cream",
+    "muted": "--cd-dust",
+    "accent": "--cd-flame",
+    "accent2": "--cd-sand"
+  },
+  "rolesFrom": "hand"
+}

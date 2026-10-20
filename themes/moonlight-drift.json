@@ -1,0 +1,84 @@
+{
+  "name": "Moonlight Drift",
+  "palette": [
+    {
+      "var": "--md-night",
+      "value": "#0f0c29",
+      "label": "Night"
+    },
+    {
+      "var": "--md-dusk",
+      "value": "#302b63",
+      "label": "Dusk"
+    },
+    {
+      "var": "--md-deep",
+      "value": "#24243e",
+      "label": "Deep"
+    },
+    {
+      "var": "--md-panel-dark",
+      "value": "#1a2a4a",
+      "label": "Panel Dark"
+    },
+    {
+      "var": "--md-panel",
+      "value": "#2a3a5a",
+      "label": "Panel"
+    },
+    {
+      "var": "--md-panel-hi",
+      "value": "#3a4a6a",
+      "label": "Panel Hi"
+    },
+    {
+      "var": "--md-frame",
+      "value": "#4a5a7a",
+      "label": "Frame"
+    },
+    {
+      "var": "--md-muted",
+      "value": "#7a89a8",
+      "label": "Muted"
+    },
+    {
+      "var": "--md-text",
+      "value": "#ffffff",
+      "label": "Text"
+    },
+    {
+      "var": "--md-cyan",
+      "value": "#00d4ff",
+      "label": "Cyan"
+    },
+    {
+      "var": "--md-gold",
+      "value": "#ffd700",
+      "label": "Gold"
+    },
+    {
+      "var": "--md-green",
+      "value": "#2ecc71",
+      "label": "Launch Green"
+    },
+    {
+      "var": "--md-moon",
+      "value": "#ece6c4",
+      "label": "Moon"
+    },
+    {
+      "var": "--md-crash",
+      "value": "#ff1a1a",
+      "label": "Crash"
+    }
+  ],
+  "roles": {
+    "bg": "--md-night",
+    "surface": "--md-panel",
+    "text": "--md-text",
+    "muted": "--md-muted",
+    "accent": "--md-cyan",
+    "accent2": "--md-gold"
+  },
+  "rolesFrom": "hand"
+}

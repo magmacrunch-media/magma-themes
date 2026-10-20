@@ -3,11 +3,22 @@
 The colour themes of magmacrunch.com, kept in one place so the games, apps and
 the Wii homebrew can use the same ones the website does.
 
-55 themes, 49 of them with colours: the site's global palette, the visual and
+58 themes, 52 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
-their own themes, and the six arcade pages that only set nav colours. Five
-more are this repo's own, not the website's: light versions of the Global
-Palette, Pop Art, Memphis, City Pop and American Spirit.
+their own themes, and the six arcade pages that only set nav colours. Eight
+are this repo's own, not the website's: light versions of the Global Palette,
+Pop Art, Memphis, City Pop and American Spirit, and three game themes.
+
+## Game themes
+
+`moonlight-drift`, `caldera` and `french-tarot` are each game's colours read
+off its own CSS and canvas code, for things that should look like the game
+without being it: the game's page under `ware/` on the website, first. The
+games do not read them back, so a game that changes its look needs its theme
+changed here by hand. They have no `web` block for the same reason the light
+themes do not: the website's theme manager writes a `web` theme back into the
+file it names, and these games keep their colours as literals rather than as
+variables it could write.
 
 ## Light themes
 

@@ -1375,6 +1375,87 @@ export const THEMES = {
       "black": "#080510",
       "near-black": "#100820"
     }
+  },
+  "moonlight-drift": {
+    "name": "Moonlight Drift",
+    "roles": {
+      "bg": "#0f0c29",
+      "surface": "#2a3a5a",
+      "text": "#ffffff",
+      "muted": "#7a89a8",
+      "accent": "#00d4ff",
+      "accent2": "#ffd700"
+    },
+    "palette": {
+      "md-night": "#0f0c29",
+      "md-dusk": "#302b63",
+      "md-deep": "#24243e",
+      "md-panel-dark": "#1a2a4a",
+      "md-panel": "#2a3a5a",
+      "md-panel-hi": "#3a4a6a",
+      "md-frame": "#4a5a7a",
+      "md-muted": "#7a89a8",
+      "md-text": "#ffffff",
+      "md-cyan": "#00d4ff",
+      "md-gold": "#ffd700",
+      "md-green": "#2ecc71",
+      "md-moon": "#ece6c4",
+      "md-crash": "#ff1a1a"
+    }
+  },
+  "caldera": {
+    "name": "Caldera",
+    "roles": {
+      "bg": "#0b0605",
+      "surface": "#1a100c",
+      "text": "#fff3d0",
+      "muted": "#b39880",
+      "accent": "#ff6a1f",
+      "accent2": "#ffd9a0"
+    },
+    "palette": {
+      "cd-deep": "#0b0605",
+      "cd-char": "#1a100c",
+      "cd-rock": "#2b2421",
+      "cd-rock-hi": "#3d322c",
+      "cd-vent": "#3a0e04",
+      "cd-crust": "#5a0a00",
+      "cd-ash": "#8a5a3a",
+      "cd-dust": "#b39880",
+      "cd-lava": "#ff5a1f",
+      "cd-flame": "#ff6a1f",
+      "cd-glow": "#ff8a3a",
+      "cd-sand": "#ffd9a0",
+      "cd-spark": "#fff0a0",
+      "cd-cream": "#fff3d0"
+    }
+  },
+  "french-tarot": {
+    "name": "French Tarot",
+    "roles": {
+      "bg": "#0a0612",
+      "surface": "#150b29",
+      "text": "#f0ead8",
+      "muted": "#8a7fa8",
+      "accent": "#00e5ff",
+      "accent2": "#ffd700"
+    },
+    "palette": {
+      "ft-bg-dark": "#0a0612",
+      "ft-bg-mid": "#150b29",
+      "ft-bg-light": "#1a0a2a",
+      "ft-line": "#2a1a3a",
+      "ft-dim": "#4a4060",
+      "ft-muted": "#8a7fa8",
+      "ft-soft": "#c0b8d0",
+      "ft-white": "#f0ead8",
+      "ft-cyan": "#00e5ff",
+      "ft-gold": "#ffd700",
+      "ft-rose": "#ff2d78",
+      "ft-green": "#39ff6e",
+      "ft-card-back": "#1e4d2b",
+      "ft-red": "#cc0000"
+    }
   }
 };
 

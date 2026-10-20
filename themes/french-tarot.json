@@ -1,0 +1,84 @@
+{
+  "name": "French Tarot",
+  "palette": [
+    {
+      "var": "--ft-bg-dark",
+      "value": "#0a0612",
+      "label": "BG Dark"
+    },
+    {
+      "var": "--ft-bg-mid",
+      "value": "#150b29",
+      "label": "BG Mid"
+    },
+    {
+      "var": "--ft-bg-light",
+      "value": "#1a0a2a",
+      "label": "BG Light"
+    },
+    {
+      "var": "--ft-line",
+      "value": "#2a1a3a",
+      "label": "Line"
+    },
+    {
+      "var": "--ft-dim",
+      "value": "#4a4060",
+      "label": "Dim"
+    },
+    {
+      "var": "--ft-muted",
+      "value": "#8a7fa8",
+      "label": "Muted"
+    },
+    {
+      "var": "--ft-soft",
+      "value": "#c0b8d0",
+      "label": "Soft"
+    },
+    {
+      "var": "--ft-white",
+      "value": "#f0ead8",
+      "label": "Card White"
+    },
+    {
+      "var": "--ft-cyan",
+      "value": "#00e5ff",
+      "label": "Cyan"
+    },
+    {
+      "var": "--ft-gold",
+      "value": "#ffd700",
+      "label": "Gold"
+    },
+    {
+      "var": "--ft-rose",
+      "value": "#ff2d78",
+      "label": "Rose"
+    },
+    {
+      "var": "--ft-green",
+      "value": "#39ff6e",
+      "label": "Green"
+    },
+    {
+      "var": "--ft-card-back",
+      "value": "#1e4d2b",
+      "label": "Card Back"
+    },
+    {
+      "var": "--ft-red",
+      "value": "#cc0000",
+      "label": "Suit Red"
+    }
+  ],
+  "roles": {
+    "bg": "--ft-bg-dark",
+    "surface": "--ft-bg-mid",
+    "text": "--ft-white",
+    "muted": "--ft-muted",
+    "accent": "--ft-cyan",
+    "accent2": "--ft-gold"
+  },
+  "rolesFrom": "hand"
+}
