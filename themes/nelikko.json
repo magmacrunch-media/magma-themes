@@ -1,0 +1,80 @@
+{
+  "name": "Nelikko",
+  "note": "From arcade/nelikko/base.css: Helsinki in winter, ice and birch on blue-black slate, with the clay, pine and dusk of its pieces. Muted is its slate rather than its subtext, which is too dark to read as body text.",
+  "palette": [
+    {
+      "var": "--nk-board",
+      "value": "#0a1218",
+      "label": "Board"
+    },
+    {
+      "var": "--nk-bg",
+      "value": "#0e1820",
+      "label": "Bg"
+    },
+    {
+      "var": "--nk-panel",
+      "value": "#131f28",
+      "label": "Panel"
+    },
+    {
+      "var": "--nk-border",
+      "value": "#2a4a5a",
+      "label": "Border"
+    },
+    {
+      "var": "--nk-border-bright",
+      "value": "#4a7a8a",
+      "label": "Border Bright"
+    },
+    {
+      "var": "--nk-dusk",
+      "value": "#3a5a6a",
+      "label": "Dusk"
+    },
+    {
+      "var": "--nk-slate",
+      "value": "#7a9bad",
+      "label": "Slate"
+    },
+    {
+      "var": "--nk-text",
+      "value": "#d0dde0",
+      "label": "Text"
+    },
+    {
+      "var": "--nk-frost",
+      "value": "#c8d8dd",
+      "label": "Frost"
+    },
+    {
+      "var": "--nk-ice",
+      "value": "#afcbd3",
+      "label": "Ice"
+    },
+    {
+      "var": "--nk-birch",
+      "value": "#d4c89a",
+      "label": "Birch"
+    },
+    {
+      "var": "--nk-clay",
+      "value": "#a26769",
+      "label": "Clay"
+    },
+    {
+      "var": "--nk-pine",
+      "value": "#5e7d6a",
+      "label": "Pine"
+    }
+  ],
+  "roles": {
+    "bg": "--nk-bg",
+    "surface": "--nk-panel",
+    "text": "--nk-text",
+    "muted": "--nk-slate",
+    "accent": "--nk-ice",
+    "accent2": "--nk-birch"
+  },
+  "rolesFrom": "hand"
+}

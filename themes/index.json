@@ -67,6 +67,9 @@
     "fifteen-puzzle",
     "threes",
     "klotski",
-    "two-to-the-n"
+    "two-to-the-n",
+    "solitaire",
+    "nelikko",
+    "makemecookies"
   ]
 }

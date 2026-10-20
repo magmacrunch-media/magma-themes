@@ -1712,6 +1712,87 @@ export const THEMES = {
       "tn-gold": "#ffd54a",
       "tn-pink": "#f23c8f"
     }
+  },
+  "solitaire": {
+    "name": "Klondike Solitaire",
+    "roles": {
+      "bg": "#001e1e",
+      "surface": "#003838",
+      "text": "#e0e0e0",
+      "muted": "#c0c0c0",
+      "accent": "#ff2d78",
+      "accent2": "#00e5ff"
+    },
+    "palette": {
+      "sol-desktop-lo": "#001e1e",
+      "sol-desktop": "#003838",
+      "sol-desktop-hi": "#005555",
+      "sol-chrome-shade": "#404040",
+      "sol-chrome-dark": "#808080",
+      "sol-chrome": "#c0c0c0",
+      "sol-chrome-light": "#e0e0e0",
+      "sol-title-left": "#4a007a",
+      "sol-title-right": "#003060",
+      "sol-felt-mid": "#0d2b0d",
+      "sol-felt": "#1a5c1a",
+      "sol-pink": "#ff2d78",
+      "sol-cyan": "#00e5ff",
+      "sol-gold": "#ffd700",
+      "sol-purple": "#7b2fff"
+    }
+  },
+  "nelikko": {
+    "name": "Nelikko",
+    "roles": {
+      "bg": "#0e1820",
+      "surface": "#131f28",
+      "text": "#d0dde0",
+      "muted": "#7a9bad",
+      "accent": "#afcbd3",
+      "accent2": "#d4c89a"
+    },
+    "palette": {
+      "nk-board": "#0a1218",
+      "nk-bg": "#0e1820",
+      "nk-panel": "#131f28",
+      "nk-border": "#2a4a5a",
+      "nk-border-bright": "#4a7a8a",
+      "nk-dusk": "#3a5a6a",
+      "nk-slate": "#7a9bad",
+      "nk-text": "#d0dde0",
+      "nk-frost": "#c8d8dd",
+      "nk-ice": "#afcbd3",
+      "nk-birch": "#d4c89a",
+      "nk-clay": "#a26769",
+      "nk-pine": "#5e7d6a"
+    }
+  },
+  "makemecookies": {
+    "name": "MAKEMECOOKIES!X4",
+    "roles": {
+      "bg": "#180c18",
+      "surface": "#26122a",
+      "text": "#ead9ec",
+      "muted": "#9a7ba2",
+      "accent": "#ff2e9c",
+      "accent2": "#ffc93c"
+    },
+    "palette": {
+      "mmc-bg": "#180c18",
+      "mmc-panel": "#26122a",
+      "mmc-tile": "#34163a",
+      "mmc-border": "#3e1f45",
+      "mmc-border-bright": "#6b3273",
+      "mmc-dim": "#5c3a64",
+      "mmc-subtext": "#9a7ba2",
+      "mmc-text": "#ead9ec",
+      "mmc-neon": "#ff2e9c",
+      "mmc-frosting": "#ff5fa2",
+      "mmc-sprinkle": "#41e8d1",
+      "mmc-butter": "#ffc93c",
+      "mmc-dough": "#f2d8a7",
+      "mmc-choc": "#4b2e1e"
+    }
   }
 };
 

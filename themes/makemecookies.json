@@ -1,0 +1,85 @@
+{
+  "name": "MAKEMECOOKIES!X4",
+  "note": "From arcade/makemecookies/css: a plum night bakery, neon pink signage, frosting, sprinkle teal, butter gold and dough.",
+  "palette": [
+    {
+      "var": "--mmc-bg",
+      "value": "#180c18",
+      "label": "Bg"
+    },
+    {
+      "var": "--mmc-panel",
+      "value": "#26122a",
+      "label": "Panel"
+    },
+    {
+      "var": "--mmc-tile",
+      "value": "#34163a",
+      "label": "Tile"
+    },
+    {
+      "var": "--mmc-border",
+      "value": "#3e1f45",
+      "label": "Border"
+    },
+    {
+      "var": "--mmc-border-bright",
+      "value": "#6b3273",
+      "label": "Border Bright"
+    },
+    {
+      "var": "--mmc-dim",
+      "value": "#5c3a64",
+      "label": "Dim"
+    },
+    {
+      "var": "--mmc-subtext",
+      "value": "#9a7ba2",
+      "label": "Subtext"
+    },
+    {
+      "var": "--mmc-text",
+      "value": "#ead9ec",
+      "label": "Text"
+    },
+    {
+      "var": "--mmc-neon",
+      "value": "#ff2e9c",
+      "label": "Neon"
+    },
+    {
+      "var": "--mmc-frosting",
+      "value": "#ff5fa2",
+      "label": "Frosting"
+    },
+    {
+      "var": "--mmc-sprinkle",
+      "value": "#41e8d1",
+      "label": "Sprinkle"
+    },
+    {
+      "var": "--mmc-butter",
+      "value": "#ffc93c",
+      "label": "Butter"
+    },
+    {
+      "var": "--mmc-dough",
+      "value": "#f2d8a7",
+      "label": "Dough"
+    },
+    {
+      "var": "--mmc-choc",
+      "value": "#4b2e1e",
+      "label": "Chocolate"
+    }
+  ],
+  "roles": {
+    "bg": "--mmc-bg",
+    "surface": "--mmc-panel",
+    "text": "--mmc-text",
+    "muted": "--mmc-subtext",
+    "accent": "--mmc-neon",
+    "accent2": "--mmc-butter"
+  },
+  "rolesFrom": "hand"
+}
