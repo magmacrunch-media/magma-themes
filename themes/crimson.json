@@ -1,0 +1,65 @@
+{
+  "name": "Crimson",
+  "family": "mono",
+  "prefix": "cr",
+  "palette": [
+    {
+      "var": "--cr-void",
+      "value": "#290007",
+      "label": "Void"
+    },
+    {
+      "var": "--cr-darkest",
+      "value": "#47000c",
+      "label": "Darkest"
+    },
+    {
+      "var": "--cr-dark",
+      "value": "#6d0919",
+      "label": "Dark"
+    },
+    {
+      "var": "--cr-mid-dark",
+      "value": "#9a182e",
+      "label": "Mid Dark"
+    },
+    {
+      "var": "--cr-deep",
+      "value": "#b01c34",
+      "label": "Deep"
+    },
+    {
+      "var": "--cr-bright",
+      "value": "#bf2b44",
+      "label": "Bright"
+    },
+    {
+      "var": "--cr-muted",
+      "value": "#db8593",
+      "label": "Muted"
+    },
+    {
+      "var": "--cr-crimson",
+      "value": "#de4f67",
+      "label": "Crimson"
+    },
+    {
+      "var": "--cr-light",
+      "value": "#ff8095",
+      "label": "Light"
+    },
+    {
+      "var": "--cr-pale",
+      "value": "#ffa8b7",
+      "label": "Pale"
+    }
+  ],
+  "roles": {
+    "bg": "--cr-void",
+    "text": "--cr-pale",
+    "surface": "--cr-deep",
+    "muted": "--cr-muted",
+    "accent": "--cr-crimson"
+  },
+  "rolesFrom": "hand"
+}

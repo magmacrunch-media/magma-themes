@@ -484,6 +484,75 @@ export const THEMES = {
       "pale": "#ffe9a8"
     }
   },
+  "ink": {
+    "name": "Ink",
+    "family": "mono",
+    "roles": {
+      "bg": "#000c29",
+      "surface": "#1c48b0",
+      "text": "#a8c2ff",
+      "muted": "#859fdb",
+      "accent": "#4f7ade"
+    },
+    "palette": {
+      "void": "#000c29",
+      "darkest": "#001547",
+      "dark": "#09276d",
+      "mid-dark": "#183f9a",
+      "deep": "#1c48b0",
+      "bright": "#2b58bf",
+      "muted": "#859fdb",
+      "ink": "#4f7ade",
+      "light": "#80a6ff",
+      "pale": "#a8c2ff"
+    }
+  },
+  "phosphor": {
+    "name": "Phosphor",
+    "family": "mono",
+    "roles": {
+      "bg": "#00290a",
+      "surface": "#1cb041",
+      "text": "#a8ffbe",
+      "muted": "#85db9b",
+      "accent": "#4fde73"
+    },
+    "palette": {
+      "void": "#00290a",
+      "darkest": "#004712",
+      "dark": "#096d22",
+      "mid-dark": "#189a39",
+      "deep": "#1cb041",
+      "bright": "#2bbf50",
+      "muted": "#85db9b",
+      "phosphor": "#4fde73",
+      "light": "#80ff9f",
+      "pale": "#a8ffbe"
+    }
+  },
+  "crimson": {
+    "name": "Crimson",
+    "family": "mono",
+    "roles": {
+      "bg": "#290007",
+      "surface": "#b01c34",
+      "text": "#ffa8b7",
+      "muted": "#db8593",
+      "accent": "#de4f67"
+    },
+    "palette": {
+      "void": "#290007",
+      "darkest": "#47000c",
+      "dark": "#6d0919",
+      "mid-dark": "#9a182e",
+      "deep": "#b01c34",
+      "bright": "#bf2b44",
+      "muted": "#db8593",
+      "crimson": "#de4f67",
+      "light": "#ff8095",
+      "pale": "#ffa8b7"
+    }
+  },
   "svfp": {
     "name": "SVFP",
     "roles": {

@@ -1,0 +1,65 @@
+{
+  "name": "Phosphor",
+  "family": "mono",
+  "prefix": "ph",
+  "palette": [
+    {
+      "var": "--ph-void",
+      "value": "#00290a",
+      "label": "Void"
+    },
+    {
+      "var": "--ph-darkest",
+      "value": "#004712",
+      "label": "Darkest"
+    },
+    {
+      "var": "--ph-dark",
+      "value": "#096d22",
+      "label": "Dark"
+    },
+    {
+      "var": "--ph-mid-dark",
+      "value": "#189a39",
+      "label": "Mid Dark"
+    },
+    {
+      "var": "--ph-deep",
+      "value": "#1cb041",
+      "label": "Deep"
+    },
+    {
+      "var": "--ph-bright",
+      "value": "#2bbf50",
+      "label": "Bright"
+    },
+    {
+      "var": "--ph-muted",
+      "value": "#85db9b",
+      "label": "Muted"
+    },
+    {
+      "var": "--ph-phosphor",
+      "value": "#4fde73",
+      "label": "Phosphor"
+    },
+    {
+      "var": "--ph-light",
+      "value": "#80ff9f",
+      "label": "Light"
+    },
+    {
+      "var": "--ph-pale",
+      "value": "#a8ffbe",
+      "label": "Pale"
+    }
+  ],
+  "roles": {
+    "bg": "--ph-void",
+    "text": "--ph-pale",
+    "surface": "--ph-deep",
+    "muted": "--ph-muted",
+    "accent": "--ph-phosphor"
+  },
+  "rolesFrom": "hand"
+}

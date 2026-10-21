@@ -1,0 +1,65 @@
+{
+  "name": "Ink",
+  "family": "mono",
+  "prefix": "ink",
+  "palette": [
+    {
+      "var": "--ink-void",
+      "value": "#000c29",
+      "label": "Void"
+    },
+    {
+      "var": "--ink-darkest",
+      "value": "#001547",
+      "label": "Darkest"
+    },
+    {
+      "var": "--ink-dark",
+      "value": "#09276d",
+      "label": "Dark"
+    },
+    {
+      "var": "--ink-mid-dark",
+      "value": "#183f9a",
+      "label": "Mid Dark"
+    },
+    {
+      "var": "--ink-deep",
+      "value": "#1c48b0",
+      "label": "Deep"
+    },
+    {
+      "var": "--ink-bright",
+      "value": "#2b58bf",
+      "label": "Bright"
+    },
+    {
+      "var": "--ink-muted",
+      "value": "#859fdb",
+      "label": "Muted"
+    },
+    {
+      "var": "--ink-ink",
+      "value": "#4f7ade",
+      "label": "Ink"
+    },
+    {
+      "var": "--ink-light",
+      "value": "#80a6ff",
+      "label": "Light"
+    },
+    {
+      "var": "--ink-pale",
+      "value": "#a8c2ff",
+      "label": "Pale"
+    }
+  ],
+  "roles": {
+    "bg": "--ink-void",
+    "text": "--ink-pale",
+    "surface": "--ink-deep",
+    "muted": "--ink-muted",
+    "accent": "--ink-ink"
+  },
+  "rolesFrom": "hand"
+}

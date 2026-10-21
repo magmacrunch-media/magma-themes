@@ -3,11 +3,12 @@
 The colour themes of magmacrunch.com, kept in one place so the games, apps and
 the Wii homebrew can use the same ones the website does.
 
-79 themes, 73 of them with colours: the site's global palette, the visual and
+82 themes, 76 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
-their own themes, and the six arcade pages that only set nav colours. Eleven
-are this repo's own, not the website's: light versions of the Global Palette,
-Pop Art, Memphis, City Pop and American Spirit, three game themes, and the three archive index ramps.
+their own themes, and the six arcade pages that only set nav colours.
+Fourteen are this repo's own, not the website's: light versions of the
+Global Palette, Pop Art, Memphis, City Pop and American Spirit, three game
+themes, and six one-hue archive themes.
 
 ## Naming
 
@@ -32,13 +33,22 @@ until 2026-10-20, and both old slugs still work. They are the first of the
 optional, and the families are listed in `tools/lib.mjs`. A test holds
 every `mono` theme to one hue.
 
-`ember`, `orchid` and `gold` are the other three: the by-artist, by-place
-and by-label archive indexes. Each is ultraviolet's saturation and
+`ember`, `orchid` and `gold` are the by-artist, by-place and by-label
+archive indexes. Each is ultraviolet's saturation and
 lightness at another hue (14, 314 and 45 degrees), on the neutral
 `#0a0a0c` those pages share. They have no `web` block because those pages
 set the colours inline over `contributor-theme.css` rather than in a file
 of their own, so an edit to one of them is made in the page and copied
 here by hand.
+
+`ink`, `phosphor` and `crimson` are three of the four label pages under
+`archive/by-label/`: magmacrunch music, magmacrunch arcade and The Slop
+Collective, at 222, 135 and 350 degrees. It is the same arrangement one
+level down: each page sets its ramp inline over `label-theme.css`, keeping
+ultraviolet's hue-tinted ground, and magmacrunch media, the root label, is
+ultraviolet itself. The by-label index draws each label's card from these,
+so a change to one is three edits: the page, its card on the index, and
+the theme here.
 
 ## Game themes
 
