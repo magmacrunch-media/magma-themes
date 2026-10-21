@@ -3,11 +3,33 @@
 The colour themes of magmacrunch.com, kept in one place so the games, apps and
 the Wii homebrew can use the same ones the website does.
 
-58 themes, 52 of them with colours: the site's global palette, the visual and
+76 themes, 70 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
 their own themes, and the six arcade pages that only set nav colours. Eight
 are this repo's own, not the website's: light versions of the Global Palette,
 Pop Art, Memphis, City Pop and American Spirit, and three game themes.
+
+## Naming
+
+A theme is named for what it looks like, not for the page that uses it,
+because a page can change its look and its old colours should not go with
+it. The page that uses a theme is its `web` block, and that is the part
+that moves:
+
+- **A page gets a new look.** The new theme takes the `web` block. The old
+  one loses it, gains `"wasUsedBy": [{ "file": ..., "until": "YYYY-MM-DD" }]`,
+  and stays here for anything else to use.
+- **An artist or place changes its cover.** The plain slug (`dino-spumoni`)
+  always means the current look. The old theme is renamed for its era, such
+  as `dino-spumoni-<album>`, before the new one takes the plain slug.
+- **A theme is renamed.** Its old slug goes in `aliases`, so a saved
+  setting, a `data-magma-theme` attribute or a C macro written against it
+  keeps working. Aliases are not listed in pickers.
+
+`ultraviolet` and `deep-cyan` were `label-purple` and `contributor-cyan`
+until 2026-10-20, and both old slugs still work. They are the first of the
+`mono` family: one hue in steps from near black to pale. `family` is
+optional, and the families are listed in `tools/lib.mjs`.
 
 ## Game themes
 

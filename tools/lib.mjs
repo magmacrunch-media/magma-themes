@@ -112,13 +112,44 @@ export function loadThemes() {
   });
 }
 
+// The kinds of theme that are worth listing together. A typo in `family`
+// fails validation rather than quietly starting a family of one.
+export const FAMILIES = {
+  mono: 'one hue in steps, near black to pale',
+};
+
+const KEBAB = /^[a-z0-9]+(-[a-z0-9]+)*$/;
+const DATE = /^\d{4}-\d{2}-\d{2}$/;
+
 // Every problem, not the first one, so a bad import is fixed in one pass.
 export function validate(themes) {
   const errors = [];
   const slugs = new Set();
+  const allSlugs = new Set(themes.map((t) => t.slug));
+  const aliasOf = new Map();
   for (const t of themes) {
     const where = `themes/${t.slug}.json`;
-    if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(t.slug)) errors.push(`${where}: slug is not kebab-case`);
+    if (!KEBAB.test(t.slug)) errors.push(`${where}: slug is not kebab-case`);
+    if ('family' in t && !(t.family in FAMILIES)) {
+      errors.push(`${where}: family ${t.family} is not one of ${Object.keys(FAMILIES).join(', ')}`);
+    }
+    for (const a of t.aliases || []) {
+      if (!KEBAB.test(a)) errors.push(`${where}: alias ${a} is not kebab-case`);
+      if (allSlugs.has(a)) errors.push(`${where}: alias ${a} is also a theme's slug`);
+      if (aliasOf.has(a)) errors.push(`${where}: alias ${a} is already an alias of ${aliasOf.get(a)}`);
+      aliasOf.set(a, t.slug);
+    }
+    if ('prefix' in t) {
+      if (!KEBAB.test(t.prefix)) errors.push(`${where}: prefix is not kebab-case`);
+      if (t.web && t.web.prefix && t.web.prefix !== t.prefix) {
+        errors.push(`${where}: prefix ${t.prefix} differs from web.prefix ${t.web.prefix}`);
+      }
+    }
+    for (const u of t.wasUsedBy || []) {
+      if (typeof u.file !== 'string' || !u.file || !DATE.test(u.until || '')) {
+        errors.push(`${where}: wasUsedBy entries need a file and an until date (YYYY-MM-DD)`);
+      }
+    }
     if (slugs.has(t.slug)) errors.push(`${where}: duplicate slug`);
     slugs.add(t.slug);
     if (typeof t.name !== 'string' || !t.name) errors.push(`${where}: missing name`);
@@ -142,6 +173,17 @@ export function validate(themes) {
     }
   }
   return errors;
+}
+
+// A palette entry's name with its `--` and section prefix removed, which is
+// what every output except themes.json uses: `--svfp-bg` becomes `bg`.
+// A top-level `prefix` does the same for a theme no page uses any more, so a
+// theme that loses its `web` block keeps every generated name it had.
+export function bare(t, v) {
+  let s = v.replace(/^--/, '');
+  const p = (t.web && t.web.prefix) || t.prefix;
+  if (p && s.startsWith(`${p}-`)) s = s.slice(p.length + 1);
+  return s;
 }
 
 export function colourOf(theme, varName) {

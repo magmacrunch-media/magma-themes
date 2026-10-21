@@ -369,8 +369,9 @@ export const THEMES = {
       "cyan": "#00f5ff"
     }
   },
-  "contributor-cyan": {
-    "name": "Contributor (Cyan)",
+  "deep-cyan": {
+    "name": "Deep Cyan",
+    "family": "mono",
     "roles": {
       "bg": "#001a1f",
       "surface": "#012a33",
@@ -391,8 +392,9 @@ export const THEMES = {
       "pale": "#d0f4f8"
     }
   },
-  "label-purple": {
-    "name": "Label (Purple)",
+  "ultraviolet": {
+    "name": "Ultraviolet",
+    "family": "mono",
     "roles": {
       "bg": "#10002b",
       "surface": "#6a1bb0",
@@ -1909,6 +1911,15 @@ export const THEMES = {
     }
   }
 };
+
+// Old slugs of renamed themes. THEMES answers to them too, but they are not
+// enumerable, so a picker built from Object.keys(THEMES) lists each theme
+// once while a slug saved under its old name still loads.
+export const ALIASES = {
+  "contributor-cyan": "deep-cyan",
+  "label-purple": "ultraviolet"
+};
+for (const [a, s] of Object.entries(ALIASES)) Object.defineProperty(THEMES, a, { value: THEMES[s], enumerable: false });
 
 // Set every --mt-* property of a theme on an element (default: the root).
 export function applyTheme(slug, el = document.documentElement) {

@@ -1,5 +1,10 @@
 {
-  "name": "Label (Purple)",
+  "name": "Ultraviolet",
+  "family": "mono",
+  "aliases": [
+    "label-purple"
+  ],
+  "prefix": "lbl",
   "palette": [
     {
       "var": "--lbl-void",

@@ -1065,7 +1065,7 @@
     }
   },
   {
-    "name": "Contributor (Cyan)",
+    "name": "Deep Cyan",
     "section": "section-template",
     "bodyClass": "ctb-page",
     "prefix": "ctb",
@@ -1130,7 +1130,7 @@
     }
   },
   {
-    "name": "Label (Purple)",
+    "name": "Ultraviolet",
     "section": "section-template",
     "bodyClass": "lbl-page",
     "prefix": "lbl",

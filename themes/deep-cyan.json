@@ -1,5 +1,10 @@
 {
-  "name": "Contributor (Cyan)",
+  "name": "Deep Cyan",
+  "family": "mono",
+  "aliases": [
+    "contributor-cyan"
+  ],
+  "prefix": "ctb",
   "palette": [
     {
       "var": "--ctb-void",

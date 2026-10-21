@@ -47,6 +47,23 @@ colours from it plus any deeper shades they need, and must be `"hand"`. The
 tests hold every light theme of this repo's own to contrast against its `bg`;
 a new one has to pass them, not loosen them.
 
+## Name a theme for its colours, and keep the old ones
+
+The README's Naming section is the rule. The mechanics:
+
+- **Taking a theme off a page**: delete its `web` block and add `wasUsedBy`.
+  Give it a top-level `prefix` equal to the old `web.prefix` FIRST, or every
+  generated name changes (`--mt-p-void` becomes `--mt-p-lbl-void`). A test
+  holds themes that already carry one to this. Its roles must be `"hand"`
+  once it has no `web`, so check them.
+- **Renaming**: `git mv` the file, change its slug in `index.json`, and put
+  the old slug in `aliases`. Never reuse an alias as a slug.
+- **The website's copy is keyed by `name`**, not slug, so a display-name
+  change is a website sync like any colour change.
+- Vendored copies (`apps\punch-roll`, `apps\media-player`) keep the old
+  slugs until re-synced, and resolve them through `aliases` afterwards.
+  `apps\sprite-forge`'s `ops-themes.js` is its own list, not a copy of this.
+
 ## Roles are guesses until marked "hand"
 
 `"rolesFrom": "import-heuristic"` on a theme means nobody has checked its

@@ -5,6 +5,8 @@
  *
  *   --mt-<role>     one of bg, surface, text, muted, accent, accent2
  *   --mt-p-<name>   every palette entry, under its unprefixed name
+ *
+ * A renamed theme answers to its old slugs too, listed after the new one.
  */
 
 /* Global Palette */
@@ -340,7 +342,8 @@
   --mt-p-cyan: #00f5ff;
 }
 
-/* Contributor (Cyan) */
+/* Deep Cyan */
+[data-magma-theme="deep-cyan"],
 [data-magma-theme="contributor-cyan"] {
   --mt-bg: #001a1f;
   --mt-surface: #012a33;
@@ -359,7 +362,8 @@
   --mt-p-pale: #d0f4f8;
 }
 
-/* Label (Purple) */
+/* Ultraviolet */
+[data-magma-theme="ultraviolet"],
 [data-magma-theme="label-purple"] {
   --mt-bg: #10002b;
   --mt-surface: #6a1bb0;

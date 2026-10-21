@@ -5,7 +5,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import {
-  ROOT, DIST_DIR, loadThemes, validate, isTvSafe, tvSafe, tvSignal, contrast, luminance, colourOf,
+  ROOT, DIST_DIR, loadThemes, validate, isTvSafe, tvSafe, tvSignal, contrast, luminance, colourOf, bare,
 } from '../tools/lib.mjs';
 
 const themes = loadThemes();
@@ -84,6 +84,37 @@ test("every light theme of this repo's own has all six roles, readable on its ba
     assert.ok(c('muted') >= 4.5, `${t.slug}: muted is ${c('muted').toFixed(2)}:1`);
     for (const r of ['accent', 'accent2']) assert.ok(c(r) >= 3, `${t.slug}: ${r} is ${c(r).toFixed(2)}:1`);
     assert.ok(c('surface') < 1.5, `${t.slug}: surface should sit close to bg`);
+  }
+});
+
+// A rename must not break anybody holding the old slug: a saved setting, a
+// data-magma-theme attribute, a C macro. Each output answers to it.
+test('a renamed theme answers to its old slug in every output', async () => {
+  const renamed = themes.filter((t) => (t.aliases || []).length);
+  assert.ok(renamed.length >= 2, `only ${renamed.length} renamed themes`);
+  const { THEMES, ALIASES } = await import('../dist/themes.mjs');
+  const css = readFileSync(join(DIST_DIR, 'themes.css'), 'utf8');
+  const h = readFileSync(join(DIST_DIR, 'magma_themes.h'), 'utf8');
+  const cid = (s) => s.toUpperCase().replace(/-/g, '_');
+  for (const t of renamed) {
+    for (const a of t.aliases) {
+      assert.equal(ALIASES[a], t.slug);
+      assert.equal(THEMES[a], THEMES[t.slug], `THEMES['${a}'] is not ${t.slug}`);
+      assert.ok(!Object.keys(THEMES).includes(a), `${a} is enumerable, so a picker lists ${t.slug} twice`);
+      assert.ok(css.includes(`[data-magma-theme="${a}"]`), `no CSS selector for ${a}`);
+      assert.ok(h.includes(`#define MT_${cid(a)}_BG MT_${cid(t.slug)}_BG\n`), `no C alias for ${a}`);
+    }
+  }
+});
+
+// Taking a theme off its page (deleting `web`) must not rename its generated
+// colours, which is what the top-level prefix is for.
+test('a theme keeps its generated names when no page uses it any more', () => {
+  const ready = themes.filter((x) => x.web && x.prefix);
+  assert.ok(ready.length >= 2, `only ${ready.length} themes carry a top-level prefix`);
+  for (const t of ready) {
+    const { web, ...unbound } = t;
+    for (const p of t.palette) assert.equal(bare(unbound, p.var), bare(t, p.var), `${t.slug}: ${p.var} would be renamed`);
   }
 });
 
