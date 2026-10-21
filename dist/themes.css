@@ -382,6 +382,63 @@
   --mt-p-pale: #e0aaff;
 }
 
+/* Ember */
+[data-magma-theme="ember"] {
+  --mt-bg: #0a0a0c;
+  --mt-surface: #b0421b;
+  --mt-text: #ffc4aa;
+  --mt-muted: #dba185;
+  --mt-accent: #dd6f4e;
+  --mt-p-void: #0a0a0c;
+  --mt-p-darkest: #461400;
+  --mt-p-dark: #6c2009;
+  --mt-p-mid-dark: #9a3818;
+  --mt-p-deep: #b0421b;
+  --mt-p-bright: #bf522c;
+  --mt-p-muted: #dba185;
+  --mt-p-ember: #dd6f4e;
+  --mt-p-light: #ff9d7d;
+  --mt-p-pale: #ffc4aa;
+}
+
+/* Orchid */
+[data-magma-theme="orchid"] {
+  --mt-bg: #0a0a0c;
+  --mt-surface: #b01b8c;
+  --mt-text: #ffaae0;
+  --mt-muted: #db85bd;
+  --mt-accent: #dd4ec0;
+  --mt-p-void: #0a0a0c;
+  --mt-p-darkest: #46002f;
+  --mt-p-dark: #6c0950;
+  --mt-p-mid-dark: #9a1879;
+  --mt-p-deep: #b01b8c;
+  --mt-p-bright: #bf2c9d;
+  --mt-p-muted: #db85bd;
+  --mt-p-orchid: #dd4ec0;
+  --mt-p-light: #ff7dd0;
+  --mt-p-pale: #ffaae0;
+}
+
+/* Gold */
+[data-magma-theme="gold"] {
+  --mt-bg: #0a0a0c;
+  --mt-surface: #b08b1c;
+  --mt-text: #ffe9a8;
+  --mt-muted: #dbc585;
+  --mt-accent: #deba4f;
+  --mt-p-void: #0a0a0c;
+  --mt-p-darkest: #473600;
+  --mt-p-dark: #6d5409;
+  --mt-p-mid-dark: #9a7a18;
+  --mt-p-deep: #b08b1c;
+  --mt-p-bright: #bf9a2b;
+  --mt-p-muted: #dbc585;
+  --mt-p-gold: #deba4f;
+  --mt-p-light: #ffdf80;
+  --mt-p-pale: #ffe9a8;
+}
+
 /* SVFP */
 [data-magma-theme="svfp"] {
   --mt-bg: #0a0a14;

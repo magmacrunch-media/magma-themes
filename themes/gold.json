@@ -1,0 +1,65 @@
+{
+  "name": "Gold",
+  "family": "mono",
+  "prefix": "gld",
+  "palette": [
+    {
+      "var": "--gld-void",
+      "value": "#0a0a0c",
+      "label": "Void"
+    },
+    {
+      "var": "--gld-darkest",
+      "value": "#473600",
+      "label": "Darkest"
+    },
+    {
+      "var": "--gld-dark",
+      "value": "#6d5409",
+      "label": "Dark"
+    },
+    {
+      "var": "--gld-mid-dark",
+      "value": "#9a7a18",
+      "label": "Mid Dark"
+    },
+    {
+      "var": "--gld-deep",
+      "value": "#b08b1c",
+      "label": "Deep"
+    },
+    {
+      "var": "--gld-bright",
+      "value": "#bf9a2b",
+      "label": "Bright"
+    },
+    {
+      "var": "--gld-muted",
+      "value": "#dbc585",
+      "label": "Muted"
+    },
+    {
+      "var": "--gld-gold",
+      "value": "#deba4f",
+      "label": "Gold"
+    },
+    {
+      "var": "--gld-light",
+      "value": "#ffdf80",
+      "label": "Light"
+    },
+    {
+      "var": "--gld-pale",
+      "value": "#ffe9a8",
+      "label": "Pale"
+    }
+  ],
+  "roles": {
+    "bg": "--gld-void",
+    "text": "--gld-pale",
+    "surface": "--gld-deep",
+    "muted": "--gld-muted",
+    "accent": "--gld-gold"
+  },
+  "rolesFrom": "hand"
+}

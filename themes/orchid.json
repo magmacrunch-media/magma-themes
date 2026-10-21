@@ -1,0 +1,65 @@
+{
+  "name": "Orchid",
+  "family": "mono",
+  "prefix": "orc",
+  "palette": [
+    {
+      "var": "--orc-void",
+      "value": "#0a0a0c",
+      "label": "Void"
+    },
+    {
+      "var": "--orc-darkest",
+      "value": "#46002f",
+      "label": "Darkest"
+    },
+    {
+      "var": "--orc-dark",
+      "value": "#6c0950",
+      "label": "Dark"
+    },
+    {
+      "var": "--orc-mid-dark",
+      "value": "#9a1879",
+      "label": "Mid Dark"
+    },
+    {
+      "var": "--orc-deep",
+      "value": "#b01b8c",
+      "label": "Deep"
+    },
+    {
+      "var": "--orc-bright",
+      "value": "#bf2c9d",
+      "label": "Bright"
+    },
+    {
+      "var": "--orc-muted",
+      "value": "#db85bd",
+      "label": "Muted"
+    },
+    {
+      "var": "--orc-orchid",
+      "value": "#dd4ec0",
+      "label": "Orchid"
+    },
+    {
+      "var": "--orc-light",
+      "value": "#ff7dd0",
+      "label": "Light"
+    },
+    {
+      "var": "--orc-pale",
+      "value": "#ffaae0",
+      "label": "Pale"
+    }
+  ],
+  "roles": {
+    "bg": "--orc-void",
+    "text": "--orc-pale",
+    "surface": "--orc-deep",
+    "muted": "--orc-muted",
+    "accent": "--orc-orchid"
+  },
+  "rolesFrom": "hand"
+}

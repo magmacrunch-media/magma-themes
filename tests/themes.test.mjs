@@ -118,6 +118,30 @@ test('a theme keeps its generated names when no page uses it any more', () => {
   }
 });
 
+// `mono` means one hue in steps, so hold it to that: every coloured step
+// within 12 degrees of the theme's accent. A neutral void (by-artist's
+// #0a0a0c, say) has no hue worth measuring and is skipped.
+test('every mono theme is one hue', () => {
+  const hue = (hex) => {
+    const [r, g, b] = [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16) / 255);
+    const M = Math.max(r, g, b), m = Math.min(r, g, b), d = M - m;
+    if (d / (1 - Math.abs(M + m - 1) || 1) < 0.3) return null;
+    const h = M === r ? ((g - b) / d) % 6 : M === g ? (b - r) / d + 2 : (r - g) / d + 4;
+    return (h * 60 + 360) % 360;
+  };
+  const mono = themes.filter((t) => t.family === 'mono');
+  assert.ok(mono.length >= 5, `only ${mono.length} mono themes`);
+  for (const t of mono) {
+    const h0 = hue(colourOf(t, t.roles.accent));
+    for (const p of t.palette) {
+      const h = hue(p.value);
+      if (h === null) continue;
+      const off = Math.min(Math.abs(h - h0), 360 - Math.abs(h - h0));
+      assert.ok(off <= 12, `${t.slug}: ${p.var} ${p.value} is ${off.toFixed(0)} degrees off its accent`);
+    }
+  }
+});
+
 test("the website's copy leaves out the themes it does not have", () => {
   const site = JSON.parse(readFileSync(join(DIST_DIR, 'themes.json'), 'utf8'));
   assert.deepEqual(site.map((t) => t.name), themes.filter((t) => t.web).map((t) => t.name));

@@ -415,6 +415,75 @@ export const THEMES = {
       "pale": "#e0aaff"
     }
   },
+  "ember": {
+    "name": "Ember",
+    "family": "mono",
+    "roles": {
+      "bg": "#0a0a0c",
+      "surface": "#b0421b",
+      "text": "#ffc4aa",
+      "muted": "#dba185",
+      "accent": "#dd6f4e"
+    },
+    "palette": {
+      "void": "#0a0a0c",
+      "darkest": "#461400",
+      "dark": "#6c2009",
+      "mid-dark": "#9a3818",
+      "deep": "#b0421b",
+      "bright": "#bf522c",
+      "muted": "#dba185",
+      "ember": "#dd6f4e",
+      "light": "#ff9d7d",
+      "pale": "#ffc4aa"
+    }
+  },
+  "orchid": {
+    "name": "Orchid",
+    "family": "mono",
+    "roles": {
+      "bg": "#0a0a0c",
+      "surface": "#b01b8c",
+      "text": "#ffaae0",
+      "muted": "#db85bd",
+      "accent": "#dd4ec0"
+    },
+    "palette": {
+      "void": "#0a0a0c",
+      "darkest": "#46002f",
+      "dark": "#6c0950",
+      "mid-dark": "#9a1879",
+      "deep": "#b01b8c",
+      "bright": "#bf2c9d",
+      "muted": "#db85bd",
+      "orchid": "#dd4ec0",
+      "light": "#ff7dd0",
+      "pale": "#ffaae0"
+    }
+  },
+  "gold": {
+    "name": "Gold",
+    "family": "mono",
+    "roles": {
+      "bg": "#0a0a0c",
+      "surface": "#b08b1c",
+      "text": "#ffe9a8",
+      "muted": "#dbc585",
+      "accent": "#deba4f"
+    },
+    "palette": {
+      "void": "#0a0a0c",
+      "darkest": "#473600",
+      "dark": "#6d5409",
+      "mid-dark": "#9a7a18",
+      "deep": "#b08b1c",
+      "bright": "#bf9a2b",
+      "muted": "#dbc585",
+      "gold": "#deba4f",
+      "light": "#ffdf80",
+      "pale": "#ffe9a8"
+    }
+  },
   "svfp": {
     "name": "SVFP",
     "roles": {

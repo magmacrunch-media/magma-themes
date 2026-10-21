@@ -1,0 +1,65 @@
+{
+  "name": "Ember",
+  "family": "mono",
+  "prefix": "em",
+  "palette": [
+    {
+      "var": "--em-void",
+      "value": "#0a0a0c",
+      "label": "Void"
+    },
+    {
+      "var": "--em-darkest",
+      "value": "#461400",
+      "label": "Darkest"
+    },
+    {
+      "var": "--em-dark",
+      "value": "#6c2009",
+      "label": "Dark"
+    },
+    {
+      "var": "--em-mid-dark",
+      "value": "#9a3818",
+      "label": "Mid Dark"
+    },
+    {
+      "var": "--em-deep",
+      "value": "#b0421b",
+      "label": "Deep"
+    },
+    {
+      "var": "--em-bright",
+      "value": "#bf522c",
+      "label": "Bright"
+    },
+    {
+      "var": "--em-muted",
+      "value": "#dba185",
+      "label": "Muted"
+    },
+    {
+      "var": "--em-ember",
+      "value": "#dd6f4e",
+      "label": "Ember"
+    },
+    {
+      "var": "--em-light",
+      "value": "#ff9d7d",
+      "label": "Light"
+    },
+    {
+      "var": "--em-pale",
+      "value": "#ffc4aa",
+      "label": "Pale"
+    }
+  ],
+  "roles": {
+    "bg": "--em-void",
+    "text": "--em-pale",
+    "surface": "--em-deep",
+    "muted": "--em-muted",
+    "accent": "--em-ember"
+  },
+  "rolesFrom": "hand"
+}
