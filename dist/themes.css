@@ -382,6 +382,27 @@
   --mt-p-pale: #e0aaff;
 }
 
+/* EMERAC */
+[data-magma-theme="emerac"] {
+  --mt-bg: #0a0a0c;
+  --mt-surface: #111118;
+  --mt-text: #f0ead8;
+  --mt-muted: #8a7a8a;
+  --mt-accent: #00e5b3;
+  --mt-accent2: #e5b300;
+  --mt-p-void: #0a0a0c;
+  --mt-p-deep: #111118;
+  --mt-p-crt: #0a0a10;
+  --mt-p-line: #0f2e28;
+  --mt-p-dark: #096d57;
+  --mt-p-mid-dark: #189a7e;
+  --mt-p-mint: #00e5b3;
+  --mt-p-amber: #e5b300;
+  --mt-p-led-red: #e54100;
+  --mt-p-dim: #8a7a8a;
+  --mt-p-text: #f0ead8;
+}
+
 /* Ember */
 [data-magma-theme="ember"] {
   --mt-bg: #0a0a0c;

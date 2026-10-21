@@ -415,6 +415,30 @@ export const THEMES = {
       "pale": "#e0aaff"
     }
   },
+  "emerac": {
+    "name": "EMERAC",
+    "roles": {
+      "bg": "#0a0a0c",
+      "surface": "#111118",
+      "text": "#f0ead8",
+      "muted": "#8a7a8a",
+      "accent": "#00e5b3",
+      "accent2": "#e5b300"
+    },
+    "palette": {
+      "void": "#0a0a0c",
+      "deep": "#111118",
+      "crt": "#0a0a10",
+      "line": "#0f2e28",
+      "dark": "#096d57",
+      "mid-dark": "#189a7e",
+      "mint": "#00e5b3",
+      "amber": "#e5b300",
+      "led-red": "#e54100",
+      "dim": "#8a7a8a",
+      "text": "#f0ead8"
+    }
+  },
   "ember": {
     "name": "Ember",
     "family": "mono",

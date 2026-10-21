@@ -3,12 +3,12 @@
 The colour themes of magmacrunch.com, kept in one place so the games, apps and
 the Wii homebrew can use the same ones the website does.
 
-83 themes, 77 of them with colours: the site's global palette, the visual and
+84 themes, 78 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
 their own themes, and the six arcade pages that only set nav colours.
-Fifteen are this repo's own, not the website's: light versions of the
+Sixteen are this repo's own, not the website's: light versions of the
 Global Palette, Pop Art, Memphis, City Pop and American Spirit, three game
-themes, six one-hue archive themes and Volcano.
+themes, six one-hue archive themes, Volcano and EMERAC.
 
 ## Naming
 
@@ -58,6 +58,13 @@ The by-label index draws each label's card from these four, so a change to
 one is three edits: the page, its card on the index, and the theme here.
 `ultraviolet` is still `label-theme.css`'s own default, which is why it
 keeps its `web` block, but no label page shows it any more.
+
+`emerac` is the archive's own main page, `archive/index.html`, named for
+the mock database console at its centre: mint phosphor, an amber frame and
+ticker, red and gold LEDs, on the indexes' `#0a0a0c`. Mint is 167 degrees,
+clear of the three indexes it leads to, and its frame and nav greens are
+ultraviolet's steps at that hue. It is set inline in the page rather than
+in `archive.css`, which the artist subpages load too.
 
 ## Game themes
 

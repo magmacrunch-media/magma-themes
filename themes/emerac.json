@@ -1,0 +1,70 @@
+{
+  "name": "EMERAC",
+  "prefix": "em",
+  "palette": [
+    {
+      "var": "--em-void",
+      "value": "#0a0a0c",
+      "label": "Ground"
+    },
+    {
+      "var": "--em-deep",
+      "value": "#111118",
+      "label": "Console"
+    },
+    {
+      "var": "--em-crt",
+      "value": "#0a0a10",
+      "label": "CRT"
+    },
+    {
+      "var": "--em-line",
+      "value": "#0f2e28",
+      "label": "Rule"
+    },
+    {
+      "var": "--em-dark",
+      "value": "#096d57",
+      "label": "Frame"
+    },
+    {
+      "var": "--em-mid-dark",
+      "value": "#189a7e",
+      "label": "Nav Line"
+    },
+    {
+      "var": "--em-mint",
+      "value": "#00e5b3",
+      "label": "Phosphor"
+    },
+    {
+      "var": "--em-amber",
+      "value": "#e5b300",
+      "label": "Amber"
+    },
+    {
+      "var": "--em-led-red",
+      "value": "#e54100",
+      "label": "LED Red"
+    },
+    {
+      "var": "--em-dim",
+      "value": "#8a7a8a",
+      "label": "Dim"
+    },
+    {
+      "var": "--em-text",
+      "value": "#f0ead8",
+      "label": "Text"
+    }
+  ],
+  "roles": {
+    "bg": "--em-void",
+    "surface": "--em-deep",
+    "text": "--em-text",
+    "muted": "--em-dim",
+    "accent": "--em-mint",
+    "accent2": "--em-amber"
+  },
+  "rolesFrom": "hand"
+}
