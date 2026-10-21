@@ -439,6 +439,26 @@
   --mt-p-pale: #ffe9a8;
 }
 
+/* Volcano */
+[data-magma-theme="volcano"] {
+  --mt-bg: #080808;
+  --mt-surface: #111118;
+  --mt-text: #fff0e8;
+  --mt-muted: #c8a898;
+  --mt-accent: #ff3d6e;
+  --mt-accent2: #00f5ff;
+  --mt-p-void: #080808;
+  --mt-p-darkest: #111118;
+  --mt-p-dark: #3d2018;
+  --mt-p-mid-dark: #00f5ff;
+  --mt-p-deep: #cc2200;
+  --mt-p-bright: #ff6a00;
+  --mt-p-muted: #c8a898;
+  --mt-p-rose: #ff3d6e;
+  --mt-p-light: #ffe03a;
+  --mt-p-pale: #fff0e8;
+}
+
 /* Ink */
 [data-magma-theme="ink"] {
   --mt-bg: #000c29;

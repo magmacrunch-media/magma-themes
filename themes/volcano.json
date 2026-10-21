@@ -1,0 +1,66 @@
+{
+  "name": "Volcano",
+  "basedOn": "global-palette",
+  "prefix": "vol",
+  "palette": [
+    {
+      "var": "--vol-void",
+      "value": "#080808",
+      "label": "Black"
+    },
+    {
+      "var": "--vol-darkest",
+      "value": "#111118",
+      "label": "Deep"
+    },
+    {
+      "var": "--vol-dark",
+      "value": "#3d2018",
+      "label": "MC Border"
+    },
+    {
+      "var": "--vol-mid-dark",
+      "value": "#00f5ff",
+      "label": "MC Nav Cyan"
+    },
+    {
+      "var": "--vol-deep",
+      "value": "#cc2200",
+      "label": "MC Lava Deep"
+    },
+    {
+      "var": "--vol-bright",
+      "value": "#ff6a00",
+      "label": "MC Lava Orange"
+    },
+    {
+      "var": "--vol-muted",
+      "value": "#c8a898",
+      "label": "MC Text Dim"
+    },
+    {
+      "var": "--vol-rose",
+      "value": "#ff3d6e",
+      "label": "Rose"
+    },
+    {
+      "var": "--vol-light",
+      "value": "#ffe03a",
+      "label": "MC Lava Bright"
+    },
+    {
+      "var": "--vol-pale",
+      "value": "#fff0e8",
+      "label": "MC Text Primary"
+    }
+  ],
+  "roles": {
+    "bg": "--vol-void",
+    "surface": "--vol-darkest",
+    "text": "--vol-pale",
+    "muted": "--vol-muted",
+    "accent": "--vol-rose",
+    "accent2": "--vol-mid-dark"
+  },
+  "rolesFrom": "hand"
+}

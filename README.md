@@ -3,12 +3,12 @@
 The colour themes of magmacrunch.com, kept in one place so the games, apps and
 the Wii homebrew can use the same ones the website does.
 
-82 themes, 76 of them with colours: the site's global palette, the visual and
+83 themes, 77 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
 their own themes, and the six arcade pages that only set nav colours.
-Fourteen are this repo's own, not the website's: light versions of the
+Fifteen are this repo's own, not the website's: light versions of the
 Global Palette, Pop Art, Memphis, City Pop and American Spirit, three game
-themes, and six one-hue archive themes.
+themes, six one-hue archive themes and Volcano.
 
 ## Naming
 
@@ -41,14 +41,23 @@ set the colours inline over `contributor-theme.css` rather than in a file
 of their own, so an edit to one of them is made in the page and copied
 here by hand.
 
-`ink`, `phosphor` and `crimson` are three of the four label pages under
-`archive/by-label/`: magmacrunch music, magmacrunch arcade and The Slop
-Collective, at 222, 135 and 350 degrees. It is the same arrangement one
-level down: each page sets its ramp inline over `label-theme.css`, keeping
-ultraviolet's hue-tinted ground, and magmacrunch media, the root label, is
-ultraviolet itself. The by-label index draws each label's card from these,
-so a change to one is three edits: the page, its card on the index, and
-the theme here.
+The four label pages under `archive/by-label/` each set a theme inline over
+`label-theme.css`, the same arrangement one level down. `ink`, `phosphor`
+and `crimson` are magmacrunch music, magmacrunch arcade and The Slop
+Collective, at 222, 135 and 350 degrees, keeping ultraviolet's hue-tinted
+ground.
+
+`volcano` is magmacrunch media, the root label, and is deliberately not
+`mono`: the record label is the homepage, so it wears the homepage's
+colours from `global-palette` (its `basedOn`), the one page in the section
+with more than one hue. Each of `label-theme.css`'s ten steps takes the
+`style.css` colour that does the same job on the homepage: black ground,
+cyan nav line, rose title, lava for the ticker and hover.
+
+The by-label index draws each label's card from these four, so a change to
+one is three edits: the page, its card on the index, and the theme here.
+`ultraviolet` is still `label-theme.css`'s own default, which is why it
+keeps its `web` block, but no label page shows it any more.
 
 ## Game themes
 

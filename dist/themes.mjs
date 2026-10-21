@@ -484,6 +484,29 @@ export const THEMES = {
       "pale": "#ffe9a8"
     }
   },
+  "volcano": {
+    "name": "Volcano",
+    "roles": {
+      "bg": "#080808",
+      "surface": "#111118",
+      "text": "#fff0e8",
+      "muted": "#c8a898",
+      "accent": "#ff3d6e",
+      "accent2": "#00f5ff"
+    },
+    "palette": {
+      "void": "#080808",
+      "darkest": "#111118",
+      "dark": "#3d2018",
+      "mid-dark": "#00f5ff",
+      "deep": "#cc2200",
+      "bright": "#ff6a00",
+      "muted": "#c8a898",
+      "rose": "#ff3d6e",
+      "light": "#ffe03a",
+      "pale": "#fff0e8"
+    }
+  },
   "ink": {
     "name": "Ink",
     "family": "mono",
