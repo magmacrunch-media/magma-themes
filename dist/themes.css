@@ -406,7 +406,7 @@
 /* Ember */
 [data-magma-theme="ember"] {
   --mt-bg: #0a0a0c;
-  --mt-surface: #b0421b;
+  --mt-surface: #461400;
   --mt-text: #ffc4aa;
   --mt-muted: #dba185;
   --mt-accent: #dd6f4e;
@@ -425,7 +425,7 @@
 /* Orchid */
 [data-magma-theme="orchid"] {
   --mt-bg: #0a0a0c;
-  --mt-surface: #b01b8c;
+  --mt-surface: #46002f;
   --mt-text: #ffaae0;
   --mt-muted: #db85bd;
   --mt-accent: #dd4ec0;
@@ -444,7 +444,7 @@
 /* Gold */
 [data-magma-theme="gold"] {
   --mt-bg: #0a0a0c;
-  --mt-surface: #b08b1c;
+  --mt-surface: #473600;
   --mt-text: #ffe9a8;
   --mt-muted: #dbc585;
   --mt-accent: #deba4f;
@@ -502,7 +502,7 @@
 /* Phosphor */
 [data-magma-theme="phosphor"] {
   --mt-bg: #00290a;
-  --mt-surface: #1cb041;
+  --mt-surface: #004712;
   --mt-text: #a8ffbe;
   --mt-muted: #85db9b;
   --mt-accent: #4fde73;
@@ -521,7 +521,7 @@
 /* Crimson */
 [data-magma-theme="crimson"] {
   --mt-bg: #290007;
-  --mt-surface: #b01c34;
+  --mt-surface: #47000c;
   --mt-text: #ffa8b7;
   --mt-muted: #db8593;
   --mt-accent: #de4f67;
@@ -537,7 +537,7 @@
   --mt-p-pale: #ffa8b7;
 }
 
-/* SVFP */
+/* Sex Van Floor Plan */
 [data-magma-theme="svfp"] {
   --mt-bg: #0a0a14;
   --mt-surface: #1e2235;
@@ -567,7 +567,7 @@
   --mt-p-bg: #0a0a14;
 }
 
-/* FLDC */
+/* Fruity Loops Debauchery Collective */
 [data-magma-theme="fldc"] {
   --mt-bg: #10160e;
   --mt-surface: #2a3830;
@@ -601,7 +601,7 @@
   --mt-p-bg: #10160e;
 }
 
-/* Woah */
+/* Woah. */
 [data-magma-theme="woah"] {
   --mt-bg: #0e0c10;
   --mt-surface: #3a3028;
@@ -678,7 +678,7 @@
   --mt-p-bg: #080a0e;
 }
 
-/* Four B's */
+/* The Four B's */
 [data-magma-theme="four-bs"] {
   --mt-bg: #0c0a04;
   --mt-surface: #1a1408;
@@ -849,7 +849,7 @@
   --mt-p-gold: #f5c020;
 }
 
-/* THLD */
+/* Texas Hold'Em Lava Dome */
 [data-magma-theme="thld"] {
   --mt-bg: #0e0905;
   --mt-surface: #1a1209;

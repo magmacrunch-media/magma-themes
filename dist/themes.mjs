@@ -444,7 +444,7 @@ export const THEMES = {
     "family": "mono",
     "roles": {
       "bg": "#0a0a0c",
-      "surface": "#b0421b",
+      "surface": "#461400",
       "text": "#ffc4aa",
       "muted": "#dba185",
       "accent": "#dd6f4e"
@@ -467,7 +467,7 @@ export const THEMES = {
     "family": "mono",
     "roles": {
       "bg": "#0a0a0c",
-      "surface": "#b01b8c",
+      "surface": "#46002f",
       "text": "#ffaae0",
       "muted": "#db85bd",
       "accent": "#dd4ec0"
@@ -490,7 +490,7 @@ export const THEMES = {
     "family": "mono",
     "roles": {
       "bg": "#0a0a0c",
-      "surface": "#b08b1c",
+      "surface": "#473600",
       "text": "#ffe9a8",
       "muted": "#dbc585",
       "accent": "#deba4f"
@@ -559,7 +559,7 @@ export const THEMES = {
     "family": "mono",
     "roles": {
       "bg": "#00290a",
-      "surface": "#1cb041",
+      "surface": "#004712",
       "text": "#a8ffbe",
       "muted": "#85db9b",
       "accent": "#4fde73"
@@ -582,7 +582,7 @@ export const THEMES = {
     "family": "mono",
     "roles": {
       "bg": "#290007",
-      "surface": "#b01c34",
+      "surface": "#47000c",
       "text": "#ffa8b7",
       "muted": "#db8593",
       "accent": "#de4f67"
@@ -601,7 +601,7 @@ export const THEMES = {
     }
   },
   "svfp": {
-    "name": "SVFP",
+    "name": "Sex Van Floor Plan",
     "roles": {
       "bg": "#0a0a14",
       "surface": "#1e2235",
@@ -634,7 +634,7 @@ export const THEMES = {
     }
   },
   "fldc": {
-    "name": "FLDC",
+    "name": "Fruity Loops Debauchery Collective",
     "roles": {
       "bg": "#10160e",
       "surface": "#2a3830",
@@ -671,7 +671,7 @@ export const THEMES = {
     }
   },
   "woah": {
-    "name": "Woah",
+    "name": "Woah.",
     "roles": {
       "bg": "#0e0c10",
       "surface": "#3a3028",
@@ -757,7 +757,7 @@ export const THEMES = {
     }
   },
   "four-bs": {
-    "name": "Four B's",
+    "name": "The Four B's",
     "roles": {
       "bg": "#0c0a04",
       "surface": "#1a1408",
@@ -946,7 +946,7 @@ export const THEMES = {
     }
   },
   "thld": {
-    "name": "THLD",
+    "name": "Texas Hold'Em Lava Dome",
     "roles": {
       "bg": "#0e0905",
       "surface": "#1a1209",

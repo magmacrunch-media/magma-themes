@@ -33,6 +33,12 @@ until 2026-10-20, and both old slugs still work. They are the first of the
 optional, and the families are listed in `tools/lib.mjs`. A test holds
 every `mono` theme to one hue.
 
+A `mono` theme's `surface` role is its darkest step, not its deep one. Ember,
+Orchid, Gold, Phosphor and Crimson used the deep step until 2026-10-22,
+which put their own pale text at 2.4 to 3.8:1 on every app panel; Deep Cyan
+was already on its darkest. Ultraviolet and Ink keep the deep step, which
+their pale text reads on.
+
 `ember`, `orchid` and `gold` are the by-artist, by-place and by-label
 archive indexes. Each is ultraviolet's saturation and
 lightness at another hue (14, 314 and 45 degrees), on the neutral

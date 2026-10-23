@@ -57,7 +57,7 @@
   "roles": {
     "bg": "--gld-void",
     "text": "--gld-pale",
-    "surface": "--gld-deep",
+    "surface": "--gld-darkest",
     "muted": "--gld-muted",
     "accent": "--gld-gold"
   },

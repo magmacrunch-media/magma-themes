@@ -57,7 +57,7 @@
   "roles": {
     "bg": "--orc-void",
     "text": "--orc-pale",
-    "surface": "--orc-deep",
+    "surface": "--orc-darkest",
     "muted": "--orc-muted",
     "accent": "--orc-orchid"
   },

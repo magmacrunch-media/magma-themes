@@ -1195,7 +1195,7 @@
     }
   },
   {
-    "name": "SVFP",
+    "name": "Sex Van Floor Plan",
     "section": "archive-artist",
     "bodyClass": "svfp-page",
     "prefix": "svfp",
@@ -1320,7 +1320,7 @@
     }
   },
   {
-    "name": "FLDC",
+    "name": "Fruity Loops Debauchery Collective",
     "section": "archive-artist",
     "bodyClass": "fldc-page",
     "prefix": "fldc",
@@ -1465,7 +1465,7 @@
     }
   },
   {
-    "name": "Woah",
+    "name": "Woah.",
     "section": "archive-artist",
     "bodyClass": "woah-page",
     "prefix": "woah",
@@ -1775,7 +1775,7 @@
     }
   },
   {
-    "name": "Four B's",
+    "name": "The Four B's",
     "section": "archive-artist",
     "bodyClass": "fb-page",
     "prefix": "4b",
@@ -2480,7 +2480,7 @@
     }
   },
   {
-    "name": "THLD",
+    "name": "Texas Hold'Em Lava Dome",
     "section": "archive-artist",
     "bodyClass": "thld-page",
     "prefix": "thld",

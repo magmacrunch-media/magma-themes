@@ -57,7 +57,7 @@
   "roles": {
     "bg": "--em-void",
     "text": "--em-pale",
-    "surface": "--em-deep",
+    "surface": "--em-darkest",
     "muted": "--em-muted",
     "accent": "--em-ember"
   },

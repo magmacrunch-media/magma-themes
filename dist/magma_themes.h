@@ -780,8 +780,8 @@
 /* Ember */
 #define MT_EMBER_BG 0x0a0a0cffu
 #define MT_EMBER_BG_TV 0x0a0a0cffu
-#define MT_EMBER_SURFACE 0xb0421bffu
-#define MT_EMBER_SURFACE_TV 0xb0421bffu
+#define MT_EMBER_SURFACE 0x461400ffu
+#define MT_EMBER_SURFACE_TV 0x461400ffu
 #define MT_EMBER_TEXT 0xffc4aaffu
 #define MT_EMBER_TEXT_TV 0xffc4aaffu
 #define MT_EMBER_MUTED 0xdba185ffu
@@ -812,8 +812,8 @@
 /* Orchid */
 #define MT_ORCHID_BG 0x0a0a0cffu
 #define MT_ORCHID_BG_TV 0x0a0a0cffu
-#define MT_ORCHID_SURFACE 0xb01b8cffu
-#define MT_ORCHID_SURFACE_TV 0xb01b8cffu
+#define MT_ORCHID_SURFACE 0x46002fffu
+#define MT_ORCHID_SURFACE_TV 0x46002fffu
 #define MT_ORCHID_TEXT 0xffaae0ffu
 #define MT_ORCHID_TEXT_TV 0xffaae0ffu
 #define MT_ORCHID_MUTED 0xdb85bdffu
@@ -844,8 +844,8 @@
 /* Gold */
 #define MT_GOLD_BG 0x0a0a0cffu
 #define MT_GOLD_BG_TV 0x0a0a0cffu
-#define MT_GOLD_SURFACE 0xb08b1cffu
-#define MT_GOLD_SURFACE_TV 0xb08b1cffu
+#define MT_GOLD_SURFACE 0x473600ffu
+#define MT_GOLD_SURFACE_TV 0x473600ffu
 #define MT_GOLD_TEXT 0xffe9a8ffu
 #define MT_GOLD_TEXT_TV 0xffe9a8ffu
 #define MT_GOLD_MUTED 0xdbc585ffu
@@ -942,8 +942,8 @@
 /* Phosphor */
 #define MT_PHOSPHOR_BG 0x00290affu
 #define MT_PHOSPHOR_BG_TV 0x00290affu
-#define MT_PHOSPHOR_SURFACE 0x1cb041ffu
-#define MT_PHOSPHOR_SURFACE_TV 0x1cb041ffu
+#define MT_PHOSPHOR_SURFACE 0x004712ffu
+#define MT_PHOSPHOR_SURFACE_TV 0x004712ffu
 #define MT_PHOSPHOR_TEXT 0xa8ffbeffu
 #define MT_PHOSPHOR_TEXT_TV 0xa8ffbeffu
 #define MT_PHOSPHOR_MUTED 0x85db9bffu
@@ -974,8 +974,8 @@
 /* Crimson */
 #define MT_CRIMSON_BG 0x290007ffu
 #define MT_CRIMSON_BG_TV 0x290007ffu
-#define MT_CRIMSON_SURFACE 0xb01c34ffu
-#define MT_CRIMSON_SURFACE_TV 0xb01c34ffu
+#define MT_CRIMSON_SURFACE 0x47000cffu
+#define MT_CRIMSON_SURFACE_TV 0x47000cffu
 #define MT_CRIMSON_TEXT 0xffa8b7ffu
 #define MT_CRIMSON_TEXT_TV 0xffa8b7ffu
 #define MT_CRIMSON_MUTED 0xdb8593ffu
@@ -1003,7 +1003,7 @@
 #define MT_CRIMSON_P_PALE 0xffa8b7ffu
 #define MT_CRIMSON_P_PALE_TV 0xffa8b7ffu
 
-/* SVFP */
+/* Sex Van Floor Plan */
 #define MT_SVFP_BG 0x0a0a14ffu
 #define MT_SVFP_BG_TV 0x0a0a14ffu
 #define MT_SVFP_SURFACE 0x1e2235ffu
@@ -1057,7 +1057,7 @@
 #define MT_SVFP_P_BG 0x0a0a14ffu
 #define MT_SVFP_P_BG_TV 0x0a0a14ffu
 
-/* FLDC */
+/* Fruity Loops Debauchery Collective */
 #define MT_FLDC_BG 0x10160effu
 #define MT_FLDC_BG_TV 0x10160effu
 #define MT_FLDC_SURFACE 0x2a3830ffu
@@ -1119,7 +1119,7 @@
 #define MT_FLDC_P_BG 0x10160effu
 #define MT_FLDC_P_BG_TV 0x10160effu
 
-/* Woah */
+/* Woah. */
 #define MT_WOAH_BG 0x0e0c10ffu
 #define MT_WOAH_BG_TV 0x0e0c10ffu
 #define MT_WOAH_SURFACE 0x3a3028ffu
@@ -1255,7 +1255,7 @@
 #define MT_DINO_SPUMONI_P_BG 0x080a0effu
 #define MT_DINO_SPUMONI_P_BG_TV 0x080a0effu
 
-/* Four B's */
+/* The Four B's */
 #define MT_FOUR_BS_BG 0x0c0a04ffu
 #define MT_FOUR_BS_BG_TV 0x0c0a04ffu
 #define MT_FOUR_BS_SURFACE 0x1a1408ffu
@@ -1561,7 +1561,7 @@
 #define MT_C_P_RUTLEDGE_P_GOLD 0xf5c020ffu
 #define MT_C_P_RUTLEDGE_P_GOLD_TV 0xf4c021ffu
 
-/* THLD */
+/* Texas Hold'Em Lava Dome */
 #define MT_THLD_BG 0x0e0905ffu
 #define MT_THLD_BG_TV 0x0e0905ffu
 #define MT_THLD_SURFACE 0x1a1209ffu
