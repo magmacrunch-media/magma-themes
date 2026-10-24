@@ -166,4 +166,11 @@ statement is `llm-tools.md` in the `company` repo.
   pulling in a dependency when it shapes the work. Generated characters, art
   and levels are placeholders: the aim is our own editors, so a person can
   make and tweak them by hand.
+- **No house AI style.** Avoid the stock patterns of generated work: centred
+  hero, card grid, gradient buttons and emoji headings in layout; "not just X",
+  buzzwords, filler and tidy triplets in writing. `tells-status.py` flags some
+  of the writing ones. Match the project's own look and the author's voice.
+- **Learn the languages we lean on.** C, JavaScript/TypeScript and Python are
+  worth understanding, not only generating. When asked about non-obvious code,
+  explain it rather than just swapping it out.
 <!-- shared-rules:end -->
