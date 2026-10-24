@@ -150,4 +150,20 @@ So: measure, name the source, date anything that will go stale, and say plainly
 what you did not check. A check that passes by finding nothing is the failure
 this whole tree is organised against, which is why every checker here prints how
 much it examined and fails when that comes back impossible.
+
+### Design and intent
+
+LLM tools are used here to free attention for design, not to skip it. The full
+statement is `llm-tools.md` in the `company` repo.
+
+- **Fun is the deliverable.** Whether something plays well, looks good and
+  feels natural is the point, and that is a person's judgement. Bring
+  decisions about feel, pacing, look and difficulty back to a person rather
+  than settling them with a default.
+- **Not a shortcut.** A smaller thing that has been tuned beats a complete one
+  nobody has played. Do not trade care for speed.
+- **Make our own software.** Prefer building the engine, editor or helper over
+  pulling in a dependency when it shapes the work. Generated characters, art
+  and levels are placeholders: the aim is our own editors, so a person can
+  make and tweak them by hand.
 <!-- shared-rules:end -->
