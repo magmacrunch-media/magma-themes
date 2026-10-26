@@ -3,12 +3,12 @@
 The colour themes of magmacrunch.com, kept in one place so the games, apps and
 the Wii homebrew can use the same ones the website does.
 
-84 themes, 78 of them with colours: the site's global palette, the visual and
+89 themes, 83 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
 their own themes, and the six arcade pages that only set nav colours.
-Sixteen are this repo's own, not the website's: light versions of the
+Twenty-one are this repo's own, not the website's: light versions of the
 Global Palette, Pop Art, Memphis, City Pop and American Spirit, three game
-themes, six one-hue archive themes, Volcano and EMERAC.
+themes, six one-hue archive themes, Volcano, EMERAC and five treats.
 
 ## Naming
 
@@ -82,6 +82,17 @@ changed here by hand. They have no `web` block for the same reason the light
 themes do not: the website's theme manager writes a `web` theme back into the
 file it names, and these games keep their colours as literals rather than as
 variables it could write.
+
+## Treats
+
+`grape-soda`, `orange-soda`, `cream-soda`, `neapolitan` and `cotton-candy`
+are the `treat` family: sodas and snacks, named for what they taste like
+rather than for any page. Each takes the mode its subject suggests, so cream
+soda and cotton candy are light and the other three dark. Orange Soda sits on
+a navy label rather than an amber ground, which keeps it clear of Caldera and
+Volcano. They have no `web` block. All five hold text at 7:1 or better on
+both `bg` and `surface`, and both accents at 3:1 or better on each, which is
+more than the tests ask of the dark ones.
 
 ## Light themes
 

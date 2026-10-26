@@ -1860,3 +1860,91 @@
   --mt-p-vlb-red: #ff2e5a;
   --mt-p-vlb-orange: #ff6b35;
 }
+
+/* Grape Soda */
+[data-magma-theme="grape-soda"] {
+  --mt-bg: #120a1c;
+  --mt-surface: #1f1232;
+  --mt-text: #f3e9ff;
+  --mt-muted: #ab94cc;
+  --mt-accent: #a456ff;
+  --mt-accent2: #ff6fd6;
+  --mt-p-void: #120a1c;
+  --mt-p-glass: #1f1232;
+  --mt-p-can: #33204e;
+  --mt-p-deep: #5c2ca0;
+  --mt-p-grape: #a456ff;
+  --mt-p-lilac: #ab94cc;
+  --mt-p-fizz: #ff6fd6;
+  --mt-p-foam: #f3e9ff;
+}
+
+/* Orange Soda */
+[data-magma-theme="orange-soda"] {
+  --mt-bg: #0c1424;
+  --mt-surface: #16233a;
+  --mt-text: #fff4e4;
+  --mt-muted: #9fb2cd;
+  --mt-accent: #ff8b24;
+  --mt-accent2: #ffd84d;
+  --mt-p-navy: #0c1424;
+  --mt-p-label: #16233a;
+  --mt-p-rim: #26395c;
+  --mt-p-pulp: #d95400;
+  --mt-p-orange: #ff8b24;
+  --mt-p-steel: #9fb2cd;
+  --mt-p-fizz: #ffd84d;
+  --mt-p-foam: #fff4e4;
+}
+
+/* Cream Soda */
+[data-magma-theme="cream-soda"] {
+  --mt-bg: #fbf4e2;
+  --mt-surface: #f2e5c3;
+  --mt-text: #3a2210;
+  --mt-muted: #71503a;
+  --mt-accent: #a85d06;
+  --mt-accent2: #b8304f;
+  --mt-p-vanilla: #fbf4e2;
+  --mt-p-cream: #f2e5c3;
+  --mt-p-bubble: #e3cf9c;
+  --mt-p-amber: #a85d06;
+  --mt-p-cherry: #b8304f;
+  --mt-p-toffee: #71503a;
+  --mt-p-caramel: #3a2210;
+}
+
+/* Neapolitan */
+[data-magma-theme="neapolitan"] {
+  --mt-bg: #1c110b;
+  --mt-surface: #2b1a11;
+  --mt-text: #fdf5e6;
+  --mt-muted: #bea38a;
+  --mt-accent: #ff86a3;
+  --mt-accent2: #ebcb8b;
+  --mt-p-chocolate: #1c110b;
+  --mt-p-cocoa: #2b1a11;
+  --mt-p-wafer: #4b3121;
+  --mt-p-berry: #c24868;
+  --mt-p-strawberry: #ff86a3;
+  --mt-p-malt: #bea38a;
+  --mt-p-bean: #ebcb8b;
+  --mt-p-vanilla: #fdf5e6;
+}
+
+/* Cotton Candy */
+[data-magma-theme="cotton-candy"] {
+  --mt-bg: #fdf3f8;
+  --mt-surface: #f6e2ef;
+  --mt-text: #2d1530;
+  --mt-muted: #6c4868;
+  --mt-accent: #cf2f7b;
+  --mt-accent2: #2577c6;
+  --mt-p-sugar: #fdf3f8;
+  --mt-p-fluff: #f6e2ef;
+  --mt-p-cloud: #e4ccec;
+  --mt-p-pink: #cf2f7b;
+  --mt-p-blue: #2577c6;
+  --mt-p-stick: #6c4868;
+  --mt-p-grape: #2d1530;
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Neapolitan",
+  "prefix": "nea",
+  "family": "treat",
+  "palette": [
+    {
+      "var": "--nea-chocolate",
+      "value": "#1c110b",
+      "label": "Chocolate"
+    },
+    {
+      "var": "--nea-cocoa",
+      "value": "#2b1a11",
+      "label": "Cocoa"
+    },
+    {
+      "var": "--nea-wafer",
+      "value": "#4b3121",
+      "label": "Wafer"
+    },
+    {
+      "var": "--nea-berry",
+      "value": "#c24868",
+      "label": "Deep Strawberry"
+    },
+    {
+      "var": "--nea-strawberry",
+      "value": "#ff86a3",
+      "label": "Strawberry"
+    },
+    {
+      "var": "--nea-malt",
+      "value": "#bea38a",
+      "label": "Malt"
+    },
+    {
+      "var": "--nea-bean",
+      "value": "#ebcb8b",
+      "label": "Vanilla Bean"
+    },
+    {
+      "var": "--nea-vanilla",
+      "value": "#fdf5e6",
+      "label": "Vanilla"
+    }
+  ],
+  "roles": {
+    "bg": "--nea-chocolate",
+    "surface": "--nea-cocoa",
+    "text": "--nea-vanilla",
+    "muted": "--nea-malt",
+    "accent": "--nea-strawberry",
+    "accent2": "--nea-bean"
+  },
+  "rolesFrom": "hand"
+}

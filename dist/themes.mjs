@@ -2094,6 +2094,114 @@ export const THEMES = {
       "vlb-red": "#ff2e5a",
       "vlb-orange": "#ff6b35"
     }
+  },
+  "grape-soda": {
+    "name": "Grape Soda",
+    "family": "treat",
+    "roles": {
+      "bg": "#120a1c",
+      "surface": "#1f1232",
+      "text": "#f3e9ff",
+      "muted": "#ab94cc",
+      "accent": "#a456ff",
+      "accent2": "#ff6fd6"
+    },
+    "palette": {
+      "void": "#120a1c",
+      "glass": "#1f1232",
+      "can": "#33204e",
+      "deep": "#5c2ca0",
+      "grape": "#a456ff",
+      "lilac": "#ab94cc",
+      "fizz": "#ff6fd6",
+      "foam": "#f3e9ff"
+    }
+  },
+  "orange-soda": {
+    "name": "Orange Soda",
+    "family": "treat",
+    "roles": {
+      "bg": "#0c1424",
+      "surface": "#16233a",
+      "text": "#fff4e4",
+      "muted": "#9fb2cd",
+      "accent": "#ff8b24",
+      "accent2": "#ffd84d"
+    },
+    "palette": {
+      "navy": "#0c1424",
+      "label": "#16233a",
+      "rim": "#26395c",
+      "pulp": "#d95400",
+      "orange": "#ff8b24",
+      "steel": "#9fb2cd",
+      "fizz": "#ffd84d",
+      "foam": "#fff4e4"
+    }
+  },
+  "cream-soda": {
+    "name": "Cream Soda",
+    "family": "treat",
+    "roles": {
+      "bg": "#fbf4e2",
+      "surface": "#f2e5c3",
+      "text": "#3a2210",
+      "muted": "#71503a",
+      "accent": "#a85d06",
+      "accent2": "#b8304f"
+    },
+    "palette": {
+      "vanilla": "#fbf4e2",
+      "cream": "#f2e5c3",
+      "bubble": "#e3cf9c",
+      "amber": "#a85d06",
+      "cherry": "#b8304f",
+      "toffee": "#71503a",
+      "caramel": "#3a2210"
+    }
+  },
+  "neapolitan": {
+    "name": "Neapolitan",
+    "family": "treat",
+    "roles": {
+      "bg": "#1c110b",
+      "surface": "#2b1a11",
+      "text": "#fdf5e6",
+      "muted": "#bea38a",
+      "accent": "#ff86a3",
+      "accent2": "#ebcb8b"
+    },
+    "palette": {
+      "chocolate": "#1c110b",
+      "cocoa": "#2b1a11",
+      "wafer": "#4b3121",
+      "berry": "#c24868",
+      "strawberry": "#ff86a3",
+      "malt": "#bea38a",
+      "bean": "#ebcb8b",
+      "vanilla": "#fdf5e6"
+    }
+  },
+  "cotton-candy": {
+    "name": "Cotton Candy",
+    "family": "treat",
+    "roles": {
+      "bg": "#fdf3f8",
+      "surface": "#f6e2ef",
+      "text": "#2d1530",
+      "muted": "#6c4868",
+      "accent": "#cf2f7b",
+      "accent2": "#2577c6"
+    },
+    "palette": {
+      "sugar": "#fdf3f8",
+      "fluff": "#f6e2ef",
+      "cloud": "#e4ccec",
+      "pink": "#cf2f7b",
+      "blue": "#2577c6",
+      "stick": "#6c4868",
+      "grape": "#2d1530"
+    }
   }
 };
 

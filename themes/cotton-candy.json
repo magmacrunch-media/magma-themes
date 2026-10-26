@@ -1,0 +1,51 @@
+{
+  "name": "Cotton Candy",
+  "prefix": "cot",
+  "family": "treat",
+  "palette": [
+    {
+      "var": "--cot-sugar",
+      "value": "#fdf3f8",
+      "label": "Sugar"
+    },
+    {
+      "var": "--cot-fluff",
+      "value": "#f6e2ef",
+      "label": "Fluff"
+    },
+    {
+      "var": "--cot-cloud",
+      "value": "#e4ccec",
+      "label": "Cloud"
+    },
+    {
+      "var": "--cot-pink",
+      "value": "#cf2f7b",
+      "label": "Pink Spun"
+    },
+    {
+      "var": "--cot-blue",
+      "value": "#2577c6",
+      "label": "Blue Spun"
+    },
+    {
+      "var": "--cot-stick",
+      "value": "#6c4868",
+      "label": "Paper Stick"
+    },
+    {
+      "var": "--cot-grape",
+      "value": "#2d1530",
+      "label": "Fairground Night"
+    }
+  ],
+  "roles": {
+    "bg": "--cot-sugar",
+    "surface": "--cot-fluff",
+    "text": "--cot-grape",
+    "muted": "--cot-stick",
+    "accent": "--cot-pink",
+    "accent2": "--cot-blue"
+  },
+  "rolesFrom": "hand"
+}

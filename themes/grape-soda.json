@@ -1,0 +1,56 @@
+{
+  "name": "Grape Soda",
+  "prefix": "grp",
+  "family": "treat",
+  "palette": [
+    {
+      "var": "--grp-void",
+      "value": "#120a1c",
+      "label": "Can Shadow"
+    },
+    {
+      "var": "--grp-glass",
+      "value": "#1f1232",
+      "label": "Glass"
+    },
+    {
+      "var": "--grp-can",
+      "value": "#33204e",
+      "label": "Can"
+    },
+    {
+      "var": "--grp-deep",
+      "value": "#5c2ca0",
+      "label": "Deep Grape"
+    },
+    {
+      "var": "--grp-grape",
+      "value": "#a456ff",
+      "label": "Grape"
+    },
+    {
+      "var": "--grp-lilac",
+      "value": "#ab94cc",
+      "label": "Lilac"
+    },
+    {
+      "var": "--grp-fizz",
+      "value": "#ff6fd6",
+      "label": "Fizz Pink"
+    },
+    {
+      "var": "--grp-foam",
+      "value": "#f3e9ff",
+      "label": "Foam"
+    }
+  ],
+  "roles": {
+    "bg": "--grp-void",
+    "surface": "--grp-glass",
+    "text": "--grp-foam",
+    "muted": "--grp-lilac",
+    "accent": "--grp-grape",
+    "accent2": "--grp-fizz"
+  },
+  "rolesFrom": "hand"
+}

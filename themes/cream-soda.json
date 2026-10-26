@@ -1,0 +1,51 @@
+{
+  "name": "Cream Soda",
+  "prefix": "crs",
+  "family": "treat",
+  "palette": [
+    {
+      "var": "--crs-vanilla",
+      "value": "#fbf4e2",
+      "label": "Vanilla"
+    },
+    {
+      "var": "--crs-cream",
+      "value": "#f2e5c3",
+      "label": "Cream"
+    },
+    {
+      "var": "--crs-bubble",
+      "value": "#e3cf9c",
+      "label": "Bubble"
+    },
+    {
+      "var": "--crs-amber",
+      "value": "#a85d06",
+      "label": "Amber"
+    },
+    {
+      "var": "--crs-cherry",
+      "value": "#b8304f",
+      "label": "Cherry"
+    },
+    {
+      "var": "--crs-toffee",
+      "value": "#71503a",
+      "label": "Toffee"
+    },
+    {
+      "var": "--crs-caramel",
+      "value": "#3a2210",
+      "label": "Caramel"
+    }
+  ],
+  "roles": {
+    "bg": "--crs-vanilla",
+    "surface": "--crs-cream",
+    "text": "--crs-caramel",
+    "muted": "--crs-toffee",
+    "accent": "--crs-amber",
+    "accent2": "--crs-cherry"
+  },
+  "rolesFrom": "hand"
+}

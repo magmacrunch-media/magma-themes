@@ -116,6 +116,7 @@ export function loadThemes() {
 // fails validation rather than quietly starting a family of one.
 export const FAMILIES = {
   mono: 'one hue in steps, near black to pale',
+  treat: 'a soda or a snack, named for what it tastes like',
 };
 
 const KEBAB = /^[a-z0-9]+(-[a-z0-9]+)*$/;

@@ -1,0 +1,56 @@
+{
+  "name": "Orange Soda",
+  "prefix": "ors",
+  "family": "treat",
+  "palette": [
+    {
+      "var": "--ors-navy",
+      "value": "#0c1424",
+      "label": "Label Navy"
+    },
+    {
+      "var": "--ors-label",
+      "value": "#16233a",
+      "label": "Label"
+    },
+    {
+      "var": "--ors-rim",
+      "value": "#26395c",
+      "label": "Rim"
+    },
+    {
+      "var": "--ors-pulp",
+      "value": "#d95400",
+      "label": "Pulp"
+    },
+    {
+      "var": "--ors-orange",
+      "value": "#ff8b24",
+      "label": "Orange"
+    },
+    {
+      "var": "--ors-steel",
+      "value": "#9fb2cd",
+      "label": "Steel"
+    },
+    {
+      "var": "--ors-fizz",
+      "value": "#ffd84d",
+      "label": "Fizz"
+    },
+    {
+      "var": "--ors-foam",
+      "value": "#fff4e4",
+      "label": "Foam"
+    }
+  ],
+  "roles": {
+    "bg": "--ors-navy",
+    "surface": "--ors-label",
+    "text": "--ors-foam",
+    "muted": "--ors-steel",
+    "accent": "--ors-orange",
+    "accent2": "--ors-fizz"
+  },
+  "rolesFrom": "hand"
+}
