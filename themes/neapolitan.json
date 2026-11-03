@@ -52,5 +52,17 @@
     "accent": "--nea-strawberry",
     "accent2": "--nea-bean"
   },
-  "rolesFrom": "hand"
+  "rolesFrom": "hand",
+  "web": {
+    "section": "home",
+    "bodyClass": null,
+    "prefix": "nea",
+    "file": "home/about.css",
+    "nav": {
+      "accent": "#ff86a3",
+      "glow": "transparent",
+      "brand": "#ff86a3",
+      "brandGlow": "transparent"
+    }
+  }
 }

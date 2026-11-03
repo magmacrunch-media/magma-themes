@@ -6,9 +6,9 @@ the Wii homebrew can use the same ones the website does.
 89 themes, 83 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
 their own themes, and the six arcade pages that only set nav colours.
-Twenty are this repo's own, not the website's: light versions of the
+Nineteen are this repo's own, not the website's: light versions of the
 Global Palette, Pop Art, Memphis, City Pop and American Spirit, three game
-themes, six one-hue archive themes, Volcano, EMERAC and four treats.
+themes, six one-hue archive themes, Volcano, EMERAC and three treats.
 
 ## Naming
 
@@ -91,7 +91,7 @@ rather than for any page. Each takes the mode its subject suggests, so cream
 soda and cotton candy are light and the other three dark. Orange Soda sits on
 a navy label rather than an amber ground, which keeps it clear of Caldera and
 Volcano. Cream Soda is `music/physical-media/`'s since 2026-11-02, which gives
-it a `web` block; the other four have none. All five hold text at 7:1 or better on
+it a `web` block, and Neapolitan is `home/about.html`'s; the other three have none. All five hold text at 7:1 or better on
 both `bg` and `surface`, and both accents at 3:1 or better on each, which is
 more than the tests ask of the dark ones.
 

@@ -4580,5 +4580,60 @@
       "brand": "#E87820",
       "brandGlow": "transparent"
     }
+  },
+  {
+    "name": "Neapolitan",
+    "section": "home",
+    "bodyClass": null,
+    "prefix": "nea",
+    "file": "home/about.css",
+    "palette": [
+      {
+        "var": "--nea-chocolate",
+        "value": "#1c110b",
+        "label": "Chocolate"
+      },
+      {
+        "var": "--nea-cocoa",
+        "value": "#2b1a11",
+        "label": "Cocoa"
+      },
+      {
+        "var": "--nea-wafer",
+        "value": "#4b3121",
+        "label": "Wafer"
+      },
+      {
+        "var": "--nea-berry",
+        "value": "#c24868",
+        "label": "Deep Strawberry"
+      },
+      {
+        "var": "--nea-strawberry",
+        "value": "#ff86a3",
+        "label": "Strawberry"
+      },
+      {
+        "var": "--nea-malt",
+        "value": "#bea38a",
+        "label": "Malt"
+      },
+      {
+        "var": "--nea-bean",
+        "value": "#ebcb8b",
+        "label": "Vanilla Bean"
+      },
+      {
+        "var": "--nea-vanilla",
+        "value": "#fdf5e6",
+        "label": "Vanilla"
+      }
+    ],
+    "nav": {
+      "accent": "#ff86a3",
+      "glow": "transparent",
+      "brand": "#ff86a3",
+      "brandGlow": "transparent"
+    }
   }
 ]
