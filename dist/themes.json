@@ -4530,5 +4530,55 @@
       "brand": "#F5F0FF",
       "brandGlow": "rgba(245,240,255,0.7)"
     }
+  },
+  {
+    "name": "Cream Soda",
+    "section": "music",
+    "bodyClass": "accent-physical",
+    "prefix": "crs",
+    "file": "music/physical-media/physical-media.css",
+    "palette": [
+      {
+        "var": "--crs-vanilla",
+        "value": "#fbf4e2",
+        "label": "Vanilla"
+      },
+      {
+        "var": "--crs-cream",
+        "value": "#f2e5c3",
+        "label": "Cream"
+      },
+      {
+        "var": "--crs-bubble",
+        "value": "#e3cf9c",
+        "label": "Bubble"
+      },
+      {
+        "var": "--crs-amber",
+        "value": "#a85d06",
+        "label": "Amber"
+      },
+      {
+        "var": "--crs-cherry",
+        "value": "#b8304f",
+        "label": "Cherry"
+      },
+      {
+        "var": "--crs-toffee",
+        "value": "#71503a",
+        "label": "Toffee"
+      },
+      {
+        "var": "--crs-caramel",
+        "value": "#3a2210",
+        "label": "Caramel"
+      }
+    ],
+    "nav": {
+      "accent": "#E87820",
+      "glow": "transparent",
+      "brand": "#E87820",
+      "brandGlow": "transparent"
+    }
   }
 ]

@@ -6,9 +6,9 @@ the Wii homebrew can use the same ones the website does.
 89 themes, 83 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
 their own themes, and the six arcade pages that only set nav colours.
-Twenty-one are this repo's own, not the website's: light versions of the
+Twenty are this repo's own, not the website's: light versions of the
 Global Palette, Pop Art, Memphis, City Pop and American Spirit, three game
-themes, six one-hue archive themes, Volcano, EMERAC and five treats.
+themes, six one-hue archive themes, Volcano, EMERAC and four treats.
 
 ## Naming
 
@@ -90,13 +90,15 @@ are the `treat` family: sodas and snacks, named for what they taste like
 rather than for any page. Each takes the mode its subject suggests, so cream
 soda and cotton candy are light and the other three dark. Orange Soda sits on
 a navy label rather than an amber ground, which keeps it clear of Caldera and
-Volcano. They have no `web` block. All five hold text at 7:1 or better on
+Volcano. Cream Soda is `music/physical-media/`'s since 2026-11-02, which gives
+it a `web` block; the other four have none. All five hold text at 7:1 or better on
 both `bg` and `surface`, and both accents at 3:1 or better on each, which is
 more than the tests ask of the dark ones.
 
 ## Light themes
 
-The website is dark almost everywhere, so only Dorfic was light. The five
+The website is dark almost everywhere, so only Dorfic was light until Cream Soda
+went on the physical media pages and Dorfic's palette on distributed music. The five
 `-light` themes fill that out for apps with a light mode. Each is drawn from
 its `basedOn` theme's palette, with a few deeper shades added where a colour
 was too pale to read on a light background, and the tests hold them to
