@@ -1535,24 +1535,20 @@
 
 /* Checkers */
 [data-magma-theme="checkers"] {
-  --mt-bg: #0a0612;
-  --mt-surface: #1a0a2a;
-  --mt-text: #f0ead8;
-  --mt-muted: #8a7fa8;
-  --mt-accent: #00f5ff;
-  --mt-accent2: #ffe03a;
-  --mt-p-ck-bg: #0a0612;
-  --mt-p-ck-board-dark: #1a0a2a;
-  --mt-p-ck-board-light: #2a1a3a;
-  --mt-p-ck-text-dim: #8a7fa8;
-  --mt-p-ck-text: #f0ead8;
-  --mt-p-ck-player: #00f5ff;
-  --mt-p-ck-player-king: #00d4ff;
-  --mt-p-ck-ai: #ff2d78;
-  --mt-p-ck-ai-king: #ff1a6d;
-  --mt-p-ck-highlight: #39ff6e;
-  --mt-p-ck-gold: #ffe03a;
-  --mt-p-ck-selected: #ffffff;
+  --mt-bg: #041008;
+  --mt-surface: #07180c;
+  --mt-text: #9dffa0;
+  --mt-muted: #57b96a;
+  --mt-accent: #9dffa0;
+  --mt-accent2: #c8ffc4;
+  --mt-p-ck-bg: #041008;
+  --mt-p-ck-board-dark: #07180c;
+  --mt-p-ck-text-dim: #57b96a;
+  --mt-p-ck-text: #9dffa0;
+  --mt-p-ck-player: #9dffa0;
+  --mt-p-ck-ai: #57c96b;
+  --mt-p-ck-highlight: #c8ffc4;
+  --mt-p-ck-selected: #e8ffe4;
 }
 
 /* Backgammon */

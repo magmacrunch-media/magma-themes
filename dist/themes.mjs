@@ -1725,26 +1725,22 @@ export const THEMES = {
   "checkers": {
     "name": "Checkers",
     "roles": {
-      "bg": "#0a0612",
-      "surface": "#1a0a2a",
-      "text": "#f0ead8",
-      "muted": "#8a7fa8",
-      "accent": "#00f5ff",
-      "accent2": "#ffe03a"
+      "bg": "#041008",
+      "surface": "#07180c",
+      "text": "#9dffa0",
+      "muted": "#57b96a",
+      "accent": "#9dffa0",
+      "accent2": "#c8ffc4"
     },
     "palette": {
-      "ck-bg": "#0a0612",
-      "ck-board-dark": "#1a0a2a",
-      "ck-board-light": "#2a1a3a",
-      "ck-text-dim": "#8a7fa8",
-      "ck-text": "#f0ead8",
-      "ck-player": "#00f5ff",
-      "ck-player-king": "#00d4ff",
-      "ck-ai": "#ff2d78",
-      "ck-ai-king": "#ff1a6d",
-      "ck-highlight": "#39ff6e",
-      "ck-gold": "#ffe03a",
-      "ck-selected": "#ffffff"
+      "ck-bg": "#041008",
+      "ck-board-dark": "#07180c",
+      "ck-text-dim": "#57b96a",
+      "ck-text": "#9dffa0",
+      "ck-player": "#9dffa0",
+      "ck-ai": "#57c96b",
+      "ck-highlight": "#c8ffc4",
+      "ck-selected": "#e8ffe4"
     }
   },
   "backgammon": {
