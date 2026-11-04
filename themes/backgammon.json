@@ -1,6 +1,6 @@
 {
   "name": "Backgammon",
-  "note": "From arcade/backgammon/css/base.css, its Four-Color Edition: a home computer's desktop from the mid 1980s, blue, white, black and orange and nothing else.",
+  "note": "From arcade/backgammon/css/base.css, its Blue Screen Edition: a home computer's desktop from the mid 1980s, blue, white, black and orange and nothing else.",
   "palette": [
     {
       "var": "--bg-bg",
