@@ -1,60 +1,45 @@
 {
   "name": "Chess",
-  "note": "From arcade/chess/css/base.css, its Neon Edition: cyan for you, magenta for the computer, on a violet-black board.",
+  "note": "From arcade/chess/css/base.css, its 1-Bit Edition: black and white and nothing else, on a window system from the mid 1980s. Grey is a dither, so a theme can only name the two.",
   "palette": [
     {
       "var": "--ch-bg",
-      "value": "#0a0612",
+      "value": "#ffffff",
       "label": "Bg"
     },
     {
       "var": "--ch-board-dark",
-      "value": "#1a0a2a",
-      "label": "Board Dark"
-    },
-    {
-      "var": "--ch-board-light",
-      "value": "#2a1a3a",
-      "label": "Board Light"
+      "value": "#ffffff",
+      "label": "Window"
     },
     {
       "var": "--ch-text-dim",
-      "value": "#8a7fa8",
+      "value": "#000000",
       "label": "Text Dim"
     },
     {
       "var": "--ch-text",
-      "value": "#f0ead8",
+      "value": "#000000",
       "label": "Text"
     },
     {
       "var": "--ch-player",
-      "value": "#00f5ff",
+      "value": "#000000",
       "label": "Player"
     },
     {
       "var": "--ch-ai",
-      "value": "#ff2d78",
+      "value": "#000000",
       "label": "AI"
     },
     {
       "var": "--ch-highlight",
-      "value": "#39ff6e",
+      "value": "#000000",
       "label": "Highlight"
     },
     {
-      "var": "--ch-gold",
-      "value": "#ffe03a",
-      "label": "Last Move"
-    },
-    {
-      "var": "--ch-check",
-      "value": "#ff3d3d",
-      "label": "Check"
-    },
-    {
       "var": "--ch-selected",
-      "value": "#ffffff",
+      "value": "#000000",
       "label": "Selected"
     }
   ],
@@ -64,7 +49,7 @@
     "text": "--ch-text",
     "muted": "--ch-text-dim",
     "accent": "--ch-player",
-    "accent2": "--ch-gold"
+    "accent2": "--ch-highlight"
   },
   "rolesFrom": "hand"
 }

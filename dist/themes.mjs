@@ -1701,25 +1701,22 @@ export const THEMES = {
   "chess": {
     "name": "Chess",
     "roles": {
-      "bg": "#0a0612",
-      "surface": "#1a0a2a",
-      "text": "#f0ead8",
-      "muted": "#8a7fa8",
-      "accent": "#00f5ff",
-      "accent2": "#ffe03a"
+      "bg": "#ffffff",
+      "surface": "#ffffff",
+      "text": "#000000",
+      "muted": "#000000",
+      "accent": "#000000",
+      "accent2": "#000000"
     },
     "palette": {
-      "ch-bg": "#0a0612",
-      "ch-board-dark": "#1a0a2a",
-      "ch-board-light": "#2a1a3a",
-      "ch-text-dim": "#8a7fa8",
-      "ch-text": "#f0ead8",
-      "ch-player": "#00f5ff",
-      "ch-ai": "#ff2d78",
-      "ch-highlight": "#39ff6e",
-      "ch-gold": "#ffe03a",
-      "ch-check": "#ff3d3d",
-      "ch-selected": "#ffffff"
+      "ch-bg": "#ffffff",
+      "ch-board-dark": "#ffffff",
+      "ch-text-dim": "#000000",
+      "ch-text": "#000000",
+      "ch-player": "#000000",
+      "ch-ai": "#000000",
+      "ch-highlight": "#000000",
+      "ch-selected": "#000000"
     }
   },
   "checkers": {

@@ -1514,23 +1514,20 @@
 
 /* Chess */
 [data-magma-theme="chess"] {
-  --mt-bg: #0a0612;
-  --mt-surface: #1a0a2a;
-  --mt-text: #f0ead8;
-  --mt-muted: #8a7fa8;
-  --mt-accent: #00f5ff;
-  --mt-accent2: #ffe03a;
-  --mt-p-ch-bg: #0a0612;
-  --mt-p-ch-board-dark: #1a0a2a;
-  --mt-p-ch-board-light: #2a1a3a;
-  --mt-p-ch-text-dim: #8a7fa8;
-  --mt-p-ch-text: #f0ead8;
-  --mt-p-ch-player: #00f5ff;
-  --mt-p-ch-ai: #ff2d78;
-  --mt-p-ch-highlight: #39ff6e;
-  --mt-p-ch-gold: #ffe03a;
-  --mt-p-ch-check: #ff3d3d;
-  --mt-p-ch-selected: #ffffff;
+  --mt-bg: #ffffff;
+  --mt-surface: #ffffff;
+  --mt-text: #000000;
+  --mt-muted: #000000;
+  --mt-accent: #000000;
+  --mt-accent2: #000000;
+  --mt-p-ch-bg: #ffffff;
+  --mt-p-ch-board-dark: #ffffff;
+  --mt-p-ch-text-dim: #000000;
+  --mt-p-ch-text: #000000;
+  --mt-p-ch-player: #000000;
+  --mt-p-ch-ai: #000000;
+  --mt-p-ch-highlight: #000000;
+  --mt-p-ch-selected: #000000;
 }
 
 /* Checkers */
