@@ -1,5 +1,5 @@
 {
-  "name": "C.P. Rutledge",
+  "name": "Brother Dynamo",
   "palette": [
     {
       "var": "--cpr-deep",
@@ -118,7 +118,7 @@
     "section": "archive-artist",
     "bodyClass": "cpr-page",
     "prefix": "cpr",
-    "file": "archive/by-artist/c-p-rutledge/cpr-shared.css",
+    "file": "archive/by-artist/brother-dynamo/cpr-shared.css",
     "nav": {
       "accent": "#f05a5a",
       "glow": "rgba(240,90,90,0.4)",

@@ -2360,11 +2360,11 @@
     }
   },
   {
-    "name": "C.P. Rutledge",
+    "name": "Brother Dynamo",
     "section": "archive-artist",
     "bodyClass": "cpr-page",
     "prefix": "cpr",
-    "file": "archive/by-artist/c-p-rutledge/cpr-shared.css",
+    "file": "archive/by-artist/brother-dynamo/cpr-shared.css",
     "palette": [
       {
         "var": "--cpr-deep",

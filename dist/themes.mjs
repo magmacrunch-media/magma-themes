@@ -914,7 +914,7 @@ export const THEMES = {
     }
   },
   "c-p-rutledge": {
-    "name": "C.P. Rutledge",
+    "name": "Brother Dynamo",
     "roles": {
       "bg": "#070612",
       "surface": "#1a1840",

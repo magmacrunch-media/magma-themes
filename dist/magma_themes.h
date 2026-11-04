@@ -1509,7 +1509,7 @@
 #define MT_BOTTLE_BOYS_COLLECTIVE_P_BG 0x070906ffu
 #define MT_BOTTLE_BOYS_COLLECTIVE_P_BG_TV 0x070906ffu
 
-/* C.P. Rutledge */
+/* Brother Dynamo */
 #define MT_C_P_RUTLEDGE_BG 0x070612ffu
 #define MT_C_P_RUTLEDGE_BG_TV 0x070612ffu
 #define MT_C_P_RUTLEDGE_SURFACE 0x1a1840ffu
