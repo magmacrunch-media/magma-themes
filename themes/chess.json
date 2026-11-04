@@ -1,45 +1,45 @@
 {
   "name": "Chess",
-  "note": "From arcade/chess/css/base.css, its 1-Bit Edition: black and white and nothing else, on a window system from the mid 1980s. Grey is a dither, so a theme can only name the two.",
+  "note": "From arcade/chess/css/base.css, its Cream Soda Edition: Cream Soda's vanilla and dark caramel and nothing else, on a window system from the mid 1980s. A mid tone is a dither, so a theme can only name the two.",
   "palette": [
     {
       "var": "--ch-bg",
-      "value": "#ffffff",
+      "value": "#fbf4e2",
       "label": "Bg"
     },
     {
       "var": "--ch-board-dark",
-      "value": "#ffffff",
+      "value": "#fbf4e2",
       "label": "Window"
     },
     {
       "var": "--ch-text-dim",
-      "value": "#000000",
+      "value": "#3a2210",
       "label": "Text Dim"
     },
     {
       "var": "--ch-text",
-      "value": "#000000",
+      "value": "#3a2210",
       "label": "Text"
     },
     {
       "var": "--ch-player",
-      "value": "#000000",
+      "value": "#3a2210",
       "label": "Player"
     },
     {
       "var": "--ch-ai",
-      "value": "#000000",
+      "value": "#3a2210",
       "label": "AI"
     },
     {
       "var": "--ch-highlight",
-      "value": "#000000",
+      "value": "#3a2210",
       "label": "Highlight"
     },
     {
       "var": "--ch-selected",
-      "value": "#000000",
+      "value": "#3a2210",
       "label": "Selected"
     }
   ],

@@ -47,5 +47,17 @@
     "accent": "--cot-pink",
     "accent2": "--cot-blue"
   },
-  "rolesFrom": "hand"
+  "rolesFrom": "hand",
+  "web": {
+    "section": "music",
+    "bodyClass": "accent-physical",
+    "prefix": "cot",
+    "file": "music/physical-media/physical-media.css",
+    "nav": {
+      "accent": "#FF6FA8",
+      "glow": "transparent",
+      "brand": "#FF6FA8",
+      "brandGlow": "transparent"
+    }
+  }
 }

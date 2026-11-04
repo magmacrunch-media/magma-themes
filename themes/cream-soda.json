@@ -47,17 +47,5 @@
     "accent": "--crs-amber",
     "accent2": "--crs-cherry"
   },
-  "rolesFrom": "hand",
-  "web": {
-    "section": "music",
-    "bodyClass": "accent-physical",
-    "prefix": "crs",
-    "file": "music/physical-media/physical-media.css",
-    "nav": {
-      "accent": "#E87820",
-      "glow": "transparent",
-      "brand": "#E87820",
-      "brandGlow": "transparent"
-    }
-  }
+  "rolesFrom": "hand"
 }

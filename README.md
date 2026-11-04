@@ -90,14 +90,14 @@ are the `treat` family: sodas and snacks, named for what they taste like
 rather than for any page. Each takes the mode its subject suggests, so cream
 soda and cotton candy are light and the other three dark. Orange Soda sits on
 a navy label rather than an amber ground, which keeps it clear of Caldera and
-Volcano. Cream Soda is `music/physical-media/`'s since 2026-11-02, which gives
-it a `web` block, and Neapolitan is `home/about.html`'s; the other three have none. All five hold text at 7:1 or better on
+Volcano. Cotton Candy is `music/physical-media/`'s since 2026-11-03, taking over from
+Cream Soda, which gives it a `web` block, and Neapolitan is `home/about.html`'s; the other three have none. All five hold text at 7:1 or better on
 both `bg` and `surface`, and both accents at 3:1 or better on each, which is
 more than the tests ask of the dark ones.
 
 ## Light themes
 
-The website is dark almost everywhere, so only Dorfic was light until Cream Soda
+The website is dark almost everywhere, so only Dorfic was light until a treat
 went on the physical media pages and Dorfic's palette on distributed music. The five
 `-light` themes fill that out for apps with a light mode. Each is drawn from
 its `basedOn` theme's palette, with a few deeper shades added where a colour

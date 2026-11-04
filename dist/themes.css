@@ -1514,20 +1514,20 @@
 
 /* Chess */
 [data-magma-theme="chess"] {
-  --mt-bg: #ffffff;
-  --mt-surface: #ffffff;
-  --mt-text: #000000;
-  --mt-muted: #000000;
-  --mt-accent: #000000;
-  --mt-accent2: #000000;
-  --mt-p-ch-bg: #ffffff;
-  --mt-p-ch-board-dark: #ffffff;
-  --mt-p-ch-text-dim: #000000;
-  --mt-p-ch-text: #000000;
-  --mt-p-ch-player: #000000;
-  --mt-p-ch-ai: #000000;
-  --mt-p-ch-highlight: #000000;
-  --mt-p-ch-selected: #000000;
+  --mt-bg: #fbf4e2;
+  --mt-surface: #fbf4e2;
+  --mt-text: #3a2210;
+  --mt-muted: #3a2210;
+  --mt-accent: #3a2210;
+  --mt-accent2: #3a2210;
+  --mt-p-ch-bg: #fbf4e2;
+  --mt-p-ch-board-dark: #fbf4e2;
+  --mt-p-ch-text-dim: #3a2210;
+  --mt-p-ch-text: #3a2210;
+  --mt-p-ch-player: #3a2210;
+  --mt-p-ch-ai: #3a2210;
+  --mt-p-ch-highlight: #3a2210;
+  --mt-p-ch-selected: #3a2210;
 }
 
 /* Checkers */

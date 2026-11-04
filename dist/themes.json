@@ -4532,56 +4532,6 @@
     }
   },
   {
-    "name": "Cream Soda",
-    "section": "music",
-    "bodyClass": "accent-physical",
-    "prefix": "crs",
-    "file": "music/physical-media/physical-media.css",
-    "palette": [
-      {
-        "var": "--crs-vanilla",
-        "value": "#fbf4e2",
-        "label": "Vanilla"
-      },
-      {
-        "var": "--crs-cream",
-        "value": "#f2e5c3",
-        "label": "Cream"
-      },
-      {
-        "var": "--crs-bubble",
-        "value": "#e3cf9c",
-        "label": "Bubble"
-      },
-      {
-        "var": "--crs-amber",
-        "value": "#a85d06",
-        "label": "Amber"
-      },
-      {
-        "var": "--crs-cherry",
-        "value": "#b8304f",
-        "label": "Cherry"
-      },
-      {
-        "var": "--crs-toffee",
-        "value": "#71503a",
-        "label": "Toffee"
-      },
-      {
-        "var": "--crs-caramel",
-        "value": "#3a2210",
-        "label": "Caramel"
-      }
-    ],
-    "nav": {
-      "accent": "#E87820",
-      "glow": "transparent",
-      "brand": "#E87820",
-      "brandGlow": "transparent"
-    }
-  },
-  {
     "name": "Neapolitan",
     "section": "home",
     "bodyClass": null,
@@ -4633,6 +4583,56 @@
       "accent": "#ff86a3",
       "glow": "transparent",
       "brand": "#ff86a3",
+      "brandGlow": "transparent"
+    }
+  },
+  {
+    "name": "Cotton Candy",
+    "section": "music",
+    "bodyClass": "accent-physical",
+    "prefix": "cot",
+    "file": "music/physical-media/physical-media.css",
+    "palette": [
+      {
+        "var": "--cot-sugar",
+        "value": "#fdf3f8",
+        "label": "Sugar"
+      },
+      {
+        "var": "--cot-fluff",
+        "value": "#f6e2ef",
+        "label": "Fluff"
+      },
+      {
+        "var": "--cot-cloud",
+        "value": "#e4ccec",
+        "label": "Cloud"
+      },
+      {
+        "var": "--cot-pink",
+        "value": "#cf2f7b",
+        "label": "Pink Spun"
+      },
+      {
+        "var": "--cot-blue",
+        "value": "#2577c6",
+        "label": "Blue Spun"
+      },
+      {
+        "var": "--cot-stick",
+        "value": "#6c4868",
+        "label": "Paper Stick"
+      },
+      {
+        "var": "--cot-grape",
+        "value": "#2d1530",
+        "label": "Fairground Night"
+      }
+    ],
+    "nav": {
+      "accent": "#FF6FA8",
+      "glow": "transparent",
+      "brand": "#FF6FA8",
       "brandGlow": "transparent"
     }
   }
