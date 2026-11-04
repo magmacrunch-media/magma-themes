@@ -1743,25 +1743,22 @@ export const THEMES = {
   "backgammon": {
     "name": "Backgammon",
     "roles": {
-      "bg": "#0a0612",
-      "surface": "#1a0a2a",
-      "text": "#f0ead8",
-      "muted": "#8a7fa8",
-      "accent": "#00f5ff",
-      "accent2": "#ffe03a"
+      "bg": "#0055aa",
+      "surface": "#0055aa",
+      "text": "#ffffff",
+      "muted": "#ffffff",
+      "accent": "#ff8800",
+      "accent2": "#ffffff"
     },
     "palette": {
-      "bgm-bg": "#0a0612",
-      "bgm-board": "#0d0820",
-      "bgm-bar": "#1a0a2a",
-      "bgm-off": "#0a0a1a",
-      "bgm-text-dim": "#8a7fa8",
-      "bgm-text": "#f0ead8",
-      "bgm-player": "#00f5ff",
-      "bgm-ai": "#ff2d78",
-      "bgm-gold": "#ffe03a",
-      "bgm-doubling": "#ff7c1f",
-      "bgm-highlight": "#39ff6e"
+      "bg-bg": "#0055aa",
+      "bg-board-bg": "#0055aa",
+      "bg-text-dim": "#ffffff",
+      "bg-text": "#ffffff",
+      "bg-checker-player": "#ffffff",
+      "bg-checker-ai": "#000000",
+      "bg-point-light": "#ff8800",
+      "bg-point-dark": "#000000"
     }
   },
   "chinese-checkers": {

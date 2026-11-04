@@ -1550,23 +1550,20 @@
 
 /* Backgammon */
 [data-magma-theme="backgammon"] {
-  --mt-bg: #0a0612;
-  --mt-surface: #1a0a2a;
-  --mt-text: #f0ead8;
-  --mt-muted: #8a7fa8;
-  --mt-accent: #00f5ff;
-  --mt-accent2: #ffe03a;
-  --mt-p-bgm-bg: #0a0612;
-  --mt-p-bgm-board: #0d0820;
-  --mt-p-bgm-bar: #1a0a2a;
-  --mt-p-bgm-off: #0a0a1a;
-  --mt-p-bgm-text-dim: #8a7fa8;
-  --mt-p-bgm-text: #f0ead8;
-  --mt-p-bgm-player: #00f5ff;
-  --mt-p-bgm-ai: #ff2d78;
-  --mt-p-bgm-gold: #ffe03a;
-  --mt-p-bgm-doubling: #ff7c1f;
-  --mt-p-bgm-highlight: #39ff6e;
+  --mt-bg: #0055aa;
+  --mt-surface: #0055aa;
+  --mt-text: #ffffff;
+  --mt-muted: #ffffff;
+  --mt-accent: #ff8800;
+  --mt-accent2: #ffffff;
+  --mt-p-bg-bg: #0055aa;
+  --mt-p-bg-board-bg: #0055aa;
+  --mt-p-bg-text-dim: #ffffff;
+  --mt-p-bg-text: #ffffff;
+  --mt-p-bg-checker-player: #ffffff;
+  --mt-p-bg-checker-ai: #000000;
+  --mt-p-bg-point-light: #ff8800;
+  --mt-p-bg-point-dark: #000000;
 }
 
 /* Chinese Checkers */

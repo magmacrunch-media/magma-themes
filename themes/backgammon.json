@@ -1,70 +1,55 @@
 {
   "name": "Backgammon",
-  "note": "From arcade/backgammon/css/base.css, its Neon Edition: cyan and magenta points and checkers, yellow dice and the orange doubling cube. The game's own prefix is bg-, renamed here so it cannot be read as a background.",
+  "note": "From arcade/backgammon/css/base.css, its Four-Color Edition: a home computer's desktop from the mid 1980s, blue, white, black and orange and nothing else.",
   "palette": [
     {
-      "var": "--bgm-bg",
-      "value": "#0a0612",
+      "var": "--bg-bg",
+      "value": "#0055aa",
       "label": "Bg"
     },
     {
-      "var": "--bgm-board",
-      "value": "#0d0820",
+      "var": "--bg-board-bg",
+      "value": "#0055aa",
       "label": "Board"
     },
     {
-      "var": "--bgm-bar",
-      "value": "#1a0a2a",
-      "label": "Bar"
-    },
-    {
-      "var": "--bgm-off",
-      "value": "#0a0a1a",
-      "label": "Off"
-    },
-    {
-      "var": "--bgm-text-dim",
-      "value": "#8a7fa8",
+      "var": "--bg-text-dim",
+      "value": "#ffffff",
       "label": "Text Dim"
     },
     {
-      "var": "--bgm-text",
-      "value": "#f0ead8",
+      "var": "--bg-text",
+      "value": "#ffffff",
       "label": "Text"
     },
     {
-      "var": "--bgm-player",
-      "value": "#00f5ff",
+      "var": "--bg-checker-player",
+      "value": "#ffffff",
       "label": "Player"
     },
     {
-      "var": "--bgm-ai",
-      "value": "#ff2d78",
+      "var": "--bg-checker-ai",
+      "value": "#000000",
       "label": "AI"
     },
     {
-      "var": "--bgm-gold",
-      "value": "#ffe03a",
-      "label": "Dice"
+      "var": "--bg-point-light",
+      "value": "#ff8800",
+      "label": "Point Light"
     },
     {
-      "var": "--bgm-doubling",
-      "value": "#ff7c1f",
-      "label": "Doubling Cube"
-    },
-    {
-      "var": "--bgm-highlight",
-      "value": "#39ff6e",
-      "label": "Highlight"
+      "var": "--bg-point-dark",
+      "value": "#000000",
+      "label": "Point Dark"
     }
   ],
   "roles": {
-    "bg": "--bgm-bg",
-    "surface": "--bgm-bar",
-    "text": "--bgm-text",
-    "muted": "--bgm-text-dim",
-    "accent": "--bgm-player",
-    "accent2": "--bgm-gold"
+    "bg": "--bg-bg",
+    "surface": "--bg-board-bg",
+    "text": "--bg-text",
+    "muted": "--bg-text-dim",
+    "accent": "--bg-point-light",
+    "accent2": "--bg-checker-player"
   },
   "rolesFrom": "hand"
 }
