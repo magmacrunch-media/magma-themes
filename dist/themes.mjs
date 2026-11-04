@@ -1764,26 +1764,22 @@ export const THEMES = {
   "chinese-checkers": {
     "name": "Chinese Checkers",
     "roles": {
-      "bg": "#0a0612",
-      "surface": "#150b29",
-      "text": "#f0ead8",
-      "muted": "#8a7fa8",
-      "accent": "#00f5ff",
-      "accent2": "#ffe03a"
+      "bg": "#2e2c9b",
+      "surface": "#706deb",
+      "text": "#b4b2f8",
+      "muted": "#b4b2f8",
+      "accent": "#ffffff",
+      "accent2": "#edf171"
     },
     "palette": {
-      "cc-bg": "#0a0612",
-      "cc-board": "#150b29",
-      "cc-cell": "#2a1a3a",
-      "cc-cell-border": "#3a2d5c",
-      "cc-text-dim": "#8a7fa8",
-      "cc-text": "#f0ead8",
-      "cc-player": "#00f5ff",
-      "cc-magenta": "#ff2d78",
-      "cc-green": "#39ff6e",
-      "cc-gold": "#ffe03a",
-      "cc-orange": "#ff7c1f",
-      "cc-purple": "#c45fff"
+      "cc-bg": "#2e2c9b",
+      "cc-border": "#706deb",
+      "cc-text-dim": "#b4b2f8",
+      "cc-text": "#b4b2f8",
+      "cc-player1": "#ffffff",
+      "cc-player2": "#d98a8f",
+      "cc-highlight": "#a9ff9f",
+      "cc-highlight-hop": "#edf171"
     }
   },
   "fifteen-puzzle": {

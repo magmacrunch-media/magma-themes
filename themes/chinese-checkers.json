@@ -1,75 +1,55 @@
 {
   "name": "Chinese Checkers",
-  "note": "From arcade/chinese-checkers/css/base.css and the six PLAYER_COLORS in js/config.js, its Neon Edition.",
+  "note": "From arcade/chinese-checkers/css/base.css, its 8-Bit Edition: a home computer's blue text screen in a lighter border, with the machine's own muted colours for the marbles.",
   "palette": [
     {
       "var": "--cc-bg",
-      "value": "#0a0612",
+      "value": "#2e2c9b",
       "label": "Bg"
     },
     {
-      "var": "--cc-board",
-      "value": "#150b29",
-      "label": "Board"
-    },
-    {
-      "var": "--cc-cell",
-      "value": "#2a1a3a",
-      "label": "Cell"
-    },
-    {
-      "var": "--cc-cell-border",
-      "value": "#3a2d5c",
-      "label": "Cell Border"
+      "var": "--cc-border",
+      "value": "#706deb",
+      "label": "Border"
     },
     {
       "var": "--cc-text-dim",
-      "value": "#8a7fa8",
+      "value": "#b4b2f8",
       "label": "Text Dim"
     },
     {
       "var": "--cc-text",
-      "value": "#f0ead8",
+      "value": "#b4b2f8",
       "label": "Text"
     },
     {
-      "var": "--cc-player",
-      "value": "#00f5ff",
-      "label": "Cyan"
+      "var": "--cc-player1",
+      "value": "#ffffff",
+      "label": "Player 1"
     },
     {
-      "var": "--cc-magenta",
-      "value": "#ff2d78",
-      "label": "Magenta"
+      "var": "--cc-player2",
+      "value": "#d98a8f",
+      "label": "Player 2"
     },
     {
-      "var": "--cc-green",
-      "value": "#39ff6e",
-      "label": "Green"
+      "var": "--cc-highlight",
+      "value": "#a9ff9f",
+      "label": "Highlight"
     },
     {
-      "var": "--cc-gold",
-      "value": "#ffe03a",
-      "label": "Yellow"
-    },
-    {
-      "var": "--cc-orange",
-      "value": "#ff7c1f",
-      "label": "Orange"
-    },
-    {
-      "var": "--cc-purple",
-      "value": "#c45fff",
-      "label": "Purple"
+      "var": "--cc-highlight-hop",
+      "value": "#edf171",
+      "label": "Hop"
     }
   ],
   "roles": {
     "bg": "--cc-bg",
-    "surface": "--cc-board",
+    "surface": "--cc-border",
     "text": "--cc-text",
     "muted": "--cc-text-dim",
-    "accent": "--cc-player",
-    "accent2": "--cc-gold"
+    "accent": "--cc-player1",
+    "accent2": "--cc-highlight-hop"
   },
   "rolesFrom": "hand"
 }

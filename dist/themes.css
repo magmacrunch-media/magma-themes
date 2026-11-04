@@ -1568,24 +1568,20 @@
 
 /* Chinese Checkers */
 [data-magma-theme="chinese-checkers"] {
-  --mt-bg: #0a0612;
-  --mt-surface: #150b29;
-  --mt-text: #f0ead8;
-  --mt-muted: #8a7fa8;
-  --mt-accent: #00f5ff;
-  --mt-accent2: #ffe03a;
-  --mt-p-cc-bg: #0a0612;
-  --mt-p-cc-board: #150b29;
-  --mt-p-cc-cell: #2a1a3a;
-  --mt-p-cc-cell-border: #3a2d5c;
-  --mt-p-cc-text-dim: #8a7fa8;
-  --mt-p-cc-text: #f0ead8;
-  --mt-p-cc-player: #00f5ff;
-  --mt-p-cc-magenta: #ff2d78;
-  --mt-p-cc-green: #39ff6e;
-  --mt-p-cc-gold: #ffe03a;
-  --mt-p-cc-orange: #ff7c1f;
-  --mt-p-cc-purple: #c45fff;
+  --mt-bg: #2e2c9b;
+  --mt-surface: #706deb;
+  --mt-text: #b4b2f8;
+  --mt-muted: #b4b2f8;
+  --mt-accent: #ffffff;
+  --mt-accent2: #edf171;
+  --mt-p-cc-bg: #2e2c9b;
+  --mt-p-cc-border: #706deb;
+  --mt-p-cc-text-dim: #b4b2f8;
+  --mt-p-cc-text: #b4b2f8;
+  --mt-p-cc-player1: #ffffff;
+  --mt-p-cc-player2: #d98a8f;
+  --mt-p-cc-highlight: #a9ff9f;
+  --mt-p-cc-highlight-hop: #edf171;
 }
 
 /* 15 Puzzle */
