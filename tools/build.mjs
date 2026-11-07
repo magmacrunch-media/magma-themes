@@ -170,21 +170,39 @@ function header() {
 function table() {
   const role = (t, r) => (t.roles[r] ? rgba(colourOf(t, t.roles[r])) : '0');
   const str = (s) => JSON.stringify(s);
-  const rows = painted.map((t) => `    {${str(t.slug)}, ${str(t.name)}, {${ROLES.map((r) => role(t, r)).join(', ')}}},`);
+  const most = Math.max(...painted.map((t) => t.palette.length));
+  const arrays = painted.flatMap((t) => {
+    const T = cid(t.slug);
+    return [
+      `static const unsigned int MT_TABLE_${T}_P[] = {${t.palette.map((p) => rgba(p.value)).join(', ')}};`,
+      `static const char *const MT_TABLE_${T}_N[] = {${t.palette.map((p) => str(bare(t, p.var))).join(', ')}};`,
+    ];
+  });
+  const rows = painted.map((t) => {
+    const T = cid(t.slug);
+    return `    {${str(t.slug)}, ${str(t.name)}, {${ROLES.map((r) => role(t, r)).join(', ')}}, ` +
+      `MT_TABLE_${T}_P, MT_TABLE_${T}_N, ${t.palette.length}},`;
+  });
   return [
     '/* Every theme by slug, with its roles in the order of MT_ROLE_*, as the',
-    ' * theme designed them (not the _TV forms). A role the theme lacks is 0,',
-    ' * which no colour here can be, since each is fully opaque. Define',
+    ' * theme designed them (not the _TV forms), and its whole palette by the',
+    ' * names the MT_<THEME>_P_* macros use, lower case. A role the theme lacks',
+    ' * is 0, which no colour here can be, since each is fully opaque. Define',
     ' * MAGMA_THEMES_TABLE before including this, in the one file that wants it. */',
     ...ROLES.map((r, i) => `#define MT_ROLE_${cid(r)} ${i}`),
     `#define MT_ROLE_COUNT ${ROLES.length}`,
     `#define MAGMA_THEMES_COUNT ${painted.length}`,
+    `#define MAGMA_THEMES_PALETTE_MAX ${most}`,
     '#ifdef MAGMA_THEMES_TABLE',
     'typedef struct MagmaTheme {',
     '    const char *slug;',
     '    const char *name;',
     `    unsigned int role[${ROLES.length}];`,
+    '    const unsigned int *palette;',
+    '    const char *const *palette_names;',
+    '    int npalette;',
     '} MagmaTheme;',
+    ...arrays,
     'static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {',
     ...rows,
     '};',

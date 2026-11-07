@@ -3428,8 +3428,9 @@
 #define MT_COTTON_CANDY_P_GRAPE_TV 0x2d1530ffu
 
 /* Every theme by slug, with its roles in the order of MT_ROLE_*, as the
- * theme designed them (not the _TV forms). A role the theme lacks is 0,
- * which no colour here can be, since each is fully opaque. Define
+ * theme designed them (not the _TV forms), and its whole palette by the
+ * names the MT_<THEME>_P_* macros use, lower case. A role the theme lacks
+ * is 0, which no colour here can be, since each is fully opaque. Define
  * MAGMA_THEMES_TABLE before including this, in the one file that wants it. */
 #define MT_ROLE_BG 0
 #define MT_ROLE_SURFACE 1
@@ -3439,96 +3440,266 @@
 #define MT_ROLE_ACCENT2 5
 #define MT_ROLE_COUNT 6
 #define MAGMA_THEMES_COUNT 83
+#define MAGMA_THEMES_PALETTE_MAX 49
 #ifdef MAGMA_THEMES_TABLE
 typedef struct MagmaTheme {
     const char *slug;
     const char *name;
     unsigned int role[6];
+    const unsigned int *palette;
+    const char *const *palette_names;
+    int npalette;
 } MagmaTheme;
+static const unsigned int MT_TABLE_GLOBAL_PALETTE_P[] = {0x080808ffu, 0x111118ffu, 0xff3d6effu, 0xff8584ffu, 0xffe03affu, 0x00f5ffffu, 0x39ff6effu, 0xff7c1fffu, 0xc45fffffu, 0xf0ead8ffu, 0x8a7a8affu, 0x8899aaffu, 0x4678ffffu, 0xff2d78ffu, 0x1f7a3effu, 0x1a7a5effu, 0xff6b35ffu, 0xb24bffffu, 0x00e5b3ffu, 0xff9eb5ffu, 0xf0f0f0ffu, 0x1a0505ffu, 0x110206ffu, 0x2d0a0affu, 0x3d3028ffu, 0x6a5a52ffu, 0x9a8878ffu, 0xffe03affu, 0xffad1fffu, 0xff6a00ffu, 0xcc2200ffu, 0xff3d00ffu, 0xff3d6effu, 0x0a0518ffu, 0x1a0a2effu, 0x2a1a0affu, 0xff3d6effu, 0x00f5ffffu, 0xc45fffffu, 0x39ff14ffu, 0xffffffffu, 0xfff0e8ffu, 0xc8a898ffu, 0x3d2018ffu, 0x1a0d08ffu, 0x00f5ffffu, 0xc45fffffu, 0xff6a00ffu, 0xfff0e8ffu};
+static const char *const MT_TABLE_GLOBAL_PALETTE_N[] = {"black", "deep", "rose", "bubblegum", "yellow", "cyan", "green", "orange", "purple", "white", "dim", "slate", "blue", "magenta", "darkgreen", "teal", "burntorange", "violet", "mintteal", "softpink", "nearwhite", "mc-mount", "mc-mount-dark", "mc-mount-mid", "mc-ash", "mc-smoke", "mc-haze", "mc-lava-bright", "mc-lava-amber", "mc-lava-orange", "mc-lava-deep", "mc-ember", "mc-crater", "mc-sky-deep", "mc-sky-mid", "mc-gas-glow", "mc-cereal-rose", "mc-cereal-cyan", "mc-cereal-purple", "mc-cereal-green", "mc-cereal-white", "mc-text-primary", "mc-text-dim", "mc-border", "mc-surface", "mc-nav-accent-a", "mc-nav-accent-b", "mc-nav-active", "mc-nav-text"};
+static const unsigned int MT_TABLE_GLOBAL_PALETTE_LIGHT_P[] = {0xf0ead8ffu, 0xf0f0f0ffu, 0x080808ffu, 0x111118ffu, 0xff3d6effu, 0x4678ffffu, 0xc45fffffu, 0x1f7a3effu, 0x1a7a5effu, 0x6a5a52ffu, 0xcc2200ffu, 0xe8e0c8ffu, 0xd82858ffu};
+static const char *const MT_TABLE_GLOBAL_PALETTE_LIGHT_N[] = {"white", "nearwhite", "black", "deep", "rose", "blue", "purple", "darkgreen", "teal", "mc-smoke", "mc-lava-deep", "paper-shade", "rose-ink"};
+static const unsigned int MT_TABLE_POP_ART_P[] = {0xff1f5bffu, 0xff6b00ffu, 0xffe600ffu, 0x00c2ffffu, 0x7b2fbeffu, 0x00b84cffu, 0xff3d6bffu, 0xff2d55ffu, 0x00d4ffffu, 0xff9500ffu, 0x111111ffu, 0xf5f0e8ffu, 0xff4500ffu, 0xff007fffu, 0x00bfffffu, 0x39ff14ffu, 0xff1493ffu, 0xf5a623ffu, 0xaaff00ffu, 0x9400d3ffu, 0xff6600ffu, 0x00ff7fffu, 0xff3800ffu, 0xffffffffu, 0x0047ffffu, 0x00cca3ffu, 0xcc00aaffu};
+static const char *const MT_TABLE_POP_ART_N[] = {"hotpink", "tangerine", "yellow", "cyan", "violet", "green", "coral", "lipstick", "skyblue", "orange", "black", "cream", "blaze", "rose-red", "deep-sky", "neon-green", "deep-pink", "mango", "lime", "vivid-violet", "silk-orange", "spring-green", "combustion", "white", "blue", "teal", "magenta"};
+static const unsigned int MT_TABLE_POP_ART_LIGHT_P[] = {0xffffffffu, 0xf5f0e8ffu, 0x111111ffu, 0xff3800ffu, 0x0047ffffu, 0xff1f5bffu, 0x7b2fbeffu, 0x00b84cffu, 0xcc00aaffu, 0x9400d3ffu, 0x5a5a5affu};
+static const char *const MT_TABLE_POP_ART_LIGHT_N[] = {"white", "cream", "black", "combustion", "blue", "hotpink", "violet", "green", "magenta", "vivid-violet", "halftone"};
+static const unsigned int MT_TABLE_MTV_P[] = {0x0a0a0fffu, 0x1a0533ffu, 0x0d1f3cffu, 0x3d0000ffu, 0x4a4a4affu, 0xc8c0b8ffu, 0xff00ccffu, 0x00ffeeffu, 0xaaff00ffu, 0xff6ec7ffu, 0x7b68eeffu, 0xffd700ffu, 0xf0eeffffu, 0xff1a1affu, 0x1a1affffu, 0xff6600ffu, 0xffff00ffu, 0xaaccffffu, 0xcc00ffffu, 0x1a1a2effu, 0x888890ffu, 0xe0e0f0ffu};
+static const char *const MT_TABLE_MTV_N[] = {"black", "deep-purple", "midnight", "oxide-red", "static", "beige", "magenta", "teal", "phosphor", "pink", "violet", "gold", "white", "signal-red", "crt-blue", "broadcast-orange", "laser-yellow", "ice-blue", "vhs-purple", "scanline", "warm-gray", "chrome"};
+static const unsigned int MT_TABLE_DORFIC_P[] = {0xf8f8f8ffu, 0xf0f0eeffu, 0xe8e6e0ffu, 0xe0e0dcffu, 0xd0d0ccffu, 0xa8a8a8ffu, 0x787878ffu, 0x484848ffu, 0x383838ffu, 0x1a1e28ffu, 0x242838ffu, 0x343848ffu, 0x0e1018ffu, 0x080a10ffu, 0xf0b800ffu, 0xf8c800ffu, 0xc89000ffu, 0xd4a010ffu, 0xe87820ffu, 0xf08828ffu, 0xb85e10ffu, 0xf0a860ffu, 0x1a1e28ffu, 0x606068ffu, 0x909098ffu, 0xf4f4f2ffu, 0xeaeae6ffu, 0xd0d0ccffu, 0xa8a8a4ffu, 0xf8f8f8ffu};
+static const char *const MT_TABLE_DORFIC_N[] = {"white", "shell", "warm-white", "silver-white", "gray-white", "label", "mid-gray", "dark-gray", "type-gray", "grip", "grip-mid", "grip-light", "near-black", "black", "amber", "amber-bright", "amber-deep", "amber-glow", "orange", "orange-bright", "orange-deep", "orange-pale", "text-primary", "text-dim", "text-label", "surface", "raised", "border", "border-dark", "bg"};
+static const unsigned int MT_TABLE_MEMPHIS_P[] = {0x1a1a1affu, 0xf5f5f0ffu, 0xf0e8d8ffu, 0xff3b30ffu, 0xffd600ffu, 0x0057ffffu, 0x00c853ffu, 0xff2d9bffu, 0xff6b00ffu, 0x00d4ffffu, 0x7b2fffffu, 0xff5a5affu, 0xa8ffd8ffu, 0xa8d8ffffu, 0xffb8d8ffu, 0xfff176ffu, 0xd8b8ffffu, 0xffd0a8ffu, 0xb8fff0ffu, 0xc8c0b8ffu};
+static const char *const MT_TABLE_MEMPHIS_N[] = {"black", "white", "cream", "red", "yellow", "blue", "green", "hot-pink", "orange", "cyan", "violet", "coral", "mint", "sky", "blush", "lemon", "lilac", "peach", "aqua", "squiggle-gray"};
+static const unsigned int MT_TABLE_MEMPHIS_LIGHT_P[] = {0xf5f5f0ffu, 0xf0e8d8ffu, 0x1a1a1affu, 0xff2d9bffu, 0x0057ffffu, 0xff3b30ffu, 0x7b2fffffu, 0x00c853ffu, 0xff6b00ffu, 0xc8c0b8ffu, 0x5c5650ffu};
+static const char *const MT_TABLE_MEMPHIS_LIGHT_N[] = {"white", "cream", "black", "hot-pink", "blue", "red", "violet", "green", "orange", "squiggle-gray", "ink-gray"};
+static const unsigned int MT_TABLE_CITY_POP_P[] = {0x0d0d2bffu, 0x141438ffu, 0x1e1e4affu, 0x2a2a5affu, 0xf0eef8ffu, 0xff8fb0ffu, 0xff6e6effu, 0xffb48affu, 0xffe97affu, 0x7affd4ffu, 0x5eeef0ffu, 0xa0a8ffffu, 0xc8aeffffu, 0xe8b0ffffu, 0xff4fa0ffu, 0x00e5ccffu, 0x6b6bffffu, 0xc0c8e0ffu, 0xe8a0b0ffu, 0xe8c86affu};
+static const char *const MT_TABLE_CITY_POP_N[] = {"night-sky", "deep-navy", "twilight", "smoked-glass", "soft-white", "sakura-pink", "coral-sunrise", "peach-glow", "butter-neon", "mint-flash", "aqua-haze", "periwinkle", "lavender-mist", "blush-lilac", "horizon-pink", "electric-teal", "neon-periwinkle", "chrome-silver", "rose-gold", "cassette-gold"};
+static const unsigned int MT_TABLE_CITY_POP_LIGHT_P[] = {0xf0eef8ffu, 0x0d0d2bffu, 0x141438ffu, 0x6b6bffffu, 0xc0c8e0ffu, 0xff4fa0ffu, 0xe4e2f2ffu, 0x5a5a8affu, 0xd8287affu};
+static const char *const MT_TABLE_CITY_POP_LIGHT_N[] = {"soft-white", "night-sky", "deep-navy", "neon-periwinkle", "chrome-silver", "horizon-pink", "morning-haze", "dusk", "sunset-pink"};
+static const unsigned int MT_TABLE_TV_P[] = {0xffb800ffu, 0xb38200ffu, 0x2a2218ffu, 0x3d3225ffu, 0x1a1610ffu, 0x0a0a08ffu, 0xb4dca0ffu, 0xc8c8c8ffu, 0x4a3f30ffu, 0x5c4e3affu, 0x1e1a12ffu, 0x1c1810ffu, 0x8a7a5affu, 0xff6b6bffu, 0xffb800ffu, 0x00f5ffffu, 0x39ff6effu, 0x0a0a12ffu, 0x111118ffu, 0xf0ead8ffu, 0x8a7a6affu, 0xff6b6bffu, 0xffb800ffu, 0x00f5ffffu};
+static const char *const MT_TABLE_TV_N[] = {"amber", "amber-dim", "cabinet", "cabinet-light", "bezel", "screen-off", "phosphor", "static", "knob", "knob-face", "grille", "badge-bg", "badge-text", "dd-1", "dd-2", "dd-3", "dd-4", "black", "deep", "white", "dim", "rose", "yellow", "cyan"};
+static const unsigned int MT_TABLE_DEEP_CYAN_P[] = {0x001a1fffu, 0x012a33ffu, 0x024959ffu, 0x03738affu, 0x0489a3ffu, 0x05a8c2ffu, 0x5fc4d4ffu, 0x7fd8e8ffu, 0xa8e8f0ffu, 0xd0f4f8ffu};
+static const char *const MT_TABLE_DEEP_CYAN_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "cyan", "light", "pale"};
+static const unsigned int MT_TABLE_ULTRAVIOLET_P[] = {0x10002bffu, 0x240046ffu, 0x3c096cffu, 0x5a189affu, 0x6a1bb0ffu, 0x782cbfffu, 0xb185dbffu, 0x9d4eddffu, 0xc77dffffu, 0xe0aaffffu};
+static const char *const MT_TABLE_ULTRAVIOLET_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "violet", "light", "pale"};
+static const unsigned int MT_TABLE_EMERAC_P[] = {0x0a0a0cffu, 0x111118ffu, 0x0a0a10ffu, 0x0f2e28ffu, 0x096d57ffu, 0x189a7effu, 0x00e5b3ffu, 0xe5b300ffu, 0xe54100ffu, 0x8a7a8affu, 0xf0ead8ffu};
+static const char *const MT_TABLE_EMERAC_N[] = {"void", "deep", "crt", "line", "dark", "mid-dark", "mint", "amber", "led-red", "dim", "text"};
+static const unsigned int MT_TABLE_EMBER_P[] = {0x0a0a0cffu, 0x461400ffu, 0x6c2009ffu, 0x9a3818ffu, 0xb0421bffu, 0xbf522cffu, 0xdba185ffu, 0xdd6f4effu, 0xff9d7dffu, 0xffc4aaffu};
+static const char *const MT_TABLE_EMBER_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "ember", "light", "pale"};
+static const unsigned int MT_TABLE_ORCHID_P[] = {0x0a0a0cffu, 0x46002fffu, 0x6c0950ffu, 0x9a1879ffu, 0xb01b8cffu, 0xbf2c9dffu, 0xdb85bdffu, 0xdd4ec0ffu, 0xff7dd0ffu, 0xffaae0ffu};
+static const char *const MT_TABLE_ORCHID_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "orchid", "light", "pale"};
+static const unsigned int MT_TABLE_GOLD_P[] = {0x0a0a0cffu, 0x473600ffu, 0x6d5409ffu, 0x9a7a18ffu, 0xb08b1cffu, 0xbf9a2bffu, 0xdbc585ffu, 0xdeba4fffu, 0xffdf80ffu, 0xffe9a8ffu};
+static const char *const MT_TABLE_GOLD_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "gold", "light", "pale"};
+static const unsigned int MT_TABLE_VOLCANO_P[] = {0x080808ffu, 0x111118ffu, 0x3d2018ffu, 0x00f5ffffu, 0xcc2200ffu, 0xff6a00ffu, 0xc8a898ffu, 0xff3d6effu, 0xffe03affu, 0xfff0e8ffu};
+static const char *const MT_TABLE_VOLCANO_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "rose", "light", "pale"};
+static const unsigned int MT_TABLE_INK_P[] = {0x000c29ffu, 0x001547ffu, 0x09276dffu, 0x183f9affu, 0x1c48b0ffu, 0x2b58bfffu, 0x859fdbffu, 0x4f7adeffu, 0x80a6ffffu, 0xa8c2ffffu};
+static const char *const MT_TABLE_INK_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "ink", "light", "pale"};
+static const unsigned int MT_TABLE_PHOSPHOR_P[] = {0x00290affu, 0x004712ffu, 0x096d22ffu, 0x189a39ffu, 0x1cb041ffu, 0x2bbf50ffu, 0x85db9bffu, 0x4fde73ffu, 0x80ff9fffu, 0xa8ffbeffu};
+static const char *const MT_TABLE_PHOSPHOR_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "phosphor", "light", "pale"};
+static const unsigned int MT_TABLE_CRIMSON_P[] = {0x290007ffu, 0x47000cffu, 0x6d0919ffu, 0x9a182effu, 0xb01c34ffu, 0xbf2b44ffu, 0xdb8593ffu, 0xde4f67ffu, 0xff8095ffu, 0xffa8b7ffu};
+static const char *const MT_TABLE_CRIMSON_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "crimson", "light", "pale"};
+static const unsigned int MT_TABLE_SVFP_P[] = {0xa020c8ffu, 0xd946efffu, 0xe03070ffu, 0xc8b8e8ffu, 0xf5d0ffffu, 0x1e2235ffu, 0x2e1a50ffu, 0x3a2060ffu, 0x281830ffu, 0x6020b0ffu, 0x9858d8ffu, 0xc8a0d8ffu, 0xe060a0ffu, 0x2850a0ffu, 0x60a0e0ffu, 0x1a6060ffu, 0xa8c8f0ffu, 0xe87040ffu, 0xf0b890ffu, 0xf8b0ffffu, 0xf5f0ffffu, 0x0a0a14ffu};
+static const char *const MT_TABLE_SVFP_N[] = {"brand", "accent", "cta", "heading", "body", "surface", "raised", "dark", "plum", "mid", "bright", "bridge", "rose", "cool-dark", "sky", "teal", "ice", "warm", "glow", "white", "offwhite", "bg"};
+static const unsigned int MT_TABLE_FLDC_P[] = {0x080808ffu, 0x2a3830ffu, 0x304838ffu, 0x485840ffu, 0x8a9088ffu, 0xc8c4b0ffu, 0xe8eee8ffu, 0x3060b0ffu, 0x5898d8ffu, 0xe8eee8ffu, 0xf0f8f0ffu, 0xd8d040ffu, 0xc89820ffu, 0xd06020ffu, 0xa82820ffu, 0xe05030ffu, 0x48a840ffu, 0x308878ffu, 0x3060b0ffu, 0x5898d8ffu, 0x7848a8ffu, 0xf0f8f0ffu, 0x602818ffu, 0x60a8a0ffu, 0xd05888ffu, 0x10160effu};
+static const char *const MT_TABLE_FLDC_N[] = {"black", "bg-surface", "bg-raised", "bg-mid", "bg-neutral", "bg-light", "bg-wall", "bg-screen-dark", "bg-screen-mid", "bg-screen-light", "bg-screen-pale", "arc-yellow", "arc-gold", "arc-orange", "arc-red", "arc-red-light", "arc-green", "arc-teal", "arc-blue", "arc-blue-light", "arc-purple", "arc-white", "arc-dark", "cool", "pop", "bg"};
+static const unsigned int MT_TABLE_WOAH_P[] = {0x0e0c10ffu, 0x3a3028ffu, 0x584840ffu, 0x907060ffu, 0x788090ffu, 0xf0c8b8ffu, 0xe8a0a0ffu, 0xc87888ffu, 0xb8c0d8ffu, 0x7888b0ffu, 0x485878ffu, 0x3a5830ffu, 0x5a7848ffu, 0x90b878ffu, 0x784030ffu, 0xa86048ffu, 0xd4a880ffu, 0xf8e0d0ffu, 0xf0c890ffu, 0x9080a0ffu, 0xfadce8ffu, 0xff9ec4ffu};
+static const char *const MT_TABLE_WOAH_N[] = {"bg", "surface", "dusk", "sandy", "ocean", "blush", "sunset", "rose-sky", "lavender", "coastal", "deep-ocean", "sage-dark", "sage-mid", "sage-pale", "rust", "terra", "peach", "pink-sky", "gold", "mauve", "light-pink", "pop-pink"};
+static const unsigned int MT_TABLE_DDT_LLC_P[] = {0x5a3a20ffu, 0x8a5a2affu, 0xb87840ffu, 0xc89858ffu, 0xe8d098ffu, 0xc04030ffu, 0xd4a820ffu, 0x607858ffu, 0xfaf4e8ffu, 0x0a0a14ffu};
+static const char *const MT_TABLE_DDT_LLC_N[] = {"deep", "mid", "amber", "tan", "heading", "cta", "gold", "nature", "offwhite", "bg"};
+static const unsigned int MT_TABLE_DINO_SPUMONI_P[] = {0x141820ffu, 0x1e2a38ffu, 0x3a5878ffu, 0x6888a8ffu, 0x4060a0ffu, 0x8a3820ffu, 0xd4782affu, 0xf0d080ffu, 0xd06880ffu, 0x2a7868ffu, 0x1a5048ffu, 0x40a888ffu, 0xa04860ffu, 0xe8a0b0ffu, 0x5878b0ffu, 0xf8c8a0ffu, 0x5a2810ffu, 0x6878a0ffu, 0xc8a878ffu, 0xf4ede0ffu, 0x080a0effu};
+static const char *const MT_TABLE_DINO_SPUMONI_N[] = {"deep", "surface", "mid", "sky", "brand", "brick", "cta", "heading", "rose", "teal", "deep-teal", "bright-teal", "deep-rose", "light-rose", "mid-blue", "light-warm", "dark-warm", "cool-neutral", "warm-neutral", "offwhite", "bg"};
+static const unsigned int MT_TABLE_FOUR_BS_P[] = {0x1a1408ffu, 0x8a7a58ffu, 0xe8ddb0ffu, 0x2a6830ffu, 0x52b044ffu, 0xa8d848ffu, 0xc84810ffu, 0xf0a830ffu, 0x1e60b0ffu, 0x5890c8ffu, 0xf5f2e8ffu, 0x0c0a04ffu, 0x7a6040ffu, 0xe85838ffu};
+static const char *const MT_TABLE_FOUR_BS_N[] = {"deep", "mid", "heading", "brand", "leaf", "chart", "rust", "amber", "blue", "sky", "offwhite", "bg", "dust", "ember"};
+static const unsigned int MT_TABLE_JUANITO_THOMPSON_P[] = {0x0a0a0cffu, 0x1c1e22ffu, 0x2e3038ffu, 0x383c44ffu, 0x4a5060ffu, 0x606878ffu, 0x7a3010ffu, 0x5a2008ffu, 0xa84830ffu, 0xc85a18ffu, 0xe8900affu, 0xf0b878ffu, 0xf5c842ffu, 0xf0b878ffu, 0x1a7a5effu, 0x2a9070ffu, 0x8a7060ffu, 0xf8f0e4ffu, 0x39ff84ffu};
+static const char *const MT_TABLE_JUANITO_THOMPSON_N[] = {"bg", "surface", "raised", "mid", "borders", "steel", "deep", "dark-rust", "brick", "cta", "amber", "pale-warm", "gold", "body", "teal", "teal-bright", "taupe", "offwhite", "green"};
+static const unsigned int MT_TABLE_AUDIO_SOUND_PAPER_P[] = {0x2e1e18ffu, 0x3e2e20ffu, 0x584030ffu, 0x806050ffu, 0xb09070ffu, 0xf0e0c8ffu, 0x783020ffu, 0xa84828ffu, 0xc87858ffu, 0x906020ffu, 0xc89030ffu, 0xf0d070ffu, 0xd08050ffu, 0xc03020ffu, 0xe05030ffu, 0x181420ffu, 0x282438ffu, 0x485878ffu, 0x2a3820ffu, 0x607848ffu, 0xf8e0a0ffu, 0x100b08ffu};
+static const char *const MT_TABLE_AUDIO_SOUND_PAPER_N[] = {"surface", "raised", "dark", "mid", "light", "cream", "terracotta", "brick", "brick-light", "amber-shadow", "amber", "amber-glow", "skin", "red", "red-light", "night", "shadow", "night-blue", "ivy-dark", "ivy-light", "highlight", "bg"};
+static const unsigned int MT_TABLE_VINNY_BOBARINO_P[] = {0x1e2235ffu, 0x2a1a10ffu, 0x2a1a10ffu, 0x4a3828ffu, 0x3a2a1effu, 0xc03820ffu, 0xe86020ffu, 0xf5a030ffu, 0xc8a840ffu, 0xf0ead8ffu, 0x5a8a6affu, 0x6a9a7affu, 0x6aaad8ffu, 0xf7e060ffu, 0x3a6050ffu, 0xb8d8e8ffu, 0xf0c8a0ffu, 0x3a2e48ffu, 0xe84838ffu, 0x0d0e16ffu};
+static const char *const MT_TABLE_VINNY_BOBARINO_N[] = {"bg", "surface", "raised", "mid", "borders", "deep", "accent", "amber", "heading", "body", "nature", "nature-glow", "sky", "bulb", "forest", "winter-sky", "peach", "dusk", "party", "near-black"};
+static const unsigned int MT_TABLE_BOTTLE_BOYS_COLLECTIVE_P[] = {0x2a3028ffu, 0x384038ffu, 0x506050ffu, 0x887870ffu, 0xc0b0a0ffu, 0x5888b0ffu, 0x78a8c8ffu, 0xa8c8e0ffu, 0xd0e4f0ffu, 0xe0a880ffu, 0xf0d0b8ffu, 0xf8f0e8ffu, 0x905030ffu, 0xc07848ffu, 0xe8b870ffu, 0x304828ffu, 0x507840ffu, 0x80a858ffu, 0x6898a0ffu, 0xd09888ffu, 0xf0e8d8ffu, 0xc8e0d8ffu, 0x7a6858ffu, 0xa07888ffu, 0x3a5840ffu, 0xf0c0a0ffu, 0x070906ffu};
+static const char *const MT_TABLE_BOTTLE_BOYS_COLLECTIVE_N[] = {"surface", "raised", "dark", "mid", "light", "sky-dark", "sky", "sky-light", "sky-pale", "skin-warm", "skin-light", "highlight", "warm-dark", "warm", "warm-light", "green-dark", "green", "green-light", "bridge-cool", "bridge-warm", "cream", "sea-mist", "warm-grey", "mauve", "sage", "apricot", "bg"};
+static const unsigned int MT_TABLE_C_P_RUTLEDGE_P[] = {0x5020a0ffu, 0x1a1840ffu, 0x2a2060ffu, 0xf05a5affu, 0xf5c020ffu, 0x4ab86affu, 0x68c8f0ffu, 0x9030b0ffu, 0x20b8a0ffu, 0xf09848ffu, 0xf5e8c0ffu, 0xa02020ffu, 0xc89010ffu, 0x2a8040ffu, 0x2888c0ffu, 0xc080e0ffu, 0x90d8a8ffu, 0xf07850ffu, 0x070612ffu, 0xf5e8c0ffu, 0xf5c020ffu};
+static const char *const MT_TABLE_C_P_RUTLEDGE_N[] = {"deep", "surface", "raised", "red", "yellow", "green", "blue", "purple", "teal", "orange", "cream", "dark-red", "dark-yellow", "dark-green", "dark-blue", "light-purple", "light-green", "warm-bridge", "bg", "heading", "gold"};
+static const unsigned int MT_TABLE_THLD_P[] = {0x1a1209ffu, 0x2e1e0fffu, 0x4a2c10ffu, 0x7a3a18ffu, 0x3a3018ffu, 0xc94b1affu, 0xc8381affu, 0xa02818ffu, 0x8a2018ffu, 0xe07a2fffu, 0xf0a050ffu, 0xb07030ffu, 0x9a7a50ffu, 0x8a6040ffu, 0x4a7068ffu, 0x5a7840ffu, 0x6a8850ffu, 0x6a5878ffu, 0xd4b896ffu, 0xf0c060ffu, 0xf8e4c0ffu, 0xf5d8a0ffu, 0xfdf5e8ffu, 0x0e0905ffu};
+static const char *const MT_TABLE_THLD_N[] = {"deep", "dark", "mid", "mahogany", "forest", "accent", "cta", "ember", "brick", "amber", "apricot", "honey", "warm-brown", "muted", "teal", "olive", "olive-alt", "purple", "text", "highlight", "cream", "pale-gold", "offwhite", "bg"};
+static const unsigned int MT_TABLE_DAG_HENDERSON_P[] = {0x141a10ffu, 0x1e2818ffu, 0x3a3228ffu, 0x5a5048ffu, 0x607880ffu, 0x3a5830ffu, 0x789060ffu, 0x7848a8ffu, 0xc86010ffu, 0xf0c060ffu, 0x3a1860ffu, 0x7848a8ffu, 0xa880d0ffu, 0xa8b890ffu, 0x607880ffu, 0xa0b0a8ffu, 0x7a3010ffu, 0xe8900affu, 0xf8d888ffu, 0x807060ffu, 0xf0ece0ffu, 0x080a06ffu};
+static const char *const MT_TABLE_DAG_HENDERSON_N[] = {"deep", "surface", "muted", "body", "slate", "brand", "leaf", "purple", "rust", "amber", "violet-deep", "violet-mid", "violet-light", "sage", "steel", "mist", "rust-dark", "amber-glow", "gold", "tan", "white", "bg"};
+static const unsigned int MT_TABLE_JON_MCCOY_P[] = {0x484e58ffu, 0x2e3540ffu, 0x2e3038ffu, 0x7080a0ffu, 0x8a9aaaffu, 0xb8c4ccffu, 0xa89880ffu, 0xc8b8a0ffu, 0xe8ddd0ffu, 0x7a9080ffu, 0xb89898ffu, 0xd0d8e0ffu, 0x383e48ffu, 0x6070a0ffu, 0xc0ccd8ffu, 0x786050ffu, 0xf0e8d8ffu, 0x587868ffu, 0xc8a8a8ffu, 0x6a7088ffu, 0xf5f0ecffu, 0x9090b8ffu, 0xb0c8b8ffu, 0x786878ffu, 0x0e1014ffu};
+static const char *const MT_TABLE_JON_MCCOY_N[] = {"bg", "surface", "raised", "body", "muted", "heading", "taupe", "sand", "cream", "sage", "rose", "ice", "deep-cool", "mid-cool", "light-cool", "deep-warm", "pale-warm", "deep-sage", "muted-rose", "blue-grey", "near-white", "periwinkle", "pale-sage", "dusty-plum", "near-black"};
+static const unsigned int MT_TABLE_MELROSE_HOUSE_P[] = {0x6a6e78ffu, 0x786858ffu, 0x3e4048ffu, 0x9080a0ffu, 0xa0b0c8ffu, 0xc8d4e0ffu, 0xc87878ffu, 0xe8a090ffu, 0xf0c8c0ffu, 0xd4a060ffu, 0x6878a0ffu, 0x7ab8a0ffu, 0xc8a8d0ffu, 0xa8c0a0ffu, 0xe8b870ffu, 0x5a6890ffu, 0x2a2c30ffu, 0x0c0d0fffu};
+static const char *const MT_TABLE_MELROSE_HOUSE_N[] = {"deep", "surface", "bread", "muted", "light", "cream", "coral", "peach", "pale", "gold", "brand", "sage", "lavender", "sage2", "amber", "slate", "dark", "bg"};
+static const unsigned int MT_TABLE_TWIN_MAPLES_P[] = {0x1e2420ffu, 0x283028ffu, 0x3a4a38ffu, 0x6a7868ffu, 0x98a888ffu, 0xd4d8c8ffu, 0xd4b898ffu, 0xb8b098ffu, 0x4a6858ffu, 0xc07848ffu, 0xd4b870ffu, 0x7ab0c0ffu, 0xd4b898ffu, 0x8a9878ffu, 0xe8c870ffu, 0x0c0f0dffu};
+static const char *const MT_TABLE_TWIN_MAPLES_N[] = {"deep", "dark", "surface", "muted", "light", "cream", "heading", "body", "brand", "accent", "warm", "sage", "wheat", "leaf", "bright", "bg"};
+static const unsigned int MT_TABLE_COLLEGE_GREEN_APT_P[] = {0x382e28ffu, 0x504438ffu, 0xa09080ffu, 0xa09080ffu, 0xc8bea8ffu, 0xe8e0ccffu, 0xf8f4e8ffu, 0x607850ffu, 0xc07838ffu, 0x8878a8ffu, 0x607850ffu, 0xc07838ffu, 0x8878a8ffu, 0xb8a0c8ffu, 0x4a6838ffu, 0xe8a858ffu, 0xb8a0c8ffu, 0x6a5840ffu, 0x384858ffu, 0x0e0c0affu};
+static const char *const MT_TABLE_COLLEGE_GREEN_APT_N[] = {"deep", "dark", "surface", "muted", "light", "cream", "white", "green", "cta", "heading", "nature", "warm", "cool", "sage", "deep2", "gold", "lavender", "taupe", "bluegrey", "bg"};
+static const unsigned int MT_TABLE_MARVIN_GARDENS_G12_P[] = {0x283828ffu, 0x382848ffu, 0x4a2830ffu, 0x7848a0ffu, 0xd880c0ffu, 0xf080a0ffu, 0xa02858ffu, 0xd04878ffu, 0xc87830ffu, 0xe8c060ffu, 0xc8a868ffu, 0x388040ffu, 0x60b858ffu, 0x60a8c0ffu, 0xf8f0f8ffu, 0x0c0a12ffu};
+static const char *const MT_TABLE_MARVIN_GARDENS_G12_N[] = {"deep", "dark", "surface", "muted", "light", "cream", "brand", "accent", "cta", "heading", "body", "green", "leaf", "sage", "offwhite", "near-black"};
+static const unsigned int MT_TABLE_GREEN_STREET_APT_P[] = {0x382e28ffu, 0x504438ffu, 0x786858ffu, 0xa09080ffu, 0xc8bea8ffu, 0xe8e0ccffu, 0xf8f4e8ffu, 0xc8a878ffu, 0x7888a8ffu, 0xc07838ffu, 0x607850ffu, 0x485840ffu, 0xe8c8a0ffu, 0x704858ffu, 0x8878a8ffu, 0x0e0c0affu};
+static const char *const MT_TABLE_GREEN_STREET_APT_N[] = {"deep", "dark", "surface", "muted", "light", "cream", "heading", "body", "brand", "accent", "green", "leaf", "warm", "rose", "sage", "bg"};
+static const unsigned int MT_TABLE_IRVIN_HOUSE_P[] = {0x4a5058ffu, 0x6a7278ffu, 0x9098a0ffu, 0xb8c8d8ffu, 0xdce8f0ffu, 0x7090b8ffu, 0x80b8c8ffu, 0x608850ffu, 0xa86848ffu, 0xc8b890ffu, 0x907060ffu, 0x4a7858ffu, 0xd4906affu, 0x8888b0ffu, 0xb8d0b0ffu, 0x0c0e10ffu};
+static const char *const MT_TABLE_IRVIN_HOUSE_N[] = {"deep", "dark", "muted", "light", "cream", "brand", "accent", "green", "cta", "heading", "body", "leaf", "warm", "sage", "wheat", "bg"};
+static const unsigned int MT_TABLE_THE_TUNA_CAN_P[] = {0x6a5018ffu, 0xb87828ffu, 0xe8c870ffu, 0xe8d890ffu, 0xc8c0a0ffu, 0x2e2c20ffu, 0x1e1c14ffu, 0x3a3828ffu, 0x787060ffu, 0xe8d890ffu, 0xc8a040ffu, 0xa83840ffu, 0x507840ffu, 0x3d4a30ffu, 0x8a4a30ffu, 0xd4b880ffu, 0xc0784affu, 0xa8a870ffu, 0xf5f0e0ffu, 0x0e0d09ffu};
+static const char *const MT_TABLE_THE_TUNA_CAN_N[] = {"brand", "amber", "bright", "heading", "body", "deep", "dark", "mid", "muted", "cream", "gold", "red", "green", "olive", "terra", "wheat", "copper", "khaki", "offwhite", "bg"};
+static const unsigned int MT_TABLE_FROGWOOD_MANOR_P[] = {0x382820ffu, 0x301828ffu, 0x2a2a50ffu, 0x9888a0ffu, 0xf8d888ffu, 0xf8e8d8ffu, 0x4080f0ffu, 0xa85a18ffu, 0xe8a040ffu, 0x6080e8ffu, 0xa030c8ffu, 0x6a9878ffu, 0xf040a0ffu, 0xe860c0ffu, 0xc02070ffu, 0xc8a0d8ffu, 0x281838ffu, 0xf0b060ffu, 0x0c0810ffu};
+static const char *const MT_TABLE_FROGWOOD_MANOR_N[] = {"deep", "dark", "surface", "muted", "light", "cream", "cobalt", "brand", "amber", "sky", "violet", "sage", "pink", "pink-light", "rose", "lilac", "plum", "peach", "bg"};
+static const unsigned int MT_TABLE_GEORGE_BOOLE_GAME_BOY_P[] = {0x0f380fffu, 0x306230ffu, 0x9bbc0fffu, 0x9bbc0fffu};
+static const char *const MT_TABLE_GEORGE_BOOLE_GAME_BOY_N[] = {"bg", "bg-light", "accent", "text"};
+static const unsigned int MT_TABLE_GEORGE_BOOLE_NES_P[] = {0x2a2a4affu, 0x3a3a6affu, 0xff6347ffu, 0xffd700ffu, 0x4169e1ffu};
+static const char *const MT_TABLE_GEORGE_BOOLE_NES_N[] = {"bg", "bg-light", "accent", "gold", "blue"};
+static const unsigned int MT_TABLE_GEORGE_BOOLE_SNES_P[] = {0x0f0f1effu, 0x1a1a3effu, 0x8a2be2ffu, 0xe0e0ffffu};
+static const char *const MT_TABLE_GEORGE_BOOLE_SNES_N[] = {"bg", "bg-light", "accent", "text"};
+static const unsigned int MT_TABLE_GEORGE_BOOLE_GENESIS_P[] = {0x001a33ffu, 0x003366ffu, 0xffd700ffu, 0x4169e1ffu};
+static const char *const MT_TABLE_GEORGE_BOOLE_GENESIS_N[] = {"bg", "bg-light", "accent", "blue"};
+static const unsigned int MT_TABLE_GEORGE_BOOLE_ARCADE_P[] = {0x1a0800ffu, 0x331000ffu, 0xffa500ffu, 0xcc2200ffu};
+static const char *const MT_TABLE_GEORGE_BOOLE_ARCADE_N[] = {"bg", "bg-light", "accent", "red"};
+static const unsigned int MT_TABLE_GEORGE_BOOLE_NEO_GEO_P[] = {0x1a0020ffu, 0x2a0040ffu, 0xff1493ffu, 0x9400d3ffu, 0x00ffffffu};
+static const char *const MT_TABLE_GEORGE_BOOLE_NEO_GEO_N[] = {"bg", "bg-light", "accent", "purple", "cyan"};
+static const unsigned int MT_TABLE_GEORGE_BOOLE_PS1_P[] = {0x1a1a1affu, 0x2d2d2dffu, 0xffd700ffu, 0xc0c0c0ffu};
+static const char *const MT_TABLE_GEORGE_BOOLE_PS1_N[] = {"bg", "bg-light", "accent", "silver"};
+static const unsigned int MT_TABLE_GEORGE_BOOLE_MATRIX_P[] = {0x000000ffu, 0x001a00ffu, 0x00ff00ffu};
+static const char *const MT_TABLE_GEORGE_BOOLE_MATRIX_N[] = {"bg", "bg-light", "accent"};
+static const unsigned int MT_TABLE_PARCHISI_P[] = {0x1a0a0affu, 0x2a1210ffu, 0xf0ead8ffu, 0xa88a7fffu, 0x5c3a2dffu, 0xf1bf00ffu, 0xaa151bffu, 0x4059c8ffu, 0x39d353ffu, 0xf1bf00ffu};
+static const char *const MT_TABLE_PARCHISI_N[] = {"bg", "bg-light", "text", "text-dim", "border", "accent", "slot-red", "slot-blue", "slot-green", "slot-yellow"};
+static const unsigned int MT_TABLE_AGGRAVATION_P[] = {0x0a0612ffu, 0x150b29ffu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x3a2d5cffu, 0xffe03affu, 0xff3d6effu, 0x00f5ffffu, 0x39ff6effu, 0xffe03affu, 0xc45fffffu, 0xff7c1fffu};
+static const char *const MT_TABLE_AGGRAVATION_N[] = {"bg", "bg-light", "text", "text-dim", "border", "accent", "slot-red", "slot-blue", "slot-green", "slot-yellow", "slot-purple", "slot-orange"};
+static const unsigned int MT_TABLE_SORRY_P[] = {0xff2d55ffu, 0xff7c1effu, 0xffe135ffu, 0x39d353ffu, 0x6cd4f5ffu, 0x4059c8ffu, 0x9b30ffffu, 0xff69b4ffu, 0xfff5e1ffu, 0x00fa9affu, 0xff4f6dffu, 0x7b68eeffu};
+static const char *const MT_TABLE_SORRY_N[] = {"cherry", "orange", "lemon", "lime", "ice-blue", "blueberry", "grape", "bubblegum", "cream", "spearmint", "watermelon", "bluebell"};
+static const unsigned int MT_TABLE_AMERICAN_SPIRIT_P[] = {0x5b9db8ffu, 0x7bbdd4ffu, 0xa8cdd8ffu, 0xd0e8f0ffu, 0x2e6a88ffu, 0x1a3d52ffu, 0xc8a87affu, 0xdec098ffu, 0xeee0c8ffu, 0xf5ede0ffu, 0x8a6a3affu, 0x3a2810ffu, 0xf8f4eeffu, 0xede8e0ffu, 0xc0c8ccffu, 0x6a7a80ffu, 0xc8a830ffu, 0x8a7020ffu, 0x8b1a1affu, 0x1a1a18ffu};
+static const char *const MT_TABLE_AMERICAN_SPIRIT_N[] = {"cerulean", "sky", "pale-sky", "mist", "deep", "midnight", "kraft", "tan", "parchment", "linen", "tobacco", "dark-brown", "white", "off-white", "silver", "slate", "gold", "dark-gold", "red-seal", "black"};
+static const unsigned int MT_TABLE_AMERICAN_SPIRIT_LIGHT_P[] = {0xf5ede0ffu, 0xeee0c8ffu, 0xede8e0ffu, 0x3a2810ffu, 0x8a6a3affu, 0x2e6a88ffu, 0x1a3d52ffu, 0x8b1a1affu, 0x8a7020ffu, 0x5b9db8ffu, 0x7a5a2affu};
+static const char *const MT_TABLE_AMERICAN_SPIRIT_LIGHT_N[] = {"linen", "parchment", "off-white", "dark-brown", "tobacco", "deep", "midnight", "red-seal", "dark-gold", "cerulean", "dark-tobacco"};
+static const unsigned int MT_TABLE_PAY2PLAY_P[] = {0x2a0a4affu, 0x1a0530ffu, 0x4a1a7affu, 0x6a3aaaffu, 0x9a6accffu, 0xc0a0e8ffu, 0x6a0a4affu, 0xaa1a6affu, 0xcc2a88ffu, 0xe870c0ffu, 0x3a0a18ffu, 0x5a1a28ffu, 0x8a4a5affu, 0x2a2038ffu, 0x4a3a5affu, 0x8a7a9affu, 0xeee0ffffu, 0xf5f0ffffu, 0xffffffffu, 0x080510ffu, 0x100820ffu};
+static const char *const MT_TABLE_PAY2PLAY_N[] = {"uv", "deep-plum", "violet", "mid-purple", "light-purple", "lavender", "magenta-dark", "magenta", "hot", "pink-glow", "maroon", "plum-red", "dusty-rose", "coin-dark", "coin-mid", "coin-shine", "white-glow", "ghost-white", "uv-white", "black", "near-black"};
+static const unsigned int MT_TABLE_MOONLIGHT_DRIFT_P[] = {0x0f0c29ffu, 0x302b63ffu, 0x24243effu, 0x1a2a4affu, 0x2a3a5affu, 0x3a4a6affu, 0x4a5a7affu, 0x7a89a8ffu, 0xffffffffu, 0x00d4ffffu, 0xffd700ffu, 0x2ecc71ffu, 0xece6c4ffu, 0xff1a1affu};
+static const char *const MT_TABLE_MOONLIGHT_DRIFT_N[] = {"md-night", "md-dusk", "md-deep", "md-panel-dark", "md-panel", "md-panel-hi", "md-frame", "md-muted", "md-text", "md-cyan", "md-gold", "md-green", "md-moon", "md-crash"};
+static const unsigned int MT_TABLE_CALDERA_P[] = {0x0b0605ffu, 0x1a100cffu, 0x2b2421ffu, 0x3d322cffu, 0x3a0e04ffu, 0x5a0a00ffu, 0x8a5a3affu, 0xb39880ffu, 0xff5a1fffu, 0xff6a1fffu, 0xff8a3affu, 0xffd9a0ffu, 0xfff0a0ffu, 0xfff3d0ffu};
+static const char *const MT_TABLE_CALDERA_N[] = {"cd-deep", "cd-char", "cd-rock", "cd-rock-hi", "cd-vent", "cd-crust", "cd-ash", "cd-dust", "cd-lava", "cd-flame", "cd-glow", "cd-sand", "cd-spark", "cd-cream"};
+static const unsigned int MT_TABLE_FRENCH_TAROT_P[] = {0x0a0612ffu, 0x150b29ffu, 0x1a0a2affu, 0x2a1a3affu, 0x4a4060ffu, 0x8a7fa8ffu, 0xc0b8d0ffu, 0xf0ead8ffu, 0x00e5ffffu, 0xffd700ffu, 0xff2d78ffu, 0x39ff6effu, 0x1e4d2bffu, 0xcc0000ffu};
+static const char *const MT_TABLE_FRENCH_TAROT_N[] = {"ft-bg-dark", "ft-bg-mid", "ft-bg-light", "ft-line", "ft-dim", "ft-muted", "ft-soft", "ft-white", "ft-cyan", "ft-gold", "ft-rose", "ft-green", "ft-card-back", "ft-red"};
+static const unsigned int MT_TABLE_CRIBBAGE_P[] = {0x1a0f0affu, 0x2d1f15ffu, 0x3d2a1cffu, 0x4a3728ffu, 0x8b5a2bffu, 0xa0522dffu, 0x1e4d2bffu, 0x2d6b3fffu, 0xa39e81ffu, 0xf5f5dcffu, 0xfffdd0ffu, 0xffd700ffu, 0xb8960fffu, 0xdc143cffu, 0x00f5ffffu, 0xff3d6effu};
+static const char *const MT_TABLE_CRIBBAGE_N[] = {"cr-bg-dark", "cr-bg-mid", "cr-bg-light", "cr-board", "cr-wood", "cr-wood-light", "cr-felt", "cr-felt-light", "cr-dust", "cr-white", "cr-cream", "cr-gold", "cr-gold-dim", "cr-red", "cr-player-peg", "cr-ai-peg"};
+static const unsigned int MT_TABLE_SCANDINAVIAN_STUD_P[] = {0x060e1affu, 0x0a1628ffu, 0x1a2a44ffu, 0x4a6a7affu, 0x7f97a3ffu, 0xf0ead8ffu, 0x00f5ffffu, 0x007a80ffu, 0x39ff6effu, 0xff3d6effu, 0xffe03affu, 0xff7c1fffu};
+static const char *const MT_TABLE_SCANDINAVIAN_STUD_N[] = {"ss-darker", "ss-dark", "ss-mid", "ss-slate", "ss-muted", "ss-white", "ss-cyan", "ss-cyan-dim", "ss-green", "ss-red", "ss-gold", "ss-orange"};
+static const unsigned int MT_TABLE_CHESS_P[] = {0xfbf4e2ffu, 0xfbf4e2ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu};
+static const char *const MT_TABLE_CHESS_N[] = {"ch-bg", "ch-board-dark", "ch-text-dim", "ch-text", "ch-player", "ch-ai", "ch-highlight", "ch-selected"};
+static const unsigned int MT_TABLE_CHECKERS_P[] = {0x041008ffu, 0x07180cffu, 0x57b96affu, 0x9dffa0ffu, 0x9dffa0ffu, 0x57c96bffu, 0xc8ffc4ffu, 0xe8ffe4ffu};
+static const char *const MT_TABLE_CHECKERS_N[] = {"ck-bg", "ck-board-dark", "ck-text-dim", "ck-text", "ck-player", "ck-ai", "ck-highlight", "ck-selected"};
+static const unsigned int MT_TABLE_BACKGAMMON_P[] = {0x0055aaffu, 0x0055aaffu, 0xffffffffu, 0xffffffffu, 0xffffffffu, 0x000000ffu, 0xff8800ffu, 0x000000ffu};
+static const char *const MT_TABLE_BACKGAMMON_N[] = {"bg-bg", "bg-board-bg", "bg-text-dim", "bg-text", "bg-checker-player", "bg-checker-ai", "bg-point-light", "bg-point-dark"};
+static const unsigned int MT_TABLE_CHINESE_CHECKERS_P[] = {0x2e2c9bffu, 0x706debffu, 0xb4b2f8ffu, 0xb4b2f8ffu, 0xffffffffu, 0xd98a8fffu, 0xa9ff9fffu, 0xedf171ffu};
+static const char *const MT_TABLE_CHINESE_CHECKERS_N[] = {"cc-bg", "cc-border", "cc-text-dim", "cc-text", "cc-player1", "cc-player2", "cc-highlight", "cc-highlight-hop"};
+static const unsigned int MT_TABLE_FIFTEEN_PUZZLE_P[] = {0x0a0612ffu, 0x0d0820ffu, 0x1a0a2affu, 0x8a7fa8ffu, 0xf0ead8ffu, 0x00f5ffffu, 0xffe03affu, 0x39ff6effu, 0x0a3a6affu, 0x007a6affu, 0x6a6a00ffu, 0xc43a00ffu, 0x6a0080ffu};
+static const char *const MT_TABLE_FIFTEEN_PUZZLE_N[] = {"fp-bg", "fp-deep", "fp-panel", "fp-dim", "fp-text", "fp-cyan", "fp-gold", "fp-green", "fp-tile-blue", "fp-tile-teal", "fp-tile-olive", "fp-tile-orange", "fp-tile-violet"};
+static const unsigned int MT_TABLE_THREES_P[] = {0x0a0612ffu, 0x0d0820ffu, 0x1a0a2affu, 0x8a7fa8ffu, 0xf0ead8ffu, 0x00f5ffffu, 0xffe03affu, 0x39ff6effu, 0x1a1a2effu, 0x5ba3f5ffu, 0x0a2a5affu, 0x005a6affu, 0x006a4affu, 0x4a6a00ffu, 0x7a4a00ffu, 0xff3d6effu};
+static const char *const MT_TABLE_THREES_N[] = {"tr-bg", "tr-deep", "tr-panel", "tr-dim", "tr-text", "tr-cyan", "tr-gold", "tr-green", "tr-one", "tr-one-edge", "tr-two", "tr-three", "tr-six", "tr-twelve", "tr-twenty-four", "tr-pink"};
+static const unsigned int MT_TABLE_KLOTSKI_P[] = {0x0a0612ffu, 0x0d0820ffu, 0x1a0a2affu, 0x8a7fa8ffu, 0xf0ead8ffu, 0xff2d4affu, 0xffd700ffu, 0xff8c00ffu, 0x00cc88ffu, 0x009966ffu, 0x00ffaaffu, 0x00f5ffffu};
+static const char *const MT_TABLE_KLOTSKI_N[] = {"kl-bg", "kl-deep", "kl-panel", "kl-dim", "kl-text", "kl-red", "kl-gold", "kl-orange", "kl-jade", "kl-jade-dark", "kl-jade-edge", "kl-cyan"};
+static const unsigned int MT_TABLE_TWO_TO_THE_N_P[] = {0x1a0018ffu, 0x2a0a08ffu, 0x0f0020ffu, 0x150008ffu, 0x3a0040ffu, 0x1a0040ffu, 0xf07ad0ffu, 0xffffffffu, 0x14b8ffffu, 0xffd54affu, 0xf23c8fffu};
+static const char *const MT_TABLE_TWO_TO_THE_N_N[] = {"tn-wine", "tn-ember", "tn-night", "tn-bg", "tn-plum", "tn-indigo", "tn-soft-pink", "tn-white", "tn-blue", "tn-gold", "tn-pink"};
+static const unsigned int MT_TABLE_SOLITAIRE_P[] = {0x001e1effu, 0x003838ffu, 0x005555ffu, 0x404040ffu, 0x808080ffu, 0xc0c0c0ffu, 0xe0e0e0ffu, 0x4a007affu, 0x003060ffu, 0x0d2b0dffu, 0x1a5c1affu, 0xff2d78ffu, 0x00e5ffffu, 0xffd700ffu, 0x7b2fffffu};
+static const char *const MT_TABLE_SOLITAIRE_N[] = {"sol-desktop-lo", "sol-desktop", "sol-desktop-hi", "sol-chrome-shade", "sol-chrome-dark", "sol-chrome", "sol-chrome-light", "sol-title-left", "sol-title-right", "sol-felt-mid", "sol-felt", "sol-pink", "sol-cyan", "sol-gold", "sol-purple"};
+static const unsigned int MT_TABLE_NELIKKO_P[] = {0x0a1218ffu, 0x0e1820ffu, 0x131f28ffu, 0x2a4a5affu, 0x4a7a8affu, 0x3a5a6affu, 0x7a9badffu, 0xd0dde0ffu, 0xc8d8ddffu, 0xafcbd3ffu, 0xd4c89affu, 0xa26769ffu, 0x5e7d6affu};
+static const char *const MT_TABLE_NELIKKO_N[] = {"nk-board", "nk-bg", "nk-panel", "nk-border", "nk-border-bright", "nk-dusk", "nk-slate", "nk-text", "nk-frost", "nk-ice", "nk-birch", "nk-clay", "nk-pine"};
+static const unsigned int MT_TABLE_MAKEMECOOKIES_P[] = {0x180c18ffu, 0x26122affu, 0x34163affu, 0x3e1f45ffu, 0x6b3273ffu, 0x5c3a64ffu, 0x9a7ba2ffu, 0xead9ecffu, 0xff2e9cffu, 0xff5fa2ffu, 0x41e8d1ffu, 0xffc93cffu, 0xf2d8a7ffu, 0x4b2e1effu};
+static const char *const MT_TABLE_MAKEMECOOKIES_N[] = {"mmc-bg", "mmc-panel", "mmc-tile", "mmc-border", "mmc-border-bright", "mmc-dim", "mmc-subtext", "mmc-text", "mmc-neon", "mmc-frosting", "mmc-sprinkle", "mmc-butter", "mmc-dough", "mmc-choc"};
+static const unsigned int MT_TABLE_CAVE_DIVING_P[] = {0x030b10ffu, 0x071820ffu, 0x241f2effu, 0x5d7a80ffu, 0xdcefeeffu, 0x3fe0d0ffu, 0xb8fff5ffu, 0x5fe8a4ffu, 0xfff3c4ffu, 0xff5f6dffu};
+static const char *const MT_TABLE_CAVE_DIVING_N[] = {"cvd-deep", "cvd-water", "cvd-rock", "cvd-hud-dim", "cvd-hud-text", "cvd-teal", "cvd-teal-pale", "cvd-air", "cvd-lamp", "cvd-danger"};
+static const unsigned int MT_TABLE_GROCERY_HARRISON_P[] = {0x0b1211ffu, 0x23413cffu, 0x2b3533ffu, 0x1a1400ffu, 0xc9a227ffu, 0xffd84affu, 0xffe680ffu, 0x7a2b1dffu, 0xa8e6ffffu, 0xfff6dcffu};
+static const char *const MT_TABLE_GROCERY_HARRISON_N[] = {"gh-night", "gh-shelf", "gh-edge", "gh-ink", "gh-gold-dim", "gh-gold", "gh-butter", "gh-rust", "gh-freezer", "gh-cream"};
+static const unsigned int MT_TABLE_JOVIAN_HUMANITARIAN_CONFLICT_P[] = {0x05060fffu, 0x0d1230ffu, 0x6b7699ffu, 0xe8eeffffu, 0xffc247ffu, 0xfff2cfffu, 0xff2fa8ffu, 0x5ff0ffffu};
+static const char *const MT_TABLE_JOVIAN_HUMANITARIAN_CONFLICT_N[] = {"jhc-void", "jhc-haze", "jhc-hud-dim", "jhc-hud-text", "jhc-aid", "jhc-aid-pale", "jhc-hostile", "jhc-glass"};
+static const unsigned int MT_TABLE_RODERICK_TRON_P[] = {0x080808ffu, 0x0a0a12ffu, 0x1a1028ffu, 0x3a1830ffu, 0x4a6a7affu, 0xc8a24affu, 0xf0ead8ffu, 0x00f5ffffu, 0xff3d6effu, 0xffe03affu, 0xff7c1fffu};
+static const char *const MT_TABLE_RODERICK_TRON_N[] = {"rt-bg", "rt-deep", "rt-plum", "rt-wine", "rt-dim", "rt-brass", "rt-white", "rt-cyan", "rt-red", "rt-gold", "rt-orange"};
+static const unsigned int MT_TABLE_VERY_LONG_BOARDS_P[] = {0x0a0612ffu, 0x1a0f24ffu, 0x888888ffu, 0xffffffffu, 0xff2e9cffu, 0xffe03affu, 0xb537f2ffu, 0x39ff6effu, 0xff2e5affu, 0xff6b35ffu};
+static const char *const MT_TABLE_VERY_LONG_BOARDS_N[] = {"vlb-bg", "vlb-panel", "vlb-grey", "vlb-white", "vlb-pink", "vlb-gold", "vlb-purple", "vlb-green", "vlb-red", "vlb-orange"};
+static const unsigned int MT_TABLE_GRAPE_SODA_P[] = {0x120a1cffu, 0x1f1232ffu, 0x33204effu, 0x5c2ca0ffu, 0xa456ffffu, 0xab94ccffu, 0xff6fd6ffu, 0xf3e9ffffu};
+static const char *const MT_TABLE_GRAPE_SODA_N[] = {"void", "glass", "can", "deep", "grape", "lilac", "fizz", "foam"};
+static const unsigned int MT_TABLE_ORANGE_SODA_P[] = {0x0c1424ffu, 0x16233affu, 0x26395cffu, 0xd95400ffu, 0xff8b24ffu, 0x9fb2cdffu, 0xffd84dffu, 0xfff4e4ffu};
+static const char *const MT_TABLE_ORANGE_SODA_N[] = {"navy", "label", "rim", "pulp", "orange", "steel", "fizz", "foam"};
+static const unsigned int MT_TABLE_CREAM_SODA_P[] = {0xfbf4e2ffu, 0xf2e5c3ffu, 0xe3cf9cffu, 0xa85d06ffu, 0xb8304fffu, 0x71503affu, 0x3a2210ffu};
+static const char *const MT_TABLE_CREAM_SODA_N[] = {"vanilla", "cream", "bubble", "amber", "cherry", "toffee", "caramel"};
+static const unsigned int MT_TABLE_NEAPOLITAN_P[] = {0x1c110bffu, 0x2b1a11ffu, 0x4b3121ffu, 0xc24868ffu, 0xff86a3ffu, 0xbea38affu, 0xebcb8bffu, 0xfdf5e6ffu};
+static const char *const MT_TABLE_NEAPOLITAN_N[] = {"chocolate", "cocoa", "wafer", "berry", "strawberry", "malt", "bean", "vanilla"};
+static const unsigned int MT_TABLE_COTTON_CANDY_P[] = {0xfdf3f8ffu, 0xf6e2efffu, 0xe4ccecffu, 0xcf2f7bffu, 0x2577c6ffu, 0x6c4868ffu, 0x2d1530ffu};
+static const char *const MT_TABLE_COTTON_CANDY_N[] = {"sugar", "fluff", "cloud", "pink", "blue", "stick", "grape"};
 static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
-    {"global-palette", "Global Palette", {0x080808ffu, 0x111118ffu, 0xf0ead8ffu, 0x8a7a8affu, 0x00f5ffffu, 0}},
-    {"global-palette-light", "Global Palette Light", {0xf0ead8ffu, 0xe8e0c8ffu, 0x080808ffu, 0x6a5a52ffu, 0xd82858ffu, 0x4678ffffu}},
-    {"pop-art", "Pop Art", {0x111111ffu, 0, 0xffffffffu, 0, 0xff3800ffu, 0}},
-    {"pop-art-light", "Pop Art Light", {0xffffffffu, 0xf5f0e8ffu, 0x111111ffu, 0x5a5a5affu, 0xff3800ffu, 0x0047ffffu}},
-    {"mtv", "MTV", {0x0a0a0fffu, 0, 0xf0eeffffu, 0, 0xff00ccffu, 0}},
-    {"dorfic", "Dorfic", {0xf8f8f8ffu, 0xf4f4f2ffu, 0x1a1e28ffu, 0x606068ffu, 0xb85e10ffu, 0xc89000ffu}},
-    {"memphis", "Memphis", {0x1a1a1affu, 0, 0xf5f5f0ffu, 0, 0xff2d9bffu, 0}},
-    {"memphis-light", "Memphis Light", {0xf5f5f0ffu, 0xf0e8d8ffu, 0x1a1a1affu, 0x5c5650ffu, 0xff2d9bffu, 0x0057ffffu}},
-    {"city-pop", "City Pop", {0x0d0d2bffu, 0, 0xf0eef8ffu, 0, 0xff4fa0ffu, 0}},
-    {"city-pop-light", "City Pop Light", {0xf0eef8ffu, 0xe4e2f2ffu, 0x0d0d2bffu, 0x5a5a8affu, 0xd8287affu, 0x6b6bffffu}},
-    {"tv", "TV", {0x0a0a08ffu, 0x2a2218ffu, 0xf0ead8ffu, 0x8a7a5affu, 0xffb800ffu, 0xb4dca0ffu}},
-    {"deep-cyan", "Deep Cyan", {0x001a1fffu, 0x012a33ffu, 0xd0f4f8ffu, 0x5fc4d4ffu, 0x03738affu, 0}},
-    {"ultraviolet", "Ultraviolet", {0x10002bffu, 0x6a1bb0ffu, 0xe0aaffffu, 0xb185dbffu, 0x9d4eddffu, 0}},
-    {"emerac", "EMERAC", {0x0a0a0cffu, 0x111118ffu, 0xf0ead8ffu, 0x8a7a8affu, 0x00e5b3ffu, 0xe5b300ffu}},
-    {"ember", "Ember", {0x0a0a0cffu, 0x461400ffu, 0xffc4aaffu, 0xdba185ffu, 0xdd6f4effu, 0}},
-    {"orchid", "Orchid", {0x0a0a0cffu, 0x46002fffu, 0xffaae0ffu, 0xdb85bdffu, 0xdd4ec0ffu, 0}},
-    {"gold", "Gold", {0x0a0a0cffu, 0x473600ffu, 0xffe9a8ffu, 0xdbc585ffu, 0xdeba4fffu, 0}},
-    {"volcano", "Volcano", {0x080808ffu, 0x111118ffu, 0xfff0e8ffu, 0xc8a898ffu, 0xff3d6effu, 0x00f5ffffu}},
-    {"ink", "Ink", {0x000c29ffu, 0x1c48b0ffu, 0xa8c2ffffu, 0x859fdbffu, 0x4f7adeffu, 0}},
-    {"phosphor", "Phosphor", {0x00290affu, 0x004712ffu, 0xa8ffbeffu, 0x85db9bffu, 0x4fde73ffu, 0}},
-    {"crimson", "Crimson", {0x290007ffu, 0x47000cffu, 0xffa8b7ffu, 0xdb8593ffu, 0xde4f67ffu, 0}},
-    {"svfp", "Sex Van Floor Plan", {0x0a0a14ffu, 0x1e2235ffu, 0xf8b0ffffu, 0, 0xd946efffu, 0}},
-    {"fldc", "Fruity Loops Debauchery Collective", {0x10160effu, 0x2a3830ffu, 0xf0f8f0ffu, 0, 0xd06020ffu, 0}},
-    {"woah", "Woah.", {0x0e0c10ffu, 0x3a3028ffu, 0xf8e0d0ffu, 0, 0xff9ec4ffu, 0}},
-    {"ddt-llc", "DDT LLC", {0x0a0a14ffu, 0x5a3a20ffu, 0xfaf4e8ffu, 0, 0xb87840ffu, 0}},
-    {"dino-spumoni", "Dino Spumoni", {0x080a0effu, 0x1e2a38ffu, 0xf4ede0ffu, 0, 0xd4782affu, 0}},
-    {"four-bs", "The Four B's", {0x0c0a04ffu, 0x1a1408ffu, 0xf5f2e8ffu, 0, 0x52b044ffu, 0}},
-    {"juanito-thompson", "Juanito Thompson", {0x0a0a0cffu, 0x1c1e22ffu, 0xf8f0e4ffu, 0, 0xc85a18ffu, 0}},
-    {"audio-sound-paper", "Audio Sound Paper", {0x100b08ffu, 0x2e1e18ffu, 0xf0e0c8ffu, 0, 0xc87858ffu, 0}},
-    {"vinny-bobarino", "Vinny Bobarino", {0x1e2235ffu, 0x2a1a10ffu, 0xf0ead8ffu, 0, 0xe86020ffu, 0}},
-    {"bottle-boys-collective", "Bottle Boys Collective", {0x070906ffu, 0x2a3028ffu, 0xf0e8d8ffu, 0, 0xf0c0a0ffu, 0}},
-    {"c-p-rutledge", "Brother Dynamo", {0x070612ffu, 0x1a1840ffu, 0xf5e8c0ffu, 0, 0xf05a5affu, 0}},
-    {"thld", "Texas Hold'Em Lava Dome", {0x0e0905ffu, 0x1a1209ffu, 0xd4b896ffu, 0x9a7a50ffu, 0xe07a2fffu, 0}},
-    {"dag-henderson", "Dag Henderson", {0x080a06ffu, 0x1e2818ffu, 0xf0ece0ffu, 0xa0b0a8ffu, 0x789060ffu, 0}},
-    {"jon-mccoy", "Jon McCoy", {0x484e58ffu, 0x2e3540ffu, 0xe8ddd0ffu, 0xc0ccd8ffu, 0xb0c8b8ffu, 0}},
-    {"melrose-house", "Melrose House", {0x0c0d0fffu, 0x2a2c30ffu, 0xc8d4e0ffu, 0x9080a0ffu, 0x6878a0ffu, 0}},
-    {"twin-maples", "Twin Maples", {0x0c0f0dffu, 0x3a4a38ffu, 0xd4d8c8ffu, 0x8a9878ffu, 0xc07848ffu, 0}},
-    {"college-green-apt", "College Green Apt.", {0x0e0c0affu, 0x382e28ffu, 0xf8f4e8ffu, 0xa09080ffu, 0xc07838ffu, 0}},
-    {"marvin-gardens-g12", "Marvin Gardens G12", {0x0c0a12ffu, 0x4a2830ffu, 0xf080a0ffu, 0, 0xd04878ffu, 0}},
-    {"green-street-apt", "Green Street Apt.", {0x0e0c0affu, 0x382e28ffu, 0xe8e0ccffu, 0xa09080ffu, 0xc07838ffu, 0}},
-    {"irvin-house", "Irvin House", {0x0c0e10ffu, 0x4a5058ffu, 0xdce8f0ffu, 0x9098a0ffu, 0x80b8c8ffu, 0}},
-    {"the-tuna-can", "The Tuna Can", {0x0e0d09ffu, 0x2e2c20ffu, 0xe8d890ffu, 0xa8a870ffu, 0xb87828ffu, 0}},
-    {"frogwood-manor", "Frogwood Manor", {0x0c0810ffu, 0x2a2a50ffu, 0xf8e8d8ffu, 0x9888a0ffu, 0xa85a18ffu, 0}},
-    {"george-boole-game-boy", "George Boole: Game Boy", {0x0f380fffu, 0x306230ffu, 0x9bbc0fffu, 0, 0x9bbc0fffu, 0}},
-    {"george-boole-nes", "George Boole: NES", {0x2a2a4affu, 0x3a3a6affu, 0xffd700ffu, 0, 0xff6347ffu, 0}},
-    {"george-boole-snes", "George Boole: SNES", {0x0f0f1effu, 0x1a1a3effu, 0xe0e0ffffu, 0, 0x8a2be2ffu, 0}},
-    {"george-boole-genesis", "George Boole: Genesis", {0x001a33ffu, 0x003366ffu, 0xffd700ffu, 0, 0x4169e1ffu, 0}},
-    {"george-boole-arcade", "George Boole: Arcade", {0x1a0800ffu, 0x331000ffu, 0xffa500ffu, 0, 0xcc2200ffu, 0}},
-    {"george-boole-neo-geo", "George Boole: Neo Geo", {0x1a0020ffu, 0x2a0040ffu, 0x00ffffffu, 0, 0xff1493ffu, 0}},
-    {"george-boole-ps1", "George Boole: PS1", {0x1a1a1affu, 0x2d2d2dffu, 0xc0c0c0ffu, 0, 0xffd700ffu, 0}},
-    {"george-boole-matrix", "George Boole: Matrix", {0x000000ffu, 0x001a00ffu, 0x00ff00ffu, 0, 0x00ff00ffu, 0}},
-    {"parchisi", "Parchisi", {0x1a0a0affu, 0x2a1210ffu, 0xf0ead8ffu, 0xa88a7fffu, 0xf1bf00ffu, 0}},
-    {"aggravation", "Aggravation", {0x0a0612ffu, 0x150b29ffu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xffe03affu, 0}},
-    {"sorry", "SORRY", {0, 0, 0xfff5e1ffu, 0, 0xff2d55ffu, 0x6cd4f5ffu}},
-    {"american-spirit", "American Spirit", {0x1a1a18ffu, 0x2e6a88ffu, 0xf8f4eeffu, 0, 0x5b9db8ffu, 0}},
-    {"american-spirit-light", "American Spirit Light", {0xf5ede0ffu, 0xeee0c8ffu, 0x3a2810ffu, 0x7a5a2affu, 0x2e6a88ffu, 0x8b1a1affu}},
-    {"pay2play", "pay2play", {0x080510ffu, 0, 0xffffffffu, 0, 0xcc2a88ffu, 0}},
-    {"moonlight-drift", "Moonlight Drift", {0x0f0c29ffu, 0x2a3a5affu, 0xffffffffu, 0x7a89a8ffu, 0x00d4ffffu, 0xffd700ffu}},
-    {"caldera", "Caldera", {0x0b0605ffu, 0x1a100cffu, 0xfff3d0ffu, 0xb39880ffu, 0xff6a1fffu, 0xffd9a0ffu}},
-    {"french-tarot", "French Tarot", {0x0a0612ffu, 0x150b29ffu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00e5ffffu, 0xffd700ffu}},
-    {"cribbage", "Cribbage", {0x1a0f0affu, 0x2d1f15ffu, 0xf5f5dcffu, 0xa39e81ffu, 0xffd700ffu, 0x00f5ffffu}},
-    {"scandinavian-stud", "Scandinavian Stud", {0x0a1628ffu, 0x1a2a44ffu, 0xf0ead8ffu, 0x7f97a3ffu, 0x00f5ffffu, 0xffe03affu}},
-    {"chess", "Chess", {0xfbf4e2ffu, 0xfbf4e2ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu}},
-    {"checkers", "Checkers", {0x041008ffu, 0x07180cffu, 0x9dffa0ffu, 0x57b96affu, 0x9dffa0ffu, 0xc8ffc4ffu}},
-    {"backgammon", "Backgammon", {0x0055aaffu, 0x0055aaffu, 0xffffffffu, 0xffffffffu, 0xff8800ffu, 0xffffffffu}},
-    {"chinese-checkers", "Chinese Checkers", {0x2e2c9bffu, 0x706debffu, 0xb4b2f8ffu, 0xb4b2f8ffu, 0xffffffffu, 0xedf171ffu}},
-    {"fifteen-puzzle", "15 Puzzle", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00f5ffffu, 0xffe03affu}},
-    {"threes", "Threes", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00f5ffffu, 0xffe03affu}},
-    {"klotski", "Klotski", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xff2d4affu, 0xffd700ffu}},
-    {"two-to-the-n", "2^N", {0x150008ffu, 0x1a0040ffu, 0xffffffffu, 0xf07ad0ffu, 0x14b8ffffu, 0xffd54affu}},
-    {"solitaire", "Klondike Solitaire", {0x001e1effu, 0x003838ffu, 0xe0e0e0ffu, 0xc0c0c0ffu, 0xff2d78ffu, 0x00e5ffffu}},
-    {"nelikko", "Nelikko", {0x0e1820ffu, 0x131f28ffu, 0xd0dde0ffu, 0x7a9badffu, 0xafcbd3ffu, 0xd4c89affu}},
-    {"makemecookies", "MAKEMECOOKIES!X4", {0x180c18ffu, 0x26122affu, 0xead9ecffu, 0x9a7ba2ffu, 0xff2e9cffu, 0xffc93cffu}},
-    {"cave-diving", "Cave Diving", {0x030b10ffu, 0x071820ffu, 0xdcefeeffu, 0x5d7a80ffu, 0x3fe0d0ffu, 0xfff3c4ffu}},
-    {"grocery-harrison", "Grocery Harrison", {0x0b1211ffu, 0x2b3533ffu, 0xfff6dcffu, 0xc9a227ffu, 0xffd84affu, 0xa8e6ffffu}},
-    {"jovian-humanitarian-conflict", "The Jovian Humanitarian Conflict", {0x05060fffu, 0x0d1230ffu, 0xe8eeffffu, 0x6b7699ffu, 0xffc247ffu, 0x5ff0ffffu}},
-    {"roderick-tron", "Roderick Tron", {0x080808ffu, 0x1a1028ffu, 0xf0ead8ffu, 0xc8a24affu, 0x00f5ffffu, 0xffe03affu}},
-    {"very-long-boards", "Very Long Boards", {0x0a0612ffu, 0x1a0f24ffu, 0xffffffffu, 0x888888ffu, 0xff2e9cffu, 0xffe03affu}},
-    {"grape-soda", "Grape Soda", {0x120a1cffu, 0x1f1232ffu, 0xf3e9ffffu, 0xab94ccffu, 0xa456ffffu, 0xff6fd6ffu}},
-    {"orange-soda", "Orange Soda", {0x0c1424ffu, 0x16233affu, 0xfff4e4ffu, 0x9fb2cdffu, 0xff8b24ffu, 0xffd84dffu}},
-    {"cream-soda", "Cream Soda", {0xfbf4e2ffu, 0xf2e5c3ffu, 0x3a2210ffu, 0x71503affu, 0xa85d06ffu, 0xb8304fffu}},
-    {"neapolitan", "Neapolitan", {0x1c110bffu, 0x2b1a11ffu, 0xfdf5e6ffu, 0xbea38affu, 0xff86a3ffu, 0xebcb8bffu}},
-    {"cotton-candy", "Cotton Candy", {0xfdf3f8ffu, 0xf6e2efffu, 0x2d1530ffu, 0x6c4868ffu, 0xcf2f7bffu, 0x2577c6ffu}},
+    {"global-palette", "Global Palette", {0x080808ffu, 0x111118ffu, 0xf0ead8ffu, 0x8a7a8affu, 0x00f5ffffu, 0}, MT_TABLE_GLOBAL_PALETTE_P, MT_TABLE_GLOBAL_PALETTE_N, 49},
+    {"global-palette-light", "Global Palette Light", {0xf0ead8ffu, 0xe8e0c8ffu, 0x080808ffu, 0x6a5a52ffu, 0xd82858ffu, 0x4678ffffu}, MT_TABLE_GLOBAL_PALETTE_LIGHT_P, MT_TABLE_GLOBAL_PALETTE_LIGHT_N, 13},
+    {"pop-art", "Pop Art", {0x111111ffu, 0, 0xffffffffu, 0, 0xff3800ffu, 0}, MT_TABLE_POP_ART_P, MT_TABLE_POP_ART_N, 27},
+    {"pop-art-light", "Pop Art Light", {0xffffffffu, 0xf5f0e8ffu, 0x111111ffu, 0x5a5a5affu, 0xff3800ffu, 0x0047ffffu}, MT_TABLE_POP_ART_LIGHT_P, MT_TABLE_POP_ART_LIGHT_N, 11},
+    {"mtv", "MTV", {0x0a0a0fffu, 0, 0xf0eeffffu, 0, 0xff00ccffu, 0}, MT_TABLE_MTV_P, MT_TABLE_MTV_N, 22},
+    {"dorfic", "Dorfic", {0xf8f8f8ffu, 0xf4f4f2ffu, 0x1a1e28ffu, 0x606068ffu, 0xb85e10ffu, 0xc89000ffu}, MT_TABLE_DORFIC_P, MT_TABLE_DORFIC_N, 30},
+    {"memphis", "Memphis", {0x1a1a1affu, 0, 0xf5f5f0ffu, 0, 0xff2d9bffu, 0}, MT_TABLE_MEMPHIS_P, MT_TABLE_MEMPHIS_N, 20},
+    {"memphis-light", "Memphis Light", {0xf5f5f0ffu, 0xf0e8d8ffu, 0x1a1a1affu, 0x5c5650ffu, 0xff2d9bffu, 0x0057ffffu}, MT_TABLE_MEMPHIS_LIGHT_P, MT_TABLE_MEMPHIS_LIGHT_N, 11},
+    {"city-pop", "City Pop", {0x0d0d2bffu, 0, 0xf0eef8ffu, 0, 0xff4fa0ffu, 0}, MT_TABLE_CITY_POP_P, MT_TABLE_CITY_POP_N, 20},
+    {"city-pop-light", "City Pop Light", {0xf0eef8ffu, 0xe4e2f2ffu, 0x0d0d2bffu, 0x5a5a8affu, 0xd8287affu, 0x6b6bffffu}, MT_TABLE_CITY_POP_LIGHT_P, MT_TABLE_CITY_POP_LIGHT_N, 9},
+    {"tv", "TV", {0x0a0a08ffu, 0x2a2218ffu, 0xf0ead8ffu, 0x8a7a5affu, 0xffb800ffu, 0xb4dca0ffu}, MT_TABLE_TV_P, MT_TABLE_TV_N, 24},
+    {"deep-cyan", "Deep Cyan", {0x001a1fffu, 0x012a33ffu, 0xd0f4f8ffu, 0x5fc4d4ffu, 0x03738affu, 0}, MT_TABLE_DEEP_CYAN_P, MT_TABLE_DEEP_CYAN_N, 10},
+    {"ultraviolet", "Ultraviolet", {0x10002bffu, 0x6a1bb0ffu, 0xe0aaffffu, 0xb185dbffu, 0x9d4eddffu, 0}, MT_TABLE_ULTRAVIOLET_P, MT_TABLE_ULTRAVIOLET_N, 10},
+    {"emerac", "EMERAC", {0x0a0a0cffu, 0x111118ffu, 0xf0ead8ffu, 0x8a7a8affu, 0x00e5b3ffu, 0xe5b300ffu}, MT_TABLE_EMERAC_P, MT_TABLE_EMERAC_N, 11},
+    {"ember", "Ember", {0x0a0a0cffu, 0x461400ffu, 0xffc4aaffu, 0xdba185ffu, 0xdd6f4effu, 0}, MT_TABLE_EMBER_P, MT_TABLE_EMBER_N, 10},
+    {"orchid", "Orchid", {0x0a0a0cffu, 0x46002fffu, 0xffaae0ffu, 0xdb85bdffu, 0xdd4ec0ffu, 0}, MT_TABLE_ORCHID_P, MT_TABLE_ORCHID_N, 10},
+    {"gold", "Gold", {0x0a0a0cffu, 0x473600ffu, 0xffe9a8ffu, 0xdbc585ffu, 0xdeba4fffu, 0}, MT_TABLE_GOLD_P, MT_TABLE_GOLD_N, 10},
+    {"volcano", "Volcano", {0x080808ffu, 0x111118ffu, 0xfff0e8ffu, 0xc8a898ffu, 0xff3d6effu, 0x00f5ffffu}, MT_TABLE_VOLCANO_P, MT_TABLE_VOLCANO_N, 10},
+    {"ink", "Ink", {0x000c29ffu, 0x1c48b0ffu, 0xa8c2ffffu, 0x859fdbffu, 0x4f7adeffu, 0}, MT_TABLE_INK_P, MT_TABLE_INK_N, 10},
+    {"phosphor", "Phosphor", {0x00290affu, 0x004712ffu, 0xa8ffbeffu, 0x85db9bffu, 0x4fde73ffu, 0}, MT_TABLE_PHOSPHOR_P, MT_TABLE_PHOSPHOR_N, 10},
+    {"crimson", "Crimson", {0x290007ffu, 0x47000cffu, 0xffa8b7ffu, 0xdb8593ffu, 0xde4f67ffu, 0}, MT_TABLE_CRIMSON_P, MT_TABLE_CRIMSON_N, 10},
+    {"svfp", "Sex Van Floor Plan", {0x0a0a14ffu, 0x1e2235ffu, 0xf8b0ffffu, 0, 0xd946efffu, 0}, MT_TABLE_SVFP_P, MT_TABLE_SVFP_N, 22},
+    {"fldc", "Fruity Loops Debauchery Collective", {0x10160effu, 0x2a3830ffu, 0xf0f8f0ffu, 0, 0xd06020ffu, 0}, MT_TABLE_FLDC_P, MT_TABLE_FLDC_N, 26},
+    {"woah", "Woah.", {0x0e0c10ffu, 0x3a3028ffu, 0xf8e0d0ffu, 0, 0xff9ec4ffu, 0}, MT_TABLE_WOAH_P, MT_TABLE_WOAH_N, 22},
+    {"ddt-llc", "DDT LLC", {0x0a0a14ffu, 0x5a3a20ffu, 0xfaf4e8ffu, 0, 0xb87840ffu, 0}, MT_TABLE_DDT_LLC_P, MT_TABLE_DDT_LLC_N, 10},
+    {"dino-spumoni", "Dino Spumoni", {0x080a0effu, 0x1e2a38ffu, 0xf4ede0ffu, 0, 0xd4782affu, 0}, MT_TABLE_DINO_SPUMONI_P, MT_TABLE_DINO_SPUMONI_N, 21},
+    {"four-bs", "The Four B's", {0x0c0a04ffu, 0x1a1408ffu, 0xf5f2e8ffu, 0, 0x52b044ffu, 0}, MT_TABLE_FOUR_BS_P, MT_TABLE_FOUR_BS_N, 14},
+    {"juanito-thompson", "Juanito Thompson", {0x0a0a0cffu, 0x1c1e22ffu, 0xf8f0e4ffu, 0, 0xc85a18ffu, 0}, MT_TABLE_JUANITO_THOMPSON_P, MT_TABLE_JUANITO_THOMPSON_N, 19},
+    {"audio-sound-paper", "Audio Sound Paper", {0x100b08ffu, 0x2e1e18ffu, 0xf0e0c8ffu, 0, 0xc87858ffu, 0}, MT_TABLE_AUDIO_SOUND_PAPER_P, MT_TABLE_AUDIO_SOUND_PAPER_N, 22},
+    {"vinny-bobarino", "Vinny Bobarino", {0x1e2235ffu, 0x2a1a10ffu, 0xf0ead8ffu, 0, 0xe86020ffu, 0}, MT_TABLE_VINNY_BOBARINO_P, MT_TABLE_VINNY_BOBARINO_N, 20},
+    {"bottle-boys-collective", "Bottle Boys Collective", {0x070906ffu, 0x2a3028ffu, 0xf0e8d8ffu, 0, 0xf0c0a0ffu, 0}, MT_TABLE_BOTTLE_BOYS_COLLECTIVE_P, MT_TABLE_BOTTLE_BOYS_COLLECTIVE_N, 27},
+    {"c-p-rutledge", "Brother Dynamo", {0x070612ffu, 0x1a1840ffu, 0xf5e8c0ffu, 0, 0xf05a5affu, 0}, MT_TABLE_C_P_RUTLEDGE_P, MT_TABLE_C_P_RUTLEDGE_N, 21},
+    {"thld", "Texas Hold'Em Lava Dome", {0x0e0905ffu, 0x1a1209ffu, 0xd4b896ffu, 0x9a7a50ffu, 0xe07a2fffu, 0}, MT_TABLE_THLD_P, MT_TABLE_THLD_N, 24},
+    {"dag-henderson", "Dag Henderson", {0x080a06ffu, 0x1e2818ffu, 0xf0ece0ffu, 0xa0b0a8ffu, 0x789060ffu, 0}, MT_TABLE_DAG_HENDERSON_P, MT_TABLE_DAG_HENDERSON_N, 22},
+    {"jon-mccoy", "Jon McCoy", {0x484e58ffu, 0x2e3540ffu, 0xe8ddd0ffu, 0xc0ccd8ffu, 0xb0c8b8ffu, 0}, MT_TABLE_JON_MCCOY_P, MT_TABLE_JON_MCCOY_N, 25},
+    {"melrose-house", "Melrose House", {0x0c0d0fffu, 0x2a2c30ffu, 0xc8d4e0ffu, 0x9080a0ffu, 0x6878a0ffu, 0}, MT_TABLE_MELROSE_HOUSE_P, MT_TABLE_MELROSE_HOUSE_N, 18},
+    {"twin-maples", "Twin Maples", {0x0c0f0dffu, 0x3a4a38ffu, 0xd4d8c8ffu, 0x8a9878ffu, 0xc07848ffu, 0}, MT_TABLE_TWIN_MAPLES_P, MT_TABLE_TWIN_MAPLES_N, 16},
+    {"college-green-apt", "College Green Apt.", {0x0e0c0affu, 0x382e28ffu, 0xf8f4e8ffu, 0xa09080ffu, 0xc07838ffu, 0}, MT_TABLE_COLLEGE_GREEN_APT_P, MT_TABLE_COLLEGE_GREEN_APT_N, 20},
+    {"marvin-gardens-g12", "Marvin Gardens G12", {0x0c0a12ffu, 0x4a2830ffu, 0xf080a0ffu, 0, 0xd04878ffu, 0}, MT_TABLE_MARVIN_GARDENS_G12_P, MT_TABLE_MARVIN_GARDENS_G12_N, 16},
+    {"green-street-apt", "Green Street Apt.", {0x0e0c0affu, 0x382e28ffu, 0xe8e0ccffu, 0xa09080ffu, 0xc07838ffu, 0}, MT_TABLE_GREEN_STREET_APT_P, MT_TABLE_GREEN_STREET_APT_N, 16},
+    {"irvin-house", "Irvin House", {0x0c0e10ffu, 0x4a5058ffu, 0xdce8f0ffu, 0x9098a0ffu, 0x80b8c8ffu, 0}, MT_TABLE_IRVIN_HOUSE_P, MT_TABLE_IRVIN_HOUSE_N, 16},
+    {"the-tuna-can", "The Tuna Can", {0x0e0d09ffu, 0x2e2c20ffu, 0xe8d890ffu, 0xa8a870ffu, 0xb87828ffu, 0}, MT_TABLE_THE_TUNA_CAN_P, MT_TABLE_THE_TUNA_CAN_N, 20},
+    {"frogwood-manor", "Frogwood Manor", {0x0c0810ffu, 0x2a2a50ffu, 0xf8e8d8ffu, 0x9888a0ffu, 0xa85a18ffu, 0}, MT_TABLE_FROGWOOD_MANOR_P, MT_TABLE_FROGWOOD_MANOR_N, 19},
+    {"george-boole-game-boy", "George Boole: Game Boy", {0x0f380fffu, 0x306230ffu, 0x9bbc0fffu, 0, 0x9bbc0fffu, 0}, MT_TABLE_GEORGE_BOOLE_GAME_BOY_P, MT_TABLE_GEORGE_BOOLE_GAME_BOY_N, 4},
+    {"george-boole-nes", "George Boole: NES", {0x2a2a4affu, 0x3a3a6affu, 0xffd700ffu, 0, 0xff6347ffu, 0}, MT_TABLE_GEORGE_BOOLE_NES_P, MT_TABLE_GEORGE_BOOLE_NES_N, 5},
+    {"george-boole-snes", "George Boole: SNES", {0x0f0f1effu, 0x1a1a3effu, 0xe0e0ffffu, 0, 0x8a2be2ffu, 0}, MT_TABLE_GEORGE_BOOLE_SNES_P, MT_TABLE_GEORGE_BOOLE_SNES_N, 4},
+    {"george-boole-genesis", "George Boole: Genesis", {0x001a33ffu, 0x003366ffu, 0xffd700ffu, 0, 0x4169e1ffu, 0}, MT_TABLE_GEORGE_BOOLE_GENESIS_P, MT_TABLE_GEORGE_BOOLE_GENESIS_N, 4},
+    {"george-boole-arcade", "George Boole: Arcade", {0x1a0800ffu, 0x331000ffu, 0xffa500ffu, 0, 0xcc2200ffu, 0}, MT_TABLE_GEORGE_BOOLE_ARCADE_P, MT_TABLE_GEORGE_BOOLE_ARCADE_N, 4},
+    {"george-boole-neo-geo", "George Boole: Neo Geo", {0x1a0020ffu, 0x2a0040ffu, 0x00ffffffu, 0, 0xff1493ffu, 0}, MT_TABLE_GEORGE_BOOLE_NEO_GEO_P, MT_TABLE_GEORGE_BOOLE_NEO_GEO_N, 5},
+    {"george-boole-ps1", "George Boole: PS1", {0x1a1a1affu, 0x2d2d2dffu, 0xc0c0c0ffu, 0, 0xffd700ffu, 0}, MT_TABLE_GEORGE_BOOLE_PS1_P, MT_TABLE_GEORGE_BOOLE_PS1_N, 4},
+    {"george-boole-matrix", "George Boole: Matrix", {0x000000ffu, 0x001a00ffu, 0x00ff00ffu, 0, 0x00ff00ffu, 0}, MT_TABLE_GEORGE_BOOLE_MATRIX_P, MT_TABLE_GEORGE_BOOLE_MATRIX_N, 3},
+    {"parchisi", "Parchisi", {0x1a0a0affu, 0x2a1210ffu, 0xf0ead8ffu, 0xa88a7fffu, 0xf1bf00ffu, 0}, MT_TABLE_PARCHISI_P, MT_TABLE_PARCHISI_N, 10},
+    {"aggravation", "Aggravation", {0x0a0612ffu, 0x150b29ffu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xffe03affu, 0}, MT_TABLE_AGGRAVATION_P, MT_TABLE_AGGRAVATION_N, 12},
+    {"sorry", "SORRY", {0, 0, 0xfff5e1ffu, 0, 0xff2d55ffu, 0x6cd4f5ffu}, MT_TABLE_SORRY_P, MT_TABLE_SORRY_N, 12},
+    {"american-spirit", "American Spirit", {0x1a1a18ffu, 0x2e6a88ffu, 0xf8f4eeffu, 0, 0x5b9db8ffu, 0}, MT_TABLE_AMERICAN_SPIRIT_P, MT_TABLE_AMERICAN_SPIRIT_N, 20},
+    {"american-spirit-light", "American Spirit Light", {0xf5ede0ffu, 0xeee0c8ffu, 0x3a2810ffu, 0x7a5a2affu, 0x2e6a88ffu, 0x8b1a1affu}, MT_TABLE_AMERICAN_SPIRIT_LIGHT_P, MT_TABLE_AMERICAN_SPIRIT_LIGHT_N, 11},
+    {"pay2play", "pay2play", {0x080510ffu, 0, 0xffffffffu, 0, 0xcc2a88ffu, 0}, MT_TABLE_PAY2PLAY_P, MT_TABLE_PAY2PLAY_N, 21},
+    {"moonlight-drift", "Moonlight Drift", {0x0f0c29ffu, 0x2a3a5affu, 0xffffffffu, 0x7a89a8ffu, 0x00d4ffffu, 0xffd700ffu}, MT_TABLE_MOONLIGHT_DRIFT_P, MT_TABLE_MOONLIGHT_DRIFT_N, 14},
+    {"caldera", "Caldera", {0x0b0605ffu, 0x1a100cffu, 0xfff3d0ffu, 0xb39880ffu, 0xff6a1fffu, 0xffd9a0ffu}, MT_TABLE_CALDERA_P, MT_TABLE_CALDERA_N, 14},
+    {"french-tarot", "French Tarot", {0x0a0612ffu, 0x150b29ffu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00e5ffffu, 0xffd700ffu}, MT_TABLE_FRENCH_TAROT_P, MT_TABLE_FRENCH_TAROT_N, 14},
+    {"cribbage", "Cribbage", {0x1a0f0affu, 0x2d1f15ffu, 0xf5f5dcffu, 0xa39e81ffu, 0xffd700ffu, 0x00f5ffffu}, MT_TABLE_CRIBBAGE_P, MT_TABLE_CRIBBAGE_N, 16},
+    {"scandinavian-stud", "Scandinavian Stud", {0x0a1628ffu, 0x1a2a44ffu, 0xf0ead8ffu, 0x7f97a3ffu, 0x00f5ffffu, 0xffe03affu}, MT_TABLE_SCANDINAVIAN_STUD_P, MT_TABLE_SCANDINAVIAN_STUD_N, 12},
+    {"chess", "Chess", {0xfbf4e2ffu, 0xfbf4e2ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu}, MT_TABLE_CHESS_P, MT_TABLE_CHESS_N, 8},
+    {"checkers", "Checkers", {0x041008ffu, 0x07180cffu, 0x9dffa0ffu, 0x57b96affu, 0x9dffa0ffu, 0xc8ffc4ffu}, MT_TABLE_CHECKERS_P, MT_TABLE_CHECKERS_N, 8},
+    {"backgammon", "Backgammon", {0x0055aaffu, 0x0055aaffu, 0xffffffffu, 0xffffffffu, 0xff8800ffu, 0xffffffffu}, MT_TABLE_BACKGAMMON_P, MT_TABLE_BACKGAMMON_N, 8},
+    {"chinese-checkers", "Chinese Checkers", {0x2e2c9bffu, 0x706debffu, 0xb4b2f8ffu, 0xb4b2f8ffu, 0xffffffffu, 0xedf171ffu}, MT_TABLE_CHINESE_CHECKERS_P, MT_TABLE_CHINESE_CHECKERS_N, 8},
+    {"fifteen-puzzle", "15 Puzzle", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00f5ffffu, 0xffe03affu}, MT_TABLE_FIFTEEN_PUZZLE_P, MT_TABLE_FIFTEEN_PUZZLE_N, 13},
+    {"threes", "Threes", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00f5ffffu, 0xffe03affu}, MT_TABLE_THREES_P, MT_TABLE_THREES_N, 16},
+    {"klotski", "Klotski", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xff2d4affu, 0xffd700ffu}, MT_TABLE_KLOTSKI_P, MT_TABLE_KLOTSKI_N, 12},
+    {"two-to-the-n", "2^N", {0x150008ffu, 0x1a0040ffu, 0xffffffffu, 0xf07ad0ffu, 0x14b8ffffu, 0xffd54affu}, MT_TABLE_TWO_TO_THE_N_P, MT_TABLE_TWO_TO_THE_N_N, 11},
+    {"solitaire", "Klondike Solitaire", {0x001e1effu, 0x003838ffu, 0xe0e0e0ffu, 0xc0c0c0ffu, 0xff2d78ffu, 0x00e5ffffu}, MT_TABLE_SOLITAIRE_P, MT_TABLE_SOLITAIRE_N, 15},
+    {"nelikko", "Nelikko", {0x0e1820ffu, 0x131f28ffu, 0xd0dde0ffu, 0x7a9badffu, 0xafcbd3ffu, 0xd4c89affu}, MT_TABLE_NELIKKO_P, MT_TABLE_NELIKKO_N, 13},
+    {"makemecookies", "MAKEMECOOKIES!X4", {0x180c18ffu, 0x26122affu, 0xead9ecffu, 0x9a7ba2ffu, 0xff2e9cffu, 0xffc93cffu}, MT_TABLE_MAKEMECOOKIES_P, MT_TABLE_MAKEMECOOKIES_N, 14},
+    {"cave-diving", "Cave Diving", {0x030b10ffu, 0x071820ffu, 0xdcefeeffu, 0x5d7a80ffu, 0x3fe0d0ffu, 0xfff3c4ffu}, MT_TABLE_CAVE_DIVING_P, MT_TABLE_CAVE_DIVING_N, 10},
+    {"grocery-harrison", "Grocery Harrison", {0x0b1211ffu, 0x2b3533ffu, 0xfff6dcffu, 0xc9a227ffu, 0xffd84affu, 0xa8e6ffffu}, MT_TABLE_GROCERY_HARRISON_P, MT_TABLE_GROCERY_HARRISON_N, 10},
+    {"jovian-humanitarian-conflict", "The Jovian Humanitarian Conflict", {0x05060fffu, 0x0d1230ffu, 0xe8eeffffu, 0x6b7699ffu, 0xffc247ffu, 0x5ff0ffffu}, MT_TABLE_JOVIAN_HUMANITARIAN_CONFLICT_P, MT_TABLE_JOVIAN_HUMANITARIAN_CONFLICT_N, 8},
+    {"roderick-tron", "Roderick Tron", {0x080808ffu, 0x1a1028ffu, 0xf0ead8ffu, 0xc8a24affu, 0x00f5ffffu, 0xffe03affu}, MT_TABLE_RODERICK_TRON_P, MT_TABLE_RODERICK_TRON_N, 11},
+    {"very-long-boards", "Very Long Boards", {0x0a0612ffu, 0x1a0f24ffu, 0xffffffffu, 0x888888ffu, 0xff2e9cffu, 0xffe03affu}, MT_TABLE_VERY_LONG_BOARDS_P, MT_TABLE_VERY_LONG_BOARDS_N, 10},
+    {"grape-soda", "Grape Soda", {0x120a1cffu, 0x1f1232ffu, 0xf3e9ffffu, 0xab94ccffu, 0xa456ffffu, 0xff6fd6ffu}, MT_TABLE_GRAPE_SODA_P, MT_TABLE_GRAPE_SODA_N, 8},
+    {"orange-soda", "Orange Soda", {0x0c1424ffu, 0x16233affu, 0xfff4e4ffu, 0x9fb2cdffu, 0xff8b24ffu, 0xffd84dffu}, MT_TABLE_ORANGE_SODA_P, MT_TABLE_ORANGE_SODA_N, 8},
+    {"cream-soda", "Cream Soda", {0xfbf4e2ffu, 0xf2e5c3ffu, 0x3a2210ffu, 0x71503affu, 0xa85d06ffu, 0xb8304fffu}, MT_TABLE_CREAM_SODA_P, MT_TABLE_CREAM_SODA_N, 7},
+    {"neapolitan", "Neapolitan", {0x1c110bffu, 0x2b1a11ffu, 0xfdf5e6ffu, 0xbea38affu, 0xff86a3ffu, 0xebcb8bffu}, MT_TABLE_NEAPOLITAN_P, MT_TABLE_NEAPOLITAN_N, 8},
+    {"cotton-candy", "Cotton Candy", {0xfdf3f8ffu, 0xf6e2efffu, 0x2d1530ffu, 0x6c4868ffu, 0xcf2f7bffu, 0x2577c6ffu}, MT_TABLE_COTTON_CANDY_P, MT_TABLE_COTTON_CANDY_N, 7},
 };
 #endif
 
