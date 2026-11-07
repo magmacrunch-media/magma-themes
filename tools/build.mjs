@@ -159,8 +159,38 @@ function header() {
     }
     lines.push('');
   }
+  lines.push(...table());
   lines.push('#endif /* MAGMA_THEMES_H */', '');
   return lines.join('\n');
+}
+
+// The same roles as a table, for a program that chooses a theme by name while
+// it runs (a game's editor offering a list). Opt in: a static array in every
+// file that included this would be an unused-variable error under -Werror.
+function table() {
+  const role = (t, r) => (t.roles[r] ? rgba(colourOf(t, t.roles[r])) : '0');
+  const str = (s) => JSON.stringify(s);
+  const rows = painted.map((t) => `    {${str(t.slug)}, ${str(t.name)}, {${ROLES.map((r) => role(t, r)).join(', ')}}},`);
+  return [
+    '/* Every theme by slug, with its roles in the order of MT_ROLE_*, as the',
+    ' * theme designed them (not the _TV forms). A role the theme lacks is 0,',
+    ' * which no colour here can be, since each is fully opaque. Define',
+    ' * MAGMA_THEMES_TABLE before including this, in the one file that wants it. */',
+    ...ROLES.map((r, i) => `#define MT_ROLE_${cid(r)} ${i}`),
+    `#define MT_ROLE_COUNT ${ROLES.length}`,
+    `#define MAGMA_THEMES_COUNT ${painted.length}`,
+    '#ifdef MAGMA_THEMES_TABLE',
+    'typedef struct MagmaTheme {',
+    '    const char *slug;',
+    '    const char *name;',
+    `    unsigned int role[${ROLES.length}];`,
+    '} MagmaTheme;',
+    'static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {',
+    ...rows,
+    '};',
+    '#endif',
+    '',
+  ];
 }
 
 // ---- tv-report.txt ---------------------------------------------------------

@@ -3427,4 +3427,109 @@
 #define MT_COTTON_CANDY_P_GRAPE 0x2d1530ffu
 #define MT_COTTON_CANDY_P_GRAPE_TV 0x2d1530ffu
 
+/* Every theme by slug, with its roles in the order of MT_ROLE_*, as the
+ * theme designed them (not the _TV forms). A role the theme lacks is 0,
+ * which no colour here can be, since each is fully opaque. Define
+ * MAGMA_THEMES_TABLE before including this, in the one file that wants it. */
+#define MT_ROLE_BG 0
+#define MT_ROLE_SURFACE 1
+#define MT_ROLE_TEXT 2
+#define MT_ROLE_MUTED 3
+#define MT_ROLE_ACCENT 4
+#define MT_ROLE_ACCENT2 5
+#define MT_ROLE_COUNT 6
+#define MAGMA_THEMES_COUNT 83
+#ifdef MAGMA_THEMES_TABLE
+typedef struct MagmaTheme {
+    const char *slug;
+    const char *name;
+    unsigned int role[6];
+} MagmaTheme;
+static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
+    {"global-palette", "Global Palette", {0x080808ffu, 0x111118ffu, 0xf0ead8ffu, 0x8a7a8affu, 0x00f5ffffu, 0}},
+    {"global-palette-light", "Global Palette Light", {0xf0ead8ffu, 0xe8e0c8ffu, 0x080808ffu, 0x6a5a52ffu, 0xd82858ffu, 0x4678ffffu}},
+    {"pop-art", "Pop Art", {0x111111ffu, 0, 0xffffffffu, 0, 0xff3800ffu, 0}},
+    {"pop-art-light", "Pop Art Light", {0xffffffffu, 0xf5f0e8ffu, 0x111111ffu, 0x5a5a5affu, 0xff3800ffu, 0x0047ffffu}},
+    {"mtv", "MTV", {0x0a0a0fffu, 0, 0xf0eeffffu, 0, 0xff00ccffu, 0}},
+    {"dorfic", "Dorfic", {0xf8f8f8ffu, 0xf4f4f2ffu, 0x1a1e28ffu, 0x606068ffu, 0xb85e10ffu, 0xc89000ffu}},
+    {"memphis", "Memphis", {0x1a1a1affu, 0, 0xf5f5f0ffu, 0, 0xff2d9bffu, 0}},
+    {"memphis-light", "Memphis Light", {0xf5f5f0ffu, 0xf0e8d8ffu, 0x1a1a1affu, 0x5c5650ffu, 0xff2d9bffu, 0x0057ffffu}},
+    {"city-pop", "City Pop", {0x0d0d2bffu, 0, 0xf0eef8ffu, 0, 0xff4fa0ffu, 0}},
+    {"city-pop-light", "City Pop Light", {0xf0eef8ffu, 0xe4e2f2ffu, 0x0d0d2bffu, 0x5a5a8affu, 0xd8287affu, 0x6b6bffffu}},
+    {"tv", "TV", {0x0a0a08ffu, 0x2a2218ffu, 0xf0ead8ffu, 0x8a7a5affu, 0xffb800ffu, 0xb4dca0ffu}},
+    {"deep-cyan", "Deep Cyan", {0x001a1fffu, 0x012a33ffu, 0xd0f4f8ffu, 0x5fc4d4ffu, 0x03738affu, 0}},
+    {"ultraviolet", "Ultraviolet", {0x10002bffu, 0x6a1bb0ffu, 0xe0aaffffu, 0xb185dbffu, 0x9d4eddffu, 0}},
+    {"emerac", "EMERAC", {0x0a0a0cffu, 0x111118ffu, 0xf0ead8ffu, 0x8a7a8affu, 0x00e5b3ffu, 0xe5b300ffu}},
+    {"ember", "Ember", {0x0a0a0cffu, 0x461400ffu, 0xffc4aaffu, 0xdba185ffu, 0xdd6f4effu, 0}},
+    {"orchid", "Orchid", {0x0a0a0cffu, 0x46002fffu, 0xffaae0ffu, 0xdb85bdffu, 0xdd4ec0ffu, 0}},
+    {"gold", "Gold", {0x0a0a0cffu, 0x473600ffu, 0xffe9a8ffu, 0xdbc585ffu, 0xdeba4fffu, 0}},
+    {"volcano", "Volcano", {0x080808ffu, 0x111118ffu, 0xfff0e8ffu, 0xc8a898ffu, 0xff3d6effu, 0x00f5ffffu}},
+    {"ink", "Ink", {0x000c29ffu, 0x1c48b0ffu, 0xa8c2ffffu, 0x859fdbffu, 0x4f7adeffu, 0}},
+    {"phosphor", "Phosphor", {0x00290affu, 0x004712ffu, 0xa8ffbeffu, 0x85db9bffu, 0x4fde73ffu, 0}},
+    {"crimson", "Crimson", {0x290007ffu, 0x47000cffu, 0xffa8b7ffu, 0xdb8593ffu, 0xde4f67ffu, 0}},
+    {"svfp", "Sex Van Floor Plan", {0x0a0a14ffu, 0x1e2235ffu, 0xf8b0ffffu, 0, 0xd946efffu, 0}},
+    {"fldc", "Fruity Loops Debauchery Collective", {0x10160effu, 0x2a3830ffu, 0xf0f8f0ffu, 0, 0xd06020ffu, 0}},
+    {"woah", "Woah.", {0x0e0c10ffu, 0x3a3028ffu, 0xf8e0d0ffu, 0, 0xff9ec4ffu, 0}},
+    {"ddt-llc", "DDT LLC", {0x0a0a14ffu, 0x5a3a20ffu, 0xfaf4e8ffu, 0, 0xb87840ffu, 0}},
+    {"dino-spumoni", "Dino Spumoni", {0x080a0effu, 0x1e2a38ffu, 0xf4ede0ffu, 0, 0xd4782affu, 0}},
+    {"four-bs", "The Four B's", {0x0c0a04ffu, 0x1a1408ffu, 0xf5f2e8ffu, 0, 0x52b044ffu, 0}},
+    {"juanito-thompson", "Juanito Thompson", {0x0a0a0cffu, 0x1c1e22ffu, 0xf8f0e4ffu, 0, 0xc85a18ffu, 0}},
+    {"audio-sound-paper", "Audio Sound Paper", {0x100b08ffu, 0x2e1e18ffu, 0xf0e0c8ffu, 0, 0xc87858ffu, 0}},
+    {"vinny-bobarino", "Vinny Bobarino", {0x1e2235ffu, 0x2a1a10ffu, 0xf0ead8ffu, 0, 0xe86020ffu, 0}},
+    {"bottle-boys-collective", "Bottle Boys Collective", {0x070906ffu, 0x2a3028ffu, 0xf0e8d8ffu, 0, 0xf0c0a0ffu, 0}},
+    {"c-p-rutledge", "Brother Dynamo", {0x070612ffu, 0x1a1840ffu, 0xf5e8c0ffu, 0, 0xf05a5affu, 0}},
+    {"thld", "Texas Hold'Em Lava Dome", {0x0e0905ffu, 0x1a1209ffu, 0xd4b896ffu, 0x9a7a50ffu, 0xe07a2fffu, 0}},
+    {"dag-henderson", "Dag Henderson", {0x080a06ffu, 0x1e2818ffu, 0xf0ece0ffu, 0xa0b0a8ffu, 0x789060ffu, 0}},
+    {"jon-mccoy", "Jon McCoy", {0x484e58ffu, 0x2e3540ffu, 0xe8ddd0ffu, 0xc0ccd8ffu, 0xb0c8b8ffu, 0}},
+    {"melrose-house", "Melrose House", {0x0c0d0fffu, 0x2a2c30ffu, 0xc8d4e0ffu, 0x9080a0ffu, 0x6878a0ffu, 0}},
+    {"twin-maples", "Twin Maples", {0x0c0f0dffu, 0x3a4a38ffu, 0xd4d8c8ffu, 0x8a9878ffu, 0xc07848ffu, 0}},
+    {"college-green-apt", "College Green Apt.", {0x0e0c0affu, 0x382e28ffu, 0xf8f4e8ffu, 0xa09080ffu, 0xc07838ffu, 0}},
+    {"marvin-gardens-g12", "Marvin Gardens G12", {0x0c0a12ffu, 0x4a2830ffu, 0xf080a0ffu, 0, 0xd04878ffu, 0}},
+    {"green-street-apt", "Green Street Apt.", {0x0e0c0affu, 0x382e28ffu, 0xe8e0ccffu, 0xa09080ffu, 0xc07838ffu, 0}},
+    {"irvin-house", "Irvin House", {0x0c0e10ffu, 0x4a5058ffu, 0xdce8f0ffu, 0x9098a0ffu, 0x80b8c8ffu, 0}},
+    {"the-tuna-can", "The Tuna Can", {0x0e0d09ffu, 0x2e2c20ffu, 0xe8d890ffu, 0xa8a870ffu, 0xb87828ffu, 0}},
+    {"frogwood-manor", "Frogwood Manor", {0x0c0810ffu, 0x2a2a50ffu, 0xf8e8d8ffu, 0x9888a0ffu, 0xa85a18ffu, 0}},
+    {"george-boole-game-boy", "George Boole: Game Boy", {0x0f380fffu, 0x306230ffu, 0x9bbc0fffu, 0, 0x9bbc0fffu, 0}},
+    {"george-boole-nes", "George Boole: NES", {0x2a2a4affu, 0x3a3a6affu, 0xffd700ffu, 0, 0xff6347ffu, 0}},
+    {"george-boole-snes", "George Boole: SNES", {0x0f0f1effu, 0x1a1a3effu, 0xe0e0ffffu, 0, 0x8a2be2ffu, 0}},
+    {"george-boole-genesis", "George Boole: Genesis", {0x001a33ffu, 0x003366ffu, 0xffd700ffu, 0, 0x4169e1ffu, 0}},
+    {"george-boole-arcade", "George Boole: Arcade", {0x1a0800ffu, 0x331000ffu, 0xffa500ffu, 0, 0xcc2200ffu, 0}},
+    {"george-boole-neo-geo", "George Boole: Neo Geo", {0x1a0020ffu, 0x2a0040ffu, 0x00ffffffu, 0, 0xff1493ffu, 0}},
+    {"george-boole-ps1", "George Boole: PS1", {0x1a1a1affu, 0x2d2d2dffu, 0xc0c0c0ffu, 0, 0xffd700ffu, 0}},
+    {"george-boole-matrix", "George Boole: Matrix", {0x000000ffu, 0x001a00ffu, 0x00ff00ffu, 0, 0x00ff00ffu, 0}},
+    {"parchisi", "Parchisi", {0x1a0a0affu, 0x2a1210ffu, 0xf0ead8ffu, 0xa88a7fffu, 0xf1bf00ffu, 0}},
+    {"aggravation", "Aggravation", {0x0a0612ffu, 0x150b29ffu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xffe03affu, 0}},
+    {"sorry", "SORRY", {0, 0, 0xfff5e1ffu, 0, 0xff2d55ffu, 0x6cd4f5ffu}},
+    {"american-spirit", "American Spirit", {0x1a1a18ffu, 0x2e6a88ffu, 0xf8f4eeffu, 0, 0x5b9db8ffu, 0}},
+    {"american-spirit-light", "American Spirit Light", {0xf5ede0ffu, 0xeee0c8ffu, 0x3a2810ffu, 0x7a5a2affu, 0x2e6a88ffu, 0x8b1a1affu}},
+    {"pay2play", "pay2play", {0x080510ffu, 0, 0xffffffffu, 0, 0xcc2a88ffu, 0}},
+    {"moonlight-drift", "Moonlight Drift", {0x0f0c29ffu, 0x2a3a5affu, 0xffffffffu, 0x7a89a8ffu, 0x00d4ffffu, 0xffd700ffu}},
+    {"caldera", "Caldera", {0x0b0605ffu, 0x1a100cffu, 0xfff3d0ffu, 0xb39880ffu, 0xff6a1fffu, 0xffd9a0ffu}},
+    {"french-tarot", "French Tarot", {0x0a0612ffu, 0x150b29ffu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00e5ffffu, 0xffd700ffu}},
+    {"cribbage", "Cribbage", {0x1a0f0affu, 0x2d1f15ffu, 0xf5f5dcffu, 0xa39e81ffu, 0xffd700ffu, 0x00f5ffffu}},
+    {"scandinavian-stud", "Scandinavian Stud", {0x0a1628ffu, 0x1a2a44ffu, 0xf0ead8ffu, 0x7f97a3ffu, 0x00f5ffffu, 0xffe03affu}},
+    {"chess", "Chess", {0xfbf4e2ffu, 0xfbf4e2ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu}},
+    {"checkers", "Checkers", {0x041008ffu, 0x07180cffu, 0x9dffa0ffu, 0x57b96affu, 0x9dffa0ffu, 0xc8ffc4ffu}},
+    {"backgammon", "Backgammon", {0x0055aaffu, 0x0055aaffu, 0xffffffffu, 0xffffffffu, 0xff8800ffu, 0xffffffffu}},
+    {"chinese-checkers", "Chinese Checkers", {0x2e2c9bffu, 0x706debffu, 0xb4b2f8ffu, 0xb4b2f8ffu, 0xffffffffu, 0xedf171ffu}},
+    {"fifteen-puzzle", "15 Puzzle", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00f5ffffu, 0xffe03affu}},
+    {"threes", "Threes", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00f5ffffu, 0xffe03affu}},
+    {"klotski", "Klotski", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xff2d4affu, 0xffd700ffu}},
+    {"two-to-the-n", "2^N", {0x150008ffu, 0x1a0040ffu, 0xffffffffu, 0xf07ad0ffu, 0x14b8ffffu, 0xffd54affu}},
+    {"solitaire", "Klondike Solitaire", {0x001e1effu, 0x003838ffu, 0xe0e0e0ffu, 0xc0c0c0ffu, 0xff2d78ffu, 0x00e5ffffu}},
+    {"nelikko", "Nelikko", {0x0e1820ffu, 0x131f28ffu, 0xd0dde0ffu, 0x7a9badffu, 0xafcbd3ffu, 0xd4c89affu}},
+    {"makemecookies", "MAKEMECOOKIES!X4", {0x180c18ffu, 0x26122affu, 0xead9ecffu, 0x9a7ba2ffu, 0xff2e9cffu, 0xffc93cffu}},
+    {"cave-diving", "Cave Diving", {0x030b10ffu, 0x071820ffu, 0xdcefeeffu, 0x5d7a80ffu, 0x3fe0d0ffu, 0xfff3c4ffu}},
+    {"grocery-harrison", "Grocery Harrison", {0x0b1211ffu, 0x2b3533ffu, 0xfff6dcffu, 0xc9a227ffu, 0xffd84affu, 0xa8e6ffffu}},
+    {"jovian-humanitarian-conflict", "The Jovian Humanitarian Conflict", {0x05060fffu, 0x0d1230ffu, 0xe8eeffffu, 0x6b7699ffu, 0xffc247ffu, 0x5ff0ffffu}},
+    {"roderick-tron", "Roderick Tron", {0x080808ffu, 0x1a1028ffu, 0xf0ead8ffu, 0xc8a24affu, 0x00f5ffffu, 0xffe03affu}},
+    {"very-long-boards", "Very Long Boards", {0x0a0612ffu, 0x1a0f24ffu, 0xffffffffu, 0x888888ffu, 0xff2e9cffu, 0xffe03affu}},
+    {"grape-soda", "Grape Soda", {0x120a1cffu, 0x1f1232ffu, 0xf3e9ffffu, 0xab94ccffu, 0xa456ffffu, 0xff6fd6ffu}},
+    {"orange-soda", "Orange Soda", {0x0c1424ffu, 0x16233affu, 0xfff4e4ffu, 0x9fb2cdffu, 0xff8b24ffu, 0xffd84dffu}},
+    {"cream-soda", "Cream Soda", {0xfbf4e2ffu, 0xf2e5c3ffu, 0x3a2210ffu, 0x71503affu, 0xa85d06ffu, 0xb8304fffu}},
+    {"neapolitan", "Neapolitan", {0x1c110bffu, 0x2b1a11ffu, 0xfdf5e6ffu, 0xbea38affu, 0xff86a3ffu, 0xebcb8bffu}},
+    {"cotton-candy", "Cotton Candy", {0xfdf3f8ffu, 0xf6e2efffu, 0x2d1530ffu, 0x6c4868ffu, 0xcf2f7bffu, 0x2577c6ffu}},
+};
+#endif
+
 #endif /* MAGMA_THEMES_H */

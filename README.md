@@ -137,6 +137,18 @@ GRRLIB_Printf(x, y, font, MT_GLOBAL_PALETTE_ACCENT_TV, 1, "MAGMACRUNCH");
 
 Colours are `0xRRGGBBAA`. Prefer the `_TV` form on a console; see below.
 
+A program that chooses a theme while it runs, by name, defines
+`MAGMA_THEMES_TABLE` first, in the one file that wants it, and gets every
+theme's roles as an array (the designed colours, not the `_TV` forms; a role
+a theme lacks is 0). tunacan's stockroom offers the list in its editor:
+
+```c
+#define MAGMA_THEMES_TABLE
+#include "magma_themes.h"
+for (int i = 0; i < MAGMA_THEMES_COUNT; i++)
+    if (strcmp(MAGMA_THEMES[i].slug, want) == 0) bg = MAGMA_THEMES[i].role[MT_ROLE_BG];
+```
+
 ## Roles
 
 Every theme maps what it can onto six shared roles, so a game can ask any
