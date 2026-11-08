@@ -2880,6 +2880,81 @@
     }
   },
   {
+    "name": "Alien Hunting",
+    "section": "archive-artist",
+    "bodyClass": "ah-page",
+    "prefix": "ah",
+    "file": "archive/by-artist/alien-hunting/ah-shared.css",
+    "palette": [
+      {
+        "var": "--ah-bg",
+        "value": "#0f0d16",
+        "label": "BG"
+      },
+      {
+        "var": "--ah-surface",
+        "value": "#1c1a26",
+        "label": "Surface"
+      },
+      {
+        "var": "--ah-slate",
+        "value": "#2d3140",
+        "label": "Slate"
+      },
+      {
+        "var": "--ah-dusk",
+        "value": "#4a4658",
+        "label": "Dusk"
+      },
+      {
+        "var": "--ah-muted",
+        "value": "#a8a3b0",
+        "label": "Muted"
+      },
+      {
+        "var": "--ah-ice",
+        "value": "#dfe8f0",
+        "label": "Ice"
+      },
+      {
+        "var": "--ah-green",
+        "value": "#8fe04a",
+        "label": "Alien Green"
+      },
+      {
+        "var": "--ah-green-dark",
+        "value": "#4e8a26",
+        "label": "Green Dark"
+      },
+      {
+        "var": "--ah-laser",
+        "value": "#ff4a2e",
+        "label": "Laser"
+      },
+      {
+        "var": "--ah-ember",
+        "value": "#b8321f",
+        "label": "Ember"
+      },
+      {
+        "var": "--ah-amber",
+        "value": "#ffa63a",
+        "label": "Amber"
+      },
+      {
+        "var": "--ah-violet",
+        "value": "#8a78b8",
+        "label": "Violet"
+      }
+    ],
+    "nav": {
+      "accent": "#8fe04a",
+      "glow": "rgba(143,224,74,0.4)",
+      "brand": "#8fe04a",
+      "brandGlow": "rgba(143,224,74,0.7)"
+    }
+  },
+  {
     "name": "Melrose House",
     "section": "archive-place",
     "bodyClass": "mh-page",

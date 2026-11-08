@@ -1739,6 +1739,40 @@
 #define MT_JON_MCCOY_P_NEAR_BLACK 0x0e1014ffu
 #define MT_JON_MCCOY_P_NEAR_BLACK_TV 0x0e1014ffu
 
+/* Alien Hunting */
+#define MT_ALIEN_HUNTING_BG 0x0f0d16ffu
+#define MT_ALIEN_HUNTING_BG_TV 0x0f0d16ffu
+#define MT_ALIEN_HUNTING_SURFACE 0x1c1a26ffu
+#define MT_ALIEN_HUNTING_SURFACE_TV 0x1c1a26ffu
+#define MT_ALIEN_HUNTING_TEXT 0xdfe8f0ffu
+#define MT_ALIEN_HUNTING_TEXT_TV 0xdfe8f0ffu
+#define MT_ALIEN_HUNTING_ACCENT 0x8fe04affu
+#define MT_ALIEN_HUNTING_ACCENT_TV 0x8fe04affu
+#define MT_ALIEN_HUNTING_P_BG 0x0f0d16ffu
+#define MT_ALIEN_HUNTING_P_BG_TV 0x0f0d16ffu
+#define MT_ALIEN_HUNTING_P_SURFACE 0x1c1a26ffu
+#define MT_ALIEN_HUNTING_P_SURFACE_TV 0x1c1a26ffu
+#define MT_ALIEN_HUNTING_P_SLATE 0x2d3140ffu
+#define MT_ALIEN_HUNTING_P_SLATE_TV 0x2d3140ffu
+#define MT_ALIEN_HUNTING_P_DUSK 0x4a4658ffu
+#define MT_ALIEN_HUNTING_P_DUSK_TV 0x4a4658ffu
+#define MT_ALIEN_HUNTING_P_MUTED 0xa8a3b0ffu
+#define MT_ALIEN_HUNTING_P_MUTED_TV 0xa8a3b0ffu
+#define MT_ALIEN_HUNTING_P_ICE 0xdfe8f0ffu
+#define MT_ALIEN_HUNTING_P_ICE_TV 0xdfe8f0ffu
+#define MT_ALIEN_HUNTING_P_GREEN 0x8fe04affu
+#define MT_ALIEN_HUNTING_P_GREEN_TV 0x8fe04affu
+#define MT_ALIEN_HUNTING_P_GREEN_DARK 0x4e8a26ffu
+#define MT_ALIEN_HUNTING_P_GREEN_DARK_TV 0x4e8a26ffu
+#define MT_ALIEN_HUNTING_P_LASER 0xff4a2effu
+#define MT_ALIEN_HUNTING_P_LASER_TV 0xff4a2effu
+#define MT_ALIEN_HUNTING_P_EMBER 0xb8321fffu
+#define MT_ALIEN_HUNTING_P_EMBER_TV 0xb8321fffu
+#define MT_ALIEN_HUNTING_P_AMBER 0xffa63affu
+#define MT_ALIEN_HUNTING_P_AMBER_TV 0xffa63affu
+#define MT_ALIEN_HUNTING_P_VIOLET 0x8a78b8ffu
+#define MT_ALIEN_HUNTING_P_VIOLET_TV 0x8a78b8ffu
+
 /* Melrose House */
 #define MT_MELROSE_HOUSE_BG 0x0c0d0fffu
 #define MT_MELROSE_HOUSE_BG_TV 0x0c0d0fffu
@@ -3439,7 +3473,7 @@
 #define MT_ROLE_ACCENT 4
 #define MT_ROLE_ACCENT2 5
 #define MT_ROLE_COUNT 6
-#define MAGMA_THEMES_COUNT 83
+#define MAGMA_THEMES_COUNT 84
 #define MAGMA_THEMES_PALETTE_MAX 49
 #ifdef MAGMA_THEMES_TABLE
 typedef struct MagmaTheme {
@@ -3520,6 +3554,8 @@ static const unsigned int MT_TABLE_DAG_HENDERSON_P[] = {0x141a10ffu, 0x1e2818ffu
 static const char *const MT_TABLE_DAG_HENDERSON_N[] = {"deep", "surface", "muted", "body", "slate", "brand", "leaf", "purple", "rust", "amber", "violet-deep", "violet-mid", "violet-light", "sage", "steel", "mist", "rust-dark", "amber-glow", "gold", "tan", "white", "bg"};
 static const unsigned int MT_TABLE_JON_MCCOY_P[] = {0x484e58ffu, 0x2e3540ffu, 0x2e3038ffu, 0x7080a0ffu, 0x8a9aaaffu, 0xb8c4ccffu, 0xa89880ffu, 0xc8b8a0ffu, 0xe8ddd0ffu, 0x7a9080ffu, 0xb89898ffu, 0xd0d8e0ffu, 0x383e48ffu, 0x6070a0ffu, 0xc0ccd8ffu, 0x786050ffu, 0xf0e8d8ffu, 0x587868ffu, 0xc8a8a8ffu, 0x6a7088ffu, 0xf5f0ecffu, 0x9090b8ffu, 0xb0c8b8ffu, 0x786878ffu, 0x0e1014ffu};
 static const char *const MT_TABLE_JON_MCCOY_N[] = {"bg", "surface", "raised", "body", "muted", "heading", "taupe", "sand", "cream", "sage", "rose", "ice", "deep-cool", "mid-cool", "light-cool", "deep-warm", "pale-warm", "deep-sage", "muted-rose", "blue-grey", "near-white", "periwinkle", "pale-sage", "dusty-plum", "near-black"};
+static const unsigned int MT_TABLE_ALIEN_HUNTING_P[] = {0x0f0d16ffu, 0x1c1a26ffu, 0x2d3140ffu, 0x4a4658ffu, 0xa8a3b0ffu, 0xdfe8f0ffu, 0x8fe04affu, 0x4e8a26ffu, 0xff4a2effu, 0xb8321fffu, 0xffa63affu, 0x8a78b8ffu};
+static const char *const MT_TABLE_ALIEN_HUNTING_N[] = {"bg", "surface", "slate", "dusk", "muted", "ice", "green", "green-dark", "laser", "ember", "amber", "violet"};
 static const unsigned int MT_TABLE_MELROSE_HOUSE_P[] = {0x6a6e78ffu, 0x786858ffu, 0x3e4048ffu, 0x9080a0ffu, 0xa0b0c8ffu, 0xc8d4e0ffu, 0xc87878ffu, 0xe8a090ffu, 0xf0c8c0ffu, 0xd4a060ffu, 0x6878a0ffu, 0x7ab8a0ffu, 0xc8a8d0ffu, 0xa8c0a0ffu, 0xe8b870ffu, 0x5a6890ffu, 0x2a2c30ffu, 0x0c0d0fffu};
 static const char *const MT_TABLE_MELROSE_HOUSE_N[] = {"deep", "surface", "bread", "muted", "light", "cream", "coral", "peach", "pale", "gold", "brand", "sage", "lavender", "sage2", "amber", "slate", "dark", "bg"};
 static const unsigned int MT_TABLE_TWIN_MAPLES_P[] = {0x1e2420ffu, 0x283028ffu, 0x3a4a38ffu, 0x6a7868ffu, 0x98a888ffu, 0xd4d8c8ffu, 0xd4b898ffu, 0xb8b098ffu, 0x4a6858ffu, 0xc07848ffu, 0xd4b870ffu, 0x7ab0c0ffu, 0xd4b898ffu, 0x8a9878ffu, 0xe8c870ffu, 0x0c0f0dffu};
@@ -3652,6 +3688,7 @@ static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
     {"thld", "Texas Hold'Em Lava Dome", {0x0e0905ffu, 0x1a1209ffu, 0xd4b896ffu, 0x9a7a50ffu, 0xe07a2fffu, 0}, MT_TABLE_THLD_P, MT_TABLE_THLD_N, 24},
     {"dag-henderson", "Dag Henderson", {0x080a06ffu, 0x1e2818ffu, 0xf0ece0ffu, 0xa0b0a8ffu, 0x789060ffu, 0}, MT_TABLE_DAG_HENDERSON_P, MT_TABLE_DAG_HENDERSON_N, 22},
     {"jon-mccoy", "Jon McCoy", {0x484e58ffu, 0x2e3540ffu, 0xe8ddd0ffu, 0xc0ccd8ffu, 0xb0c8b8ffu, 0}, MT_TABLE_JON_MCCOY_P, MT_TABLE_JON_MCCOY_N, 25},
+    {"alien-hunting", "Alien Hunting", {0x0f0d16ffu, 0x1c1a26ffu, 0xdfe8f0ffu, 0, 0x8fe04affu, 0}, MT_TABLE_ALIEN_HUNTING_P, MT_TABLE_ALIEN_HUNTING_N, 12},
     {"melrose-house", "Melrose House", {0x0c0d0fffu, 0x2a2c30ffu, 0xc8d4e0ffu, 0x9080a0ffu, 0x6878a0ffu, 0}, MT_TABLE_MELROSE_HOUSE_P, MT_TABLE_MELROSE_HOUSE_N, 18},
     {"twin-maples", "Twin Maples", {0x0c0f0dffu, 0x3a4a38ffu, 0xd4d8c8ffu, 0x8a9878ffu, 0xc07848ffu, 0}, MT_TABLE_TWIN_MAPLES_P, MT_TABLE_TWIN_MAPLES_N, 16},
     {"college-green-apt", "College Green Apt.", {0x0e0c0affu, 0x382e28ffu, 0xf8f4e8ffu, 0xa09080ffu, 0xc07838ffu, 0}, MT_TABLE_COLLEGE_GREEN_APT_P, MT_TABLE_COLLEGE_GREEN_APT_N, 20},

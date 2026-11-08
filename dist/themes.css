@@ -947,6 +947,26 @@
   --mt-p-near-black: #0e1014;
 }
 
+/* Alien Hunting */
+[data-magma-theme="alien-hunting"] {
+  --mt-bg: #0f0d16;
+  --mt-surface: #1c1a26;
+  --mt-text: #dfe8f0;
+  --mt-accent: #8fe04a;
+  --mt-p-bg: #0f0d16;
+  --mt-p-surface: #1c1a26;
+  --mt-p-slate: #2d3140;
+  --mt-p-dusk: #4a4658;
+  --mt-p-muted: #a8a3b0;
+  --mt-p-ice: #dfe8f0;
+  --mt-p-green: #8fe04a;
+  --mt-p-green-dark: #4e8a26;
+  --mt-p-laser: #ff4a2e;
+  --mt-p-ember: #b8321f;
+  --mt-p-amber: #ffa63a;
+  --mt-p-violet: #8a78b8;
+}
+
 /* Melrose House */
 [data-magma-theme="melrose-house"] {
   --mt-bg: #0c0d0f;

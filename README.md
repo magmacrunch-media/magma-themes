@@ -3,7 +3,7 @@
 The colour themes of magmacrunch.com, kept in one place so the games, apps and
 the Wii homebrew can use the same ones the website does.
 
-89 themes, 83 of them with colours: the site's global palette, the visual and
+90 themes, 84 of them with colours: the site's global palette, the visual and
 music sections, every archive artist and place, the arcade games that carry
 their own themes, and the six arcade pages that only set nav colours.
 Nineteen are this repo's own, not the website's: light versions of the

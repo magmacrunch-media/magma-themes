@@ -1052,6 +1052,29 @@ export const THEMES = {
       "near-black": "#0e1014"
     }
   },
+  "alien-hunting": {
+    "name": "Alien Hunting",
+    "roles": {
+      "bg": "#0f0d16",
+      "surface": "#1c1a26",
+      "text": "#dfe8f0",
+      "accent": "#8fe04a"
+    },
+    "palette": {
+      "bg": "#0f0d16",
+      "surface": "#1c1a26",
+      "slate": "#2d3140",
+      "dusk": "#4a4658",
+      "muted": "#a8a3b0",
+      "ice": "#dfe8f0",
+      "green": "#8fe04a",
+      "green-dark": "#4e8a26",
+      "laser": "#ff4a2e",
+      "ember": "#b8321f",
+      "amber": "#ffa63a",
+      "violet": "#8a78b8"
+    }
+  },
   "melrose-house": {
     "name": "Melrose House",
     "roles": {
