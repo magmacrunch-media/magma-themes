@@ -151,6 +151,35 @@ what you did not check. A check that passes by finding nothing is the failure
 this whole tree is organised against, which is why every checker here prints how
 much it examined and fails when that comes back impossible.
 
+### Code a person can read
+
+Write for someone who knows the subject and has not seen this code. They should
+be able to find where something happens and change it without reading it all.
+
+- **Keep files short enough to read with some study.** A few hundred lines is
+  the usual shape, and well over a thousand wants a reason. Generated files,
+  vendored code and fixtures are exempt.
+- **Each file says at the top what it does**, what state it reads and writes,
+  and what calls it. Keep it to a few lines. Shared vocabulary goes in one
+  place that the others point to.
+- **Comments say why, in the present tense.** Do not restate the line below.
+  The story of a past bug belongs in git; keep only the rule that stops it
+  coming back.
+- **Long functions get section markers** before anyone restructures them.
+- **Names follow the subject.** Keep the symbols of the physics or the game.
+  Explain short names in a glossary before renaming them.
+- **Check every comment against the code.** A wrong comment is worse than none.
+  If you cannot tell why something is so, say that in the pull request rather
+  than guessing. A bug found while commenting gets reported, not fixed there.
+- **One kind of change per pull request:** moves, comments, renames and
+  behaviour apart. Prove the first three changed nothing: rebuilt output
+  identical for a move, code identical with comments stripped for a comment
+  pass.
+
+Apply this to the code you are already working in. Do not sweep a repository
+unless a person asks, and do not add a checker or a comment quota: whether it
+reads well is a person's judgement.
+
 ### Design and intent
 
 LLM tools are used here to free attention for design, not to skip it. The full
