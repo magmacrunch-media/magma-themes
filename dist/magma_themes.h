@@ -2616,46 +2616,38 @@
 #define MT_CALDERA_P_CD_CREAM_TV 0xfff3d0ffu
 
 /* French Tarot */
-#define MT_FRENCH_TAROT_BG 0x0a0612ffu
-#define MT_FRENCH_TAROT_BG_TV 0x0a0612ffu
-#define MT_FRENCH_TAROT_SURFACE 0x150b29ffu
-#define MT_FRENCH_TAROT_SURFACE_TV 0x150b29ffu
-#define MT_FRENCH_TAROT_TEXT 0xf0ead8ffu
-#define MT_FRENCH_TAROT_TEXT_TV 0xf0ead8ffu
-#define MT_FRENCH_TAROT_MUTED 0x8a7fa8ffu
-#define MT_FRENCH_TAROT_MUTED_TV 0x8a7fa8ffu
-#define MT_FRENCH_TAROT_ACCENT 0x00e5ffffu
-#define MT_FRENCH_TAROT_ACCENT_TV 0x24d6ebffu
-#define MT_FRENCH_TAROT_ACCENT2 0xffd700ffu
-#define MT_FRENCH_TAROT_ACCENT2_TV 0xf0d33bffu
-#define MT_FRENCH_TAROT_P_FT_BG_DARK 0x0a0612ffu
-#define MT_FRENCH_TAROT_P_FT_BG_DARK_TV 0x0a0612ffu
-#define MT_FRENCH_TAROT_P_FT_BG_MID 0x150b29ffu
-#define MT_FRENCH_TAROT_P_FT_BG_MID_TV 0x150b29ffu
-#define MT_FRENCH_TAROT_P_FT_BG_LIGHT 0x1a0a2affu
-#define MT_FRENCH_TAROT_P_FT_BG_LIGHT_TV 0x1a0a2affu
-#define MT_FRENCH_TAROT_P_FT_LINE 0x2a1a3affu
-#define MT_FRENCH_TAROT_P_FT_LINE_TV 0x2a1a3affu
-#define MT_FRENCH_TAROT_P_FT_DIM 0x4a4060ffu
-#define MT_FRENCH_TAROT_P_FT_DIM_TV 0x4a4060ffu
-#define MT_FRENCH_TAROT_P_FT_MUTED 0x8a7fa8ffu
-#define MT_FRENCH_TAROT_P_FT_MUTED_TV 0x8a7fa8ffu
-#define MT_FRENCH_TAROT_P_FT_SOFT 0xc0b8d0ffu
-#define MT_FRENCH_TAROT_P_FT_SOFT_TV 0xc0b8d0ffu
-#define MT_FRENCH_TAROT_P_FT_WHITE 0xf0ead8ffu
-#define MT_FRENCH_TAROT_P_FT_WHITE_TV 0xf0ead8ffu
-#define MT_FRENCH_TAROT_P_FT_CYAN 0x00e5ffffu
-#define MT_FRENCH_TAROT_P_FT_CYAN_TV 0x24d6ebffu
-#define MT_FRENCH_TAROT_P_FT_GOLD 0xffd700ffu
-#define MT_FRENCH_TAROT_P_FT_GOLD_TV 0xf0d33bffu
-#define MT_FRENCH_TAROT_P_FT_ROSE 0xff2d78ffu
-#define MT_FRENCH_TAROT_P_FT_ROSE_TV 0xff2d78ffu
-#define MT_FRENCH_TAROT_P_FT_GREEN 0x39ff6effu
-#define MT_FRENCH_TAROT_P_FT_GREEN_TV 0x45f775ffu
-#define MT_FRENCH_TAROT_P_FT_CARD_BACK 0x1e4d2bffu
-#define MT_FRENCH_TAROT_P_FT_CARD_BACK_TV 0x1e4d2bffu
-#define MT_FRENCH_TAROT_P_FT_RED 0xcc0000ffu
-#define MT_FRENCH_TAROT_P_FT_RED_TV 0xb90808ffu
+#define MT_FRENCH_TAROT_BG 0x000000ffu
+#define MT_FRENCH_TAROT_BG_TV 0x000000ffu
+#define MT_FRENCH_TAROT_SURFACE 0x2638c8ffu
+#define MT_FRENCH_TAROT_SURFACE_TV 0x2638c8ffu
+#define MT_FRENCH_TAROT_TEXT 0xf2f2f2ffu
+#define MT_FRENCH_TAROT_TEXT_TV 0xf2f2f2ffu
+#define MT_FRENCH_TAROT_MUTED 0x22b43affu
+#define MT_FRENCH_TAROT_MUTED_TV 0x22b43affu
+#define MT_FRENCH_TAROT_ACCENT 0xf2d81effu
+#define MT_FRENCH_TAROT_ACCENT_TV 0xecd639ffu
+#define MT_FRENCH_TAROT_ACCENT2 0x2ab8c8ffu
+#define MT_FRENCH_TAROT_ACCENT2_TV 0x2ab8c8ffu
+#define MT_FRENCH_TAROT_P_FT_BLACK 0x000000ffu
+#define MT_FRENCH_TAROT_P_FT_BLACK_TV 0x000000ffu
+#define MT_FRENCH_TAROT_P_FT_BLUE 0x2638c8ffu
+#define MT_FRENCH_TAROT_P_FT_BLUE_TV 0x2638c8ffu
+#define MT_FRENCH_TAROT_P_FT_RED 0xe0281effu
+#define MT_FRENCH_TAROT_P_FT_RED_TV 0xe0281effu
+#define MT_FRENCH_TAROT_P_FT_GREEN 0x22b43affu
+#define MT_FRENCH_TAROT_P_FT_GREEN_TV 0x22b43affu
+#define MT_FRENCH_TAROT_P_FT_YELLOW 0xf2d81effu
+#define MT_FRENCH_TAROT_P_FT_YELLOW_TV 0xecd639ffu
+#define MT_FRENCH_TAROT_P_FT_MAGENTA 0xc42fbcffu
+#define MT_FRENCH_TAROT_P_FT_MAGENTA_TV 0xc42fbcffu
+#define MT_FRENCH_TAROT_P_FT_CYAN 0x2ab8c8ffu
+#define MT_FRENCH_TAROT_P_FT_CYAN_TV 0x2ab8c8ffu
+#define MT_FRENCH_TAROT_P_FT_WHITE 0xf2f2f2ffu
+#define MT_FRENCH_TAROT_P_FT_WHITE_TV 0xf2f2f2ffu
+#define MT_FRENCH_TAROT_P_FT_CARD_FACE 0xf0ead8ffu
+#define MT_FRENCH_TAROT_P_FT_CARD_FACE_TV 0xf0ead8ffu
+#define MT_FRENCH_TAROT_P_FT_CARD_RED 0xcc0000ffu
+#define MT_FRENCH_TAROT_P_FT_CARD_RED_TV 0xb90808ffu
 
 /* Cribbage */
 #define MT_CRIBBAGE_BG 0x1a0f0affu
@@ -3586,8 +3578,8 @@ static const unsigned int MT_TABLE_MOONLIGHT_DRIFT_P[] = {0x0f0c29ffu, 0x302b63f
 static const char *const MT_TABLE_MOONLIGHT_DRIFT_N[] = {"md-night", "md-dusk", "md-deep", "md-panel-dark", "md-panel", "md-panel-hi", "md-frame", "md-muted", "md-text", "md-cyan", "md-gold", "md-green", "md-moon", "md-crash"};
 static const unsigned int MT_TABLE_CALDERA_P[] = {0x0b0605ffu, 0x1a100cffu, 0x2b2421ffu, 0x3d322cffu, 0x3a0e04ffu, 0x5a0a00ffu, 0x8a5a3affu, 0xb39880ffu, 0xff5a1fffu, 0xff6a1fffu, 0xff8a3affu, 0xffd9a0ffu, 0xfff0a0ffu, 0xfff3d0ffu};
 static const char *const MT_TABLE_CALDERA_N[] = {"cd-deep", "cd-char", "cd-rock", "cd-rock-hi", "cd-vent", "cd-crust", "cd-ash", "cd-dust", "cd-lava", "cd-flame", "cd-glow", "cd-sand", "cd-spark", "cd-cream"};
-static const unsigned int MT_TABLE_FRENCH_TAROT_P[] = {0x0a0612ffu, 0x150b29ffu, 0x1a0a2affu, 0x2a1a3affu, 0x4a4060ffu, 0x8a7fa8ffu, 0xc0b8d0ffu, 0xf0ead8ffu, 0x00e5ffffu, 0xffd700ffu, 0xff2d78ffu, 0x39ff6effu, 0x1e4d2bffu, 0xcc0000ffu};
-static const char *const MT_TABLE_FRENCH_TAROT_N[] = {"ft-bg-dark", "ft-bg-mid", "ft-bg-light", "ft-line", "ft-dim", "ft-muted", "ft-soft", "ft-white", "ft-cyan", "ft-gold", "ft-rose", "ft-green", "ft-card-back", "ft-red"};
+static const unsigned int MT_TABLE_FRENCH_TAROT_P[] = {0x000000ffu, 0x2638c8ffu, 0xe0281effu, 0x22b43affu, 0xf2d81effu, 0xc42fbcffu, 0x2ab8c8ffu, 0xf2f2f2ffu, 0xf0ead8ffu, 0xcc0000ffu};
+static const char *const MT_TABLE_FRENCH_TAROT_N[] = {"ft-black", "ft-blue", "ft-red", "ft-green", "ft-yellow", "ft-magenta", "ft-cyan", "ft-white", "ft-card-face", "ft-card-red"};
 static const unsigned int MT_TABLE_CRIBBAGE_P[] = {0x1a0f0affu, 0x2d1f15ffu, 0x3d2a1cffu, 0x4a3728ffu, 0x8b5a2bffu, 0xa0522dffu, 0x1e4d2bffu, 0x2d6b3fffu, 0xa39e81ffu, 0xf5f5dcffu, 0xfffdd0ffu, 0xffd700ffu, 0xb8960fffu, 0xdc143cffu, 0x00f5ffffu, 0xff3d6effu};
 static const char *const MT_TABLE_CRIBBAGE_N[] = {"cr-bg-dark", "cr-bg-mid", "cr-bg-light", "cr-board", "cr-wood", "cr-wood-light", "cr-felt", "cr-felt-light", "cr-dust", "cr-white", "cr-cream", "cr-gold", "cr-gold-dim", "cr-red", "cr-player-peg", "cr-ai-peg"};
 static const unsigned int MT_TABLE_SCANDINAVIAN_STUD_P[] = {0x060e1affu, 0x0a1628ffu, 0x1a2a44ffu, 0x4a6a7affu, 0x7f97a3ffu, 0xf0ead8ffu, 0x00f5ffffu, 0x007a80ffu, 0x39ff6effu, 0xff3d6effu, 0xffe03affu, 0xff7c1fffu};
@@ -3695,7 +3687,7 @@ static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
     {"pay2play", "pay2play", {0x080510ffu, 0, 0xffffffffu, 0, 0xcc2a88ffu, 0}, MT_TABLE_PAY2PLAY_P, MT_TABLE_PAY2PLAY_N, 21},
     {"moonlight-drift", "Moonlight Drift", {0x0f0c29ffu, 0x2a3a5affu, 0xffffffffu, 0x7a89a8ffu, 0x00d4ffffu, 0xffd700ffu}, MT_TABLE_MOONLIGHT_DRIFT_P, MT_TABLE_MOONLIGHT_DRIFT_N, 14},
     {"caldera", "Caldera", {0x0b0605ffu, 0x1a100cffu, 0xfff3d0ffu, 0xb39880ffu, 0xff6a1fffu, 0xffd9a0ffu}, MT_TABLE_CALDERA_P, MT_TABLE_CALDERA_N, 14},
-    {"french-tarot", "French Tarot", {0x0a0612ffu, 0x150b29ffu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00e5ffffu, 0xffd700ffu}, MT_TABLE_FRENCH_TAROT_P, MT_TABLE_FRENCH_TAROT_N, 14},
+    {"french-tarot", "French Tarot", {0x000000ffu, 0x2638c8ffu, 0xf2f2f2ffu, 0x22b43affu, 0xf2d81effu, 0x2ab8c8ffu}, MT_TABLE_FRENCH_TAROT_P, MT_TABLE_FRENCH_TAROT_N, 10},
     {"cribbage", "Cribbage", {0x1a0f0affu, 0x2d1f15ffu, 0xf5f5dcffu, 0xa39e81ffu, 0xffd700ffu, 0x00f5ffffu}, MT_TABLE_CRIBBAGE_P, MT_TABLE_CRIBBAGE_N, 16},
     {"scandinavian-stud", "Scandinavian Stud", {0x0a1628ffu, 0x1a2a44ffu, 0xf0ead8ffu, 0x7f97a3ffu, 0x00f5ffffu, 0xffe03affu}, MT_TABLE_SCANDINAVIAN_STUD_P, MT_TABLE_SCANDINAVIAN_STUD_N, 12},
     {"chess", "Chess", {0xfbf4e2ffu, 0xfbf4e2ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu}, MT_TABLE_CHESS_P, MT_TABLE_CHESS_N, 8},

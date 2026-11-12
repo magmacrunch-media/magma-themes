@@ -2,83 +2,64 @@
   "name": "French Tarot",
   "palette": [
     {
-      "var": "--ft-bg-dark",
-      "value": "#0a0612",
-      "label": "BG Dark"
+      "var": "--ft-black",
+      "value": "#000000",
+      "label": "Black"
     },
     {
-      "var": "--ft-bg-mid",
-      "value": "#150b29",
-      "label": "BG Mid"
-    },
-    {
-      "var": "--ft-bg-light",
-      "value": "#1a0a2a",
-      "label": "BG Light"
-    },
-    {
-      "var": "--ft-line",
-      "value": "#2a1a3a",
-      "label": "Line"
-    },
-    {
-      "var": "--ft-dim",
-      "value": "#4a4060",
-      "label": "Dim"
-    },
-    {
-      "var": "--ft-muted",
-      "value": "#8a7fa8",
-      "label": "Muted"
-    },
-    {
-      "var": "--ft-soft",
-      "value": "#c0b8d0",
-      "label": "Soft"
-    },
-    {
-      "var": "--ft-white",
-      "value": "#f0ead8",
-      "label": "Card White"
-    },
-    {
-      "var": "--ft-cyan",
-      "value": "#00e5ff",
-      "label": "Cyan"
-    },
-    {
-      "var": "--ft-gold",
-      "value": "#ffd700",
-      "label": "Gold"
-    },
-    {
-      "var": "--ft-rose",
-      "value": "#ff2d78",
-      "label": "Rose"
-    },
-    {
-      "var": "--ft-green",
-      "value": "#39ff6e",
-      "label": "Green"
-    },
-    {
-      "var": "--ft-card-back",
-      "value": "#1e4d2b",
-      "label": "Card Back"
+      "var": "--ft-blue",
+      "value": "#2638c8",
+      "label": "Blue"
     },
     {
       "var": "--ft-red",
+      "value": "#e0281e",
+      "label": "Red"
+    },
+    {
+      "var": "--ft-green",
+      "value": "#22b43a",
+      "label": "Green"
+    },
+    {
+      "var": "--ft-yellow",
+      "value": "#f2d81e",
+      "label": "Yellow"
+    },
+    {
+      "var": "--ft-magenta",
+      "value": "#c42fbc",
+      "label": "Magenta"
+    },
+    {
+      "var": "--ft-cyan",
+      "value": "#2ab8c8",
+      "label": "Cyan"
+    },
+    {
+      "var": "--ft-white",
+      "value": "#f2f2f2",
+      "label": "White"
+    },
+    {
+      "var": "--ft-card-face",
+      "value": "#f0ead8",
+      "label": "Card Face"
+    },
+    {
+      "var": "--ft-card-red",
       "value": "#cc0000",
-      "label": "Suit Red"
+      "label": "Card Red"
     }
   ],
   "roles": {
-    "bg": "--ft-bg-dark",
-    "surface": "--ft-bg-mid",
+    "bg": "--ft-black",
+    "surface": "--ft-blue",
     "text": "--ft-white",
-    "muted": "--ft-muted",
-    "accent": "--ft-cyan",
-    "accent2": "--ft-gold"
+    "muted": "--ft-green",
+    "accent": "--ft-yellow",
+    "accent2": "--ft-cyan"
   },
-  "rolesFrom": "hand"
+  "rolesFrom": "hand",
+  "note": "From arcade/tarot/css/base.css and deck/css/tarot-cards.css, its Videotex Edition: a French videotex terminal from the 1980s. Its eight colours, flat, on black: titles on blue bands, trumps as blue cards, the taker in inverse yellow. The suited cards keep their cream face and red and black pips."
 }

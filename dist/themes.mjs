@@ -1643,28 +1643,24 @@ export const THEMES = {
   "french-tarot": {
     "name": "French Tarot",
     "roles": {
-      "bg": "#0a0612",
-      "surface": "#150b29",
-      "text": "#f0ead8",
-      "muted": "#8a7fa8",
-      "accent": "#00e5ff",
-      "accent2": "#ffd700"
+      "bg": "#000000",
+      "surface": "#2638c8",
+      "text": "#f2f2f2",
+      "muted": "#22b43a",
+      "accent": "#f2d81e",
+      "accent2": "#2ab8c8"
     },
     "palette": {
-      "ft-bg-dark": "#0a0612",
-      "ft-bg-mid": "#150b29",
-      "ft-bg-light": "#1a0a2a",
-      "ft-line": "#2a1a3a",
-      "ft-dim": "#4a4060",
-      "ft-muted": "#8a7fa8",
-      "ft-soft": "#c0b8d0",
-      "ft-white": "#f0ead8",
-      "ft-cyan": "#00e5ff",
-      "ft-gold": "#ffd700",
-      "ft-rose": "#ff2d78",
-      "ft-green": "#39ff6e",
-      "ft-card-back": "#1e4d2b",
-      "ft-red": "#cc0000"
+      "ft-black": "#000000",
+      "ft-blue": "#2638c8",
+      "ft-red": "#e0281e",
+      "ft-green": "#22b43a",
+      "ft-yellow": "#f2d81e",
+      "ft-magenta": "#c42fbc",
+      "ft-cyan": "#2ab8c8",
+      "ft-white": "#f2f2f2",
+      "ft-card-face": "#f0ead8",
+      "ft-card-red": "#cc0000"
     }
   },
   "cribbage": {

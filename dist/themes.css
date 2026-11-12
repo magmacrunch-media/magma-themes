@@ -1462,26 +1462,22 @@
 
 /* French Tarot */
 [data-magma-theme="french-tarot"] {
-  --mt-bg: #0a0612;
-  --mt-surface: #150b29;
-  --mt-text: #f0ead8;
-  --mt-muted: #8a7fa8;
-  --mt-accent: #00e5ff;
-  --mt-accent2: #ffd700;
-  --mt-p-ft-bg-dark: #0a0612;
-  --mt-p-ft-bg-mid: #150b29;
-  --mt-p-ft-bg-light: #1a0a2a;
-  --mt-p-ft-line: #2a1a3a;
-  --mt-p-ft-dim: #4a4060;
-  --mt-p-ft-muted: #8a7fa8;
-  --mt-p-ft-soft: #c0b8d0;
-  --mt-p-ft-white: #f0ead8;
-  --mt-p-ft-cyan: #00e5ff;
-  --mt-p-ft-gold: #ffd700;
-  --mt-p-ft-rose: #ff2d78;
-  --mt-p-ft-green: #39ff6e;
-  --mt-p-ft-card-back: #1e4d2b;
-  --mt-p-ft-red: #cc0000;
+  --mt-bg: #000000;
+  --mt-surface: #2638c8;
+  --mt-text: #f2f2f2;
+  --mt-muted: #22b43a;
+  --mt-accent: #f2d81e;
+  --mt-accent2: #2ab8c8;
+  --mt-p-ft-black: #000000;
+  --mt-p-ft-blue: #2638c8;
+  --mt-p-ft-red: #e0281e;
+  --mt-p-ft-green: #22b43a;
+  --mt-p-ft-yellow: #f2d81e;
+  --mt-p-ft-magenta: #c42fbc;
+  --mt-p-ft-cyan: #2ab8c8;
+  --mt-p-ft-white: #f2f2f2;
+  --mt-p-ft-card-face: #f0ead8;
+  --mt-p-ft-card-red: #cc0000;
 }
 
 /* Cribbage */
