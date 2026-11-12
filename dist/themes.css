@@ -1629,28 +1629,22 @@
 
 /* Threes */
 [data-magma-theme="threes"] {
-  --mt-bg: #0a0612;
-  --mt-surface: #1a0a2a;
-  --mt-text: #f0ead8;
-  --mt-muted: #8a7fa8;
-  --mt-accent: #00f5ff;
-  --mt-accent2: #ffe03a;
-  --mt-p-tr-bg: #0a0612;
-  --mt-p-tr-deep: #0d0820;
-  --mt-p-tr-panel: #1a0a2a;
-  --mt-p-tr-dim: #8a7fa8;
-  --mt-p-tr-text: #f0ead8;
-  --mt-p-tr-cyan: #00f5ff;
-  --mt-p-tr-gold: #ffe03a;
-  --mt-p-tr-green: #39ff6e;
-  --mt-p-tr-one: #1a1a2e;
-  --mt-p-tr-one-edge: #5ba3f5;
-  --mt-p-tr-two: #0a2a5a;
-  --mt-p-tr-three: #005a6a;
-  --mt-p-tr-six: #006a4a;
-  --mt-p-tr-twelve: #4a6a00;
-  --mt-p-tr-twenty-four: #7a4a00;
-  --mt-p-tr-pink: #ff3d6e;
+  --mt-bg: #d8d2c3;
+  --mt-surface: #b9c1a6;
+  --mt-text: #1f251b;
+  --mt-muted: #5e5a50;
+  --mt-accent: #8e2f27;
+  --mt-accent2: #3a3833;
+  --mt-p-tr-case: #d8d2c3;
+  --mt-p-tr-case-dark: #a7a091;
+  --mt-p-tr-bezel: #3a3833;
+  --mt-p-tr-print: #8e2f27;
+  --mt-p-tr-lcd: #b9c1a6;
+  --mt-p-tr-lcd-shade: #a9b296;
+  --mt-p-tr-ink: #1f251b;
+  --mt-p-tr-dim: #5e5a50;
+  --mt-p-tr-paper: #f1ebdc;
+  --mt-p-tr-key: #4d4a43;
 }
 
 /* Klotski */

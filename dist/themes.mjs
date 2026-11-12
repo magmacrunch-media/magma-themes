@@ -1834,30 +1834,24 @@ export const THEMES = {
   "threes": {
     "name": "Threes",
     "roles": {
-      "bg": "#0a0612",
-      "surface": "#1a0a2a",
-      "text": "#f0ead8",
-      "muted": "#8a7fa8",
-      "accent": "#00f5ff",
-      "accent2": "#ffe03a"
+      "bg": "#d8d2c3",
+      "surface": "#b9c1a6",
+      "text": "#1f251b",
+      "muted": "#5e5a50",
+      "accent": "#8e2f27",
+      "accent2": "#3a3833"
     },
     "palette": {
-      "tr-bg": "#0a0612",
-      "tr-deep": "#0d0820",
-      "tr-panel": "#1a0a2a",
-      "tr-dim": "#8a7fa8",
-      "tr-text": "#f0ead8",
-      "tr-cyan": "#00f5ff",
-      "tr-gold": "#ffe03a",
-      "tr-green": "#39ff6e",
-      "tr-one": "#1a1a2e",
-      "tr-one-edge": "#5ba3f5",
-      "tr-two": "#0a2a5a",
-      "tr-three": "#005a6a",
-      "tr-six": "#006a4a",
-      "tr-twelve": "#4a6a00",
-      "tr-twenty-four": "#7a4a00",
-      "tr-pink": "#ff3d6e"
+      "tr-case": "#d8d2c3",
+      "tr-case-dark": "#a7a091",
+      "tr-bezel": "#3a3833",
+      "tr-print": "#8e2f27",
+      "tr-lcd": "#b9c1a6",
+      "tr-lcd-shade": "#a9b296",
+      "tr-ink": "#1f251b",
+      "tr-dim": "#5e5a50",
+      "tr-paper": "#f1ebdc",
+      "tr-key": "#4d4a43"
     }
   },
   "klotski": {

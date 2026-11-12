@@ -2902,50 +2902,38 @@
 #define MT_FIFTEEN_PUZZLE_P_FP_TILE_VIOLET_TV 0x6a0080ffu
 
 /* Threes */
-#define MT_THREES_BG 0x0a0612ffu
-#define MT_THREES_BG_TV 0x0a0612ffu
-#define MT_THREES_SURFACE 0x1a0a2affu
-#define MT_THREES_SURFACE_TV 0x1a0a2affu
-#define MT_THREES_TEXT 0xf0ead8ffu
-#define MT_THREES_TEXT_TV 0xf0ead8ffu
-#define MT_THREES_MUTED 0x8a7fa8ffu
-#define MT_THREES_MUTED_TV 0x8a7fa8ffu
-#define MT_THREES_ACCENT 0x00f5ffffu
-#define MT_THREES_ACCENT_TV 0x36dee5ffu
-#define MT_THREES_ACCENT2 0xffe03affu
-#define MT_THREES_ACCENT2_TV 0xf6de5dffu
-#define MT_THREES_P_TR_BG 0x0a0612ffu
-#define MT_THREES_P_TR_BG_TV 0x0a0612ffu
-#define MT_THREES_P_TR_DEEP 0x0d0820ffu
-#define MT_THREES_P_TR_DEEP_TV 0x0d0820ffu
-#define MT_THREES_P_TR_PANEL 0x1a0a2affu
-#define MT_THREES_P_TR_PANEL_TV 0x1a0a2affu
-#define MT_THREES_P_TR_DIM 0x8a7fa8ffu
-#define MT_THREES_P_TR_DIM_TV 0x8a7fa8ffu
-#define MT_THREES_P_TR_TEXT 0xf0ead8ffu
-#define MT_THREES_P_TR_TEXT_TV 0xf0ead8ffu
-#define MT_THREES_P_TR_CYAN 0x00f5ffffu
-#define MT_THREES_P_TR_CYAN_TV 0x36dee5ffu
-#define MT_THREES_P_TR_GOLD 0xffe03affu
-#define MT_THREES_P_TR_GOLD_TV 0xf6de5dffu
-#define MT_THREES_P_TR_GREEN 0x39ff6effu
-#define MT_THREES_P_TR_GREEN_TV 0x45f775ffu
-#define MT_THREES_P_TR_ONE 0x1a1a2effu
-#define MT_THREES_P_TR_ONE_TV 0x1a1a2effu
-#define MT_THREES_P_TR_ONE_EDGE 0x5ba3f5ffu
-#define MT_THREES_P_TR_ONE_EDGE_TV 0x5ba3f5ffu
-#define MT_THREES_P_TR_TWO 0x0a2a5affu
-#define MT_THREES_P_TR_TWO_TV 0x0a2a5affu
-#define MT_THREES_P_TR_THREE 0x005a6affu
-#define MT_THREES_P_TR_THREE_TV 0x005a6affu
-#define MT_THREES_P_TR_SIX 0x006a4affu
-#define MT_THREES_P_TR_SIX_TV 0x006a4affu
-#define MT_THREES_P_TR_TWELVE 0x4a6a00ffu
-#define MT_THREES_P_TR_TWELVE_TV 0x4a6a00ffu
-#define MT_THREES_P_TR_TWENTY_FOUR 0x7a4a00ffu
-#define MT_THREES_P_TR_TWENTY_FOUR_TV 0x7a4a00ffu
-#define MT_THREES_P_TR_PINK 0xff3d6effu
-#define MT_THREES_P_TR_PINK_TV 0xff3d6effu
+#define MT_THREES_BG 0xd8d2c3ffu
+#define MT_THREES_BG_TV 0xd8d2c3ffu
+#define MT_THREES_SURFACE 0xb9c1a6ffu
+#define MT_THREES_SURFACE_TV 0xb9c1a6ffu
+#define MT_THREES_TEXT 0x1f251bffu
+#define MT_THREES_TEXT_TV 0x1f251bffu
+#define MT_THREES_MUTED 0x5e5a50ffu
+#define MT_THREES_MUTED_TV 0x5e5a50ffu
+#define MT_THREES_ACCENT 0x8e2f27ffu
+#define MT_THREES_ACCENT_TV 0x8e2f27ffu
+#define MT_THREES_ACCENT2 0x3a3833ffu
+#define MT_THREES_ACCENT2_TV 0x3a3833ffu
+#define MT_THREES_P_TR_CASE 0xd8d2c3ffu
+#define MT_THREES_P_TR_CASE_TV 0xd8d2c3ffu
+#define MT_THREES_P_TR_CASE_DARK 0xa7a091ffu
+#define MT_THREES_P_TR_CASE_DARK_TV 0xa7a091ffu
+#define MT_THREES_P_TR_BEZEL 0x3a3833ffu
+#define MT_THREES_P_TR_BEZEL_TV 0x3a3833ffu
+#define MT_THREES_P_TR_PRINT 0x8e2f27ffu
+#define MT_THREES_P_TR_PRINT_TV 0x8e2f27ffu
+#define MT_THREES_P_TR_LCD 0xb9c1a6ffu
+#define MT_THREES_P_TR_LCD_TV 0xb9c1a6ffu
+#define MT_THREES_P_TR_LCD_SHADE 0xa9b296ffu
+#define MT_THREES_P_TR_LCD_SHADE_TV 0xa9b296ffu
+#define MT_THREES_P_TR_INK 0x1f251bffu
+#define MT_THREES_P_TR_INK_TV 0x1f251bffu
+#define MT_THREES_P_TR_DIM 0x5e5a50ffu
+#define MT_THREES_P_TR_DIM_TV 0x5e5a50ffu
+#define MT_THREES_P_TR_PAPER 0xf1ebdcffu
+#define MT_THREES_P_TR_PAPER_TV 0xf1ebdcffu
+#define MT_THREES_P_TR_KEY 0x4d4a43ffu
+#define MT_THREES_P_TR_KEY_TV 0x4d4a43ffu
 
 /* Klotski */
 #define MT_KLOTSKI_BG 0x0a0612ffu
@@ -3620,8 +3608,8 @@ static const unsigned int MT_TABLE_CHINESE_CHECKERS_P[] = {0x2e2c9bffu, 0x706deb
 static const char *const MT_TABLE_CHINESE_CHECKERS_N[] = {"cc-bg", "cc-border", "cc-text-dim", "cc-text", "cc-player1", "cc-player2", "cc-highlight", "cc-highlight-hop"};
 static const unsigned int MT_TABLE_FIFTEEN_PUZZLE_P[] = {0x0a0612ffu, 0x0d0820ffu, 0x1a0a2affu, 0x8a7fa8ffu, 0xf0ead8ffu, 0x00f5ffffu, 0xffe03affu, 0x39ff6effu, 0x0a3a6affu, 0x007a6affu, 0x6a6a00ffu, 0xc43a00ffu, 0x6a0080ffu};
 static const char *const MT_TABLE_FIFTEEN_PUZZLE_N[] = {"fp-bg", "fp-deep", "fp-panel", "fp-dim", "fp-text", "fp-cyan", "fp-gold", "fp-green", "fp-tile-blue", "fp-tile-teal", "fp-tile-olive", "fp-tile-orange", "fp-tile-violet"};
-static const unsigned int MT_TABLE_THREES_P[] = {0x0a0612ffu, 0x0d0820ffu, 0x1a0a2affu, 0x8a7fa8ffu, 0xf0ead8ffu, 0x00f5ffffu, 0xffe03affu, 0x39ff6effu, 0x1a1a2effu, 0x5ba3f5ffu, 0x0a2a5affu, 0x005a6affu, 0x006a4affu, 0x4a6a00ffu, 0x7a4a00ffu, 0xff3d6effu};
-static const char *const MT_TABLE_THREES_N[] = {"tr-bg", "tr-deep", "tr-panel", "tr-dim", "tr-text", "tr-cyan", "tr-gold", "tr-green", "tr-one", "tr-one-edge", "tr-two", "tr-three", "tr-six", "tr-twelve", "tr-twenty-four", "tr-pink"};
+static const unsigned int MT_TABLE_THREES_P[] = {0xd8d2c3ffu, 0xa7a091ffu, 0x3a3833ffu, 0x8e2f27ffu, 0xb9c1a6ffu, 0xa9b296ffu, 0x1f251bffu, 0x5e5a50ffu, 0xf1ebdcffu, 0x4d4a43ffu};
+static const char *const MT_TABLE_THREES_N[] = {"tr-case", "tr-case-dark", "tr-bezel", "tr-print", "tr-lcd", "tr-lcd-shade", "tr-ink", "tr-dim", "tr-paper", "tr-key"};
 static const unsigned int MT_TABLE_KLOTSKI_P[] = {0x0a0612ffu, 0x0d0820ffu, 0x1a0a2affu, 0x8a7fa8ffu, 0xf0ead8ffu, 0xff2d4affu, 0xffd700ffu, 0xff8c00ffu, 0x00cc88ffu, 0x009966ffu, 0x00ffaaffu, 0x00f5ffffu};
 static const char *const MT_TABLE_KLOTSKI_N[] = {"kl-bg", "kl-deep", "kl-panel", "kl-dim", "kl-text", "kl-red", "kl-gold", "kl-orange", "kl-jade", "kl-jade-dark", "kl-jade-edge", "kl-cyan"};
 static const unsigned int MT_TABLE_TWO_TO_THE_N_P[] = {0x1a0018ffu, 0x2a0a08ffu, 0x0f0020ffu, 0x150008ffu, 0x3a0040ffu, 0x1a0040ffu, 0xf07ad0ffu, 0xffffffffu, 0x14b8ffffu, 0xffd54affu, 0xf23c8fffu};
@@ -3721,7 +3709,7 @@ static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
     {"backgammon", "Backgammon", {0x0055aaffu, 0x0055aaffu, 0xffffffffu, 0xffffffffu, 0xff8800ffu, 0xffffffffu}, MT_TABLE_BACKGAMMON_P, MT_TABLE_BACKGAMMON_N, 8},
     {"chinese-checkers", "Chinese Checkers", {0x2e2c9bffu, 0x706debffu, 0xb4b2f8ffu, 0xb4b2f8ffu, 0xffffffffu, 0xedf171ffu}, MT_TABLE_CHINESE_CHECKERS_P, MT_TABLE_CHINESE_CHECKERS_N, 8},
     {"fifteen-puzzle", "15 Puzzle", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00f5ffffu, 0xffe03affu}, MT_TABLE_FIFTEEN_PUZZLE_P, MT_TABLE_FIFTEEN_PUZZLE_N, 13},
-    {"threes", "Threes", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00f5ffffu, 0xffe03affu}, MT_TABLE_THREES_P, MT_TABLE_THREES_N, 16},
+    {"threes", "Threes", {0xd8d2c3ffu, 0xb9c1a6ffu, 0x1f251bffu, 0x5e5a50ffu, 0x8e2f27ffu, 0x3a3833ffu}, MT_TABLE_THREES_P, MT_TABLE_THREES_N, 10},
     {"klotski", "Klotski", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xff2d4affu, 0xffd700ffu}, MT_TABLE_KLOTSKI_P, MT_TABLE_KLOTSKI_N, 12},
     {"two-to-the-n", "2^N", {0x150008ffu, 0x1a0040ffu, 0xffffffffu, 0xf07ad0ffu, 0x14b8ffffu, 0xffd54affu}, MT_TABLE_TWO_TO_THE_N_P, MT_TABLE_TWO_TO_THE_N_N, 11},
     {"solitaire", "Klondike Solitaire", {0x001e1effu, 0x003838ffu, 0xe0e0e0ffu, 0xc0c0c0ffu, 0xff2d78ffu, 0x00e5ffffu}, MT_TABLE_SOLITAIRE_P, MT_TABLE_SOLITAIRE_N, 15},
