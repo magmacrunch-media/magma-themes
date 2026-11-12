@@ -1,80 +1,65 @@
 {
   "name": "15 Puzzle",
-  "note": "From arcade/fifteen-puzzle/css/game.css: cyan chrome on the arcade's violet-black, and a few stops of the tile spectrum, which runs blue to green to orange to magenta as the numbers rise.",
+  "note": "From arcade/fifteen-puzzle/css/game.css, its Plasma Edition: a portable computer from the late 1980s with a gas-plasma screen. The charcoal case and its silkscreen, and one orange at four brightnesses on the unlit panel. The tiles have no colours of their own any more, so none are named.",
   "palette": [
     {
-      "var": "--fp-bg",
-      "value": "#0a0612",
-      "label": "Bg"
+      "var": "--fp-case",
+      "value": "#36342f",
+      "label": "Case"
     },
     {
-      "var": "--fp-deep",
-      "value": "#0d0820",
-      "label": "Deep"
+      "var": "--fp-case-light",
+      "value": "#4a4740",
+      "label": "Case Edge"
     },
     {
-      "var": "--fp-panel",
-      "value": "#1a0a2a",
-      "label": "Panel"
+      "var": "--fp-label",
+      "value": "#b8b2a4",
+      "label": "Label"
+    },
+    {
+      "var": "--fp-bezel",
+      "value": "#151412",
+      "label": "Bezel"
+    },
+    {
+      "var": "--fp-plasma",
+      "value": "#170602",
+      "label": "Plasma"
     },
     {
       "var": "--fp-dim",
-      "value": "#8a7fa8",
+      "value": "#5a210b",
       "label": "Dim"
     },
     {
-      "var": "--fp-text",
-      "value": "#f0ead8",
-      "label": "Text"
+      "var": "--fp-mid",
+      "value": "#b4461a",
+      "label": "Mid"
     },
     {
-      "var": "--fp-cyan",
-      "value": "#00f5ff",
-      "label": "Cyan"
+      "var": "--fp-lit",
+      "value": "#ff7a30",
+      "label": "Lit"
     },
     {
-      "var": "--fp-gold",
-      "value": "#ffe03a",
-      "label": "Gold"
+      "var": "--fp-hot",
+      "value": "#ffb070",
+      "label": "Hot"
     },
     {
-      "var": "--fp-green",
-      "value": "#39ff6e",
-      "label": "Green"
-    },
-    {
-      "var": "--fp-tile-blue",
-      "value": "#0a3a6a",
-      "label": "Tile 2"
-    },
-    {
-      "var": "--fp-tile-teal",
-      "value": "#007a6a",
-      "label": "Tile 5"
-    },
-    {
-      "var": "--fp-tile-olive",
-      "value": "#6a6a00",
-      "label": "Tile 9"
-    },
-    {
-      "var": "--fp-tile-orange",
-      "value": "#c43a00",
-      "label": "Tile 12"
-    },
-    {
-      "var": "--fp-tile-violet",
-      "value": "#6a0080",
-      "label": "Tile 15"
+      "var": "--fp-key",
+      "value": "#24231f",
+      "label": "Key"
     }
   ],
   "roles": {
-    "bg": "--fp-bg",
-    "surface": "--fp-panel",
-    "text": "--fp-text",
-    "muted": "--fp-dim",
-    "accent": "--fp-cyan",
-    "accent2": "--fp-gold"
+    "bg": "--fp-plasma",
+    "surface": "--fp-dim",
+    "text": "--fp-lit",
+    "muted": "--fp-mid",
+    "accent": "--fp-hot",
+    "accent2": "--fp-label"
   },
   "rolesFrom": "hand"
 }

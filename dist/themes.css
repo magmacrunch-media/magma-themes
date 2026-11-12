@@ -1606,25 +1606,22 @@
 
 /* 15 Puzzle */
 [data-magma-theme="fifteen-puzzle"] {
-  --mt-bg: #0a0612;
-  --mt-surface: #1a0a2a;
-  --mt-text: #f0ead8;
-  --mt-muted: #8a7fa8;
-  --mt-accent: #00f5ff;
-  --mt-accent2: #ffe03a;
-  --mt-p-fp-bg: #0a0612;
-  --mt-p-fp-deep: #0d0820;
-  --mt-p-fp-panel: #1a0a2a;
-  --mt-p-fp-dim: #8a7fa8;
-  --mt-p-fp-text: #f0ead8;
-  --mt-p-fp-cyan: #00f5ff;
-  --mt-p-fp-gold: #ffe03a;
-  --mt-p-fp-green: #39ff6e;
-  --mt-p-fp-tile-blue: #0a3a6a;
-  --mt-p-fp-tile-teal: #007a6a;
-  --mt-p-fp-tile-olive: #6a6a00;
-  --mt-p-fp-tile-orange: #c43a00;
-  --mt-p-fp-tile-violet: #6a0080;
+  --mt-bg: #170602;
+  --mt-surface: #5a210b;
+  --mt-text: #ff7a30;
+  --mt-muted: #b4461a;
+  --mt-accent: #ffb070;
+  --mt-accent2: #b8b2a4;
+  --mt-p-fp-case: #36342f;
+  --mt-p-fp-case-light: #4a4740;
+  --mt-p-fp-label: #b8b2a4;
+  --mt-p-fp-bezel: #151412;
+  --mt-p-fp-plasma: #170602;
+  --mt-p-fp-dim: #5a210b;
+  --mt-p-fp-mid: #b4461a;
+  --mt-p-fp-lit: #ff7a30;
+  --mt-p-fp-hot: #ffb070;
+  --mt-p-fp-key: #24231f;
 }
 
 /* Threes */

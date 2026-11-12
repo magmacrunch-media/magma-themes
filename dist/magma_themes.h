@@ -2862,44 +2862,38 @@
 #define MT_CHINESE_CHECKERS_P_CC_HIGHLIGHT_HOP_TV 0xedf175ffu
 
 /* 15 Puzzle */
-#define MT_FIFTEEN_PUZZLE_BG 0x0a0612ffu
-#define MT_FIFTEEN_PUZZLE_BG_TV 0x0a0612ffu
-#define MT_FIFTEEN_PUZZLE_SURFACE 0x1a0a2affu
-#define MT_FIFTEEN_PUZZLE_SURFACE_TV 0x1a0a2affu
-#define MT_FIFTEEN_PUZZLE_TEXT 0xf0ead8ffu
-#define MT_FIFTEEN_PUZZLE_TEXT_TV 0xf0ead8ffu
-#define MT_FIFTEEN_PUZZLE_MUTED 0x8a7fa8ffu
-#define MT_FIFTEEN_PUZZLE_MUTED_TV 0x8a7fa8ffu
-#define MT_FIFTEEN_PUZZLE_ACCENT 0x00f5ffffu
-#define MT_FIFTEEN_PUZZLE_ACCENT_TV 0x36dee5ffu
-#define MT_FIFTEEN_PUZZLE_ACCENT2 0xffe03affu
-#define MT_FIFTEEN_PUZZLE_ACCENT2_TV 0xf6de5dffu
-#define MT_FIFTEEN_PUZZLE_P_FP_BG 0x0a0612ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_BG_TV 0x0a0612ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_DEEP 0x0d0820ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_DEEP_TV 0x0d0820ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_PANEL 0x1a0a2affu
-#define MT_FIFTEEN_PUZZLE_P_FP_PANEL_TV 0x1a0a2affu
-#define MT_FIFTEEN_PUZZLE_P_FP_DIM 0x8a7fa8ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_DIM_TV 0x8a7fa8ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_TEXT 0xf0ead8ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_TEXT_TV 0xf0ead8ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_CYAN 0x00f5ffffu
-#define MT_FIFTEEN_PUZZLE_P_FP_CYAN_TV 0x36dee5ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_GOLD 0xffe03affu
-#define MT_FIFTEEN_PUZZLE_P_FP_GOLD_TV 0xf6de5dffu
-#define MT_FIFTEEN_PUZZLE_P_FP_GREEN 0x39ff6effu
-#define MT_FIFTEEN_PUZZLE_P_FP_GREEN_TV 0x45f775ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_TILE_BLUE 0x0a3a6affu
-#define MT_FIFTEEN_PUZZLE_P_FP_TILE_BLUE_TV 0x0a3a6affu
-#define MT_FIFTEEN_PUZZLE_P_FP_TILE_TEAL 0x007a6affu
-#define MT_FIFTEEN_PUZZLE_P_FP_TILE_TEAL_TV 0x007a6affu
-#define MT_FIFTEEN_PUZZLE_P_FP_TILE_OLIVE 0x6a6a00ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_TILE_OLIVE_TV 0x6a6a00ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_TILE_ORANGE 0xc43a00ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_TILE_ORANGE_TV 0xc43a00ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_TILE_VIOLET 0x6a0080ffu
-#define MT_FIFTEEN_PUZZLE_P_FP_TILE_VIOLET_TV 0x6a0080ffu
+#define MT_FIFTEEN_PUZZLE_BG 0x170602ffu
+#define MT_FIFTEEN_PUZZLE_BG_TV 0x170602ffu
+#define MT_FIFTEEN_PUZZLE_SURFACE 0x5a210bffu
+#define MT_FIFTEEN_PUZZLE_SURFACE_TV 0x5a210bffu
+#define MT_FIFTEEN_PUZZLE_TEXT 0xff7a30ffu
+#define MT_FIFTEEN_PUZZLE_TEXT_TV 0xff7a30ffu
+#define MT_FIFTEEN_PUZZLE_MUTED 0xb4461affu
+#define MT_FIFTEEN_PUZZLE_MUTED_TV 0xb4461affu
+#define MT_FIFTEEN_PUZZLE_ACCENT 0xffb070ffu
+#define MT_FIFTEEN_PUZZLE_ACCENT_TV 0xffb070ffu
+#define MT_FIFTEEN_PUZZLE_ACCENT2 0xb8b2a4ffu
+#define MT_FIFTEEN_PUZZLE_ACCENT2_TV 0xb8b2a4ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_CASE 0x36342fffu
+#define MT_FIFTEEN_PUZZLE_P_FP_CASE_TV 0x36342fffu
+#define MT_FIFTEEN_PUZZLE_P_FP_CASE_LIGHT 0x4a4740ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_CASE_LIGHT_TV 0x4a4740ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_LABEL 0xb8b2a4ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_LABEL_TV 0xb8b2a4ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_BEZEL 0x151412ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_BEZEL_TV 0x151412ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_PLASMA 0x170602ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_PLASMA_TV 0x170602ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_DIM 0x5a210bffu
+#define MT_FIFTEEN_PUZZLE_P_FP_DIM_TV 0x5a210bffu
+#define MT_FIFTEEN_PUZZLE_P_FP_MID 0xb4461affu
+#define MT_FIFTEEN_PUZZLE_P_FP_MID_TV 0xb4461affu
+#define MT_FIFTEEN_PUZZLE_P_FP_LIT 0xff7a30ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_LIT_TV 0xff7a30ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_HOT 0xffb070ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_HOT_TV 0xffb070ffu
+#define MT_FIFTEEN_PUZZLE_P_FP_KEY 0x24231fffu
+#define MT_FIFTEEN_PUZZLE_P_FP_KEY_TV 0x24231fffu
 
 /* Threes */
 #define MT_THREES_BG 0xd8d2c3ffu
@@ -3606,8 +3600,8 @@ static const unsigned int MT_TABLE_BACKGAMMON_P[] = {0x0055aaffu, 0x0055aaffu, 0
 static const char *const MT_TABLE_BACKGAMMON_N[] = {"bg-bg", "bg-board-bg", "bg-text-dim", "bg-text", "bg-checker-player", "bg-checker-ai", "bg-point-light", "bg-point-dark"};
 static const unsigned int MT_TABLE_CHINESE_CHECKERS_P[] = {0x2e2c9bffu, 0x706debffu, 0xb4b2f8ffu, 0xb4b2f8ffu, 0xffffffffu, 0xd98a8fffu, 0xa9ff9fffu, 0xedf171ffu};
 static const char *const MT_TABLE_CHINESE_CHECKERS_N[] = {"cc-bg", "cc-border", "cc-text-dim", "cc-text", "cc-player1", "cc-player2", "cc-highlight", "cc-highlight-hop"};
-static const unsigned int MT_TABLE_FIFTEEN_PUZZLE_P[] = {0x0a0612ffu, 0x0d0820ffu, 0x1a0a2affu, 0x8a7fa8ffu, 0xf0ead8ffu, 0x00f5ffffu, 0xffe03affu, 0x39ff6effu, 0x0a3a6affu, 0x007a6affu, 0x6a6a00ffu, 0xc43a00ffu, 0x6a0080ffu};
-static const char *const MT_TABLE_FIFTEEN_PUZZLE_N[] = {"fp-bg", "fp-deep", "fp-panel", "fp-dim", "fp-text", "fp-cyan", "fp-gold", "fp-green", "fp-tile-blue", "fp-tile-teal", "fp-tile-olive", "fp-tile-orange", "fp-tile-violet"};
+static const unsigned int MT_TABLE_FIFTEEN_PUZZLE_P[] = {0x36342fffu, 0x4a4740ffu, 0xb8b2a4ffu, 0x151412ffu, 0x170602ffu, 0x5a210bffu, 0xb4461affu, 0xff7a30ffu, 0xffb070ffu, 0x24231fffu};
+static const char *const MT_TABLE_FIFTEEN_PUZZLE_N[] = {"fp-case", "fp-case-light", "fp-label", "fp-bezel", "fp-plasma", "fp-dim", "fp-mid", "fp-lit", "fp-hot", "fp-key"};
 static const unsigned int MT_TABLE_THREES_P[] = {0xd8d2c3ffu, 0xa7a091ffu, 0x3a3833ffu, 0x8e2f27ffu, 0xb9c1a6ffu, 0xa9b296ffu, 0x1f251bffu, 0x5e5a50ffu, 0xf1ebdcffu, 0x4d4a43ffu};
 static const char *const MT_TABLE_THREES_N[] = {"tr-case", "tr-case-dark", "tr-bezel", "tr-print", "tr-lcd", "tr-lcd-shade", "tr-ink", "tr-dim", "tr-paper", "tr-key"};
 static const unsigned int MT_TABLE_KLOTSKI_P[] = {0x0a0612ffu, 0x0d0820ffu, 0x1a0a2affu, 0x8a7fa8ffu, 0xf0ead8ffu, 0xff2d4affu, 0xffd700ffu, 0xff8c00ffu, 0x00cc88ffu, 0x009966ffu, 0x00ffaaffu, 0x00f5ffffu};
@@ -3708,7 +3702,7 @@ static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
     {"checkers", "Checkers", {0x041008ffu, 0x07180cffu, 0x9dffa0ffu, 0x57b96affu, 0x9dffa0ffu, 0xc8ffc4ffu}, MT_TABLE_CHECKERS_P, MT_TABLE_CHECKERS_N, 8},
     {"backgammon", "Backgammon", {0x0055aaffu, 0x0055aaffu, 0xffffffffu, 0xffffffffu, 0xff8800ffu, 0xffffffffu}, MT_TABLE_BACKGAMMON_P, MT_TABLE_BACKGAMMON_N, 8},
     {"chinese-checkers", "Chinese Checkers", {0x2e2c9bffu, 0x706debffu, 0xb4b2f8ffu, 0xb4b2f8ffu, 0xffffffffu, 0xedf171ffu}, MT_TABLE_CHINESE_CHECKERS_P, MT_TABLE_CHINESE_CHECKERS_N, 8},
-    {"fifteen-puzzle", "15 Puzzle", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x00f5ffffu, 0xffe03affu}, MT_TABLE_FIFTEEN_PUZZLE_P, MT_TABLE_FIFTEEN_PUZZLE_N, 13},
+    {"fifteen-puzzle", "15 Puzzle", {0x170602ffu, 0x5a210bffu, 0xff7a30ffu, 0xb4461affu, 0xffb070ffu, 0xb8b2a4ffu}, MT_TABLE_FIFTEEN_PUZZLE_P, MT_TABLE_FIFTEEN_PUZZLE_N, 10},
     {"threes", "Threes", {0xd8d2c3ffu, 0xb9c1a6ffu, 0x1f251bffu, 0x5e5a50ffu, 0x8e2f27ffu, 0x3a3833ffu}, MT_TABLE_THREES_P, MT_TABLE_THREES_N, 10},
     {"klotski", "Klotski", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xff2d4affu, 0xffd700ffu}, MT_TABLE_KLOTSKI_P, MT_TABLE_KLOTSKI_N, 12},
     {"two-to-the-n", "2^N", {0x150008ffu, 0x1a0040ffu, 0xffffffffu, 0xf07ad0ffu, 0x14b8ffffu, 0xffd54affu}, MT_TABLE_TWO_TO_THE_N_P, MT_TABLE_TWO_TO_THE_N_N, 11},

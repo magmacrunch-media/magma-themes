@@ -1808,27 +1808,24 @@ export const THEMES = {
   "fifteen-puzzle": {
     "name": "15 Puzzle",
     "roles": {
-      "bg": "#0a0612",
-      "surface": "#1a0a2a",
-      "text": "#f0ead8",
-      "muted": "#8a7fa8",
-      "accent": "#00f5ff",
-      "accent2": "#ffe03a"
+      "bg": "#170602",
+      "surface": "#5a210b",
+      "text": "#ff7a30",
+      "muted": "#b4461a",
+      "accent": "#ffb070",
+      "accent2": "#b8b2a4"
     },
     "palette": {
-      "fp-bg": "#0a0612",
-      "fp-deep": "#0d0820",
-      "fp-panel": "#1a0a2a",
-      "fp-dim": "#8a7fa8",
-      "fp-text": "#f0ead8",
-      "fp-cyan": "#00f5ff",
-      "fp-gold": "#ffe03a",
-      "fp-green": "#39ff6e",
-      "fp-tile-blue": "#0a3a6a",
-      "fp-tile-teal": "#007a6a",
-      "fp-tile-olive": "#6a6a00",
-      "fp-tile-orange": "#c43a00",
-      "fp-tile-violet": "#6a0080"
+      "fp-case": "#36342f",
+      "fp-case-light": "#4a4740",
+      "fp-label": "#b8b2a4",
+      "fp-bezel": "#151412",
+      "fp-plasma": "#170602",
+      "fp-dim": "#5a210b",
+      "fp-mid": "#b4461a",
+      "fp-lit": "#ff7a30",
+      "fp-hot": "#ffb070",
+      "fp-key": "#24231f"
     }
   },
   "threes": {
