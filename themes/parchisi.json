@@ -3,52 +3,62 @@
   "palette": [
     {
       "var": "--pc-bg",
-      "value": "#1a0a0a",
-      "label": "BG"
+      "value": "#f5f2e8",
+      "label": "Paper"
+    },
+    {
+      "var": "--pc-band",
+      "value": "#dcead3",
+      "label": "Green Bar"
     },
     {
       "var": "--pc-bg-light",
-      "value": "#2a1210",
-      "label": "BG Light"
+      "value": "#e9e4d4",
+      "label": "Shaded Box"
+    },
+    {
+      "var": "--pc-holes",
+      "value": "#c9c3b1",
+      "label": "Holes"
     },
     {
       "var": "--pc-text",
-      "value": "#f0ead8",
-      "label": "Text"
+      "value": "#23211f",
+      "label": "Ribbon Black"
     },
     {
       "var": "--pc-text-dim",
-      "value": "#a88a7f",
-      "label": "Text Dim"
+      "value": "#6b665c",
+      "label": "Faded Ink"
     },
     {
       "var": "--pc-border",
-      "value": "#5c3a2d",
+      "value": "#23211f",
       "label": "Border"
     },
     {
       "var": "--pc-accent",
-      "value": "#F1BF00",
-      "label": "Accent"
+      "value": "#b8312f",
+      "label": "Red Ribbon"
     },
     {
       "var": "--slot-red",
-      "value": "#AA151B",
+      "value": "#b8312f",
       "label": "Slot Red"
     },
     {
       "var": "--slot-blue",
-      "value": "#4059c8",
+      "value": "#2f4b9a",
       "label": "Slot Blue"
     },
     {
       "var": "--slot-green",
-      "value": "#39d353",
+      "value": "#2e7d43",
       "label": "Slot Green"
     },
     {
       "var": "--slot-yellow",
-      "value": "#F1BF00",
+      "value": "#c99a14",
       "label": "Slot Yellow"
     }
   ],
@@ -66,10 +76,11 @@
     "prefix": "pc",
     "file": "arcade/parchisi/css/base.css",
     "nav": {
-      "accent": "#F1BF00",
-      "glow": "rgba(241,191,0,0.4)",
-      "brand": "#F1BF00",
-      "brandGlow": "rgba(241,191,0,0.7)"
+      "accent": "#b8312f",
+      "glow": "transparent",
+      "brand": "#b8312f",
+      "brandGlow": "transparent"
     }
-  }
+  },
+  "note": "From arcade/parchisi/css/base.css, its Printout Edition: a dot-matrix printout on green-bar tractor-feed paper. The paper, its green bars and sprocket holes, ribbon black, and a colour ribbon's red, blue, green and yellow for the four players."
 }

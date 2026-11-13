@@ -1435,23 +1435,25 @@ export const THEMES = {
   "parchisi": {
     "name": "Parchisi",
     "roles": {
-      "bg": "#1a0a0a",
-      "surface": "#2a1210",
-      "text": "#f0ead8",
-      "muted": "#a88a7f",
-      "accent": "#f1bf00"
+      "bg": "#f5f2e8",
+      "surface": "#e9e4d4",
+      "text": "#23211f",
+      "muted": "#6b665c",
+      "accent": "#b8312f"
     },
     "palette": {
-      "bg": "#1a0a0a",
-      "bg-light": "#2a1210",
-      "text": "#f0ead8",
-      "text-dim": "#a88a7f",
-      "border": "#5c3a2d",
-      "accent": "#f1bf00",
-      "slot-red": "#aa151b",
-      "slot-blue": "#4059c8",
-      "slot-green": "#39d353",
-      "slot-yellow": "#f1bf00"
+      "bg": "#f5f2e8",
+      "band": "#dcead3",
+      "bg-light": "#e9e4d4",
+      "holes": "#c9c3b1",
+      "text": "#23211f",
+      "text-dim": "#6b665c",
+      "border": "#23211f",
+      "accent": "#b8312f",
+      "slot-red": "#b8312f",
+      "slot-blue": "#2f4b9a",
+      "slot-green": "#2e7d43",
+      "slot-yellow": "#c99a14"
     }
   },
   "aggravation": {

@@ -1278,21 +1278,23 @@
 
 /* Parchisi */
 [data-magma-theme="parchisi"] {
-  --mt-bg: #1a0a0a;
-  --mt-surface: #2a1210;
-  --mt-text: #f0ead8;
-  --mt-muted: #a88a7f;
-  --mt-accent: #f1bf00;
-  --mt-p-bg: #1a0a0a;
-  --mt-p-bg-light: #2a1210;
-  --mt-p-text: #f0ead8;
-  --mt-p-text-dim: #a88a7f;
-  --mt-p-border: #5c3a2d;
-  --mt-p-accent: #f1bf00;
-  --mt-p-slot-red: #aa151b;
-  --mt-p-slot-blue: #4059c8;
-  --mt-p-slot-green: #39d353;
-  --mt-p-slot-yellow: #f1bf00;
+  --mt-bg: #f5f2e8;
+  --mt-surface: #e9e4d4;
+  --mt-text: #23211f;
+  --mt-muted: #6b665c;
+  --mt-accent: #b8312f;
+  --mt-p-bg: #f5f2e8;
+  --mt-p-band: #dcead3;
+  --mt-p-bg-light: #e9e4d4;
+  --mt-p-holes: #c9c3b1;
+  --mt-p-text: #23211f;
+  --mt-p-text-dim: #6b665c;
+  --mt-p-border: #23211f;
+  --mt-p-accent: #b8312f;
+  --mt-p-slot-red: #b8312f;
+  --mt-p-slot-blue: #2f4b9a;
+  --mt-p-slot-green: #2e7d43;
+  --mt-p-slot-yellow: #c99a14;
 }
 
 /* Aggravation */

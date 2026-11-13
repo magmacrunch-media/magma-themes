@@ -2296,36 +2296,40 @@
 #define MT_GEORGE_BOOLE_MATRIX_P_ACCENT_TV 0x13f113ffu
 
 /* Parchisi */
-#define MT_PARCHISI_BG 0x1a0a0affu
-#define MT_PARCHISI_BG_TV 0x1a0a0affu
-#define MT_PARCHISI_SURFACE 0x2a1210ffu
-#define MT_PARCHISI_SURFACE_TV 0x2a1210ffu
-#define MT_PARCHISI_TEXT 0xf0ead8ffu
-#define MT_PARCHISI_TEXT_TV 0xf0ead8ffu
-#define MT_PARCHISI_MUTED 0xa88a7fffu
-#define MT_PARCHISI_MUTED_TV 0xa88a7fffu
-#define MT_PARCHISI_ACCENT 0xf1bf00ffu
-#define MT_PARCHISI_ACCENT_TV 0xedbe0dffu
-#define MT_PARCHISI_P_BG 0x1a0a0affu
-#define MT_PARCHISI_P_BG_TV 0x1a0a0affu
-#define MT_PARCHISI_P_BG_LIGHT 0x2a1210ffu
-#define MT_PARCHISI_P_BG_LIGHT_TV 0x2a1210ffu
-#define MT_PARCHISI_P_TEXT 0xf0ead8ffu
-#define MT_PARCHISI_P_TEXT_TV 0xf0ead8ffu
-#define MT_PARCHISI_P_TEXT_DIM 0xa88a7fffu
-#define MT_PARCHISI_P_TEXT_DIM_TV 0xa88a7fffu
-#define MT_PARCHISI_P_BORDER 0x5c3a2dffu
-#define MT_PARCHISI_P_BORDER_TV 0x5c3a2dffu
-#define MT_PARCHISI_P_ACCENT 0xf1bf00ffu
-#define MT_PARCHISI_P_ACCENT_TV 0xedbe0dffu
-#define MT_PARCHISI_P_SLOT_RED 0xaa151bffu
-#define MT_PARCHISI_P_SLOT_RED_TV 0xaa151bffu
-#define MT_PARCHISI_P_SLOT_BLUE 0x4059c8ffu
-#define MT_PARCHISI_P_SLOT_BLUE_TV 0x4059c8ffu
-#define MT_PARCHISI_P_SLOT_GREEN 0x39d353ffu
-#define MT_PARCHISI_P_SLOT_GREEN_TV 0x39d353ffu
-#define MT_PARCHISI_P_SLOT_YELLOW 0xf1bf00ffu
-#define MT_PARCHISI_P_SLOT_YELLOW_TV 0xedbe0dffu
+#define MT_PARCHISI_BG 0xf5f2e8ffu
+#define MT_PARCHISI_BG_TV 0xf5f2e8ffu
+#define MT_PARCHISI_SURFACE 0xe9e4d4ffu
+#define MT_PARCHISI_SURFACE_TV 0xe9e4d4ffu
+#define MT_PARCHISI_TEXT 0x23211fffu
+#define MT_PARCHISI_TEXT_TV 0x23211fffu
+#define MT_PARCHISI_MUTED 0x6b665cffu
+#define MT_PARCHISI_MUTED_TV 0x6b665cffu
+#define MT_PARCHISI_ACCENT 0xb8312fffu
+#define MT_PARCHISI_ACCENT_TV 0xb8312fffu
+#define MT_PARCHISI_P_BG 0xf5f2e8ffu
+#define MT_PARCHISI_P_BG_TV 0xf5f2e8ffu
+#define MT_PARCHISI_P_BAND 0xdcead3ffu
+#define MT_PARCHISI_P_BAND_TV 0xdcead3ffu
+#define MT_PARCHISI_P_BG_LIGHT 0xe9e4d4ffu
+#define MT_PARCHISI_P_BG_LIGHT_TV 0xe9e4d4ffu
+#define MT_PARCHISI_P_HOLES 0xc9c3b1ffu
+#define MT_PARCHISI_P_HOLES_TV 0xc9c3b1ffu
+#define MT_PARCHISI_P_TEXT 0x23211fffu
+#define MT_PARCHISI_P_TEXT_TV 0x23211fffu
+#define MT_PARCHISI_P_TEXT_DIM 0x6b665cffu
+#define MT_PARCHISI_P_TEXT_DIM_TV 0x6b665cffu
+#define MT_PARCHISI_P_BORDER 0x23211fffu
+#define MT_PARCHISI_P_BORDER_TV 0x23211fffu
+#define MT_PARCHISI_P_ACCENT 0xb8312fffu
+#define MT_PARCHISI_P_ACCENT_TV 0xb8312fffu
+#define MT_PARCHISI_P_SLOT_RED 0xb8312fffu
+#define MT_PARCHISI_P_SLOT_RED_TV 0xb8312fffu
+#define MT_PARCHISI_P_SLOT_BLUE 0x2f4b9affu
+#define MT_PARCHISI_P_SLOT_BLUE_TV 0x2f4b9affu
+#define MT_PARCHISI_P_SLOT_GREEN 0x2e7d43ffu
+#define MT_PARCHISI_P_SLOT_GREEN_TV 0x2e7d43ffu
+#define MT_PARCHISI_P_SLOT_YELLOW 0xc99a14ffu
+#define MT_PARCHISI_P_SLOT_YELLOW_TV 0xc99a14ffu
 
 /* Aggravation */
 #define MT_AGGRAVATION_BG 0x0a0612ffu
@@ -3562,8 +3566,8 @@ static const unsigned int MT_TABLE_GEORGE_BOOLE_PS1_P[] = {0x1a1a1affu, 0x2d2d2d
 static const char *const MT_TABLE_GEORGE_BOOLE_PS1_N[] = {"bg", "bg-light", "accent", "silver"};
 static const unsigned int MT_TABLE_GEORGE_BOOLE_MATRIX_P[] = {0x000000ffu, 0x001a00ffu, 0x00ff00ffu};
 static const char *const MT_TABLE_GEORGE_BOOLE_MATRIX_N[] = {"bg", "bg-light", "accent"};
-static const unsigned int MT_TABLE_PARCHISI_P[] = {0x1a0a0affu, 0x2a1210ffu, 0xf0ead8ffu, 0xa88a7fffu, 0x5c3a2dffu, 0xf1bf00ffu, 0xaa151bffu, 0x4059c8ffu, 0x39d353ffu, 0xf1bf00ffu};
-static const char *const MT_TABLE_PARCHISI_N[] = {"bg", "bg-light", "text", "text-dim", "border", "accent", "slot-red", "slot-blue", "slot-green", "slot-yellow"};
+static const unsigned int MT_TABLE_PARCHISI_P[] = {0xf5f2e8ffu, 0xdcead3ffu, 0xe9e4d4ffu, 0xc9c3b1ffu, 0x23211fffu, 0x6b665cffu, 0x23211fffu, 0xb8312fffu, 0xb8312fffu, 0x2f4b9affu, 0x2e7d43ffu, 0xc99a14ffu};
+static const char *const MT_TABLE_PARCHISI_N[] = {"bg", "band", "bg-light", "holes", "text", "text-dim", "border", "accent", "slot-red", "slot-blue", "slot-green", "slot-yellow"};
 static const unsigned int MT_TABLE_AGGRAVATION_P[] = {0x0a0612ffu, 0x150b29ffu, 0xf0ead8ffu, 0x8a7fa8ffu, 0x3a2d5cffu, 0xffe03affu, 0xff3d6effu, 0x00f5ffffu, 0x39ff6effu, 0xffe03affu, 0xc45fffffu, 0xff7c1fffu};
 static const char *const MT_TABLE_AGGRAVATION_N[] = {"bg", "bg-light", "text", "text-dim", "border", "accent", "slot-red", "slot-blue", "slot-green", "slot-yellow", "slot-purple", "slot-orange"};
 static const unsigned int MT_TABLE_SORRY_P[] = {0xff2d55ffu, 0xff7c1effu, 0xffe135ffu, 0x39d353ffu, 0x6cd4f5ffu, 0x4059c8ffu, 0x9b30ffffu, 0xff69b4ffu, 0xfff5e1ffu, 0x00fa9affu, 0xff4f6dffu, 0x7b68eeffu};
@@ -3679,7 +3683,7 @@ static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
     {"george-boole-neo-geo", "George Boole: Neo Geo", {0x1a0020ffu, 0x2a0040ffu, 0x00ffffffu, 0, 0xff1493ffu, 0}, MT_TABLE_GEORGE_BOOLE_NEO_GEO_P, MT_TABLE_GEORGE_BOOLE_NEO_GEO_N, 5},
     {"george-boole-ps1", "George Boole: PS1", {0x1a1a1affu, 0x2d2d2dffu, 0xc0c0c0ffu, 0, 0xffd700ffu, 0}, MT_TABLE_GEORGE_BOOLE_PS1_P, MT_TABLE_GEORGE_BOOLE_PS1_N, 4},
     {"george-boole-matrix", "George Boole: Matrix", {0x000000ffu, 0x001a00ffu, 0x00ff00ffu, 0, 0x00ff00ffu, 0}, MT_TABLE_GEORGE_BOOLE_MATRIX_P, MT_TABLE_GEORGE_BOOLE_MATRIX_N, 3},
-    {"parchisi", "Parchisi", {0x1a0a0affu, 0x2a1210ffu, 0xf0ead8ffu, 0xa88a7fffu, 0xf1bf00ffu, 0}, MT_TABLE_PARCHISI_P, MT_TABLE_PARCHISI_N, 10},
+    {"parchisi", "Parchisi", {0xf5f2e8ffu, 0xe9e4d4ffu, 0x23211fffu, 0x6b665cffu, 0xb8312fffu, 0}, MT_TABLE_PARCHISI_P, MT_TABLE_PARCHISI_N, 12},
     {"aggravation", "Aggravation", {0x0a0612ffu, 0x150b29ffu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xffe03affu, 0}, MT_TABLE_AGGRAVATION_P, MT_TABLE_AGGRAVATION_N, 12},
     {"sorry", "SORRY", {0, 0, 0xfff5e1ffu, 0, 0xff2d55ffu, 0x6cd4f5ffu}, MT_TABLE_SORRY_P, MT_TABLE_SORRY_N, 12},
     {"american-spirit", "American Spirit", {0x1a1a18ffu, 0x2e6a88ffu, 0xf8f4eeffu, 0, 0x5b9db8ffu, 0}, MT_TABLE_AMERICAN_SPIRIT_P, MT_TABLE_AMERICAN_SPIRIT_N, 20},
