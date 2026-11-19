@@ -1,71 +1,76 @@
 {
   "name": "Nelikko",
-  "note": "From arcade/nelikko/base.css: Helsinki in winter, ice and birch on blue-black slate, with the clay, pine and dusk of its pieces. Muted is its slate rather than its subtext, which is too dark to read as body text.",
+  "note": "From arcade/nelikko/base.css: a Finnish office terminal of 1989, amber phosphor on a dark tube in a beige case. The game kept its old Nordic variable names (ice, birch, clay, pine) and gave them amber values, and so does this. Muted is its slate.",
   "palette": [
     {
       "var": "--nk-board",
-      "value": "#0a1218",
+      "value": "#0d0804",
       "label": "Board"
     },
     {
       "var": "--nk-bg",
-      "value": "#0e1820",
+      "value": "#120c06",
       "label": "Bg"
     },
     {
       "var": "--nk-panel",
-      "value": "#131f28",
+      "value": "#1a1108",
       "label": "Panel"
     },
     {
       "var": "--nk-border",
-      "value": "#2a4a5a",
+      "value": "#4a3010",
       "label": "Border"
     },
     {
       "var": "--nk-border-bright",
-      "value": "#4a7a8a",
+      "value": "#8a5a1e",
       "label": "Border Bright"
     },
     {
       "var": "--nk-dusk",
-      "value": "#3a5a6a",
+      "value": "#6a4418",
       "label": "Dusk"
     },
     {
       "var": "--nk-slate",
-      "value": "#7a9bad",
+      "value": "#c88a2e",
       "label": "Slate"
     },
     {
       "var": "--nk-text",
-      "value": "#d0dde0",
+      "value": "#ffd08a",
       "label": "Text"
     },
     {
       "var": "--nk-frost",
-      "value": "#c8d8dd",
+      "value": "#ffc870",
       "label": "Frost"
     },
     {
       "var": "--nk-ice",
-      "value": "#afcbd3",
+      "value": "#ffb84a",
       "label": "Ice"
     },
     {
       "var": "--nk-birch",
-      "value": "#d4c89a",
+      "value": "#ffdf9a",
       "label": "Birch"
     },
     {
       "var": "--nk-clay",
-      "value": "#a26769",
+      "value": "#e0742c",
       "label": "Clay"
     },
     {
       "var": "--nk-pine",
-      "value": "#5e7d6a",
+      "value": "#9a6420",
       "label": "Pine"
+    },
+    {
+      "var": "--nk-case",
+      "value": "#cfc2a2",
+      "label": "Case"
     }
   ],
   "roles": {

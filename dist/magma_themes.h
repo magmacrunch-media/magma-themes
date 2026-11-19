@@ -3058,44 +3058,46 @@
 #define MT_SOLITAIRE_P_SOL_PURPLE_TV 0x7b2fffffu
 
 /* Nelikko */
-#define MT_NELIKKO_BG 0x0e1820ffu
-#define MT_NELIKKO_BG_TV 0x0e1820ffu
-#define MT_NELIKKO_SURFACE 0x131f28ffu
-#define MT_NELIKKO_SURFACE_TV 0x131f28ffu
-#define MT_NELIKKO_TEXT 0xd0dde0ffu
-#define MT_NELIKKO_TEXT_TV 0xd0dde0ffu
-#define MT_NELIKKO_MUTED 0x7a9badffu
-#define MT_NELIKKO_MUTED_TV 0x7a9badffu
-#define MT_NELIKKO_ACCENT 0xafcbd3ffu
-#define MT_NELIKKO_ACCENT_TV 0xafcbd3ffu
-#define MT_NELIKKO_ACCENT2 0xd4c89affu
-#define MT_NELIKKO_ACCENT2_TV 0xd4c89affu
-#define MT_NELIKKO_P_NK_BOARD 0x0a1218ffu
-#define MT_NELIKKO_P_NK_BOARD_TV 0x0a1218ffu
-#define MT_NELIKKO_P_NK_BG 0x0e1820ffu
-#define MT_NELIKKO_P_NK_BG_TV 0x0e1820ffu
-#define MT_NELIKKO_P_NK_PANEL 0x131f28ffu
-#define MT_NELIKKO_P_NK_PANEL_TV 0x131f28ffu
-#define MT_NELIKKO_P_NK_BORDER 0x2a4a5affu
-#define MT_NELIKKO_P_NK_BORDER_TV 0x2a4a5affu
-#define MT_NELIKKO_P_NK_BORDER_BRIGHT 0x4a7a8affu
-#define MT_NELIKKO_P_NK_BORDER_BRIGHT_TV 0x4a7a8affu
-#define MT_NELIKKO_P_NK_DUSK 0x3a5a6affu
-#define MT_NELIKKO_P_NK_DUSK_TV 0x3a5a6affu
-#define MT_NELIKKO_P_NK_SLATE 0x7a9badffu
-#define MT_NELIKKO_P_NK_SLATE_TV 0x7a9badffu
-#define MT_NELIKKO_P_NK_TEXT 0xd0dde0ffu
-#define MT_NELIKKO_P_NK_TEXT_TV 0xd0dde0ffu
-#define MT_NELIKKO_P_NK_FROST 0xc8d8ddffu
-#define MT_NELIKKO_P_NK_FROST_TV 0xc8d8ddffu
-#define MT_NELIKKO_P_NK_ICE 0xafcbd3ffu
-#define MT_NELIKKO_P_NK_ICE_TV 0xafcbd3ffu
-#define MT_NELIKKO_P_NK_BIRCH 0xd4c89affu
-#define MT_NELIKKO_P_NK_BIRCH_TV 0xd4c89affu
-#define MT_NELIKKO_P_NK_CLAY 0xa26769ffu
-#define MT_NELIKKO_P_NK_CLAY_TV 0xa26769ffu
-#define MT_NELIKKO_P_NK_PINE 0x5e7d6affu
-#define MT_NELIKKO_P_NK_PINE_TV 0x5e7d6affu
+#define MT_NELIKKO_BG 0x120c06ffu
+#define MT_NELIKKO_BG_TV 0x120c06ffu
+#define MT_NELIKKO_SURFACE 0x1a1108ffu
+#define MT_NELIKKO_SURFACE_TV 0x1a1108ffu
+#define MT_NELIKKO_TEXT 0xffd08affu
+#define MT_NELIKKO_TEXT_TV 0xffd08affu
+#define MT_NELIKKO_MUTED 0xc88a2effu
+#define MT_NELIKKO_MUTED_TV 0xc88a2effu
+#define MT_NELIKKO_ACCENT 0xffb84affu
+#define MT_NELIKKO_ACCENT_TV 0xffb84affu
+#define MT_NELIKKO_ACCENT2 0xffdf9affu
+#define MT_NELIKKO_ACCENT2_TV 0xffdf9affu
+#define MT_NELIKKO_P_NK_BOARD 0x0d0804ffu
+#define MT_NELIKKO_P_NK_BOARD_TV 0x0d0804ffu
+#define MT_NELIKKO_P_NK_BG 0x120c06ffu
+#define MT_NELIKKO_P_NK_BG_TV 0x120c06ffu
+#define MT_NELIKKO_P_NK_PANEL 0x1a1108ffu
+#define MT_NELIKKO_P_NK_PANEL_TV 0x1a1108ffu
+#define MT_NELIKKO_P_NK_BORDER 0x4a3010ffu
+#define MT_NELIKKO_P_NK_BORDER_TV 0x4a3010ffu
+#define MT_NELIKKO_P_NK_BORDER_BRIGHT 0x8a5a1effu
+#define MT_NELIKKO_P_NK_BORDER_BRIGHT_TV 0x8a5a1effu
+#define MT_NELIKKO_P_NK_DUSK 0x6a4418ffu
+#define MT_NELIKKO_P_NK_DUSK_TV 0x6a4418ffu
+#define MT_NELIKKO_P_NK_SLATE 0xc88a2effu
+#define MT_NELIKKO_P_NK_SLATE_TV 0xc88a2effu
+#define MT_NELIKKO_P_NK_TEXT 0xffd08affu
+#define MT_NELIKKO_P_NK_TEXT_TV 0xffd08affu
+#define MT_NELIKKO_P_NK_FROST 0xffc870ffu
+#define MT_NELIKKO_P_NK_FROST_TV 0xffc870ffu
+#define MT_NELIKKO_P_NK_ICE 0xffb84affu
+#define MT_NELIKKO_P_NK_ICE_TV 0xffb84affu
+#define MT_NELIKKO_P_NK_BIRCH 0xffdf9affu
+#define MT_NELIKKO_P_NK_BIRCH_TV 0xffdf9affu
+#define MT_NELIKKO_P_NK_CLAY 0xe0742cffu
+#define MT_NELIKKO_P_NK_CLAY_TV 0xe0742cffu
+#define MT_NELIKKO_P_NK_PINE 0x9a6420ffu
+#define MT_NELIKKO_P_NK_PINE_TV 0x9a6420ffu
+#define MT_NELIKKO_P_NK_CASE 0xcfc2a2ffu
+#define MT_NELIKKO_P_NK_CASE_TV 0xcfc2a2ffu
 
 /* MAKEMECOOKIES!X4 */
 #define MT_MAKEMECOOKIES_BG 0x180c18ffu
@@ -3620,8 +3622,8 @@ static const unsigned int MT_TABLE_TWO_TO_THE_N_P[] = {0x1a0018ffu, 0x2a0a08ffu,
 static const char *const MT_TABLE_TWO_TO_THE_N_N[] = {"tn-wine", "tn-ember", "tn-night", "tn-bg", "tn-plum", "tn-indigo", "tn-soft-pink", "tn-white", "tn-blue", "tn-gold", "tn-pink"};
 static const unsigned int MT_TABLE_SOLITAIRE_P[] = {0x0e0424ffu, 0x2a0a4affu, 0x6a1a6effu, 0xd23c7cffu, 0x12052affu, 0x404040ffu, 0x808080ffu, 0xc0c0c0ffu, 0xe0e0e0ffu, 0x4a007affu, 0x003060ffu, 0x0a2e36ffu, 0x11535cffu, 0x186670ffu, 0xff2d78ffu, 0x00e5ffffu, 0xffd700ffu, 0x7b2fffffu};
 static const char *const MT_TABLE_SOLITAIRE_N[] = {"sol-sky-top", "sol-sky-mid", "sol-sky-low", "sol-horizon", "sol-floor", "sol-chrome-shade", "sol-chrome-dark", "sol-chrome", "sol-chrome-light", "sol-title-left", "sol-title-right", "sol-felt-mid", "sol-felt", "sol-felt-hi", "sol-pink", "sol-cyan", "sol-gold", "sol-purple"};
-static const unsigned int MT_TABLE_NELIKKO_P[] = {0x0a1218ffu, 0x0e1820ffu, 0x131f28ffu, 0x2a4a5affu, 0x4a7a8affu, 0x3a5a6affu, 0x7a9badffu, 0xd0dde0ffu, 0xc8d8ddffu, 0xafcbd3ffu, 0xd4c89affu, 0xa26769ffu, 0x5e7d6affu};
-static const char *const MT_TABLE_NELIKKO_N[] = {"nk-board", "nk-bg", "nk-panel", "nk-border", "nk-border-bright", "nk-dusk", "nk-slate", "nk-text", "nk-frost", "nk-ice", "nk-birch", "nk-clay", "nk-pine"};
+static const unsigned int MT_TABLE_NELIKKO_P[] = {0x0d0804ffu, 0x120c06ffu, 0x1a1108ffu, 0x4a3010ffu, 0x8a5a1effu, 0x6a4418ffu, 0xc88a2effu, 0xffd08affu, 0xffc870ffu, 0xffb84affu, 0xffdf9affu, 0xe0742cffu, 0x9a6420ffu, 0xcfc2a2ffu};
+static const char *const MT_TABLE_NELIKKO_N[] = {"nk-board", "nk-bg", "nk-panel", "nk-border", "nk-border-bright", "nk-dusk", "nk-slate", "nk-text", "nk-frost", "nk-ice", "nk-birch", "nk-clay", "nk-pine", "nk-case"};
 static const unsigned int MT_TABLE_MAKEMECOOKIES_P[] = {0x180c18ffu, 0x26122affu, 0x34163affu, 0x3e1f45ffu, 0x6b3273ffu, 0x5c3a64ffu, 0x9a7ba2ffu, 0xead9ecffu, 0xff2e9cffu, 0xff5fa2ffu, 0x41e8d1ffu, 0xffc93cffu, 0xf2d8a7ffu, 0x4b2e1effu};
 static const char *const MT_TABLE_MAKEMECOOKIES_N[] = {"mmc-bg", "mmc-panel", "mmc-tile", "mmc-border", "mmc-border-bright", "mmc-dim", "mmc-subtext", "mmc-text", "mmc-neon", "mmc-frosting", "mmc-sprinkle", "mmc-butter", "mmc-dough", "mmc-choc"};
 static const unsigned int MT_TABLE_CAVE_DIVING_P[] = {0x030b10ffu, 0x071820ffu, 0x241f2effu, 0x5d7a80ffu, 0xdcefeeffu, 0x3fe0d0ffu, 0xb8fff5ffu, 0x5fe8a4ffu, 0xfff3c4ffu, 0xff5f6dffu};
@@ -3717,7 +3719,7 @@ static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
     {"klotski", "Klotski", {0x17140fffu, 0x231e16ffu, 0xebe2cbffu, 0xa0927affu, 0xd6b066ffu, 0xc4dbb9ffu}, MT_TABLE_KLOTSKI_P, MT_TABLE_KLOTSKI_N, 14},
     {"two-to-the-n", "2^N", {0x150008ffu, 0x1a0040ffu, 0xffffffffu, 0xf07ad0ffu, 0x14b8ffffu, 0xffd54affu}, MT_TABLE_TWO_TO_THE_N_P, MT_TABLE_TWO_TO_THE_N_N, 11},
     {"solitaire", "Klondike Solitaire", {0x12052affu, 0x2a0a4affu, 0xe0e0e0ffu, 0xc0c0c0ffu, 0xff2d78ffu, 0x00e5ffffu}, MT_TABLE_SOLITAIRE_P, MT_TABLE_SOLITAIRE_N, 18},
-    {"nelikko", "Nelikko", {0x0e1820ffu, 0x131f28ffu, 0xd0dde0ffu, 0x7a9badffu, 0xafcbd3ffu, 0xd4c89affu}, MT_TABLE_NELIKKO_P, MT_TABLE_NELIKKO_N, 13},
+    {"nelikko", "Nelikko", {0x120c06ffu, 0x1a1108ffu, 0xffd08affu, 0xc88a2effu, 0xffb84affu, 0xffdf9affu}, MT_TABLE_NELIKKO_P, MT_TABLE_NELIKKO_N, 14},
     {"makemecookies", "MAKEMECOOKIES!X4", {0x180c18ffu, 0x26122affu, 0xead9ecffu, 0x9a7ba2ffu, 0xff2e9cffu, 0xffc93cffu}, MT_TABLE_MAKEMECOOKIES_P, MT_TABLE_MAKEMECOOKIES_N, 14},
     {"cave-diving", "Cave Diving", {0x030b10ffu, 0x071820ffu, 0xdcefeeffu, 0x5d7a80ffu, 0x3fe0d0ffu, 0xfff3c4ffu}, MT_TABLE_CAVE_DIVING_P, MT_TABLE_CAVE_DIVING_N, 10},
     {"grocery-harrison", "Grocery Harrison", {0x0b1211ffu, 0x2b3533ffu, 0xfff6dcffu, 0xc9a227ffu, 0xffd84affu, 0xa8e6ffffu}, MT_TABLE_GROCERY_HARRISON_P, MT_TABLE_GROCERY_HARRISON_N, 10},

@@ -1936,27 +1936,28 @@ export const THEMES = {
   "nelikko": {
     "name": "Nelikko",
     "roles": {
-      "bg": "#0e1820",
-      "surface": "#131f28",
-      "text": "#d0dde0",
-      "muted": "#7a9bad",
-      "accent": "#afcbd3",
-      "accent2": "#d4c89a"
+      "bg": "#120c06",
+      "surface": "#1a1108",
+      "text": "#ffd08a",
+      "muted": "#c88a2e",
+      "accent": "#ffb84a",
+      "accent2": "#ffdf9a"
     },
     "palette": {
-      "nk-board": "#0a1218",
-      "nk-bg": "#0e1820",
-      "nk-panel": "#131f28",
-      "nk-border": "#2a4a5a",
-      "nk-border-bright": "#4a7a8a",
-      "nk-dusk": "#3a5a6a",
-      "nk-slate": "#7a9bad",
-      "nk-text": "#d0dde0",
-      "nk-frost": "#c8d8dd",
-      "nk-ice": "#afcbd3",
-      "nk-birch": "#d4c89a",
-      "nk-clay": "#a26769",
-      "nk-pine": "#5e7d6a"
+      "nk-board": "#0d0804",
+      "nk-bg": "#120c06",
+      "nk-panel": "#1a1108",
+      "nk-border": "#4a3010",
+      "nk-border-bright": "#8a5a1e",
+      "nk-dusk": "#6a4418",
+      "nk-slate": "#c88a2e",
+      "nk-text": "#ffd08a",
+      "nk-frost": "#ffc870",
+      "nk-ice": "#ffb84a",
+      "nk-birch": "#ffdf9a",
+      "nk-clay": "#e0742c",
+      "nk-pine": "#9a6420",
+      "nk-case": "#cfc2a2"
     }
   },
   "makemecookies": {
