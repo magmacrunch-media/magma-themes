@@ -1,31 +1,51 @@
 {
   "name": "Scandinavian Stud",
-  "note": "From arcade/scandinavian-stud/css/base.css: Sökö's midnight blue table with a cyan glow. Muted is its slate lifted to read as small print on the page; the game itself only uses slate on borders and faint labels.",
+  "note": "From arcade/scandinavian-stud/css/base.css: Sökö's Baltic ferry card room, teal felt under brass with a birch rail round the table. Muted is its slate, which reads as small print on the page.",
   "palette": [
     {
       "var": "--ss-darker",
-      "value": "#060e1a",
+      "value": "#0c1719",
       "label": "Darker"
     },
     {
       "var": "--ss-dark",
-      "value": "#0a1628",
+      "value": "#142a2c",
       "label": "Dark"
     },
     {
       "var": "--ss-mid",
-      "value": "#1a2a44",
+      "value": "#1d4a45",
       "label": "Mid"
     },
     {
-      "var": "--ss-slate",
-      "value": "#4a6a7a",
-      "label": "Slate"
+      "var": "--ss-felt",
+      "value": "#1f5a50",
+      "label": "Felt"
     },
     {
-      "var": "--ss-muted",
-      "value": "#7f97a3",
-      "label": "Muted"
+      "var": "--ss-birch",
+      "value": "#d9c7a0",
+      "label": "Birch"
+    },
+    {
+      "var": "--ss-birch-dark",
+      "value": "#a8916a",
+      "label": "Birch Dark"
+    },
+    {
+      "var": "--ss-brass",
+      "value": "#d2ac62",
+      "label": "Brass"
+    },
+    {
+      "var": "--ss-brass-dim",
+      "value": "#8a7140",
+      "label": "Brass Dim"
+    },
+    {
+      "var": "--ss-slate",
+      "value": "#8fa8a2",
+      "label": "Slate"
     },
     {
       "var": "--ss-white",
@@ -33,33 +53,23 @@
       "label": "White"
     },
     {
-      "var": "--ss-cyan",
-      "value": "#00f5ff",
-      "label": "Cyan"
-    },
-    {
-      "var": "--ss-cyan-dim",
-      "value": "#007a80",
-      "label": "Cyan Dim"
-    },
-    {
       "var": "--ss-green",
-      "value": "#39ff6e",
+      "value": "#9fd3a8",
       "label": "Green"
     },
     {
       "var": "--ss-red",
-      "value": "#ff3d6e",
+      "value": "#e2705e",
       "label": "Red"
     },
     {
       "var": "--ss-gold",
-      "value": "#ffe03a",
+      "value": "#ecc970",
       "label": "Gold"
     },
     {
       "var": "--ss-orange",
-      "value": "#ff7c1f",
+      "value": "#e0904a",
       "label": "Orange"
     }
   ],
@@ -67,9 +77,9 @@
     "bg": "--ss-dark",
     "surface": "--ss-mid",
     "text": "--ss-white",
-    "muted": "--ss-muted",
-    "accent": "--ss-cyan",
-    "accent2": "--ss-gold"
+    "muted": "--ss-slate",
+    "accent": "--ss-brass",
+    "accent2": "--ss-birch"
   },
   "rolesFrom": "hand"
 }

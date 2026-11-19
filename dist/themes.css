@@ -1510,24 +1510,26 @@
 
 /* Scandinavian Stud */
 [data-magma-theme="scandinavian-stud"] {
-  --mt-bg: #0a1628;
-  --mt-surface: #1a2a44;
+  --mt-bg: #142a2c;
+  --mt-surface: #1d4a45;
   --mt-text: #f0ead8;
-  --mt-muted: #7f97a3;
-  --mt-accent: #00f5ff;
-  --mt-accent2: #ffe03a;
-  --mt-p-ss-darker: #060e1a;
-  --mt-p-ss-dark: #0a1628;
-  --mt-p-ss-mid: #1a2a44;
-  --mt-p-ss-slate: #4a6a7a;
-  --mt-p-ss-muted: #7f97a3;
+  --mt-muted: #8fa8a2;
+  --mt-accent: #d2ac62;
+  --mt-accent2: #d9c7a0;
+  --mt-p-ss-darker: #0c1719;
+  --mt-p-ss-dark: #142a2c;
+  --mt-p-ss-mid: #1d4a45;
+  --mt-p-ss-felt: #1f5a50;
+  --mt-p-ss-birch: #d9c7a0;
+  --mt-p-ss-birch-dark: #a8916a;
+  --mt-p-ss-brass: #d2ac62;
+  --mt-p-ss-brass-dim: #8a7140;
+  --mt-p-ss-slate: #8fa8a2;
   --mt-p-ss-white: #f0ead8;
-  --mt-p-ss-cyan: #00f5ff;
-  --mt-p-ss-cyan-dim: #007a80;
-  --mt-p-ss-green: #39ff6e;
-  --mt-p-ss-red: #ff3d6e;
-  --mt-p-ss-gold: #ffe03a;
-  --mt-p-ss-orange: #ff7c1f;
+  --mt-p-ss-green: #9fd3a8;
+  --mt-p-ss-red: #e2705e;
+  --mt-p-ss-gold: #ecc970;
+  --mt-p-ss-orange: #e0904a;
 }
 
 /* Chess */
@@ -1687,23 +1689,26 @@
 
 /* Klondike Solitaire */
 [data-magma-theme="solitaire"] {
-  --mt-bg: #001e1e;
-  --mt-surface: #003838;
+  --mt-bg: #12052a;
+  --mt-surface: #2a0a4a;
   --mt-text: #e0e0e0;
   --mt-muted: #c0c0c0;
   --mt-accent: #ff2d78;
   --mt-accent2: #00e5ff;
-  --mt-p-sol-desktop-lo: #001e1e;
-  --mt-p-sol-desktop: #003838;
-  --mt-p-sol-desktop-hi: #005555;
+  --mt-p-sol-sky-top: #0e0424;
+  --mt-p-sol-sky-mid: #2a0a4a;
+  --mt-p-sol-sky-low: #6a1a6e;
+  --mt-p-sol-horizon: #d23c7c;
+  --mt-p-sol-floor: #12052a;
   --mt-p-sol-chrome-shade: #404040;
   --mt-p-sol-chrome-dark: #808080;
   --mt-p-sol-chrome: #c0c0c0;
   --mt-p-sol-chrome-light: #e0e0e0;
   --mt-p-sol-title-left: #4a007a;
   --mt-p-sol-title-right: #003060;
-  --mt-p-sol-felt-mid: #0d2b0d;
-  --mt-p-sol-felt: #1a5c1a;
+  --mt-p-sol-felt-mid: #0a2e36;
+  --mt-p-sol-felt: #11535c;
+  --mt-p-sol-felt-hi: #186670;
   --mt-p-sol-pink: #ff2d78;
   --mt-p-sol-cyan: #00e5ff;
   --mt-p-sol-gold: #ffd700;

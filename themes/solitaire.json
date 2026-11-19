@@ -1,21 +1,31 @@
 {
   "name": "Klondike Solitaire",
-  "note": "From arcade/solitaire/css: a teal desktop, Windows 3.1 grey chrome with a purple title bar, green felt, and its pink, cyan and gold.",
+  "note": "From arcade/solitaire/css: a Windows 3.1 window, grey chrome with a purple title bar, on a vaporwave desktop (a dusk sky down to a pink horizon over a cyan grid), with teal felt and its pink, cyan and gold.",
   "palette": [
     {
-      "var": "--sol-desktop-lo",
-      "value": "#001e1e",
-      "label": "Desktop Lo"
+      "var": "--sol-sky-top",
+      "value": "#0e0424",
+      "label": "Sky Top"
     },
     {
-      "var": "--sol-desktop",
-      "value": "#003838",
-      "label": "Desktop"
+      "var": "--sol-sky-mid",
+      "value": "#2a0a4a",
+      "label": "Sky Mid"
     },
     {
-      "var": "--sol-desktop-hi",
-      "value": "#005555",
-      "label": "Desktop Hi"
+      "var": "--sol-sky-low",
+      "value": "#6a1a6e",
+      "label": "Sky Low"
+    },
+    {
+      "var": "--sol-horizon",
+      "value": "#d23c7c",
+      "label": "Horizon"
+    },
+    {
+      "var": "--sol-floor",
+      "value": "#12052a",
+      "label": "Floor"
     },
     {
       "var": "--sol-chrome-shade",
@@ -49,13 +59,18 @@
     },
     {
       "var": "--sol-felt-mid",
-      "value": "#0d2b0d",
+      "value": "#0a2e36",
       "label": "Felt Mid"
     },
     {
       "var": "--sol-felt",
-      "value": "#1a5c1a",
+      "value": "#11535c",
       "label": "Felt"
+    },
+    {
+      "var": "--sol-felt-hi",
+      "value": "#186670",
+      "label": "Felt Hi"
     },
     {
       "var": "--sol-pink",
@@ -79,8 +94,8 @@
     }
   ],
   "roles": {
-    "bg": "--sol-desktop-lo",
-    "surface": "--sol-desktop",
+    "bg": "--sol-floor",
+    "surface": "--sol-sky-mid",
     "text": "--sol-chrome-light",
     "muted": "--sol-chrome",
     "accent": "--sol-pink",

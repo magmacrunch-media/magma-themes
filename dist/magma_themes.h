@@ -2700,42 +2700,46 @@
 #define MT_CRIBBAGE_P_CR_AI_PEG_TV 0xff3d6effu
 
 /* Scandinavian Stud */
-#define MT_SCANDINAVIAN_STUD_BG 0x0a1628ffu
-#define MT_SCANDINAVIAN_STUD_BG_TV 0x0a1628ffu
-#define MT_SCANDINAVIAN_STUD_SURFACE 0x1a2a44ffu
-#define MT_SCANDINAVIAN_STUD_SURFACE_TV 0x1a2a44ffu
+#define MT_SCANDINAVIAN_STUD_BG 0x142a2cffu
+#define MT_SCANDINAVIAN_STUD_BG_TV 0x142a2cffu
+#define MT_SCANDINAVIAN_STUD_SURFACE 0x1d4a45ffu
+#define MT_SCANDINAVIAN_STUD_SURFACE_TV 0x1d4a45ffu
 #define MT_SCANDINAVIAN_STUD_TEXT 0xf0ead8ffu
 #define MT_SCANDINAVIAN_STUD_TEXT_TV 0xf0ead8ffu
-#define MT_SCANDINAVIAN_STUD_MUTED 0x7f97a3ffu
-#define MT_SCANDINAVIAN_STUD_MUTED_TV 0x7f97a3ffu
-#define MT_SCANDINAVIAN_STUD_ACCENT 0x00f5ffffu
-#define MT_SCANDINAVIAN_STUD_ACCENT_TV 0x36dee5ffu
-#define MT_SCANDINAVIAN_STUD_ACCENT2 0xffe03affu
-#define MT_SCANDINAVIAN_STUD_ACCENT2_TV 0xf6de5dffu
-#define MT_SCANDINAVIAN_STUD_P_SS_DARKER 0x060e1affu
-#define MT_SCANDINAVIAN_STUD_P_SS_DARKER_TV 0x060e1affu
-#define MT_SCANDINAVIAN_STUD_P_SS_DARK 0x0a1628ffu
-#define MT_SCANDINAVIAN_STUD_P_SS_DARK_TV 0x0a1628ffu
-#define MT_SCANDINAVIAN_STUD_P_SS_MID 0x1a2a44ffu
-#define MT_SCANDINAVIAN_STUD_P_SS_MID_TV 0x1a2a44ffu
-#define MT_SCANDINAVIAN_STUD_P_SS_SLATE 0x4a6a7affu
-#define MT_SCANDINAVIAN_STUD_P_SS_SLATE_TV 0x4a6a7affu
-#define MT_SCANDINAVIAN_STUD_P_SS_MUTED 0x7f97a3ffu
-#define MT_SCANDINAVIAN_STUD_P_SS_MUTED_TV 0x7f97a3ffu
+#define MT_SCANDINAVIAN_STUD_MUTED 0x8fa8a2ffu
+#define MT_SCANDINAVIAN_STUD_MUTED_TV 0x8fa8a2ffu
+#define MT_SCANDINAVIAN_STUD_ACCENT 0xd2ac62ffu
+#define MT_SCANDINAVIAN_STUD_ACCENT_TV 0xd2ac62ffu
+#define MT_SCANDINAVIAN_STUD_ACCENT2 0xd9c7a0ffu
+#define MT_SCANDINAVIAN_STUD_ACCENT2_TV 0xd9c7a0ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_DARKER 0x0c1719ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_DARKER_TV 0x0c1719ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_DARK 0x142a2cffu
+#define MT_SCANDINAVIAN_STUD_P_SS_DARK_TV 0x142a2cffu
+#define MT_SCANDINAVIAN_STUD_P_SS_MID 0x1d4a45ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_MID_TV 0x1d4a45ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_FELT 0x1f5a50ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_FELT_TV 0x1f5a50ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_BIRCH 0xd9c7a0ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_BIRCH_TV 0xd9c7a0ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_BIRCH_DARK 0xa8916affu
+#define MT_SCANDINAVIAN_STUD_P_SS_BIRCH_DARK_TV 0xa8916affu
+#define MT_SCANDINAVIAN_STUD_P_SS_BRASS 0xd2ac62ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_BRASS_TV 0xd2ac62ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_BRASS_DIM 0x8a7140ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_BRASS_DIM_TV 0x8a7140ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_SLATE 0x8fa8a2ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_SLATE_TV 0x8fa8a2ffu
 #define MT_SCANDINAVIAN_STUD_P_SS_WHITE 0xf0ead8ffu
 #define MT_SCANDINAVIAN_STUD_P_SS_WHITE_TV 0xf0ead8ffu
-#define MT_SCANDINAVIAN_STUD_P_SS_CYAN 0x00f5ffffu
-#define MT_SCANDINAVIAN_STUD_P_SS_CYAN_TV 0x36dee5ffu
-#define MT_SCANDINAVIAN_STUD_P_SS_CYAN_DIM 0x007a80ffu
-#define MT_SCANDINAVIAN_STUD_P_SS_CYAN_DIM_TV 0x007a80ffu
-#define MT_SCANDINAVIAN_STUD_P_SS_GREEN 0x39ff6effu
-#define MT_SCANDINAVIAN_STUD_P_SS_GREEN_TV 0x45f775ffu
-#define MT_SCANDINAVIAN_STUD_P_SS_RED 0xff3d6effu
-#define MT_SCANDINAVIAN_STUD_P_SS_RED_TV 0xff3d6effu
-#define MT_SCANDINAVIAN_STUD_P_SS_GOLD 0xffe03affu
-#define MT_SCANDINAVIAN_STUD_P_SS_GOLD_TV 0xf6de5dffu
-#define MT_SCANDINAVIAN_STUD_P_SS_ORANGE 0xff7c1fffu
-#define MT_SCANDINAVIAN_STUD_P_SS_ORANGE_TV 0xff7c1fffu
+#define MT_SCANDINAVIAN_STUD_P_SS_GREEN 0x9fd3a8ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_GREEN_TV 0x9fd3a8ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_RED 0xe2705effu
+#define MT_SCANDINAVIAN_STUD_P_SS_RED_TV 0xe2705effu
+#define MT_SCANDINAVIAN_STUD_P_SS_GOLD 0xecc970ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_GOLD_TV 0xecc970ffu
+#define MT_SCANDINAVIAN_STUD_P_SS_ORANGE 0xe0904affu
+#define MT_SCANDINAVIAN_STUD_P_SS_ORANGE_TV 0xe0904affu
 
 /* Chess */
 #define MT_CHESS_BG 0xfbf4e2ffu
@@ -3000,10 +3004,10 @@
 #define MT_TWO_TO_THE_N_P_TN_PINK_TV 0xf23c8fffu
 
 /* Klondike Solitaire */
-#define MT_SOLITAIRE_BG 0x001e1effu
-#define MT_SOLITAIRE_BG_TV 0x001e1effu
-#define MT_SOLITAIRE_SURFACE 0x003838ffu
-#define MT_SOLITAIRE_SURFACE_TV 0x003838ffu
+#define MT_SOLITAIRE_BG 0x12052affu
+#define MT_SOLITAIRE_BG_TV 0x12052affu
+#define MT_SOLITAIRE_SURFACE 0x2a0a4affu
+#define MT_SOLITAIRE_SURFACE_TV 0x2a0a4affu
 #define MT_SOLITAIRE_TEXT 0xe0e0e0ffu
 #define MT_SOLITAIRE_TEXT_TV 0xe0e0e0ffu
 #define MT_SOLITAIRE_MUTED 0xc0c0c0ffu
@@ -3012,12 +3016,16 @@
 #define MT_SOLITAIRE_ACCENT_TV 0xff2d78ffu
 #define MT_SOLITAIRE_ACCENT2 0x00e5ffffu
 #define MT_SOLITAIRE_ACCENT2_TV 0x24d6ebffu
-#define MT_SOLITAIRE_P_SOL_DESKTOP_LO 0x001e1effu
-#define MT_SOLITAIRE_P_SOL_DESKTOP_LO_TV 0x001e1effu
-#define MT_SOLITAIRE_P_SOL_DESKTOP 0x003838ffu
-#define MT_SOLITAIRE_P_SOL_DESKTOP_TV 0x003838ffu
-#define MT_SOLITAIRE_P_SOL_DESKTOP_HI 0x005555ffu
-#define MT_SOLITAIRE_P_SOL_DESKTOP_HI_TV 0x005555ffu
+#define MT_SOLITAIRE_P_SOL_SKY_TOP 0x0e0424ffu
+#define MT_SOLITAIRE_P_SOL_SKY_TOP_TV 0x0e0424ffu
+#define MT_SOLITAIRE_P_SOL_SKY_MID 0x2a0a4affu
+#define MT_SOLITAIRE_P_SOL_SKY_MID_TV 0x2a0a4affu
+#define MT_SOLITAIRE_P_SOL_SKY_LOW 0x6a1a6effu
+#define MT_SOLITAIRE_P_SOL_SKY_LOW_TV 0x6a1a6effu
+#define MT_SOLITAIRE_P_SOL_HORIZON 0xd23c7cffu
+#define MT_SOLITAIRE_P_SOL_HORIZON_TV 0xd23c7cffu
+#define MT_SOLITAIRE_P_SOL_FLOOR 0x12052affu
+#define MT_SOLITAIRE_P_SOL_FLOOR_TV 0x12052affu
 #define MT_SOLITAIRE_P_SOL_CHROME_SHADE 0x404040ffu
 #define MT_SOLITAIRE_P_SOL_CHROME_SHADE_TV 0x404040ffu
 #define MT_SOLITAIRE_P_SOL_CHROME_DARK 0x808080ffu
@@ -3030,10 +3038,12 @@
 #define MT_SOLITAIRE_P_SOL_TITLE_LEFT_TV 0x4a007affu
 #define MT_SOLITAIRE_P_SOL_TITLE_RIGHT 0x003060ffu
 #define MT_SOLITAIRE_P_SOL_TITLE_RIGHT_TV 0x003060ffu
-#define MT_SOLITAIRE_P_SOL_FELT_MID 0x0d2b0dffu
-#define MT_SOLITAIRE_P_SOL_FELT_MID_TV 0x0d2b0dffu
-#define MT_SOLITAIRE_P_SOL_FELT 0x1a5c1affu
-#define MT_SOLITAIRE_P_SOL_FELT_TV 0x1a5c1affu
+#define MT_SOLITAIRE_P_SOL_FELT_MID 0x0a2e36ffu
+#define MT_SOLITAIRE_P_SOL_FELT_MID_TV 0x0a2e36ffu
+#define MT_SOLITAIRE_P_SOL_FELT 0x11535cffu
+#define MT_SOLITAIRE_P_SOL_FELT_TV 0x11535cffu
+#define MT_SOLITAIRE_P_SOL_FELT_HI 0x186670ffu
+#define MT_SOLITAIRE_P_SOL_FELT_HI_TV 0x186670ffu
 #define MT_SOLITAIRE_P_SOL_PINK 0xff2d78ffu
 #define MT_SOLITAIRE_P_SOL_PINK_TV 0xff2d78ffu
 #define MT_SOLITAIRE_P_SOL_CYAN 0x00e5ffffu
@@ -3586,8 +3596,8 @@ static const unsigned int MT_TABLE_FRENCH_TAROT_P[] = {0x000000ffu, 0x2638c8ffu,
 static const char *const MT_TABLE_FRENCH_TAROT_N[] = {"ft-black", "ft-blue", "ft-red", "ft-green", "ft-yellow", "ft-magenta", "ft-cyan", "ft-white", "ft-card-face", "ft-card-red"};
 static const unsigned int MT_TABLE_CRIBBAGE_P[] = {0x1a0f0affu, 0x2d1f15ffu, 0x3d2a1cffu, 0x4a3728ffu, 0x8b5a2bffu, 0xa0522dffu, 0x1e4d2bffu, 0x2d6b3fffu, 0xa39e81ffu, 0xf5f5dcffu, 0xfffdd0ffu, 0xffd700ffu, 0xb8960fffu, 0xdc143cffu, 0x00f5ffffu, 0xff3d6effu};
 static const char *const MT_TABLE_CRIBBAGE_N[] = {"cr-bg-dark", "cr-bg-mid", "cr-bg-light", "cr-board", "cr-wood", "cr-wood-light", "cr-felt", "cr-felt-light", "cr-dust", "cr-white", "cr-cream", "cr-gold", "cr-gold-dim", "cr-red", "cr-player-peg", "cr-ai-peg"};
-static const unsigned int MT_TABLE_SCANDINAVIAN_STUD_P[] = {0x060e1affu, 0x0a1628ffu, 0x1a2a44ffu, 0x4a6a7affu, 0x7f97a3ffu, 0xf0ead8ffu, 0x00f5ffffu, 0x007a80ffu, 0x39ff6effu, 0xff3d6effu, 0xffe03affu, 0xff7c1fffu};
-static const char *const MT_TABLE_SCANDINAVIAN_STUD_N[] = {"ss-darker", "ss-dark", "ss-mid", "ss-slate", "ss-muted", "ss-white", "ss-cyan", "ss-cyan-dim", "ss-green", "ss-red", "ss-gold", "ss-orange"};
+static const unsigned int MT_TABLE_SCANDINAVIAN_STUD_P[] = {0x0c1719ffu, 0x142a2cffu, 0x1d4a45ffu, 0x1f5a50ffu, 0xd9c7a0ffu, 0xa8916affu, 0xd2ac62ffu, 0x8a7140ffu, 0x8fa8a2ffu, 0xf0ead8ffu, 0x9fd3a8ffu, 0xe2705effu, 0xecc970ffu, 0xe0904affu};
+static const char *const MT_TABLE_SCANDINAVIAN_STUD_N[] = {"ss-darker", "ss-dark", "ss-mid", "ss-felt", "ss-birch", "ss-birch-dark", "ss-brass", "ss-brass-dim", "ss-slate", "ss-white", "ss-green", "ss-red", "ss-gold", "ss-orange"};
 static const unsigned int MT_TABLE_CHESS_P[] = {0xfbf4e2ffu, 0xfbf4e2ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu};
 static const char *const MT_TABLE_CHESS_N[] = {"ch-bg", "ch-board-dark", "ch-text-dim", "ch-text", "ch-player", "ch-ai", "ch-highlight", "ch-selected"};
 static const unsigned int MT_TABLE_CHECKERS_P[] = {0x041008ffu, 0x07180cffu, 0x57b96affu, 0x9dffa0ffu, 0x9dffa0ffu, 0x57c96bffu, 0xc8ffc4ffu, 0xe8ffe4ffu};
@@ -3604,8 +3614,8 @@ static const unsigned int MT_TABLE_KLOTSKI_P[] = {0x0a0612ffu, 0x0d0820ffu, 0x1a
 static const char *const MT_TABLE_KLOTSKI_N[] = {"kl-bg", "kl-deep", "kl-panel", "kl-dim", "kl-text", "kl-red", "kl-gold", "kl-orange", "kl-jade", "kl-jade-dark", "kl-jade-edge", "kl-cyan"};
 static const unsigned int MT_TABLE_TWO_TO_THE_N_P[] = {0x1a0018ffu, 0x2a0a08ffu, 0x0f0020ffu, 0x150008ffu, 0x3a0040ffu, 0x1a0040ffu, 0xf07ad0ffu, 0xffffffffu, 0x14b8ffffu, 0xffd54affu, 0xf23c8fffu};
 static const char *const MT_TABLE_TWO_TO_THE_N_N[] = {"tn-wine", "tn-ember", "tn-night", "tn-bg", "tn-plum", "tn-indigo", "tn-soft-pink", "tn-white", "tn-blue", "tn-gold", "tn-pink"};
-static const unsigned int MT_TABLE_SOLITAIRE_P[] = {0x001e1effu, 0x003838ffu, 0x005555ffu, 0x404040ffu, 0x808080ffu, 0xc0c0c0ffu, 0xe0e0e0ffu, 0x4a007affu, 0x003060ffu, 0x0d2b0dffu, 0x1a5c1affu, 0xff2d78ffu, 0x00e5ffffu, 0xffd700ffu, 0x7b2fffffu};
-static const char *const MT_TABLE_SOLITAIRE_N[] = {"sol-desktop-lo", "sol-desktop", "sol-desktop-hi", "sol-chrome-shade", "sol-chrome-dark", "sol-chrome", "sol-chrome-light", "sol-title-left", "sol-title-right", "sol-felt-mid", "sol-felt", "sol-pink", "sol-cyan", "sol-gold", "sol-purple"};
+static const unsigned int MT_TABLE_SOLITAIRE_P[] = {0x0e0424ffu, 0x2a0a4affu, 0x6a1a6effu, 0xd23c7cffu, 0x12052affu, 0x404040ffu, 0x808080ffu, 0xc0c0c0ffu, 0xe0e0e0ffu, 0x4a007affu, 0x003060ffu, 0x0a2e36ffu, 0x11535cffu, 0x186670ffu, 0xff2d78ffu, 0x00e5ffffu, 0xffd700ffu, 0x7b2fffffu};
+static const char *const MT_TABLE_SOLITAIRE_N[] = {"sol-sky-top", "sol-sky-mid", "sol-sky-low", "sol-horizon", "sol-floor", "sol-chrome-shade", "sol-chrome-dark", "sol-chrome", "sol-chrome-light", "sol-title-left", "sol-title-right", "sol-felt-mid", "sol-felt", "sol-felt-hi", "sol-pink", "sol-cyan", "sol-gold", "sol-purple"};
 static const unsigned int MT_TABLE_NELIKKO_P[] = {0x0a1218ffu, 0x0e1820ffu, 0x131f28ffu, 0x2a4a5affu, 0x4a7a8affu, 0x3a5a6affu, 0x7a9badffu, 0xd0dde0ffu, 0xc8d8ddffu, 0xafcbd3ffu, 0xd4c89affu, 0xa26769ffu, 0x5e7d6affu};
 static const char *const MT_TABLE_NELIKKO_N[] = {"nk-board", "nk-bg", "nk-panel", "nk-border", "nk-border-bright", "nk-dusk", "nk-slate", "nk-text", "nk-frost", "nk-ice", "nk-birch", "nk-clay", "nk-pine"};
 static const unsigned int MT_TABLE_MAKEMECOOKIES_P[] = {0x180c18ffu, 0x26122affu, 0x34163affu, 0x3e1f45ffu, 0x6b3273ffu, 0x5c3a64ffu, 0x9a7ba2ffu, 0xead9ecffu, 0xff2e9cffu, 0xff5fa2ffu, 0x41e8d1ffu, 0xffc93cffu, 0xf2d8a7ffu, 0x4b2e1effu};
@@ -3693,7 +3703,7 @@ static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
     {"caldera", "Caldera", {0x0b0605ffu, 0x1a100cffu, 0xfff3d0ffu, 0xb39880ffu, 0xff6a1fffu, 0xffd9a0ffu}, MT_TABLE_CALDERA_P, MT_TABLE_CALDERA_N, 14},
     {"french-tarot", "French Tarot", {0x000000ffu, 0x2638c8ffu, 0xf2f2f2ffu, 0x22b43affu, 0xf2d81effu, 0x2ab8c8ffu}, MT_TABLE_FRENCH_TAROT_P, MT_TABLE_FRENCH_TAROT_N, 10},
     {"cribbage", "Cribbage", {0x1a0f0affu, 0x2d1f15ffu, 0xf5f5dcffu, 0xa39e81ffu, 0xffd700ffu, 0x00f5ffffu}, MT_TABLE_CRIBBAGE_P, MT_TABLE_CRIBBAGE_N, 16},
-    {"scandinavian-stud", "Scandinavian Stud", {0x0a1628ffu, 0x1a2a44ffu, 0xf0ead8ffu, 0x7f97a3ffu, 0x00f5ffffu, 0xffe03affu}, MT_TABLE_SCANDINAVIAN_STUD_P, MT_TABLE_SCANDINAVIAN_STUD_N, 12},
+    {"scandinavian-stud", "Scandinavian Stud", {0x142a2cffu, 0x1d4a45ffu, 0xf0ead8ffu, 0x8fa8a2ffu, 0xd2ac62ffu, 0xd9c7a0ffu}, MT_TABLE_SCANDINAVIAN_STUD_P, MT_TABLE_SCANDINAVIAN_STUD_N, 14},
     {"chess", "Chess", {0xfbf4e2ffu, 0xfbf4e2ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu, 0x3a2210ffu}, MT_TABLE_CHESS_P, MT_TABLE_CHESS_N, 8},
     {"checkers", "Checkers", {0x041008ffu, 0x07180cffu, 0x9dffa0ffu, 0x57b96affu, 0x9dffa0ffu, 0xc8ffc4ffu}, MT_TABLE_CHECKERS_P, MT_TABLE_CHECKERS_N, 8},
     {"backgammon", "Backgammon", {0x0055aaffu, 0x0055aaffu, 0xffffffffu, 0xffffffffu, 0xff8800ffu, 0xffffffffu}, MT_TABLE_BACKGAMMON_P, MT_TABLE_BACKGAMMON_N, 8},
@@ -3702,7 +3712,7 @@ static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
     {"threes", "Threes", {0xd8d2c3ffu, 0xb9c1a6ffu, 0x1f251bffu, 0x5e5a50ffu, 0x8e2f27ffu, 0x3a3833ffu}, MT_TABLE_THREES_P, MT_TABLE_THREES_N, 10},
     {"klotski", "Klotski", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xff2d4affu, 0xffd700ffu}, MT_TABLE_KLOTSKI_P, MT_TABLE_KLOTSKI_N, 12},
     {"two-to-the-n", "2^N", {0x150008ffu, 0x1a0040ffu, 0xffffffffu, 0xf07ad0ffu, 0x14b8ffffu, 0xffd54affu}, MT_TABLE_TWO_TO_THE_N_P, MT_TABLE_TWO_TO_THE_N_N, 11},
-    {"solitaire", "Klondike Solitaire", {0x001e1effu, 0x003838ffu, 0xe0e0e0ffu, 0xc0c0c0ffu, 0xff2d78ffu, 0x00e5ffffu}, MT_TABLE_SOLITAIRE_P, MT_TABLE_SOLITAIRE_N, 15},
+    {"solitaire", "Klondike Solitaire", {0x12052affu, 0x2a0a4affu, 0xe0e0e0ffu, 0xc0c0c0ffu, 0xff2d78ffu, 0x00e5ffffu}, MT_TABLE_SOLITAIRE_P, MT_TABLE_SOLITAIRE_N, 18},
     {"nelikko", "Nelikko", {0x0e1820ffu, 0x131f28ffu, 0xd0dde0ffu, 0x7a9badffu, 0xafcbd3ffu, 0xd4c89affu}, MT_TABLE_NELIKKO_P, MT_TABLE_NELIKKO_N, 13},
     {"makemecookies", "MAKEMECOOKIES!X4", {0x180c18ffu, 0x26122affu, 0xead9ecffu, 0x9a7ba2ffu, 0xff2e9cffu, 0xffc93cffu}, MT_TABLE_MAKEMECOOKIES_P, MT_TABLE_MAKEMECOOKIES_N, 14},
     {"cave-diving", "Cave Diving", {0x030b10ffu, 0x071820ffu, 0xdcefeeffu, 0x5d7a80ffu, 0x3fe0d0ffu, 0xfff3c4ffu}, MT_TABLE_CAVE_DIVING_P, MT_TABLE_CAVE_DIVING_N, 10},
