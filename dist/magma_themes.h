@@ -2930,42 +2930,46 @@
 #define MT_THREES_P_TR_KEY_TV 0x4d4a43ffu
 
 /* Klotski */
-#define MT_KLOTSKI_BG 0x0a0612ffu
-#define MT_KLOTSKI_BG_TV 0x0a0612ffu
-#define MT_KLOTSKI_SURFACE 0x1a0a2affu
-#define MT_KLOTSKI_SURFACE_TV 0x1a0a2affu
-#define MT_KLOTSKI_TEXT 0xf0ead8ffu
-#define MT_KLOTSKI_TEXT_TV 0xf0ead8ffu
-#define MT_KLOTSKI_MUTED 0x8a7fa8ffu
-#define MT_KLOTSKI_MUTED_TV 0x8a7fa8ffu
-#define MT_KLOTSKI_ACCENT 0xff2d4affu
-#define MT_KLOTSKI_ACCENT_TV 0xff2d4affu
-#define MT_KLOTSKI_ACCENT2 0xffd700ffu
-#define MT_KLOTSKI_ACCENT2_TV 0xf0d33bffu
-#define MT_KLOTSKI_P_KL_BG 0x0a0612ffu
-#define MT_KLOTSKI_P_KL_BG_TV 0x0a0612ffu
-#define MT_KLOTSKI_P_KL_DEEP 0x0d0820ffu
-#define MT_KLOTSKI_P_KL_DEEP_TV 0x0d0820ffu
-#define MT_KLOTSKI_P_KL_PANEL 0x1a0a2affu
-#define MT_KLOTSKI_P_KL_PANEL_TV 0x1a0a2affu
-#define MT_KLOTSKI_P_KL_DIM 0x8a7fa8ffu
-#define MT_KLOTSKI_P_KL_DIM_TV 0x8a7fa8ffu
-#define MT_KLOTSKI_P_KL_TEXT 0xf0ead8ffu
-#define MT_KLOTSKI_P_KL_TEXT_TV 0xf0ead8ffu
-#define MT_KLOTSKI_P_KL_RED 0xff2d4affu
-#define MT_KLOTSKI_P_KL_RED_TV 0xff2d4affu
-#define MT_KLOTSKI_P_KL_GOLD 0xffd700ffu
-#define MT_KLOTSKI_P_KL_GOLD_TV 0xf0d33bffu
-#define MT_KLOTSKI_P_KL_ORANGE 0xff8c00ffu
-#define MT_KLOTSKI_P_KL_ORANGE_TV 0xff8c00ffu
-#define MT_KLOTSKI_P_KL_JADE 0x00cc88ffu
-#define MT_KLOTSKI_P_KL_JADE_TV 0x00cc88ffu
-#define MT_KLOTSKI_P_KL_JADE_DARK 0x009966ffu
-#define MT_KLOTSKI_P_KL_JADE_DARK_TV 0x009966ffu
-#define MT_KLOTSKI_P_KL_JADE_EDGE 0x00ffaaffu
-#define MT_KLOTSKI_P_KL_JADE_EDGE_TV 0x2ae9aaffu
-#define MT_KLOTSKI_P_KL_CYAN 0x00f5ffffu
-#define MT_KLOTSKI_P_KL_CYAN_TV 0x36dee5ffu
+#define MT_KLOTSKI_BG 0x17140fffu
+#define MT_KLOTSKI_BG_TV 0x17140fffu
+#define MT_KLOTSKI_SURFACE 0x231e16ffu
+#define MT_KLOTSKI_SURFACE_TV 0x231e16ffu
+#define MT_KLOTSKI_TEXT 0xebe2cbffu
+#define MT_KLOTSKI_TEXT_TV 0xebe2cbffu
+#define MT_KLOTSKI_MUTED 0xa0927affu
+#define MT_KLOTSKI_MUTED_TV 0xa0927affu
+#define MT_KLOTSKI_ACCENT 0xd6b066ffu
+#define MT_KLOTSKI_ACCENT_TV 0xd6b066ffu
+#define MT_KLOTSKI_ACCENT2 0xc4dbb9ffu
+#define MT_KLOTSKI_ACCENT2_TV 0xc4dbb9ffu
+#define MT_KLOTSKI_P_KL_BG 0x17140fffu
+#define MT_KLOTSKI_P_KL_BG_TV 0x17140fffu
+#define MT_KLOTSKI_P_KL_PANEL 0x231e16ffu
+#define MT_KLOTSKI_P_KL_PANEL_TV 0x231e16ffu
+#define MT_KLOTSKI_P_KL_WELL 0x120f0bffu
+#define MT_KLOTSKI_P_KL_WELL_TV 0x120f0bffu
+#define MT_KLOTSKI_P_KL_BRONZE 0xa07a42ffu
+#define MT_KLOTSKI_P_KL_BRONZE_TV 0xa07a42ffu
+#define MT_KLOTSKI_P_KL_BRONZE_DARK 0x5b4325ffu
+#define MT_KLOTSKI_P_KL_BRONZE_DARK_TV 0x5b4325ffu
+#define MT_KLOTSKI_P_KL_GILT 0xd6b066ffu
+#define MT_KLOTSKI_P_KL_GILT_TV 0xd6b066ffu
+#define MT_KLOTSKI_P_KL_VERDIGRIS 0x5f9a86ffu
+#define MT_KLOTSKI_P_KL_VERDIGRIS_TV 0x5f9a86ffu
+#define MT_KLOTSKI_P_KL_JADE 0xc4dbb9ffu
+#define MT_KLOTSKI_P_KL_JADE_TV 0xc4dbb9ffu
+#define MT_KLOTSKI_P_KL_JADE_MID 0x93b78fffu
+#define MT_KLOTSKI_P_KL_JADE_MID_TV 0x93b78fffu
+#define MT_KLOTSKI_P_KL_JADE_DEEP 0x3e6c53ffu
+#define MT_KLOTSKI_P_KL_JADE_DEEP_TV 0x3e6c53ffu
+#define MT_KLOTSKI_P_KL_JADE_INK 0x1d3427ffu
+#define MT_KLOTSKI_P_KL_JADE_INK_TV 0x1d3427ffu
+#define MT_KLOTSKI_P_KL_TEXT 0xebe2cbffu
+#define MT_KLOTSKI_P_KL_TEXT_TV 0xebe2cbffu
+#define MT_KLOTSKI_P_KL_DIM 0xa0927affu
+#define MT_KLOTSKI_P_KL_DIM_TV 0xa0927affu
+#define MT_KLOTSKI_P_KL_CINNABAR 0xc94a32ffu
+#define MT_KLOTSKI_P_KL_CINNABAR_TV 0xc94a32ffu
 
 /* 2^N */
 #define MT_TWO_TO_THE_N_BG 0x150008ffu
@@ -3610,8 +3614,8 @@ static const unsigned int MT_TABLE_FIFTEEN_PUZZLE_P[] = {0x36342fffu, 0x4a4740ff
 static const char *const MT_TABLE_FIFTEEN_PUZZLE_N[] = {"fp-case", "fp-case-light", "fp-label", "fp-bezel", "fp-plasma", "fp-dim", "fp-mid", "fp-lit", "fp-hot", "fp-key"};
 static const unsigned int MT_TABLE_THREES_P[] = {0xd8d2c3ffu, 0xa7a091ffu, 0x3a3833ffu, 0x8e2f27ffu, 0xb9c1a6ffu, 0xa9b296ffu, 0x1f251bffu, 0x5e5a50ffu, 0xf1ebdcffu, 0x4d4a43ffu};
 static const char *const MT_TABLE_THREES_N[] = {"tr-case", "tr-case-dark", "tr-bezel", "tr-print", "tr-lcd", "tr-lcd-shade", "tr-ink", "tr-dim", "tr-paper", "tr-key"};
-static const unsigned int MT_TABLE_KLOTSKI_P[] = {0x0a0612ffu, 0x0d0820ffu, 0x1a0a2affu, 0x8a7fa8ffu, 0xf0ead8ffu, 0xff2d4affu, 0xffd700ffu, 0xff8c00ffu, 0x00cc88ffu, 0x009966ffu, 0x00ffaaffu, 0x00f5ffffu};
-static const char *const MT_TABLE_KLOTSKI_N[] = {"kl-bg", "kl-deep", "kl-panel", "kl-dim", "kl-text", "kl-red", "kl-gold", "kl-orange", "kl-jade", "kl-jade-dark", "kl-jade-edge", "kl-cyan"};
+static const unsigned int MT_TABLE_KLOTSKI_P[] = {0x17140fffu, 0x231e16ffu, 0x120f0bffu, 0xa07a42ffu, 0x5b4325ffu, 0xd6b066ffu, 0x5f9a86ffu, 0xc4dbb9ffu, 0x93b78fffu, 0x3e6c53ffu, 0x1d3427ffu, 0xebe2cbffu, 0xa0927affu, 0xc94a32ffu};
+static const char *const MT_TABLE_KLOTSKI_N[] = {"kl-bg", "kl-panel", "kl-well", "kl-bronze", "kl-bronze-dark", "kl-gilt", "kl-verdigris", "kl-jade", "kl-jade-mid", "kl-jade-deep", "kl-jade-ink", "kl-text", "kl-dim", "kl-cinnabar"};
 static const unsigned int MT_TABLE_TWO_TO_THE_N_P[] = {0x1a0018ffu, 0x2a0a08ffu, 0x0f0020ffu, 0x150008ffu, 0x3a0040ffu, 0x1a0040ffu, 0xf07ad0ffu, 0xffffffffu, 0x14b8ffffu, 0xffd54affu, 0xf23c8fffu};
 static const char *const MT_TABLE_TWO_TO_THE_N_N[] = {"tn-wine", "tn-ember", "tn-night", "tn-bg", "tn-plum", "tn-indigo", "tn-soft-pink", "tn-white", "tn-blue", "tn-gold", "tn-pink"};
 static const unsigned int MT_TABLE_SOLITAIRE_P[] = {0x0e0424ffu, 0x2a0a4affu, 0x6a1a6effu, 0xd23c7cffu, 0x12052affu, 0x404040ffu, 0x808080ffu, 0xc0c0c0ffu, 0xe0e0e0ffu, 0x4a007affu, 0x003060ffu, 0x0a2e36ffu, 0x11535cffu, 0x186670ffu, 0xff2d78ffu, 0x00e5ffffu, 0xffd700ffu, 0x7b2fffffu};
@@ -3710,7 +3714,7 @@ static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
     {"chinese-checkers", "Chinese Checkers", {0x2e2c9bffu, 0x706debffu, 0xb4b2f8ffu, 0xb4b2f8ffu, 0xffffffffu, 0xedf171ffu}, MT_TABLE_CHINESE_CHECKERS_P, MT_TABLE_CHINESE_CHECKERS_N, 8},
     {"fifteen-puzzle", "15 Puzzle", {0x170602ffu, 0x5a210bffu, 0xff7a30ffu, 0xb4461affu, 0xffb070ffu, 0xb8b2a4ffu}, MT_TABLE_FIFTEEN_PUZZLE_P, MT_TABLE_FIFTEEN_PUZZLE_N, 10},
     {"threes", "Threes", {0xd8d2c3ffu, 0xb9c1a6ffu, 0x1f251bffu, 0x5e5a50ffu, 0x8e2f27ffu, 0x3a3833ffu}, MT_TABLE_THREES_P, MT_TABLE_THREES_N, 10},
-    {"klotski", "Klotski", {0x0a0612ffu, 0x1a0a2affu, 0xf0ead8ffu, 0x8a7fa8ffu, 0xff2d4affu, 0xffd700ffu}, MT_TABLE_KLOTSKI_P, MT_TABLE_KLOTSKI_N, 12},
+    {"klotski", "Klotski", {0x17140fffu, 0x231e16ffu, 0xebe2cbffu, 0xa0927affu, 0xd6b066ffu, 0xc4dbb9ffu}, MT_TABLE_KLOTSKI_P, MT_TABLE_KLOTSKI_N, 14},
     {"two-to-the-n", "2^N", {0x150008ffu, 0x1a0040ffu, 0xffffffffu, 0xf07ad0ffu, 0x14b8ffffu, 0xffd54affu}, MT_TABLE_TWO_TO_THE_N_P, MT_TABLE_TWO_TO_THE_N_N, 11},
     {"solitaire", "Klondike Solitaire", {0x12052affu, 0x2a0a4affu, 0xe0e0e0ffu, 0xc0c0c0ffu, 0xff2d78ffu, 0x00e5ffffu}, MT_TABLE_SOLITAIRE_P, MT_TABLE_SOLITAIRE_N, 18},
     {"nelikko", "Nelikko", {0x0e1820ffu, 0x131f28ffu, 0xd0dde0ffu, 0x7a9badffu, 0xafcbd3ffu, 0xd4c89affu}, MT_TABLE_NELIKKO_P, MT_TABLE_NELIKKO_N, 13},

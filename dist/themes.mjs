@@ -1854,26 +1854,28 @@ export const THEMES = {
   "klotski": {
     "name": "Klotski",
     "roles": {
-      "bg": "#0a0612",
-      "surface": "#1a0a2a",
-      "text": "#f0ead8",
-      "muted": "#8a7fa8",
-      "accent": "#ff2d4a",
-      "accent2": "#ffd700"
+      "bg": "#17140f",
+      "surface": "#231e16",
+      "text": "#ebe2cb",
+      "muted": "#a0927a",
+      "accent": "#d6b066",
+      "accent2": "#c4dbb9"
     },
     "palette": {
-      "kl-bg": "#0a0612",
-      "kl-deep": "#0d0820",
-      "kl-panel": "#1a0a2a",
-      "kl-dim": "#8a7fa8",
-      "kl-text": "#f0ead8",
-      "kl-red": "#ff2d4a",
-      "kl-gold": "#ffd700",
-      "kl-orange": "#ff8c00",
-      "kl-jade": "#00cc88",
-      "kl-jade-dark": "#009966",
-      "kl-jade-edge": "#00ffaa",
-      "kl-cyan": "#00f5ff"
+      "kl-bg": "#17140f",
+      "kl-panel": "#231e16",
+      "kl-well": "#120f0b",
+      "kl-bronze": "#a07a42",
+      "kl-bronze-dark": "#5b4325",
+      "kl-gilt": "#d6b066",
+      "kl-verdigris": "#5f9a86",
+      "kl-jade": "#c4dbb9",
+      "kl-jade-mid": "#93b78f",
+      "kl-jade-deep": "#3e6c53",
+      "kl-jade-ink": "#1d3427",
+      "kl-text": "#ebe2cb",
+      "kl-dim": "#a0927a",
+      "kl-cinnabar": "#c94a32"
     }
   },
   "two-to-the-n": {

@@ -1,66 +1,76 @@
 {
   "name": "Klotski",
-  "note": "From arcade/klotski/css/game.css: vermilion chrome, Cao Cao's gold-to-orange block and the jade-green generals.",
+  "note": "From arcade/klotski/css/game.css: jade and bronze. Pale jade generals and dark jade soldiers in a patinated bronze tray, Cao Cao in gilt bronze, cinnabar marking the picked block.",
   "palette": [
     {
       "var": "--kl-bg",
-      "value": "#0a0612",
-      "label": "Bg"
-    },
-    {
-      "var": "--kl-deep",
-      "value": "#0d0820",
-      "label": "Deep"
+      "value": "#17140f",
+      "label": "Background"
     },
     {
       "var": "--kl-panel",
-      "value": "#1a0a2a",
+      "value": "#231e16",
       "label": "Panel"
     },
     {
-      "var": "--kl-dim",
-      "value": "#8a7fa8",
-      "label": "Dim"
+      "var": "--kl-well",
+      "value": "#120f0b",
+      "label": "Well"
     },
     {
-      "var": "--kl-text",
-      "value": "#f0ead8",
-      "label": "Text"
+      "var": "--kl-bronze",
+      "value": "#a07a42",
+      "label": "Bronze"
     },
     {
-      "var": "--kl-red",
-      "value": "#ff2d4a",
-      "label": "Vermilion"
+      "var": "--kl-bronze-dark",
+      "value": "#5b4325",
+      "label": "Bronze Dark"
     },
     {
-      "var": "--kl-gold",
-      "value": "#ffd700",
-      "label": "Gold"
+      "var": "--kl-gilt",
+      "value": "#d6b066",
+      "label": "Gilt"
     },
     {
-      "var": "--kl-orange",
-      "value": "#ff8c00",
-      "label": "Cao Cao Orange"
+      "var": "--kl-verdigris",
+      "value": "#5f9a86",
+      "label": "Verdigris"
     },
     {
       "var": "--kl-jade",
-      "value": "#00cc88",
+      "value": "#c4dbb9",
       "label": "Jade"
     },
     {
-      "var": "--kl-jade-dark",
-      "value": "#009966",
-      "label": "Jade Dark"
+      "var": "--kl-jade-mid",
+      "value": "#93b78f",
+      "label": "Jade Mid"
     },
     {
-      "var": "--kl-jade-edge",
-      "value": "#00ffaa",
-      "label": "Jade Edge"
+      "var": "--kl-jade-deep",
+      "value": "#3e6c53",
+      "label": "Jade Deep"
     },
     {
-      "var": "--kl-cyan",
-      "value": "#00f5ff",
-      "label": "Soldier Cyan"
+      "var": "--kl-jade-ink",
+      "value": "#1d3427",
+      "label": "Jade Ink"
+    },
+    {
+      "var": "--kl-text",
+      "value": "#ebe2cb",
+      "label": "Text"
+    },
+    {
+      "var": "--kl-dim",
+      "value": "#a0927a",
+      "label": "Dim"
+    },
+    {
+      "var": "--kl-cinnabar",
+      "value": "#c94a32",
+      "label": "Cinnabar"
     }
   ],
   "roles": {
@@ -68,8 +78,8 @@
     "surface": "--kl-panel",
     "text": "--kl-text",
     "muted": "--kl-dim",
-    "accent": "--kl-red",
-    "accent2": "--kl-gold"
+    "accent": "--kl-gilt",
+    "accent2": "--kl-jade"
   },
   "rolesFrom": "hand"
 }
