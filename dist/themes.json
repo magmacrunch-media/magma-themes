@@ -4521,7 +4521,7 @@
     "section": "music",
     "bodyClass": null,
     "prefix": "p2p",
-    "file": "music/physical-media/floppy-disk/pay2play-2025/index.html",
+    "file": "music/physical-media/floppy-disk/pay2play/index.html",
     "palette": [
       {
         "var": "--p2p-uv",
