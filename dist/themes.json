@@ -1307,6 +1307,26 @@
         "label": "Offwhite"
       },
       {
+        "var": "--svfp-teal-bright",
+        "value": "#30b0b0",
+        "label": "Teal Bright"
+      },
+      {
+        "var": "--svfp-orchid",
+        "value": "#d433de",
+        "label": "Orchid"
+      },
+      {
+        "var": "--svfp-cool-lift",
+        "value": "#5c85d6",
+        "label": "Cool Lift"
+      },
+      {
+        "var": "--svfp-acid",
+        "value": "#e8d44a",
+        "label": "Acid"
+      },
+      {
         "var": "--svfp-bg",
         "value": "#0a0a14",
         "label": "BG"

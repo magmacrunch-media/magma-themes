@@ -630,6 +630,10 @@ export const THEMES = {
       "glow": "#f0b890",
       "white": "#f8b0ff",
       "offwhite": "#f5f0ff",
+      "teal-bright": "#30b0b0",
+      "orchid": "#d433de",
+      "cool-lift": "#5c85d6",
+      "acid": "#e8d44a",
       "bg": "#0a0a14"
     }
   },

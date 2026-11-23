@@ -1054,6 +1054,14 @@
 #define MT_SVFP_P_WHITE_TV 0xf8b0ffffu
 #define MT_SVFP_P_OFFWHITE 0xf5f0ffffu
 #define MT_SVFP_P_OFFWHITE_TV 0xf5f0ffffu
+#define MT_SVFP_P_TEAL_BRIGHT 0x30b0b0ffu
+#define MT_SVFP_P_TEAL_BRIGHT_TV 0x30b0b0ffu
+#define MT_SVFP_P_ORCHID 0xd433deffu
+#define MT_SVFP_P_ORCHID_TV 0xd433deffu
+#define MT_SVFP_P_COOL_LIFT 0x5c85d6ffu
+#define MT_SVFP_P_COOL_LIFT_TV 0x5c85d6ffu
+#define MT_SVFP_P_ACID 0xe8d44affu
+#define MT_SVFP_P_ACID_TV 0xe8d44affu
 #define MT_SVFP_P_BG 0x0a0a14ffu
 #define MT_SVFP_P_BG_TV 0x0a0a14ffu
 
@@ -3520,8 +3528,8 @@ static const unsigned int MT_TABLE_PHOSPHOR_P[] = {0x00290affu, 0x004712ffu, 0x0
 static const char *const MT_TABLE_PHOSPHOR_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "phosphor", "light", "pale"};
 static const unsigned int MT_TABLE_CRIMSON_P[] = {0x290007ffu, 0x47000cffu, 0x6d0919ffu, 0x9a182effu, 0xb01c34ffu, 0xbf2b44ffu, 0xdb8593ffu, 0xde4f67ffu, 0xff8095ffu, 0xffa8b7ffu};
 static const char *const MT_TABLE_CRIMSON_N[] = {"void", "darkest", "dark", "mid-dark", "deep", "bright", "muted", "crimson", "light", "pale"};
-static const unsigned int MT_TABLE_SVFP_P[] = {0xa020c8ffu, 0xd946efffu, 0xe03070ffu, 0xc8b8e8ffu, 0xf5d0ffffu, 0x1e2235ffu, 0x2e1a50ffu, 0x3a2060ffu, 0x281830ffu, 0x6020b0ffu, 0x9858d8ffu, 0xc8a0d8ffu, 0xe060a0ffu, 0x2850a0ffu, 0x60a0e0ffu, 0x1a6060ffu, 0xa8c8f0ffu, 0xe87040ffu, 0xf0b890ffu, 0xf8b0ffffu, 0xf5f0ffffu, 0x0a0a14ffu};
-static const char *const MT_TABLE_SVFP_N[] = {"brand", "accent", "cta", "heading", "body", "surface", "raised", "dark", "plum", "mid", "bright", "bridge", "rose", "cool-dark", "sky", "teal", "ice", "warm", "glow", "white", "offwhite", "bg"};
+static const unsigned int MT_TABLE_SVFP_P[] = {0xa020c8ffu, 0xd946efffu, 0xe03070ffu, 0xc8b8e8ffu, 0xf5d0ffffu, 0x1e2235ffu, 0x2e1a50ffu, 0x3a2060ffu, 0x281830ffu, 0x6020b0ffu, 0x9858d8ffu, 0xc8a0d8ffu, 0xe060a0ffu, 0x2850a0ffu, 0x60a0e0ffu, 0x1a6060ffu, 0xa8c8f0ffu, 0xe87040ffu, 0xf0b890ffu, 0xf8b0ffffu, 0xf5f0ffffu, 0x30b0b0ffu, 0xd433deffu, 0x5c85d6ffu, 0xe8d44affu, 0x0a0a14ffu};
+static const char *const MT_TABLE_SVFP_N[] = {"brand", "accent", "cta", "heading", "body", "surface", "raised", "dark", "plum", "mid", "bright", "bridge", "rose", "cool-dark", "sky", "teal", "ice", "warm", "glow", "white", "offwhite", "teal-bright", "orchid", "cool-lift", "acid", "bg"};
 static const unsigned int MT_TABLE_FLDC_P[] = {0x080808ffu, 0x2a3830ffu, 0x304838ffu, 0x485840ffu, 0x8a9088ffu, 0xc8c4b0ffu, 0xe8eee8ffu, 0x3060b0ffu, 0x5898d8ffu, 0xe8eee8ffu, 0xf0f8f0ffu, 0xd8d040ffu, 0xc89820ffu, 0xd06020ffu, 0xa82820ffu, 0xe05030ffu, 0x48a840ffu, 0x308878ffu, 0x3060b0ffu, 0x5898d8ffu, 0x7848a8ffu, 0xf0f8f0ffu, 0x602818ffu, 0x60a8a0ffu, 0xd05888ffu, 0x10160effu};
 static const char *const MT_TABLE_FLDC_N[] = {"black", "bg-surface", "bg-raised", "bg-mid", "bg-neutral", "bg-light", "bg-wall", "bg-screen-dark", "bg-screen-mid", "bg-screen-light", "bg-screen-pale", "arc-yellow", "arc-gold", "arc-orange", "arc-red", "arc-red-light", "arc-green", "arc-teal", "arc-blue", "arc-blue-light", "arc-purple", "arc-white", "arc-dark", "cool", "pop", "bg"};
 static const unsigned int MT_TABLE_WOAH_P[] = {0x0e0c10ffu, 0x3a3028ffu, 0x584840ffu, 0x907060ffu, 0x788090ffu, 0xf0c8b8ffu, 0xe8a0a0ffu, 0xc87888ffu, 0xb8c0d8ffu, 0x7888b0ffu, 0x485878ffu, 0x3a5830ffu, 0x5a7848ffu, 0x90b878ffu, 0x784030ffu, 0xa86048ffu, 0xd4a880ffu, 0xf8e0d0ffu, 0xf0c890ffu, 0x9080a0ffu, 0xfadce8ffu, 0xff9ec4ffu};
@@ -3668,7 +3676,7 @@ static const MagmaTheme MAGMA_THEMES[MAGMA_THEMES_COUNT] = {
     {"ink", "Ink", {0x000c29ffu, 0x1c48b0ffu, 0xa8c2ffffu, 0x859fdbffu, 0x4f7adeffu, 0}, MT_TABLE_INK_P, MT_TABLE_INK_N, 10},
     {"phosphor", "Phosphor", {0x00290affu, 0x004712ffu, 0xa8ffbeffu, 0x85db9bffu, 0x4fde73ffu, 0}, MT_TABLE_PHOSPHOR_P, MT_TABLE_PHOSPHOR_N, 10},
     {"crimson", "Crimson", {0x290007ffu, 0x47000cffu, 0xffa8b7ffu, 0xdb8593ffu, 0xde4f67ffu, 0}, MT_TABLE_CRIMSON_P, MT_TABLE_CRIMSON_N, 10},
-    {"svfp", "Sex Van Floor Plan", {0x0a0a14ffu, 0x1e2235ffu, 0xf8b0ffffu, 0, 0xd946efffu, 0}, MT_TABLE_SVFP_P, MT_TABLE_SVFP_N, 22},
+    {"svfp", "Sex Van Floor Plan", {0x0a0a14ffu, 0x1e2235ffu, 0xf8b0ffffu, 0, 0xd946efffu, 0}, MT_TABLE_SVFP_P, MT_TABLE_SVFP_N, 26},
     {"fldc", "Fruity Loops Debauchery Collective", {0x10160effu, 0x2a3830ffu, 0xf0f8f0ffu, 0, 0xd06020ffu, 0}, MT_TABLE_FLDC_P, MT_TABLE_FLDC_N, 26},
     {"woah", "Woah.", {0x0e0c10ffu, 0x3a3028ffu, 0xf8e0d0ffu, 0, 0xff9ec4ffu, 0}, MT_TABLE_WOAH_P, MT_TABLE_WOAH_N, 22},
     {"ddt-llc", "DDT LLC", {0x0a0a14ffu, 0x5a3a20ffu, 0xfaf4e8ffu, 0, 0xb87840ffu, 0}, MT_TABLE_DDT_LLC_P, MT_TABLE_DDT_LLC_N, 10},
